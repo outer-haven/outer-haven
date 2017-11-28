@@ -89,13 +89,7 @@
 	var/reset_access_timer_id
 	var/ignorelistcleanuptimer = 1 // This ticks up every automated action, at 300 we clean the ignore list
 
-<<<<<<< HEAD
 	hud_possible = list(DIAG_STAT_HUD, DIAG_BOT_HUD, DIAG_HUD, DIAG_PATH_HUD = HUD_LIST_LIST) //Diagnostic HUD views
-=======
-	var/ignorelistcleanuptimer = 1 // This ticks up every automated action, at 300 we clean the ignore list
-
-	hud_possible = list(DIAG_STAT_HUD, DIAG_BOT_HUD, DIAG_HUD) //Diagnostic HUD views
->>>>>>> df4bb20... Removes one source of decal/cleanable qdel failures (#33083)
 
 /mob/living/simple_animal/bot/proc/get_mode()
 	if(client) //Player bots do not have modes, thus the override. Also an easy way for PDA users/AI to know when a bot is a player.
@@ -451,22 +445,14 @@ Pass a positive integer as an argument to override a bot's default speed.
 */
 /mob/living/simple_animal/bot/proc/bot_move(dest, move_speed)
 	if(!dest || !path || path.len == 0) //A-star failed or a path/destination was not set.
-<<<<<<< HEAD
 		set_path(null)
-=======
-		path = list()
->>>>>>> df4bb20... Removes one source of decal/cleanable qdel failures (#33083)
 		return FALSE
 	dest = get_turf(dest) //We must always compare turfs, so get the turf of the dest var if dest was originally something else.
 	var/turf/last_node = get_turf(path[path.len]) //This is the turf at the end of the path, it should be equal to dest.
 	if(get_turf(src) == dest) //We have arrived, no need to move again.
 		return TRUE
 	else if(dest != last_node) //The path should lead us to our given destination. If this is not true, we must stop.
-<<<<<<< HEAD
 		set_path(null)
-=======
-		path = list()
->>>>>>> df4bb20... Removes one source of decal/cleanable qdel failures (#33083)
 		return FALSE
 	var/step_count = move_speed ? move_speed : base_speed //If a value is passed into move_speed, use that instead of the default speed var.
 
@@ -485,22 +471,14 @@ Pass a positive integer as an argument to override a bot's default speed.
 	if(path.len > 1)
 		step_towards(src, path[1])
 		if(get_turf(src) == path[1]) //Successful move
-<<<<<<< HEAD
 			increment_path()
-=======
-			path.Cut(1,2)
->>>>>>> df4bb20... Removes one source of decal/cleanable qdel failures (#33083)
 			tries = 0
 		else
 			tries++
 			return FALSE
 	else if(path.len == 1)
 		step_to(src, dest)
-<<<<<<< HEAD
 		set_path(null)
-=======
-		path = list()
->>>>>>> df4bb20... Removes one source of decal/cleanable qdel failures (#33083)
 	return TRUE
 
 
@@ -619,11 +597,7 @@ Pass a positive integer as an argument to override a bot's default speed.
 
 	else if(path.len > 0 && patrol_target)		// valid path
 		if(path[1] == loc)
-<<<<<<< HEAD
 			increment_path()
-=======
-			path.Cut(1,2)
->>>>>>> df4bb20... Removes one source of decal/cleanable qdel failures (#33083)
 			return
 
 
@@ -756,11 +730,7 @@ Pass a positive integer as an argument to override a bot's default speed.
 
 	else if(path.len > 0 && summon_target)		//Proper path acquired!
 		if(path[1] == loc)
-<<<<<<< HEAD
 			increment_path()
-=======
-			path.Cut(1,2)
->>>>>>> df4bb20... Removes one source of decal/cleanable qdel failures (#33083)
 			return
 
 		var/moved = bot_move(summon_target, 3)	// Move attempt
