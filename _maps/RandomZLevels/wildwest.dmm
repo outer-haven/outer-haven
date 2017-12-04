@@ -748,7 +748,6 @@
 /area/awaymission/wildwest/mines)
 "cK" = (
 /obj/structure/table/wood,
-/obj/item/reagent_containers/food/condiment/saltshaker,
 /turf/open/floor/wood,
 /area/awaymission/wildwest/mines)
 "cL" = (

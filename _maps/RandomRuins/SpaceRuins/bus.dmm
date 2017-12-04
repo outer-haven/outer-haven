@@ -50,7 +50,6 @@
 /area/ruin/unpowered/no_grav)
 "al" = (
 /obj/effect/decal/cleanable/salt,
-/obj/item/reagent_containers/food/condiment/saltshaker,
 /turf/open/floor/plating/asteroid/airless,
 /area/ruin/unpowered/no_grav)
 "am" = (
@@ -174,7 +173,6 @@
 /area/ruin/unpowered/no_grav)
 "aC" = (
 /obj/structure/fluff/bus/passable,
-/obj/item/reagent_containers/food/condiment/saltshaker,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/airless/dark{
 	icon_state = "bus"

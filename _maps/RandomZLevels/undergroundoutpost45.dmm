@@ -3567,9 +3567,6 @@
 /area/awaymission/undergroundoutpost45/crew_quarters)
 "hR" = (
 /obj/structure/table,
-/obj/item/reagent_containers/food/condiment/saltshaker{
-	pixel_x = -3
-	},
 /obj/item/reagent_containers/food/condiment/peppermill{
 	pixel_x = 3
 	},
@@ -5768,9 +5765,6 @@
 /area/awaymission/undergroundoutpost45/crew_quarters)
 "lT" = (
 /obj/structure/table,
-/obj/item/reagent_containers/food/condiment/saltshaker{
-	pixel_x = -3
-	},
 /obj/item/reagent_containers/food/condiment/peppermill{
 	pixel_x = 3
 	},
