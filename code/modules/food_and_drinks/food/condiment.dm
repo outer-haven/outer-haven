@@ -116,44 +116,6 @@
 	desc = "Tasty spacey sugar!"
 	list_reagents = list("sugar" = 50)
 
-/obj/item/reagent_containers/food/condiment/saltshaker		//Separate from above since it's a small shaker rather then
-	name = "salt shaker"											//	a large one.
-	desc = "Salt. From space oceans, presumably."
-	icon_state = "saltshakersmall"
-	possible_transfer_amounts = list(1,20) //for clown turning the lid off
-	amount_per_transfer_from_this = 1
-	volume = 20
-	list_reagents = list("sodiumchloride" = 20)
-	possible_states = list()
-
-/obj/item/reagent_containers/food/condiment/saltshaker/on_reagent_change(changetype)
-	if(reagents.reagent_list.len == 0)
-		icon_state = "emptyshaker"
-	else
-		icon_state = "saltshakersmall"
-
-/obj/item/reagent_containers/food/condiment/saltshaker/suicide_act(mob/user)
-	user.visible_message("<span class='suicide'>[user] begins to swap forms with the salt shaker! It looks like [user.p_theyre()] trying to commit suicide!</span>")
-	var/newname = "[name]"
-	name = "[user.name]"
-	user.name = newname
-	user.real_name = newname
-	desc = "Salt. From dead crew, presumably."
-	return (TOXLOSS)
-
-/obj/item/reagent_containers/food/condiment/saltshaker/afterattack(obj/target, mob/living/user, proximity)
-	if(!proximity)
-		return
-	if(isturf(target))
-		if(!reagents.has_reagent("sodiumchloride", 2))
-			to_chat(user, "<span class='warning'>You don't have enough salt to make a pile!</span>")
-			return
-		user.visible_message("<span class='notice'>[user] shakes some salt onto [target].</span>", "<span class='notice'>You shake some salt onto [target].</span>")
-		reagents.remove_reagent("sodiumchloride", 2)
-		new/obj/effect/decal/cleanable/salt(target)
-		return
-	..()
-
 /obj/item/reagent_containers/food/condiment/peppermill
 	name = "pepper mill"
 	desc = "Often used to flavor food or make people sneeze."

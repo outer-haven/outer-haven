@@ -11109,10 +11109,6 @@
 	},
 /area/crew_quarters/bar/atrium)
 "auc" = (
-/obj/item/reagent_containers/food/condiment/saltshaker{
-	pixel_x = -8;
-	pixel_y = 5
-	},
 /obj/item/reagent_containers/food/condiment/peppermill{
 	pixel_x = -8
 	},
@@ -14381,10 +14377,6 @@
 /turf/open/floor/plasteel/redyellow,
 /area/crew_quarters/bar/atrium)
 "aAP" = (
-/obj/item/reagent_containers/food/condiment/saltshaker{
-	pixel_x = -8;
-	pixel_y = 5
-	},
 /obj/item/reagent_containers/food/condiment/peppermill{
 	pixel_x = -8
 	},
@@ -15900,10 +15892,6 @@
 	id = "kitchencounter";
 	name = "Kitchen Counter Shutters"
 	},
-/obj/item/reagent_containers/food/condiment/saltshaker{
-	pixel_x = -8;
-	pixel_y = 5
-	},
 /obj/item/reagent_containers/food/condiment/peppermill{
 	pixel_x = -8
 	},
@@ -16546,10 +16534,6 @@
 /area/crew_quarters/kitchen)
 "aFc" = (
 /obj/structure/table/reinforced,
-/obj/item/reagent_containers/food/condiment/saltshaker{
-	pixel_x = -8;
-	pixel_y = 5
-	},
 /obj/item/reagent_containers/food/condiment/peppermill{
 	pixel_x = -8
 	},
@@ -17444,10 +17428,6 @@
 /turf/open/floor/plasteel/redyellow,
 /area/crew_quarters/bar/atrium)
 "aGO" = (
-/obj/item/reagent_containers/food/condiment/saltshaker{
-	pixel_x = -8;
-	pixel_y = 5
-	},
 /obj/item/reagent_containers/food/condiment/peppermill{
 	pixel_x = -8
 	},
