@@ -60,7 +60,7 @@
 	. = COMPONENT_ACTIVATED | COMPONENT_NO_AFTERATTACK
 	last_insert_success = FALSE
 	var/datum/callback/pc = precondition
-	if(pc && !pc.Invoke())
+	if(pc && !pc.Invoke(user))
 		return
 	var/material_amount = get_item_material_amount(I)
 	if(!material_amount)
