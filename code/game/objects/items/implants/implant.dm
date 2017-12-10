@@ -9,6 +9,7 @@
 	var/allow_multiple = FALSE
 	var/uses = -1
 	flags_1 = DROPDEL_1
+	var/implant_time = 50 //HAVEN - The amount of time it takes to implant the implant
 
 
 /obj/item/implant/proc/trigger(emote, mob/living/carbon/source)
