@@ -36,13 +36,8 @@ Note: Must be placed west/left of and R&D console to function.
 /obj/machinery/rnd/protolathe/Initialize()
 	create_reagents(0)
 	materials = AddComponent(/datum/component/material_container,
-<<<<<<< HEAD
-		list(MAT_METAL, MAT_GLASS, MAT_SILVER, MAT_GOLD, MAT_DIAMOND, MAT_PLASMA, MAT_URANIUM, MAT_BANANIUM, MAT_TITANIUM, MAT_BLUESPACE),
-		FALSE, list(/obj/item/stack, /obj/item/ore/bluespace_crystal), CALLBACK(src, .proc/is_insertion_ready))
-=======
 		list(MAT_METAL, MAT_GLASS, MAT_SILVER, MAT_GOLD, MAT_DIAMOND, MAT_PLASMA, MAT_URANIUM, MAT_BANANIUM, MAT_TITANIUM, MAT_BLUESPACE), 0,
 		FALSE, list(/obj/item/stack, /obj/item/ore/bluespace_crystal), CALLBACK(src, .proc/is_insertion_ready), CALLBACK(src, .proc/AfterMaterialInsert))
->>>>>>> 09ec914... Fixes certain material containers (#33370)
 	materials.precise_insertion = TRUE
 	return ..()
 
