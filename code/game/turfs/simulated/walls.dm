@@ -1,4 +1,4 @@
-#define MAX_DENT_DECALS 15
+#define MAX_DENT_DECALS 42
 
 /turf/closed/wall
 	name = "wall"
