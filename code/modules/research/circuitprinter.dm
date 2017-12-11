@@ -12,8 +12,6 @@ using metal and glass, it uses glass and reagents (usually sulfuric acis).
 	circuit = /obj/item/circuitboard/machine/circuit_imprinter
 
 	var/efficiency_coeff
-	var/console_link = TRUE			//can this link to a console?
-	var/requires_console = TRUE
 
 	var/datum/component/material_container/materials	//Store for hyper speed!
 
@@ -36,6 +34,7 @@ using metal and glass, it uses glass and reagents (usually sulfuric acis).
 		FALSE, list(/obj/item/stack, /obj/item/ore/bluespace_crystal), CALLBACK(src, .proc/is_insertion_ready))
 	materials.precise_insertion = TRUE
 	create_reagents(0)
+	RefreshParts()
 	return ..()
 
 /obj/machinery/rnd/circuit_imprinter/RefreshParts()
@@ -141,4 +140,4 @@ using metal and glass, it uses glass and reagents (usually sulfuric acis).
 		message_admins("[ADMIN_LOOKUPFLW(usr)] has built [path] at a circuit imprinter.")
 	var/obj/item/I = new path(get_turf(src))
 	I.materials = matlist.Copy()
-	SSblackbox.record_feedback("nested_tally", "circuit_printed", 1, list("[type]", "[path]"))
+	SSblackbox.record_feedback("nested tally", "circuit_printed", 1, list("[type]", "[path]"))

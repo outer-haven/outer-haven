@@ -7,9 +7,17 @@ The best practice to have while coding is to keep everything modularized, or the
 ## List of edits
 
 ### Example change
-ExampleProc() in /repo/ExampleTGFile.dm 
+ExampleProc() in /repo/ExampleTGFile.dm
 Example change description
 Example icon change
 
 ### Haven Init
 haven_initialize() in code/game/world.dm
+
+### Polychromic Clothes Spawning in Mixed Wardrobes
+/obj/structure/closet/wardrobe/mixed/PopulateContents() in code/game/objects/structures/crates_lockers/closets/wardrobe.dm
+This simply replaces the jumpsuits that normally spawn in hte mixed wardrobe to be replaced by a sample of polychromic clothes.
+
+###Removal of mindslave implant
+imp.removed(target) in /code/game/objects/items/implants/implant_loyality.dm
+Triggers the removal effects of the mindslave implant
