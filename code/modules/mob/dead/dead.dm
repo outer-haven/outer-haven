@@ -29,8 +29,7 @@ INITIALIZE_IMMEDIATE(/mob/dead)
 	return
 
 
-<<<<<<< HEAD
-=======
+
 	if(!statpanel("Status"))
 		return
 	stat(null, "Game Mode: [SSticker.hide_mode ? "Secret" : "[GLOB.master_mode]"]")
@@ -49,7 +48,7 @@ INITIALIZE_IMMEDIATE(/mob/dead)
 	stat(null, "Players: [SSticker.totalPlayers]")
 	if(client.holder)
 		stat(null, "Players Ready: [SSticker.totalPlayersReady]")
->>>>>>> a01cf60... Fixes lobby stat entries not showing (#33496)
+
 
 /mob/dead/proc/server_hop()
 	set category = "OOC"
