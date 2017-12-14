@@ -302,8 +302,10 @@
 	var/uplink_true = FALSE
 	var/purchases = ""
 	for(var/datum/component/uplink/H in GLOB.uplinks)
-		if(H && H.owner && H.owner == owner.key)
-			TC_uses += H.spent_telecrystals
+
+		if(H.owner && H.owner == owner.key)
+			TC_uses += H.purchase_log.total_spent
+
 			uplink_true = TRUE
 			purchases += H.purchase_log.generate_render(FALSE)
 
@@ -339,4 +341,6 @@
 
 /datum/antagonist/traitor/roundend_report_footer()
 	return "<br><b>The code phrases were:</b> <span class='codephrase'>[GLOB.syndicate_code_phrase]</span><br>\
+
 		<b>The code responses were:</b> <span class='codephrase'>[GLOB.syndicate_code_response]</span><br>"
+
