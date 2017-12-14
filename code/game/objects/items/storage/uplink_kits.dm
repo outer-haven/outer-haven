@@ -305,3 +305,14 @@
 /obj/item/storage/box/syndie_kit/mimery/PopulateContents()
 	new /obj/item/spellbook/oneuse/mimery_blockade(src)
 	new /obj/item/spellbook/oneuse/mimery_guns(src)
+
+/obj/item/storage/box/syndie_kit/imp_mindslave
+	name = "boxed mindslave implant (with injector)"
+
+/obj/item/storage/box/syndie_kit/imp_mindslave/New()
+	..()
+	var/obj/item/implanter/O = new(src)
+	var/obj/item/implant/mindslave/imp = new /obj/item/implant/mindslave(O)
+	O.imp = imp
+	O.update_icon()
+	return
