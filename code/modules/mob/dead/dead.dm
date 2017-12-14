@@ -28,7 +28,15 @@ INITIALIZE_IMMEDIATE(/mob/dead)
 /mob/dead/ConveyorMove()	//lol
 	return
 
+<<<<<<< HEAD
 
+=======
+/mob/dead/forceMove(atom/destination)
+	loc = destination
+
+/mob/dead/Stat()
+	..()
+>>>>>>> 5233ec1... Finishes the forceMove port (#33519)
 
 	if(!statpanel("Status"))
 		return
