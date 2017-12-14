@@ -1,5 +1,6 @@
 /datum/antagonist/traitor
 	name = "Traitor"
+	roundend_category = "traitors"
 	job_rank = ROLE_TRAITOR
 	var/should_specialise = FALSE //do we split into AI and human, set to true on inital assignment only
 	var/ai_datum = ANTAG_DATUM_TRAITOR_AI
@@ -8,7 +9,6 @@
 	var/employer = "The Syndicate"
 	var/give_objectives = TRUE
 	var/should_give_codewords = TRUE
-	var/list/objectives_given = list()
 
 /datum/antagonist/traitor/human
 	var/should_equip = TRUE
@@ -52,9 +52,9 @@
 	if(should_specialise)
 		return ..()//we never did any of this anyway
 	SSticker.mode.traitors -= owner
-	for(var/O in objectives_given)
+	for(var/O in objectives)
 		owner.objectives -= O
-	objectives_given = list()
+	objectives = list()
 	if(!silent && owner.current)
 		to_chat(owner.current,"<span class='userdanger'> You are no longer the [special_role]! </span>")
 	owner.special_role = null
@@ -71,11 +71,11 @@
 
 /datum/antagonist/traitor/proc/add_objective(var/datum/objective/O)
 	owner.objectives += O
-	objectives_given += O
+	objectives += O
 
 /datum/antagonist/traitor/proc/remove_objective(var/datum/objective/O)
 	owner.objectives -= O
-	objectives_given -= O
+	objectives -= O
 
 /datum/antagonist/traitor/proc/forge_traitor_objectives()
 	return
@@ -302,8 +302,10 @@
 	var/uplink_true = FALSE
 	var/purchases = ""
 	for(var/datum/component/uplink/H in GLOB.uplinks)
+
 		if(H.owner && H.owner == owner.key)
 			TC_uses += H.purchase_log.total_spent
+
 			uplink_true = TRUE
 			purchases += H.purchase_log.generate_render(FALSE)
 
@@ -339,4 +341,6 @@
 
 /datum/antagonist/traitor/roundend_report_footer()
 	return "<br><b>The code phrases were:</b> <span class='codephrase'>[GLOB.syndicate_code_phrase]</span><br>\
+
 		<b>The code responses were:</b> <span class='codephrase'>[GLOB.syndicate_code_response]</span><br>"
+
