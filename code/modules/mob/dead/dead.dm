@@ -28,7 +28,11 @@ INITIALIZE_IMMEDIATE(/mob/dead)
 /mob/dead/ConveyorMove()	//lol
 	return
 
+/mob/dead/forceMove(atom/destination)
+	loc = destination
 
+/mob/dead/Stat()
+	..()
 
 	if(!statpanel("Status"))
 		return
@@ -48,7 +52,6 @@ INITIALIZE_IMMEDIATE(/mob/dead)
 	stat(null, "Players: [SSticker.totalPlayers]")
 	if(client.holder)
 		stat(null, "Players Ready: [SSticker.totalPlayersReady]")
-
 
 /mob/dead/proc/server_hop()
 	set category = "OOC"
