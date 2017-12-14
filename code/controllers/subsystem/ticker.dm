@@ -64,6 +64,13 @@ SUBSYSTEM_DEF(ticker)
 	var/mode_result = "undefined"
 	var/end_state = "undefined"
 
+//Haven START - Ports miscreants from citadel, credits to Deathride58
+//Crew Objective/Miscreant stuff
+	var/list/crewobjlist = list()
+	var/list/crewobjjobs = list()
+	var/list/miscreantobjlist = list()
+//Haven END
+
 /datum/controller/subsystem/ticker/Initialize(timeofday)
 	load_mode()
 
@@ -120,6 +127,15 @@ SUBSYSTEM_DEF(ticker)
 	else
 		login_music = "config/title_music/sounds/[pick(music)]"
 
+//Haven START - Ports miscreants from citadel, credits to Deathride58
+	crewobjlist = typesof(/datum/objective/crew)
+	miscreantobjlist = (typesof(/datum/objective/miscreant) - /datum/objective/miscreant)
+	for(var/hoorayhackyshit in crewobjlist) //taken from old Hippie's "job2obj" proc with adjustments.
+		var/datum/objective/crew/obj = hoorayhackyshit //dm is not a sane language in any way, shape, or form.
+		var/list/availableto = splittext(initial(obj.jobs),",")
+		for(var/job in availableto)
+			crewobjjobs["[job]"] += list(obj)
+//Haven END
 
 	if(!GLOB.syndicate_code_phrase)
 		GLOB.syndicate_code_phrase	= generate_code_phrase()
@@ -304,6 +320,15 @@ SUBSYSTEM_DEF(ticker)
 		if(S.delete_after_roundstart)
 			qdel(S)
 
+//Haven START - Ports miscreants from citadel, credits to Deathride58
+//assign crew objectives and generate miscreants
+	if(CONFIG_GET(flag/allow_extended_miscreants) && GLOB.master_mode == "extended")
+		GLOB.miscreants_allowed = TRUE
+	if(CONFIG_GET(flag/allow_miscreants) && GLOB.master_mode != "extended")
+		GLOB.miscreants_allowed = TRUE
+	generate_crew_objectives()
+//Haven END
+
 	var/list/adm = get_admin_counts()
 	var/list/allmins = adm["present"]
 	send2irc("Server", "Round [GLOB.round_id ? "#[GLOB.round_id]:" : "of"] [hide_mode ? "secret":"[mode.name]"] has started[allmins.len ? ".":" with no active admins online!"]")
@@ -379,6 +404,10 @@ SUBSYSTEM_DEF(ticker)
 	var/num_survivors = 0
 	var/num_escapees = 0
 	var/num_shuttle_escapees = 0
+//Haven START - miscreant port
+	var/list/successfulCrew = list()
+	var/list/miscreants = list()
+//Haven END
 
 	to_chat(world, "<BR><BR><BR><FONT size=3><B>The round has ended.</B></FONT>")
 	if(LAZYLEN(GLOB.round_end_notifiees))
@@ -505,6 +534,39 @@ SUBSYSTEM_DEF(ticker)
 		log_game("[i]s[total_antagonists[i]].")
 
 	CHECK_TICK
+
+//Haven START - Ports miscreants from citadel, credits to Deathride58
+	for(var/datum/mind/crewMind in minds)
+		if(!crewMind.current || !crewMind.objectives.len)
+			continue
+		for(var/datum/objective/miscreant/MO in crewMind.objectives)
+			miscreants += "<B>[crewMind.current.real_name]</B> (Played by: <B>[crewMind.key]</B>)<BR><B>Objective</B>: [MO.explanation_text] <font color='grey'>(Optional)</font>"
+		for(var/datum/objective/crew/CO in crewMind.objectives)
+			if(CO.check_completion())
+				to_chat(crewMind.current, "<br><B>Your optional objective</B>: [CO.explanation_text] <font color='green'><B>Success!</B></font>")
+				successfulCrew += "<B>[crewMind.current.real_name]</B> (Played by: <B>[crewMind.key]</B>)<BR><B>Objective</B>: [CO.explanation_text] <font color='green'><B>Success!</B></font> <font color='grey'>(Optional)</font>"
+			else
+				to_chat(crewMind.current, "<br><B>Your optional objective</B>: [CO.explanation_text] <font color='red'><B>Failed.</B></font>")
+
+	if (successfulCrew.len)
+		var/completedObjectives = "<B>The following crew members completed their Crew Objectives:</B><BR>"
+		for(var/i in successfulCrew)
+			completedObjectives += "[i]<BR>"
+		to_chat(world, "[completedObjectives]<BR>")
+	else
+		if(CONFIG_GET(flag/allow_crew_objectives))
+			to_chat(world, "<B>Nobody completed their Crew Objectives!</B><BR>")
+
+	CHECK_TICK
+
+	if (miscreants.len)
+		var/miscreantObjectives = "<B>The following crew members were miscreants:</B><BR>"
+		for(var/i in miscreants)
+			miscreantObjectives += "[i]<BR>"
+		to_chat(world, "[miscreantObjectives]<BR>")
+
+	CHECK_TICK
+//Haven END - Ports miscreants from citadel, credits to Deathride58
 
 	mode.declare_station_goal_completion()
 

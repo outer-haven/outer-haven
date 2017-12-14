@@ -260,3 +260,8 @@ CONFIG_DEF(number/emergency_shuttle_autocall_threshold)
 	integer = FALSE
 
 CONFIG_DEF(flag/ic_printing)
+
+//Haven START - Ports miscreants and crew objectives from Citadel, credits to Deathride58 AKA Bhijn
+CONFIG_DEF(flag/allow_crew_objectives)
+CONFIG_DEF(flag/allow_miscreants)
+CONFIG_DEF(flag/allow_extended_miscreants)

@@ -376,6 +376,13 @@
 		if(GLOB.highlander)
 			to_chat(humanc, "<span class='userdanger'><i>THERE CAN BE ONLY ONE!!!</i></span>")
 			humanc.make_scottish()
+//Haven START - Ports miscreants from citadel, credits to Deathride58
+		if(prob(5) && !issilicon(humanc) && !jobban_isbanned(humanc.mind, "Syndicate") && GLOB.miscreants_allowed && ROLE_MISCREANT in humanc.client.prefs.be_special)
+			SSticker.generate_miscreant_objectives(humanc.mind)
+		else
+			if(CONFIG_GET(flag/allow_crew_objectives))
+				SSticker.generate_individual_objectives(humanc.mind)
+//Haven END - Ports miscreants from citadel, credits to Deathride58
 
 	GLOB.joined_player_list += character.ckey
 
