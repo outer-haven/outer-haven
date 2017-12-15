@@ -335,12 +335,12 @@
 /obj/item/twohanded/hypereutactic/hit_reaction(mob/living/carbon/human/owner, atom/movable/hitby, attack_text = "the attack", final_block_chance = 0, damage = 0, attack_type = MELEE_ATTACK)
 	if(wielded)
 		return ..()
-	return 0
+	return FALSE
 
 /obj/item/twohanded/hypereutactic/attack_hulk(mob/living/carbon/human/user, does_attack_animation = 0)  //In case thats just so happens that it is still activated on the groud, prevents hulk from picking it up
 	if(wielded)
 		to_chat(user, "<span class='warning'>You can't pick up such dangerous item with your meaty hands without losing fingers, better not to!</span>")
-		return 1
+		return TRUE
 
 /obj/item/twohanded/hypereutactic/process()
 	if(wielded)
@@ -350,7 +350,7 @@
 
 /obj/item/twohanded/hypereutactic/IsReflect()
 	if(wielded)
-		return 1
+		return TRUE
 
 /obj/item/twohanded/hypereutactic/ignition_effect(atom/A, mob/user)
 	// same as /obj/item/melee/transforming/energy, mostly
@@ -379,7 +379,7 @@
 	attack_verb = list("attacked", "struck", "hit")
 
 /obj/item/twohanded/hypereutactic/toy/hit_reaction(mob/living/carbon/human/owner, atom/movable/hitby, attack_text = "the attack", final_block_chance = 0, damage = 0, attack_type = MELEE_ATTACK)
-	return 0
+	return FALSE
 
 /obj/item/twohanded/hypereutactic/toy/IsReflect()//Stops it from reflecting energy projectiles
-	return 0
+	return FALSE
