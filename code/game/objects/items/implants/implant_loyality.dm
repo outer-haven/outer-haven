@@ -20,13 +20,18 @@
 	if(..())
 		if(!target.mind)
 			return TRUE
+		//HAVEN START - Mindslave removal
+		var/obj/item/implant/mindslave/imp = locate(/obj/item/implant/mindslave) in target
+		if(imp)
+			imp.removed(target)
+		//HAVEN END
 		if(target.mind.has_antag_datum(/datum/antagonist/rev/head) || target.mind.unconvertable)
 			if(!silent)
 				target.visible_message("<span class='warning'>[target] seems to resist the implant!</span>", "<span class='warning'>You feel something interfering with your mental conditioning, but you resist it!</span>")
 			removed(target, 1)
 			qdel(src)
 			return FALSE
-		
+
 		var/datum/antagonist/rev/rev = target.mind.has_antag_datum(/datum/antagonist/rev)
 		if(rev)
 			rev.remove_revolutionary(FALSE, user)

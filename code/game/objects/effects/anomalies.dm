@@ -27,7 +27,7 @@
 	aSignal.name = "[name] core"
 	aSignal.code = rand(1,100)
 
-	aSignal.frequency = rand(1200, 1599)
+	aSignal.frequency = rand(MIN_FREE_FREQ, MAX_FREE_FREQ)
 	if(IsMultiple(aSignal.frequency, 2))//signaller frequencies are always uneven!
 		aSignal.frequency++
 
@@ -67,7 +67,7 @@
 	new /obj/effect/particle_effect/smoke/bad(loc)
 
 	for(var/atom/movable/O in src)
-		O.loc = src.loc
+		O.forceMove(drop_location())
 
 	qdel(src)
 

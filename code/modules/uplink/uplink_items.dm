@@ -1157,6 +1157,13 @@ GLOBAL_LIST_EMPTY(uplink_items) // Global list so we only initialize this once.
 	cost = 20
 	include_modes = list(/datum/game_mode/nuclear)
 
+//HAVEN start - Mindslave implant
+/datum/uplink_item/implants/mindslave
+	name = "Mindslave Implant"
+	desc = "An implant injected into a targets body. Will cause the target to obey your every command whilst the target is implanted. Implant can be removed by surgery!"
+	item = /obj/item/storage/box/syndie_kit/imp_mindslave
+	cost = 12
+//HAVEN end
 
 // Cybernetics
 /datum/uplink_item/cyber_implants
@@ -1390,7 +1397,7 @@ GLOBAL_LIST_EMPTY(uplink_items) // Global list so we only initialize this once.
 	if(possible_items.len)
 		var/datum/uplink_item/I = pick(possible_items)
 		U.telecrystals -= I.cost
-		U.spent_telecrystals += I.cost
+		U.purchase_log.total_spent += I.cost
 		SSblackbox.record_feedback("nested tally", "traitor_uplink_items_bought", 1, list("[initial(I.name)]", "[cost]"))
 		SSblackbox.record_feedback("tally", "traitor_random_uplink_items_gotten", 1, initial(I.name))
 		return new I.item(loc)
