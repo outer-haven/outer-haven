@@ -1,14 +1,9 @@
 SUBSYSTEM_DEF(input)
 	name = "Input"
 	wait = 1 //SS_TICKER means this runs every tick
-<<<<<<< HEAD
-	flags = SS_TICKER | SS_NO_INIT | SS_KEEP_TIMING
-	priority = 151
-=======
 	init_order = INIT_ORDER_INPUT
 	flags = SS_TICKER
 	priority = FIRE_PRIORITY_INPUT
->>>>>>> 4ec09a0... Re-Support old hotkey mode behaviour (#33460)
 	runlevels = RUNLEVELS_DEFAULT | RUNLEVEL_LOBBY
 
 	var/list/macro_sets
