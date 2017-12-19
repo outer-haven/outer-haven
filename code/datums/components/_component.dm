@@ -133,17 +133,13 @@
 		if(!istype(proc_or_callback, /datum/callback)) //if it wasnt a callback before, it is now
 			proc_or_callback = CALLBACK(src, proc_or_callback)
 		procs[sig_type] = proc_or_callback
-	
+
 	enabled = TRUE
 
 /datum/component/proc/InheritComponent(datum/component/C, i_am_original)
 	return
 
 /datum/component/proc/OnTransfer(datum/new_parent)
-	return
-
-/datum/component/proc/AfterComponentActivated()
-	set waitfor = FALSE
 	return
 
 /datum/component/proc/_GetInverseTypeList(our_type = type)
@@ -176,28 +172,16 @@
 		var/datum/callback/CB = C.signal_procs[sigtype]
 		if(!CB)
 			return NONE
-		. = CB.InvokeAsync(arglist(arguments))
-		if(. & COMPONENT_ACTIVATED)
-			ComponentActivated(C)
-			C.AfterComponentActivated()
-	else
-		. = NONE
-		for(var/I in target)
-			var/datum/component/C = I
-			if(!C.enabled)
-				continue
-			var/datum/callback/CB = C.signal_procs[sigtype]
-			if(!CB)
-				continue
-			var/retval = CB.InvokeAsync(arglist(arguments))
-			. |= retval
-			if(retval & COMPONENT_ACTIVATED)
-				ComponentActivated(C)
-				C.AfterComponentActivated()
-
-/datum/proc/ComponentActivated(datum/component/C)
-	set waitfor = FALSE
-	return
+		return CB.InvokeAsync(arglist(arguments))
+	. = NONE
+	for(var/I in target)
+		var/datum/component/C = I
+		if(!C.enabled)
+			continue
+		var/datum/callback/CB = C.signal_procs[sigtype]
+		if(!CB)
+			continue
+		. |= CB.InvokeAsync(arglist(arguments))
 
 /datum/proc/GetComponent(c_type)
 	var/list/dc = datum_components
