@@ -3,10 +3,12 @@
 	var/list/archdrops
 	var/prob2drop
 	var/dug
+	var/datum/callback/callback
 
-/datum/component/archaeology/Initialize(_prob2drop, list/_archdrops = list())
+/datum/component/archaeology/Initialize(_prob2drop, list/_archdrops = list(), datum/callback/_callback)
 	prob2drop = Clamp(_prob2drop, 0, 100)
 	archdrops = _archdrops
+	callback = _callback
 	RegisterSignal(COMSIG_PARENT_ATTACKBY,.proc/Dig)
 	RegisterSignal(COMSIG_ATOM_EX_ACT, .proc/BombDig)
 	RegisterSignal(COMSIG_ATOM_SING_PULL, .proc/SingDig)
@@ -21,7 +23,7 @@
 	if(dug)
 		to_chat(user, "<span class='notice'>Looks like someone has dug here already.</span>")
 		return
-		
+
 	var/digging_speed
 	if (istype(W, /obj/item/shovel))
 		var/obj/item/shovel/S = W
@@ -29,7 +31,7 @@
 	else if (istype(W, /obj/item/pickaxe))
 		var/obj/item/pickaxe/P = W
 		digging_speed = P.digspeed
-	
+
 	if (digging_speed && isturf(user.loc))
 		to_chat(user, "<span class='notice'>You start digging...</span>")
 		playsound(parent, 'sound/effects/shovel_dig.ogg', 50, 1)
@@ -67,6 +69,8 @@
 			if(OT.slowdown) //Things like snow slow you down until you dig them.
 				OT.slowdown = 0
 	dug = TRUE
+	if(callback)
+		callback.Invoke()
 
 /datum/component/archaeology/proc/SingDig(S, current_size)
 	switch(current_size)
