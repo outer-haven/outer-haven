@@ -158,7 +158,7 @@
 				thrown_thing = throwable_mob
 				stop_pulling()
 				if(has_disability(PACIFISM))
-				  to_chat(src, "<span class='notice'>You gently let go of [throwable_mob].</span>")
+					to_chat(src, "<span class='notice'>You gently let go of [throwable_mob].</span>")
 				var/turf/start_T = get_turf(loc) //Get the start and target tile for the descriptors
 				var/turf/end_T = get_turf(target)
 				if(start_T && end_T)
