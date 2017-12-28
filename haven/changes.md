@@ -22,6 +22,12 @@ This simply replaces the jumpsuits that normally spawn in hte mixed wardrobe to 
 imp.removed(target) in /code/game/objects/items/implants/implant_loyality.dm
 Triggers the removal effects of the mindslave implant
 
+
 ### LOOC Preferences
 Lines 32-34 in code/_DEFINES/preferences.dm	(Adds one new define for LOOC and tacks on one more thing onto an existing define)
 Allows LOOC to be properly disabled via client preferences.
+
+###ID-fluff
+ID_fluff() in /code/game/objects/items/cards_ids.dm
+triggers the fluff addition of IDs in /haven/code/game/objects/items/cards_ids.dm
+

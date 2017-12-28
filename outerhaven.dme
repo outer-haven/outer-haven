@@ -2376,6 +2376,7 @@
 #include "haven\code\init.dm"
 #include "haven\code\_DEFINES\looc.dm"
 #include "haven\code\_HELPERS\looc.dm"
+#include "haven\code\game\objects\items\cards_ids.dm"
 #include "haven\code\game\objects\items\devices\flashlight.dm"
 #include "haven\code\game\objects\items\implants\implant_mindslave.dm"
 #include "haven\code\game\objects\items\melee\eutactic_blades.dm"
