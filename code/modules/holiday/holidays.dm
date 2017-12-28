@@ -395,14 +395,10 @@ Since Ramadan is an entire month that lasts 29.5 days on average, the start and 
 
 /datum/holiday/xmas
 	name = CHRISTMAS
-	begin_day = 23
+	begin_day = 22
 	begin_month = DECEMBER
-<<<<<<< HEAD
-	end_day = 25
-=======
 	end_day = 27
 	drone_hat = /obj/item/clothing/head/santa
->>>>>>> 585674c... Merge pull request #33834 from Xhuis/drone_hats
 
 /datum/holiday/xmas/greet()
 	return "Have a merry Christmas!"
