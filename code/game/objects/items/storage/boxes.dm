@@ -126,7 +126,9 @@
 	new /obj/item/clothing/mask/gas/sechailer(src)
 	new /obj/item/tank/internals/emergency_oxygen(src)
 	new /obj/item/reagent_containers/hypospray/medipen(src)
+	new /obj/item/device/radio/security(src) //haven - security radio
 	new /obj/item/device/flashlight/flare/security(src)
+
 
 /obj/item/storage/box/security/radio/PopulateContents()
 	..() // we want the regular stuff too
