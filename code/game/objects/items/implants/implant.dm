@@ -15,6 +15,9 @@
 /obj/item/implant/proc/trigger(emote, mob/living/carbon/source)
 	return
 
+/obj/item/implant/proc/on_death(emote, mob/living/carbon/source)
+	return
+
 /obj/item/implant/proc/activate()
 	return
 
@@ -56,7 +59,7 @@
 				else
 					return 0
 
-	src.loc = target
+	forceMove(target)
 	imp_in = target
 	target.implants += src
 	if(activated)
@@ -73,7 +76,7 @@
 	return 1
 
 /obj/item/implant/proc/removed(mob/living/source, silent = 0, special = 0)
-	src.loc = null
+	moveToNullspace()
 	imp_in = null
 	source.implants -= src
 	for(var/X in actions)

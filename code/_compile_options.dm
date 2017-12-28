@@ -35,7 +35,7 @@
 #define MAX_CHARTER_LEN			80
 
 //MINOR TWEAKS/MISC
-#define AGE_MIN				17	//youngest a character can be
+#define AGE_MIN				18	//youngest a character can be
 #define AGE_MAX				85	//oldest a character can be
 #define WIZARD_AGE_MIN		30	//youngest a wizard can be
 #define APPRENTICE_AGE_MIN	29	//youngest an apprentice can be
@@ -43,7 +43,7 @@
 #define POCKET_STRIP_DELAY			40	//time taken (in deciseconds) to search somebody's pockets
 #define DOOR_CRUSH_DAMAGE	15	//the amount of damage that airlocks deal when they crush you
 
-#define	HUNGER_FACTOR		0.1	//factor at which mob nutrition decreases
+#define	HUNGER_FACTOR		0.08	//factor at which mob nutrition decreases
 #define	REAGENTS_METABOLISM 0.4	//How many units of reagent are consumed per tick, by default.
 #define REAGENTS_EFFECT_MULTIPLIER (REAGENTS_METABOLISM / 0.4)	// By defining the effect multiplier this way, it'll exactly adjust all effects according to how they originally were with the 0.4 metabolism
 
