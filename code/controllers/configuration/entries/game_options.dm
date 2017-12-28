@@ -265,5 +265,3 @@ CONFIG_DEF(flag/allow_crew_objectives)
 CONFIG_DEF(flag/allow_miscreants)
 CONFIG_DEF(flag/allow_extended_miscreants)
 
-/datum/config_entry/flag/ic_printing //If shit bugs out. Delete this line. This was a conflict line for the Miscriants PR.
-
