@@ -192,13 +192,8 @@
 		if(M in buckled_mobs)
 			M.Feedstop()
 		return // can't attack while eating!
-<<<<<<< HEAD
-		
-	if(has_disability(PACIFISM))
-=======
 
 	if(has_disability(DISABILITY_PACIFISM))
->>>>>>> bc20a75... Merge pull request #33783 from Cruix/fix_blind
 		to_chat(M, "<span class='notice'>You don't want to hurt anyone!</span>")
 		return FALSE
 
