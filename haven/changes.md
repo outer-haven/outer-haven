@@ -21,3 +21,7 @@ This simply replaces the jumpsuits that normally spawn in hte mixed wardrobe to 
 ###Removal of mindslave implant
 imp.removed(target) in /code/game/objects/items/implants/implant_loyality.dm
 Triggers the removal effects of the mindslave implant
+
+###ID-fluff
+ID_fluff() in /code/game/objects/items/cards_ids.dm
+triggers the fluff addition of IDs in /haven/code/game/objects/items/cards_ids.dm

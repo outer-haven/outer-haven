@@ -14,7 +14,7 @@
 /obj/item/card
 	name = "card"
 	desc = "Does card things."
-	icon = 'icons/obj/card.dmi'
+	icon = 'haven/icons/obj/card.dmi' //Haven - changed to our icons, to support time's IDs
 	w_class = WEIGHT_CLASS_TINY
 
 	var/list/files = list()
@@ -88,6 +88,7 @@
 	var/registered_name = null // The name registered_name on the card
 	var/assignment = null
 	var/access_txt // mapping aid
+	var/has_fluff //Haven - Whether the ID has had fluff applied to it
 
 
 
@@ -134,11 +135,12 @@ update_label("John Doe", "Clowny")
 		return
 
 	name = "[(!registered_name)	? "identification card"	: "[registered_name]'s ID Card"][(!assignment) ? "" : " ([assignment])"]"
+	ID_fluff() //haven - Proc to add fluff to the ID's (my comments are amazing)
 
 /obj/item/card/id/silver
 	name = "silver identification card"
 	desc = "A silver card which shows honour and dedication."
-	icon_state = "silver"
+	icon_state = "id_silver"
 	item_state = "silver_id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
@@ -146,7 +148,7 @@ update_label("John Doe", "Clowny")
 /obj/item/card/id/gold
 	name = "gold identification card"
 	desc = "A golden card which shows power and might."
-	icon_state = "gold"
+	icon_state = "id_gold"
 	item_state = "gold_id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
@@ -211,7 +213,7 @@ update_label("John Doe", "Clowny")
 /obj/item/card/id/captains_spare
 	name = "captain's spare ID"
 	desc = "The spare ID of the High Lord himself."
-	icon_state = "gold"
+	icon_state = "id_gold"
 	item_state = "gold_id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'

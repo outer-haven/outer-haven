@@ -2374,6 +2374,7 @@
 #include "code\modules\zombie\items.dm"
 #include "code\modules\zombie\organs.dm"
 #include "haven\code\init.dm"
+#include "haven\code\game\objects\items\cards_ids.dm"
 #include "haven\code\game\objects\items\devices\flashlight.dm"
 #include "haven\code\game\objects\items\implants\implant_mindslave.dm"
 #include "haven\code\game\objects\items\melee\eutactic_blades.dm"
