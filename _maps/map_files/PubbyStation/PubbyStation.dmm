@@ -44636,6 +44636,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "ccW" = (
@@ -44656,6 +44659,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plating,
 /area/engine/engineering)
 "ccY" = (
@@ -44665,14 +44671,23 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
 	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
 /turf/open/floor/plating,
 /area/engine/engineering)
 "ccZ" = (
 /obj/structure/particle_accelerator/end_cap,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plating,
 /area/engine/engineering)
 "cda" = (
 /obj/effect/landmark/event_spawn,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plating,
 /area/engine/engineering)
 "cdb" = (
@@ -44687,6 +44702,9 @@
 "cdc" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
@@ -45138,14 +45156,16 @@
 /turf/open/floor/plating,
 /area/engine/engineering)
 "cet" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "Singularity";
 	name = "radiation shutters"
 	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
 	},
-/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/engine/engineering)
 "ceu" = (
@@ -46212,10 +46232,6 @@
 "chQ" = (
 /obj/structure/window/plasma/reinforced{
 	dir = 4
-	},
-/obj/machinery/power/rad_collector/anchored,
-/obj/structure/cable/yellow{
-	icon_state = "0-8"
 	},
 /turf/open/floor/plating/airless,
 /area/engine/engineering)
@@ -51142,10 +51158,6 @@
 /obj/structure/window/plasma/reinforced{
 	dir = 8
 	},
-/obj/machinery/power/rad_collector/anchored,
-/obj/structure/cable/yellow{
-	icon_state = "0-4"
-	},
 /turf/open/floor/plating/airless,
 /area/engine/engineering)
 "cBT" = (
@@ -51290,6 +51302,8 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/obj/machinery/power/rad_collector/anchored,
+/obj/structure/cable/yellow,
 /turf/open/floor/plating/airless,
 /area/engine/engineering)
 "cCJ" = (
@@ -51365,6 +51379,143 @@
 /obj/machinery/vending/games,
 /turf/open/floor/plasteel/dark,
 /area/library)
+"cCX" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "Singularity";
+	name = "radiation shutters"
+	},
+/obj/effect/turf_decal/bot{
+	dir = 2
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/engine/engineering)
+"cCY" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/engine/engineering)
+"cCZ" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "Singularity";
+	name = "radiation shutters"
+	},
+/obj/effect/turf_decal/bot{
+	dir = 2
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/engine/engineering)
+"cDa" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/yellow/side,
+/area/engine/engineering)
+"cDb" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/yellow/side,
+/area/engine/engineering)
+"cDc" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "Singularity";
+	name = "radiation shutters"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/engine/engineering)
+"cDd" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "Singularity";
+	name = "radiation shutters"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plating,
+/area/engine/engineering)
+"cDe" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "Singularity";
+	name = "radiation shutters"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plating,
+/area/engine/engineering)
+"cDf" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "Singularity";
+	name = "radiation shutters"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plating,
+/area/engine/engineering)
+"cDg" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating/airless,
+/area/engine/engineering)
+"cDh" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating/airless,
+/area/engine/engineering)
+"cDi" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating/airless,
+/area/engine/engineering)
+"cDj" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating/airless,
+/area/engine/engineering)
+"cDk" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating/airless,
+/area/engine/engineering)
+"cDl" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating/airless,
+/area/engine/engineering)
 
 (1,1,1) = {"
 aaa
@@ -81094,16 +81245,16 @@ cam
 cdQ
 cet
 cCI
-cfV
+cDg
 cfU
 cgu
 cgU
 chw
-cBR
+cgU
 chw
+cgU
 chw
-chw
-chw
+cgU
 cjs
 cfV
 cfV
@@ -81347,11 +81498,11 @@ bZA
 cam
 cam
 cam
-cam
-cdQ
-cet
+ccT
+cDa
+cDc
 cCI
-cfV
+cDh
 cfV
 cgv
 cfV
@@ -81606,9 +81757,9 @@ cbi
 ccc
 ccV
 cdR
-cet
+cDd
 cCI
-cfV
+cDi
 cfU
 cgv
 cgV
@@ -81861,7 +82012,7 @@ bZA
 cao
 cbj
 bXk
-ccW
+cCX
 bXk
 bXk
 cfa
@@ -83146,7 +83297,7 @@ bZF
 cat
 bXk
 ccg
-cey
+cCY
 cdW
 cey
 cey
@@ -83403,7 +83554,7 @@ bZA
 cau
 cbj
 bXk
-ccW
+cCZ
 bXk
 bXk
 cfa
@@ -83664,7 +83815,7 @@ cdc
 cdX
 cet
 cCI
-cfV
+cDj
 cfU
 cgv
 cgV
@@ -83917,11 +84068,11 @@ bZA
 cam
 cam
 cam
-cam
-cdQ
-cet
+cde
+cDb
+cDe
 cCI
-cfV
+cDk
 cfV
 cgv
 cfV
@@ -84176,18 +84327,18 @@ cbm
 cci
 cam
 cdQ
-cet
+cDf
 cCI
-cfV
+cDl
 cfU
 cgx
 cgU
 chA
+cgU
 chA
+cgU
 chA
-chA
-chA
-chA
+cgU
 cjt
 cfV
 cfV
