@@ -11,7 +11,8 @@
 /obj/item/device/pda/clown/Initialize()
 	. = ..()
 
-	AddComponent(/datum/component/slippery, 120, NO_SLIP_WHEN_WALKING)
+/obj/item/device/pda/clown/proc/AfterSlip(mob/living/carbon/human/M)
+	if (istype(M) && (M.real_name != owner))
 
 /obj/item/device/pda/clown/ComponentActivated(datum/component/C)
 	..()
