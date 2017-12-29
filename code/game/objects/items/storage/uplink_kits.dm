@@ -306,6 +306,7 @@
 	new /obj/item/spellbook/oneuse/mimery_blockade(src)
 	new /obj/item/spellbook/oneuse/mimery_guns(src)
 
+////Haven Start
 /obj/item/storage/box/syndie_kit/imp_mindslave
 	name = "boxed mindslave implant (with injector)"
 
@@ -316,3 +317,8 @@
 	O.imp = imp
 	O.update_icon()
 	return
+////Haven End
+
+/obj/item/storage/box/syndie_kit/imp_radio/PopulateContents()
+	new /obj/item/implanter/radio(src)
+
