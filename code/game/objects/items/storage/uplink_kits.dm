@@ -306,6 +306,7 @@
 	new /obj/item/spellbook/oneuse/mimery_blockade(src)
 	new /obj/item/spellbook/oneuse/mimery_guns(src)
 
+<<<<<<< HEAD
 /obj/item/storage/box/syndie_kit/imp_mindslave
 	name = "boxed mindslave implant (with injector)"
 
@@ -316,3 +317,7 @@
 	O.imp = imp
 	O.update_icon()
 	return
+=======
+/obj/item/storage/box/syndie_kit/imp_radio/PopulateContents()
+	new /obj/item/implanter/radio(src)
+>>>>>>> ac17202... Internal radio implant (#33842)

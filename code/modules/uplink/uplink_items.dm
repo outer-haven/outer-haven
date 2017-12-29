@@ -1057,9 +1057,9 @@ GLOBAL_LIST_EMPTY(uplink_items) // Global list so we only initialize this once.
 	include_modes = list(/datum/game_mode/nuclear)
 
 /datum/uplink_item/device_tools/potion
-	name = "Sentience Potion"
-	item = /obj/item/slimepotion/sentience
-	desc = "A potion recovered at great risk by undercover syndicate operatives. Using it will make any animal sentient, and bound to serve you."
+	name = "Syndicate Sentience Potion"
+	item = /obj/item/slimepotion/sentience/nuclear
+	desc = "A potion recovered at great risk by undercover syndicate operatives and then subsequently modified with syndicate technology. Using it will make any animal sentient, and bound to serve you, as well as implanting an internal radio for communication."
 	cost = 4
 	include_modes = list(/datum/game_mode/nuclear)
 
@@ -1150,6 +1150,7 @@ GLOBAL_LIST_EMPTY(uplink_items) // Global list so we only initialize this once.
 	cost = 20
 	include_modes = list(/datum/game_mode/nuclear)
 
+<<<<<<< HEAD
 //HAVEN start - Mindslave implant
 /datum/uplink_item/implants/mindslave
 	name = "Mindslave Implant"
@@ -1157,6 +1158,14 @@ GLOBAL_LIST_EMPTY(uplink_items) // Global list so we only initialize this once.
 	item = /obj/item/storage/box/syndie_kit/imp_mindslave
 	cost = 12
 //HAVEN end
+=======
+/datum/uplink_item/implants/radio
+	name = "Internal Syndicate Radio Implant"
+	desc = "An implant injected into the body, allowing the use of an internal syndicate radio. Used just like a regular headset, but can be disabled to use external headsets normally and to avoid detection."
+	item = /obj/item/storage/box/syndie_kit/imp_radio
+	cost = 4
+
+>>>>>>> ac17202... Internal radio implant (#33842)
 
 // Cybernetics
 /datum/uplink_item/cyber_implants
