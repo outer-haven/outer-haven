@@ -107,9 +107,15 @@
 	return data["targets"][1]
 
 /datum/signal/subspace/pda/proc/format_message()
+<<<<<<< HEAD
 	if (data["photo"])
 		return "[data["message"]] <a href='byond://?src=[REF(src)];photo=1'>(Photo)</a>"
 	return data["message"]
+=======
+	if (logged && data["photo"])
+		return "\"[data["message"]]\" (<a href='byond://?src=[REF(logged)];photo=1'>Photo</a>)"
+	return "\"[data["message"]]\""
+>>>>>>> 544bdb9... Fixes PDA messages (#34020)
 
 /datum/signal/subspace/pda/broadcast()
 	for (var/obj/item/device/pda/P in GLOB.PDAs)
