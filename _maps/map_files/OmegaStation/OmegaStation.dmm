@@ -890,13 +890,6 @@
 	dir = 8
 	},
 /area/bridge)
-"abJ" = (
-/obj/structure/cable/white{
-	icon_state = "0-2"
-	},
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/crew_quarters/heads/hop)
 "abK" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -933,7 +926,7 @@
 "abN" = (
 /obj/structure/sign/vacuum,
 /turf/closed/wall,
-/area/hallway/primary/central)
+/area/maintenance/starboard)
 "abO" = (
 /obj/structure/closet/emcloset/anchored,
 /obj/effect/decal/cleanable/dirt,
@@ -942,13 +935,7 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
-/area/hallway/primary/central)
-"abP" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/astplate,
-/area/ruin/unpowered{
-	name = "Asteroid"
-	})
+/area/maintenance/starboard)
 "abQ" = (
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/supply)
@@ -1199,9 +1186,6 @@
 /area/crew_quarters/heads/hop)
 "acp" = (
 /obj/structure/bed,
-/obj/structure/cable/white{
-	icon_state = "1-2"
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
@@ -1211,9 +1195,6 @@
 /area/crew_quarters/heads/hop)
 "acq" = (
 /obj/structure/dresser,
-/obj/structure/cable/white{
-	icon_state = "1-2"
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 10
 	},
@@ -1273,6 +1254,7 @@
 	name = "External Airlock";
 	req_access_txt = "13"
 	},
+<<<<<<< HEAD
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
@@ -1284,6 +1266,19 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
+=======
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/white{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/white{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "acx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -1294,7 +1289,7 @@
 /obj/effect/landmark/xeno_spawn,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
-/area/hallway/primary/central)
+/area/maintenance/starboard)
 "acy" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/external{
@@ -1307,8 +1302,11 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel,
-/area/hallway/primary/central)
+/area/maintenance/starboard)
 "acz" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line{
@@ -1317,13 +1315,6 @@
 /turf/open/floor/plasteel,
 /area/shuttle/supply)
 "acA" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/shuttle/supply)
-"acB" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
@@ -1681,9 +1672,6 @@
 	icon_state = "2-4"
 	},
 /obj/structure/cable/white{
-	icon_state = "1-2"
-	},
-/obj/structure/cable/white{
 	icon_state = "2-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -1692,9 +1680,6 @@
 /turf/open/floor/wood,
 /area/crew_quarters/heads/hop)
 "adi" = (
-/obj/structure/cable/white{
-	icon_state = "1-8"
-	},
 /obj/structure/cable/white{
 	icon_state = "2-8"
 	},
@@ -1739,7 +1724,10 @@
 /turf/open/floor/plasteel/white,
 /area/crew_quarters/heads/hop)
 "adm" = (
+<<<<<<< HEAD
 /obj/effect/decal/cleanable/dirt,
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/structure/cable/white{
 	icon_state = "0-2"
@@ -1774,27 +1762,8 @@
 /obj/structure/sign/vacuum,
 /turf/open/floor/plating,
 /area/quartermaster/storage)
-"adr" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/shuttle/supply)
 "ads" = (
 /obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel,
-/area/shuttle/supply)
-"adt" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel,
-/area/shuttle/supply)
-"adu" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
 /turf/open/floor/plasteel,
 /area/shuttle/supply)
 "adv" = (
@@ -1820,14 +1789,6 @@
 /obj/item/clothing/head/helmet/space/orange,
 /obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/neutral,
-/area/ruin/unpowered{
-	name = "Asteroid"
-	})
-"ady" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/neutral/side{
-	dir = 4
-	},
 /area/ruin/unpowered{
 	name = "Asteroid"
 	})
@@ -1970,15 +1931,6 @@
 /obj/structure/closet/crate/bin,
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain/private)
-"adM" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/structure/cable/white{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
-/area/bridge)
 "adN" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/item/device/radio/intercom{
@@ -1992,33 +1944,28 @@
 "adO" = (
 /obj/machinery/ai_status_display,
 /turf/closed/wall/r_wall,
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "adP" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "aicorewindow";
-	name = "AI Core Shutters"
-	},
 /obj/structure/cable/white{
 	icon_state = "0-2"
 	},
 /obj/structure/cable/white,
 /turf/open/floor/plating,
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "adQ" = (
 /turf/closed/wall/r_wall,
 /area/ai_monitored/turret_protected/ai)
 "adR" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "aicorewindow";
-	name = "AI Core Shutters"
+/obj/structure/sign/electricshock{
+	pixel_x = 32
 	},
 /obj/structure/cable/white{
 	icon_state = "0-2"
 	},
 /turf/open/floor/plating,
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "adS" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
@@ -2078,14 +2025,6 @@
 "adX" = (
 /turf/closed/wall,
 /area/crew_quarters/heads/hop)
-"adY" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/structure/cable/white{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plating,
-/area/maintenance/starboard/fore)
 "adZ" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -2110,17 +2049,6 @@
 	},
 /obj/structure/sign/nanotrasen{
 	pixel_y = 32
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/line{
-	dir = 2
-	},
-/turf/open/floor/plasteel,
-/area/quartermaster/storage)
-"aeb" = (
-/obj/machinery/conveyor{
-	dir = 8;
-	id = "cargounload"
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line{
@@ -2170,21 +2098,6 @@
 	dir = 2
 	},
 /turf/open/floor/plasteel,
-/area/quartermaster/storage)
-"aef" = (
-/obj/machinery/conveyor{
-	dir = 8;
-	id = "cargounload"
-	},
-/obj/machinery/door/poddoor{
-	id = "cargounload";
-	name = "supply dock unloading door"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/line{
-	dir = 2
-	},
-/turf/open/floor/plating,
 /area/quartermaster/storage)
 "aeg" = (
 /obj/machinery/conveyor{
@@ -2247,12 +2160,6 @@
 	name = "Asteroid"
 	})
 "aem" = (
-/turf/open/floor/plasteel/neutral/side,
-/area/ruin/unpowered{
-	name = "Asteroid"
-	})
-"aen" = (
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/neutral/side,
 /area/ruin/unpowered{
 	name = "Asteroid"
@@ -2387,72 +2294,45 @@
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "aeA" = (
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel/vault,
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "aeB" = (
-/obj/machinery/door/window{
-	base_state = "leftsecure";
-	dir = 8;
-	icon_state = "leftsecure";
-	name = "Primary AI Core Access";
-	req_access_txt = "16"
+/obj/machinery/power/apc{
+	aidisabled = 0;
+	areastring = "/area/ai_monitored/nuke_storage";
+	dir = 1;
+	name = "AI Vault APC";
+	pixel_y = 24
 	},
-/obj/machinery/newscaster/security_unit{
-	pixel_x = 4;
-	pixel_y = 33
+/obj/structure/cable/white{
+	icon_state = "0-4"
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/vault{
 	dir = 6
 	},
 /area/ai_monitored/turret_protected/ai)
+=======
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/nuke_storage)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "aeC" = (
-/obj/item/device/radio/intercom{
-	broadcasting = 0;
-	freerange = 1;
-	listening = 1;
-	name = "Common Channel";
-	pixel_x = -27;
-	pixel_y = -24
+/obj/structure/cable/white{
+	icon_state = "0-2"
 	},
-/obj/item/device/radio/intercom{
-	anyai = 1;
-	freerange = 1;
-	listening = 0;
-	name = "Custom Channel";
-	pixel_y = -27
-	},
-/obj/item/device/radio/intercom{
-	anyai = 1;
-	broadcasting = 0;
-	freerange = 1;
-	frequency = 1447;
-	name = "Private Channel";
-	pixel_x = 27;
-	pixel_y = -24
-	},
-/obj/machinery/button/door{
-	id = "aicorewindow";
-	name = "AI Core Shutters";
-	pixel_x = 24;
-	pixel_y = -40;
-	req_access_txt = "16"
-	},
-/obj/machinery/button/door{
-	id = "aicoredoor";
-	name = "AI Chamber Access Control";
-	pixel_x = -23;
-	pixel_y = -40;
-	req_access_txt = "16"
-	},
-/obj/effect/landmark/start/ai,
+/obj/machinery/nuclearbomb/selfdestruct,
 /obj/structure/cable/white{
 	icon_state = "1-4"
 	},
+<<<<<<< HEAD
 /obj/machinery/ai_slipper{
 	uses = 10
 	},
@@ -2462,24 +2342,29 @@
 	name = "AI RC";
 	pixel_x = 30;
 	pixel_y = 30
+=======
+/obj/structure/cable/white{
+	icon_state = "4-8"
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 	},
 /turf/open/floor/circuit/green,
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "aeD" = (
-/obj/machinery/door/window{
-	base_state = "rightsecure";
-	dir = 4;
-	icon_state = "rightsecure";
-	name = "Primary AI Core Access";
-	req_access_txt = "16"
-	},
 /obj/structure/cable/white{
 	icon_state = "4-8"
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/vault{
 	dir = 10
 	},
 /area/ai_monitored/turret_protected/ai)
+=======
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/nuke_storage)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "aeE" = (
 /obj/structure/cable/white{
 	icon_state = "1-2"
@@ -2488,7 +2373,7 @@
 	icon_state = "2-8"
 	},
 /turf/open/floor/plasteel/vault,
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "aeF" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/brigdoor/westright{
@@ -2507,7 +2392,7 @@
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "aeG" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/light{
@@ -2630,12 +2515,6 @@
 /obj/effect/turf_decal/loading_area,
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
-"aeR" = (
-/obj/structure/closet/crate,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel,
-/area/quartermaster/storage)
 "aeS" = (
 /obj/structure/closet/crate,
 /obj/effect/turf_decal/delivery,
@@ -2651,25 +2530,6 @@
 /turf/open/floor/plasteel/brown{
 	dir = 4
 	},
-/area/quartermaster/storage)
-"aeV" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/delivery,
-/turf/open/floor/plasteel,
-/area/quartermaster/storage)
-"aeW" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/external{
-	name = "Supply Dock Airlock";
-	req_access_txt = "31"
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "aeX" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2705,14 +2565,6 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/ruin/unpowered{
-	name = "Asteroid"
-	})
-"afc" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/neutral/corner{
-	dir = 1
-	},
 /area/ruin/unpowered{
 	name = "Asteroid"
 	})
@@ -2876,7 +2728,7 @@
 	pixel_y = -3
 	},
 /obj/machinery/camera{
-	c_tag = "AI Core - Port";
+	c_tag = "AI Vault - Port";
 	dir = 4;
 	name = "ai camera";
 	network = list("Sat");
@@ -2885,13 +2737,13 @@
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "afr" = (
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
 /turf/open/floor/circuit/green,
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "afs" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/brigdoor{
@@ -2912,7 +2764,7 @@
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "aft" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 8
@@ -3156,14 +3008,6 @@
 /area/ruin/unpowered{
 	name = "Asteroid"
 	})
-"afO" = (
-/turf/open/floor/plasteel/neutral/corner{
-	dir = 8;
-	heat_capacity = 1e+006
-	},
-/area/ruin/unpowered{
-	name = "Asteroid"
-	})
 "afP" = (
 /obj/structure/table/wood,
 /obj/item/book/manual/wiki/security_space_law,
@@ -3361,14 +3205,16 @@
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "agh" = (
 /obj/machinery/computer/upload/ai,
+/obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "agi" = (
+<<<<<<< HEAD
 /obj/machinery/doomsday_device,
 /obj/structure/cable/white{
 	icon_state = "0-2"
@@ -3380,14 +3226,17 @@
 	areastring = "/area/ai_monitored/turret_protected/ai";
 	pixel_y = 24
 	},
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 /turf/open/floor/circuit/green,
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "agj" = (
 /obj/machinery/computer/upload/borg,
+/obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "agk" = (
 /obj/machinery/light{
 	dir = 4
@@ -3399,18 +3248,9 @@
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "agl" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
-/area/bridge)
-"agm" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/obj/structure/cable/white{
-	icon_state = "1-2"
-	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -3537,13 +3377,6 @@
 /turf/open/floor/plasteel/neutral,
 /area/quartermaster/storage)
 "agx" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/turf/open/floor/plasteel/neutral,
-/area/quartermaster/storage)
-"agy" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
@@ -3834,22 +3667,25 @@
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "agY" = (
 /obj/structure/cable/white{
 	icon_state = "1-4"
 	},
 /turf/open/floor/circuit/green,
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "agZ" = (
 /obj/structure/cable/white{
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "aha" = (
 /obj/structure/cable/white{
 	icon_state = "4-8"
@@ -3864,25 +3700,35 @@
 	icon_state = "2-4"
 	},
 /obj/effect/landmark/start/cyborg,
+<<<<<<< HEAD
+=======
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "ahb" = (
 /obj/structure/cable/white{
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "ahc" = (
 /obj/structure/cable/white{
 	icon_state = "1-8"
 	},
 /turf/open/floor/circuit/green,
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "ahd" = (
 /obj/structure/table/reinforced,
 /obj/item/aiModule/supplied/quarantine,
@@ -3894,7 +3740,7 @@
 	pixel_x = 28
 	},
 /obj/machinery/camera{
-	c_tag = "AI Core - Starboard";
+	c_tag = "AI Vault - Starboard";
 	dir = 8;
 	name = "ai camera";
 	network = list("Sat");
@@ -3903,7 +3749,7 @@
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "ahe" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 8
@@ -4328,7 +4174,7 @@
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "ahQ" = (
 /turf/open/floor/circuit/green,
 /area/ai_monitored/turret_protected/ai)
@@ -4339,7 +4185,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/circuit/green,
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "ahS" = (
 /obj/structure/cable/white{
 	icon_state = "1-2"
@@ -4347,18 +4193,18 @@
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "ahT" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/circuit/green,
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "ahU" = (
 /obj/machinery/firealarm{
 	dir = 1;
 	pixel_y = -24
 	},
 /turf/open/floor/circuit/green,
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "ahV" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/lootdrop/aimodule_neutral{
@@ -4369,13 +4215,7 @@
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/ai_monitored/turret_protected/ai)
-"ahW" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/plasteel/vault{
-	dir = 8
-	},
-/area/bridge)
+/area/ai_monitored/nuke_storage)
 "ahX" = (
 /obj/machinery/airalarm{
 	dir = 8;
@@ -4462,11 +4302,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/shuttle/supply)
-"aih" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plasteel,
-/area/shuttle/supply)
 "aii" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
@@ -4481,17 +4316,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/barricade/wooden,
 /turf/open/floor/plating/astplate,
-/area/ruin/unpowered{
-	name = "Asteroid"
-	})
-"ail" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/crate,
-/obj/effect/spawner/lootdrop/maintenance{
-	lootcount = 2;
-	name = "2maintenance loot spawner"
-	},
-/turf/open/floor/plating,
 /area/ruin/unpowered{
 	name = "Asteroid"
 	})
@@ -4694,17 +4518,13 @@
 "aiz" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/closed/wall/r_wall,
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "aiA" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/highsecurity{
 	locked = 1;
-	name = "MiniSat Chamber";
+	name = "AI Vault Chamber";
 	req_access_txt = "16"
-	},
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "aicoredoor";
-	name = "AI Core Access"
 	},
 /obj/machinery/flasher{
 	id = "AI";
@@ -4727,11 +4547,11 @@
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "aiB" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/closed/wall/r_wall,
-/area/ai_monitored/turret_protected/ai)
+/area/ai_monitored/nuke_storage)
 "aiC" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/command/glass{
@@ -4863,11 +4683,6 @@
 	dir = 5
 	},
 /area/quartermaster/storage)
-"aiP" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/delivery,
-/turf/open/floor/plasteel,
-/area/shuttle/supply)
 "aiQ" = (
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
@@ -5393,15 +5208,6 @@
 	dir = 1
 	},
 /obj/structure/shuttle/engine/heater,
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating/airless,
-/area/shuttle/supply)
-"ajO" = (
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/structure/shuttle/engine/heater,
-/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating/airless,
 /area/shuttle/supply)
@@ -7165,13 +6971,6 @@
 	dir = 8
 	},
 /area/teleporter)
-"amU" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/teleporter)
 "amV" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/belt/utility,
@@ -7606,19 +7405,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
-"anK" = (
-/obj/machinery/door/airlock{
-	name = "Toilet Unit"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/line{
-	dir = 2
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/hallway/primary/central)
 "anL" = (
 /obj/machinery/door/window/northleft{
 	dir = 4;
@@ -7646,17 +7432,6 @@
 "anN" = (
 /obj/machinery/holopad,
 /obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel,
-/area/teleporter)
-"anO" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable/white{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
 /turf/open/floor/plasteel,
 /area/teleporter)
 "anP" = (
@@ -8287,7 +8062,10 @@
 /turf/open/floor/plasteel,
 /area/maintenance/starboard/central)
 "aoT" = (
+<<<<<<< HEAD
 /obj/effect/decal/cleanable/dirt,
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
@@ -8525,12 +8303,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/quartermaster/miningdock)
-"apo" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 2
-	},
-/turf/open/floor/plasteel,
-/area/quartermaster/miningdock)
 "app" = (
 /obj/machinery/door/airlock/shuttle{
 	name = "Mining Shuttle Airlock";
@@ -8543,13 +8315,6 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/white,
-/area/shuttle/mining)
-"apq" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
 /area/shuttle/mining)
 "apr" = (
 /turf/open/floor/plasteel/neutral,
@@ -8870,17 +8635,6 @@
 	dir = 5
 	},
 /area/maintenance/port/central)
-"apR" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel,
-/area/maintenance/port/central)
 "apS" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Maintenance Hatch";
@@ -9125,15 +8879,6 @@
 	dir = 1;
 	pixel_y = -22
 	},
-/obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel,
-/area/hallway/primary/central)
-"aqo" = (
-/obj/structure/chair{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
@@ -10193,18 +9938,6 @@
 	},
 /turf/open/floor/plasteel/neutral/corner,
 /area/maintenance/port/central)
-"asa" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/turf/open/floor/plasteel/neutral/corner{
-	dir = 1
-	},
-/area/maintenance/port/central)
 "asb" = (
 /obj/structure/cable/white{
 	icon_state = "2-8"
@@ -10296,27 +10029,6 @@
 	},
 /turf/open/floor/plasteel/neutral/corner,
 /area/maintenance/starboard/central)
-"asm" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plasteel/neutral/corner{
-	dir = 1
-	},
-/area/maintenance/starboard/central)
-"asn" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plasteel/neutral/corner,
-/area/maintenance/starboard/central)
 "aso" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -10336,23 +10048,20 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/central)
-"asq" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 10
-	},
-/obj/structure/cable/white{
-	icon_state = "2-8"
-	},
-/turf/open/floor/plasteel/neutral/corner,
-/area/maintenance/starboard/central)
 "asr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/loading_area{
 	dir = 4
 	},
+<<<<<<< HEAD
+=======
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/airalarm{
+	pixel_y = 24
+	},
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 /turf/open/floor/plasteel,
-/area/hallway/primary/central)
+/area/maintenance/starboard)
 "ass" = (
 /obj/machinery/mineral/mint,
 /obj/effect/decal/cleanable/dirt,
@@ -10362,12 +10071,29 @@
 	pixel_y = 32
 	},
 /turf/open/floor/plasteel,
-/area/hallway/primary/central)
+/area/maintenance/starboard)
 "ast" = (
+<<<<<<< HEAD
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/loading_area,
+=======
+/obj/effect/decal/cleanable/oil,
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/machinery/power/apc{
+	areastring = "/area/maintenance/starboard";
+	dir = 1;
+	name = "Starboard Maintenance APC";
+	pixel_y = 26
+	},
+/obj/structure/cable/white{
+	icon_state = "0-2"
+	},
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 /turf/open/floor/plasteel,
-/area/hallway/primary/central)
+/area/maintenance/starboard)
 "asu" = (
 /obj/structure/shuttle/engine/propulsion/burst,
 /obj/structure/window/reinforced{
@@ -10397,15 +10123,6 @@
 	},
 /turf/closed/wall/r_wall,
 /area/engine/atmos)
-"asy" = (
-/obj/machinery/atmospherics/pipe/simple/green/visible{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
-/area/engine/atmos)
 "asz" = (
 /obj/machinery/atmospherics/components/trinary/filter{
 	dir = 2;
@@ -10423,14 +10140,6 @@
 /turf/open/floor/plasteel/red/side{
 	dir = 9
 	},
-/area/engine/atmos)
-"asA" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
 /area/engine/atmos)
 "asB" = (
 /obj/effect/decal/cleanable/dirt,
@@ -10898,6 +10607,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "atr" = (
@@ -10929,12 +10639,13 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
+=======
+/obj/structure/cable/white{
+	icon_state = "4-8"
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 	},
-/obj/effect/landmark/xeno_spawn,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
-/area/hallway/primary/central)
+/area/maintenance/starboard)
 "atw" = (
 /obj/machinery/portable_atmospherics/canister/nitrogen,
 /obj/machinery/light/small{
@@ -10993,14 +10704,6 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/engine/atmos)
-"atD" = (
-/obj/machinery/atmospherics/pipe/simple/green/visible,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/engine/atmos)
 "atE" = (
 /obj/machinery/atmospherics/pipe/simple/green/visible{
 	dir = 5
@@ -11013,11 +10716,6 @@
 /obj/machinery/atmospherics/pipe/manifold/green/visible{
 	dir = 4
 	},
-/turf/open/floor/plasteel/neutral,
-/area/engine/atmos)
-"atG" = (
-/obj/machinery/atmospherics/pipe/simple/yellow/visible,
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/neutral,
 /area/engine/atmos)
 "atH" = (
@@ -11473,15 +11171,6 @@
 	dir = 4
 	},
 /turf/closed/wall/r_wall,
-/area/engine/atmos)
-"aus" = (
-/obj/machinery/atmospherics/pipe/manifold/general/visible{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
 /area/engine/atmos)
 "aut" = (
 /obj/machinery/atmospherics/pipe/simple/green/visible,
@@ -11986,9 +11675,17 @@
 /area/hallway/primary/central)
 "avv" = (
 /obj/machinery/shieldgen,
+<<<<<<< HEAD
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/hallway/primary/central)
+=======
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plasteel,
+/area/maintenance/starboard)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "avw" = (
 /obj/machinery/shieldgen,
 /obj/effect/decal/cleanable/dirt,
@@ -11996,7 +11693,7 @@
 	dir = 5
 	},
 /turf/open/floor/plasteel,
-/area/hallway/primary/central)
+/area/maintenance/starboard)
 "avx" = (
 /obj/structure/grille,
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
@@ -12188,6 +11885,10 @@
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
+	},
+/obj/machinery/airalarm{
+	dir = 1;
+	pixel_y = -22
 	},
 /turf/open/floor/plasteel,
 /area/maintenance/port/fore)
@@ -12579,7 +12280,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/hallway/primary/central)
+/area/maintenance/starboard)
 "awA" = (
 /turf/open/floor/engine/o2,
 /area/engine/atmos)
@@ -12870,16 +12571,22 @@
 	dir = 10
 	},
 /turf/open/floor/plasteel,
-/area/hallway/primary/central)
+/area/maintenance/starboard)
 "axg" = (
 /obj/structure/rack,
 /obj/item/crowbar/red,
 /obj/item/wrench,
+<<<<<<< HEAD
 /obj/item/tank/internals/emergency_oxygen/engi,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/hallway/primary/central)
+=======
+/obj/item/wirecutters,
+/turf/open/floor/plasteel,
+/area/maintenance/starboard)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "axh" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/machinery/light/small{
@@ -12921,11 +12628,6 @@
 /turf/open/floor/plasteel/blue/side{
 	dir = 8
 	},
-/area/engine/atmos)
-"axl" = (
-/obj/machinery/atmospherics/pipe/simple/cyan/visible,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/neutral,
 /area/engine/atmos)
 "axm" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/visible{
@@ -13182,13 +12884,6 @@
 	},
 /turf/open/floor/carpet,
 /area/crew_quarters/dorms)
-"axL" = (
-/obj/structure/cable/white{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/plasteel/neutral/corner,
-/area/maintenance/port/central)
 "axM" = (
 /obj/structure/table/wood,
 /obj/item/lipstick/random{
@@ -13284,14 +12979,6 @@
 	dir = 8
 	},
 /area/crew_quarters/bar/atrium)
-"axU" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/structure/cable/white{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel/neutral/corner,
-/area/maintenance/starboard/central)
 "axV" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/machinery/newscaster{
@@ -13573,15 +13260,6 @@
 /obj/item/bedsheet/red,
 /turf/open/floor/carpet,
 /area/crew_quarters/dorms)
-"ayD" = (
-/obj/structure/cable/white{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/plasteel/neutral/corner{
-	dir = 1
-	},
-/area/maintenance/port/central)
 "ayE" = (
 /obj/structure/table/wood,
 /obj/item/device/instrument/violin,
@@ -13898,13 +13576,6 @@
 /obj/machinery/atmospherics/pipe/simple/yellow/visible,
 /turf/open/floor/plasteel/neutral,
 /area/engine/atmos)
-"azn" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/turf/open/floor/plasteel/neutral,
-/area/engine/atmos)
 "azo" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -14200,8 +13871,13 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
+=======
+/turf/open/floor/plating,
+/area/maintenance/starboard/central)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "azT" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 4
@@ -14694,17 +14370,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/maintenance/starboard/central)
-"aAU" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/effect/turf_decal/delivery,
-/turf/open/floor/plasteel,
-/area/maintenance/starboard/central)
 "aAV" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -14828,11 +14493,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/turf/open/floor/plasteel,
-/area/hallway/secondary/exit)
-"aBi" = (
-/obj/structure/fans/tiny,
-/obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
 "aBj" = (
@@ -16910,39 +16570,12 @@
 /obj/effect/landmark/blobstart,
 /turf/open/floor/plating,
 /area/maintenance/starboard/central)
-"aFh" = (
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
-	dir = 8
-	},
-/obj/structure/cable/white{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel/neutral/corner{
-	dir = 4
-	},
-/area/hallway/primary/central)
 "aFi" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
-"aFj" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/public/glass{
-	name = "Departure Lounge"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/hallway/secondary/exit)
 "aFk" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -17244,14 +16877,6 @@
 	},
 /turf/open/floor/plasteel/neutral/corner,
 /area/hallway/primary/central)
-"aFM" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable/white{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/plasteel/neutral/corner,
-/area/maintenance/port/central)
 "aFN" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -26
@@ -17346,19 +16971,6 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
-"aFZ" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/public/glass{
-	name = "Departure Lounge"
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/hallway/secondary/exit)
 "aGa" = (
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/plasteel/neutral,
@@ -17644,16 +17256,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/port/central)
-"aGF" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/turf/open/floor/plasteel/neutral/corner,
-/area/maintenance/port/central)
 "aGG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable/white{
@@ -17678,7 +17280,10 @@
 	},
 /area/maintenance/port/central)
 "aGI" = (
+<<<<<<< HEAD
 /obj/effect/decal/cleanable/dirt,
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
@@ -17883,13 +17488,6 @@
 	dir = 1
 	},
 /area/engine/gravity_generator)
-"aHf" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/bot_white,
-/turf/open/floor/plasteel/vault{
-	dir = 8
-	},
-/area/engine/gravity_generator)
 "aHg" = (
 /obj/machinery/camera{
 	c_tag = "Gravity Generator Room";
@@ -18063,18 +17661,6 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
-"aHs" = (
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/turf/open/floor/plasteel/caution{
-	dir = 1
-	},
 /area/engine/engineering)
 "aHt" = (
 /obj/structure/cable/white{
@@ -18273,18 +17859,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/maintenance/port/central)
-"aHG" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 2
-	},
-/turf/open/floor/plasteel,
-/area/maintenance/port/central)
 "aHH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -18314,19 +17888,6 @@
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 2
-	},
-/turf/open/floor/plasteel,
-/area/maintenance/port/central)
-"aHJ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
 	},
 /turf/open/floor/plasteel,
 /area/maintenance/port/central)
@@ -18452,13 +18013,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/crew_quarters/kitchen)
-"aHX" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/structure/cable/white{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel/neutral/corner,
-/area/maintenance/starboard/central)
 "aHY" = (
 /obj/structure/table,
 /obj/item/paper_bin,
@@ -19228,29 +18782,11 @@
 /obj/machinery/atmospherics/pipe/simple/green/visible,
 /turf/closed/wall/r_wall,
 /area/engine/supermatter)
-"aJv" = (
-/obj/machinery/door/airlock/atmos/glass{
-	name = "Supermatter Chamber";
-	req_access_txt = "24"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/engine,
-/area/engine/supermatter)
 "aJw" = (
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 1;
 	name = "External Gas to Loop"
 	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/delivery,
-/turf/open/floor/plasteel,
-/area/engine/engineering)
-"aJx" = (
-/obj/machinery/atmospherics/components/binary/pump{
-	dir = 1;
-	name = "External Gas to Loop"
-	},
-/obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
@@ -19689,10 +19225,6 @@
 "aKq" = (
 /turf/open/floor/plasteel/vault,
 /area/engine/gravity_generator)
-"aKr" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/vault,
-/area/engine/gravity_generator)
 "aKs" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/command/glass{
@@ -19826,11 +19358,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine,
 /area/engine/supermatter)
-"aKB" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/engine,
-/area/engine/supermatter)
 "aKC" = (
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 2;
@@ -19850,16 +19377,6 @@
 	},
 /obj/machinery/portable_atmospherics/canister/nitrogen,
 /obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel,
-/area/engine/engineering)
-"aKF" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/cyan/visible,
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "aKG" = (
@@ -20223,25 +19740,6 @@
 /turf/open/floor/plasteel/brown{
 	dir = 5
 	},
-/area/hallway/secondary/exit)
-"aLu" = (
-/obj/structure/fans/tiny,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/delivery,
-/turf/open/floor/plasteel,
-/area/hallway/secondary/exit)
-"aLv" = (
-/obj/machinery/door/airlock/external{
-	name = "External Docking Port"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
 "aLw" = (
 /obj/effect/turf_decal/stripes/line{
@@ -20712,38 +20210,6 @@
 	},
 /turf/open/floor/plasteel/redyellow,
 /area/crew_quarters/bar/atrium)
-"aMv" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/maintenance_hatch{
-	name = "Maintenance Hatch";
-	req_access_txt = "12"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/maintenance/starboard/central)
-"aMw" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/effect/turf_decal/delivery,
-/turf/open/floor/plasteel,
-/area/maintenance/starboard/central)
 "aMx" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 10
@@ -20928,20 +20394,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
-"aMQ" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "engsm";
-	name = "Radiation Chamber Shutters"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/engine/supermatter)
 "aMR" = (
 /obj/machinery/camera{
 	c_tag = "Supermatter Chamber";
@@ -21000,20 +20452,6 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/engine,
-/area/engine/supermatter)
-"aMY" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "engsm";
-	name = "Radiation Chamber Shutters"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/turf/open/floor/plating,
 /area/engine/supermatter)
 "aMZ" = (
 /obj/structure/cable{
@@ -21338,7 +20776,10 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/central)
 "aNC" = (
+<<<<<<< HEAD
 /obj/effect/decal/cleanable/dirt,
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
@@ -21618,19 +21059,6 @@
 	},
 /turf/open/floor/plating,
 /area/engine/supermatter)
-"aOc" = (
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/cyan/visible,
-/turf/open/floor/plasteel,
-/area/engine/engineering)
 "aOd" = (
 /obj/machinery/power/apc{
 	dir = 4;
@@ -21666,23 +21094,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/janitor)
-"aOg" = (
-/obj/machinery/door/airlock/maintenance_hatch{
-	name = "Maintenance Hatch";
-	req_access_txt = "12"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/structure/cable/white{
-	icon_state = "1-2"
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 2
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/maintenance/port/central)
 "aOh" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -21927,28 +21338,6 @@
 	},
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/plating,
-/area/maintenance/port)
-"aOJ" = (
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/turf/open/floor/plasteel/neutral/corner,
-/area/maintenance/port)
-"aOK" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
 /area/maintenance/port)
 "aOL" = (
 /obj/structure/cable/white{
@@ -22475,7 +21864,7 @@
 "aPz" = (
 /obj/effect/spawner/structure/window/reinforced/tinted,
 /turf/open/floor/plating,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aPA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood,
@@ -22484,7 +21873,7 @@
 /obj/item/grenade/smokebomb,
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/plating,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aPB" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
 /obj/item/clothing/suit/jacket{
@@ -22505,11 +21894,11 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aPC" = (
 /obj/structure/dresser,
 /turf/open/floor/wood,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aPD" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/shuttle/escape)
@@ -22518,15 +21907,6 @@
 	dir = 1
 	},
 /obj/structure/shuttle/engine/heater,
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating/airless,
-/area/shuttle/escape)
-"aPF" = (
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/structure/shuttle/engine/heater,
-/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating/airless,
 /area/shuttle/escape)
@@ -22977,7 +22357,7 @@
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aQC" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/office/dark{
@@ -22986,7 +22366,7 @@
 /obj/effect/landmark/revenantspawn,
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/wood,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aQD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/xeno_spawn,
@@ -22994,7 +22374,7 @@
 /turf/open/floor/wood{
 	icon_state = "wood-broken"
 	},
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aQE" = (
 /obj/structure/shuttle/engine/propulsion,
 /obj/effect/turf_decal/stripes/line,
@@ -23090,16 +22470,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
-"aQQ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/orange/visible{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/engine/engineering)
 "aQR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line{
@@ -23131,15 +22501,6 @@
 "aQU" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/closed/wall/r_wall,
-/area/maintenance/port)
-"aQV" = (
-/obj/structure/cable/white{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/plasteel/neutral/corner{
-	dir = 1
-	},
 /area/maintenance/port)
 "aQW" = (
 /turf/closed/wall,
@@ -23244,14 +22605,6 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/medical/chemistry)
-"aRj" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "chemisttop";
-	name = "Chemistry Lobby Shutters"
-	},
-/turf/open/floor/plating,
-/area/medical/chemistry)
 "aRk" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/machinery/camera{
@@ -23344,12 +22697,17 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "aRy" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aRz" = (
 /turf/closed/wall,
 /area/maintenance/starboard)
@@ -23369,7 +22727,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aRB" = (
 /turf/open/floor/plasteel/vault/telecomms{
 	dir = 5
@@ -23531,7 +22889,10 @@
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "aRS" = (
+<<<<<<< HEAD
 /obj/effect/decal/cleanable/dirt,
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
@@ -23856,13 +23217,13 @@
 	dir = 10
 	},
 /turf/open/floor/plasteel,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aSF" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aSG" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/effect/decal/cleanable/dirt,
@@ -23870,7 +23231,7 @@
 	dir = 6
 	},
 /turf/open/floor/plasteel,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aSH" = (
 /obj/structure/sign/poster/contraband/random,
 /turf/closed/wall,
@@ -23886,14 +23247,14 @@
 	},
 /obj/item/newspaper,
 /turf/open/floor/plating,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aSJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/wood{
 	icon_state = "wood-broken2"
 	},
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aSK" = (
 /obj/structure/table/wood,
 /obj/item/storage/fancy/cigarettes/cigpack_uplift{
@@ -23904,7 +23265,7 @@
 	},
 /obj/item/lighter,
 /turf/open/floor/plating,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aSM" = (
 /obj/machinery/door/airlock/command{
 	cyclelinkeddir = 2;
@@ -23943,11 +23304,6 @@
 	dir = 10
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
-"aSQ" = (
-/obj/machinery/atmospherics/pipe/simple/general/visible,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/caution,
 /area/engine/engineering)
 "aSR" = (
 /obj/structure/table/reinforced,
@@ -24208,23 +23564,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/medical/chemistry)
-"aTv" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/firedoor,
-/obj/item/paper_bin,
-/obj/item/pen,
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "chemistbot";
-	name = "Chemistry Privacy Shutters"
-	},
-/obj/machinery/door/window/southleft{
-	dir = 8;
-	name = "Chemistry Desk";
-	req_access_txt = "5; 33"
-	},
-/obj/effect/turf_decal/delivery,
-/turf/open/floor/plasteel,
-/area/medical/chemistry)
 "aTw" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/blue/corner{
@@ -24394,23 +23733,7 @@
 /turf/open/floor/plasteel/neutral/corner{
 	dir = 1
 	},
-/area/maintenance/starboard)
-"aTQ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aTR" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -24429,9 +23752,17 @@
 	icon_state = "4-8"
 	},
 /obj/effect/landmark/blobstart,
+<<<<<<< HEAD
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plating{
+	burnt = 1;
+	icon_state = "panelscorched"
+	},
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "aTT" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 10
@@ -24439,9 +23770,17 @@
 /obj/structure/cable/white{
 	icon_state = "2-8"
 	},
+<<<<<<< HEAD
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plating{
+	burnt = 1;
+	icon_state = "panelscorched"
+	},
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "aTU" = (
 /obj/structure/table/wood,
 /obj/item/poster/random_contraband{
@@ -24454,20 +23793,20 @@
 	},
 /obj/item/poster/random_contraband,
 /turf/open/floor/plating,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aTV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/wood{
 	icon_state = "wood-broken7"
 	},
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aTW" = (
 /obj/structure/chair/comfy/black{
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aTX" = (
 /obj/machinery/light{
 	dir = 8
@@ -24796,8 +24135,16 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/neutral/corner,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plating{
+	broken = 1;
+	icon_state = "platingdmg3"
+	},
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "aUL" = (
 /obj/structure/table/wood,
 /obj/item/electronics/firelock,
@@ -24806,13 +24153,13 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aUM" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aUN" = (
 /obj/structure/chair/comfy/brown{
 	dir = 4
@@ -24824,7 +24171,7 @@
 /turf/open/floor/wood{
 	icon_state = "wood-broken5"
 	},
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aUO" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -25026,12 +24373,6 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/medical/chemistry)
-"aVk" = (
-/obj/effect/landmark/start/chemist,
-/turf/open/floor/plasteel/whiteyellow/corner{
-	dir = 8
-	},
-/area/medical/chemistry)
 "aVl" = (
 /turf/open/floor/plasteel/whiteyellow/corner{
 	dir = 8
@@ -25202,9 +24543,14 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
+<<<<<<< HEAD
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "aVG" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Maintenance Hatch";
@@ -25220,8 +24566,13 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "aVH" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -25229,17 +24580,17 @@
 /turf/open/floor/wood{
 	icon_state = "wood-broken"
 	},
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aVI" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 9
 	},
 /turf/open/floor/wood,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aVJ" = (
 /obj/machinery/vending/cigarette,
 /turf/open/floor/plating,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aVK" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 6
@@ -25590,14 +24941,6 @@
 	},
 /turf/open/floor/circuit/green/telecomms/mainframe,
 /area/science/research)
-"aWv" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/structure/cable/white{
-	icon_state = "1-2"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/neutral/corner,
-/area/maintenance/starboard)
 "aWw" = (
 /obj/structure/table/wood,
 /obj/item/clipboard,
@@ -25605,7 +24948,7 @@
 /obj/item/electronics/airlock,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aWx" = (
 /obj/structure/table/wood,
 /obj/item/stack/cable_coil/white,
@@ -25615,14 +24958,14 @@
 /obj/item/circuitboard/machine/microwave,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aWy" = (
 /obj/structure/table/wood,
 /obj/item/storage/briefcase,
 /obj/item/device/taperecorder,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "aWz" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple,
 /obj/structure/lattice,
@@ -25909,13 +25252,6 @@
 /area/ruin/unpowered{
 	name = "Asteroid"
 	})
-"aXd" = (
-/obj/structure/cable/white{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/plasteel/neutral/corner,
-/area/maintenance/port)
 "aXe" = (
 /obj/structure/table/wood,
 /obj/machinery/computer/libraryconsole/bookmanagement,
@@ -26651,8 +25987,13 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "aYv" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 10
@@ -26660,10 +26001,15 @@
 /obj/structure/cable/white{
 	icon_state = "2-8"
 	},
+<<<<<<< HEAD
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "aYw" = (
 /obj/structure/destructible/cult/tome,
 /obj/item/book/codex_gigas,
@@ -26717,18 +26063,6 @@
 	dir = 1
 	},
 /area/maintenance/port)
-"aYB" = (
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 10
-	},
-/turf/open/floor/plasteel,
-/area/maintenance/port)
 "aYC" = (
 /obj/structure/cable/white{
 	icon_state = "4-8"
@@ -26737,17 +26071,6 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/delivery,
-/turf/open/floor/plasteel,
-/area/maintenance/port)
-"aYD" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/maintenance/port)
 "aYE" = (
@@ -27025,14 +26348,6 @@
 	},
 /turf/closed/wall/r_wall,
 /area/science/robotics/lab)
-"aZn" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/structure/cable/white{
-	icon_state = "1-2"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/maintenance/starboard)
 "aZo" = (
 /obj/structure/girder,
 /turf/open/floor/plating,
@@ -27074,17 +26389,6 @@
 /obj/structure/sign/poster/contraband/random,
 /turf/closed/wall,
 /area/maintenance/port)
-"aZt" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable/white{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/maintenance/port)
 "aZu" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
@@ -27124,16 +26428,6 @@
 	},
 /turf/open/floor/plasteel/grimy,
 /area/library)
-"aZx" = (
-/obj/structure/cable/white{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/plasteel/neutral/corner{
-	dir = 8;
-	heat_capacity = 1e+006
-	},
-/area/maintenance/port)
 "aZy" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 6
@@ -27487,13 +26781,6 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel,
-/area/science/robotics/lab)
-"bae" = (
-/obj/machinery/mecha_part_fabricator,
-/obj/effect/turf_decal/stripes/end{
-	dir = 1
-	},
 /turf/open/floor/plasteel,
 /area/science/robotics/lab)
 "baf" = (
@@ -28000,15 +27287,6 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/science/robotics/lab)
-"bbb" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/structure/cable/white{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel/neutral/corner{
-	dir = 1
-	},
-/area/maintenance/starboard)
 "bbc" = (
 /obj/structure/table/wood,
 /obj/item/device/flashlight/lamp,
@@ -28056,18 +27334,6 @@
 /obj/effect/landmark/blobstart,
 /turf/open/floor/plating,
 /area/maintenance/port)
-"bbi" = (
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 9
-	},
-/turf/open/floor/plasteel,
-/area/maintenance/port)
 "bbj" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable/white{
@@ -28114,23 +27380,6 @@
 /turf/open/floor/plasteel/vault{
 	dir = 4
 	},
-/area/maintenance/port)
-"bbo" = (
-/obj/machinery/door/airlock/maintenance_hatch{
-	name = "Maintenance Hatch";
-	req_access_txt = "12"
-	},
-/obj/structure/cable/white{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/effect/turf_decal/stripes/line{
-	dir = 2
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
 /area/maintenance/port)
 "bbp" = (
 /obj/machinery/light{
@@ -28415,7 +27664,7 @@
 /obj/effect/landmark/blobstart,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "bbQ" = (
 /turf/open/floor/wood{
 	icon_state = "wood-broken5"
@@ -28434,25 +27683,6 @@
 	dir = 5
 	},
 /turf/closed/wall,
-/area/maintenance/port)
-"bbU" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/wooden,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/maintenance_hatch{
-	name = "Maintenance Hatch";
-	req_access_txt = "12"
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 2
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
 /area/maintenance/port)
 "bbV" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -28763,7 +27993,7 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "bcE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
@@ -28771,7 +28001,7 @@
 	dir = 5
 	},
 /turf/open/floor/plasteel,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "bcF" = (
 /obj/machinery/computer/slot_machine,
 /obj/effect/decal/cleanable/dirt,
@@ -28835,10 +28065,6 @@
 /turf/open/floor/plasteel/bar,
 /area/maintenance/port)
 "bcP" = (
-/turf/open/floor/plasteel/bar,
-/area/maintenance/port)
-"bcQ" = (
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/bar,
 /area/maintenance/port)
 "bcR" = (
@@ -29210,10 +28436,15 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 8
 	},
+<<<<<<< HEAD
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "bdA" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Maintenance Hatch";
@@ -29228,8 +28459,13 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "bdB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -29238,8 +28474,16 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
 	},
+<<<<<<< HEAD
 /turf/open/floor/plating,
 /area/maintenance/starboard)
+=======
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "bdC" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -29249,7 +28493,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "bdD" = (
 /obj/structure/table/wood,
 /obj/item/storage/briefcase,
@@ -29687,8 +28931,16 @@
 /obj/item/tank/internals/emergency_oxygen/engi,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/maintenance,
+<<<<<<< HEAD
 /turf/open/floor/plating,
 /area/maintenance/starboard)
+=======
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plasteel,
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "bet" = (
 /obj/structure/rack,
 /obj/item/stack/sheet/metal{
@@ -29703,7 +28955,7 @@
 	dir = 6
 	},
 /turf/open/floor/plasteel,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "beu" = (
 /obj/structure/table/wood,
 /obj/item/storage/pill_bottle,
@@ -29799,19 +29051,6 @@
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/maintenance/port)
-"beD" = (
-/obj/structure/cable/white{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/effect/turf_decal/stripes/line{
-	dir = 2
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
 /area/maintenance/port)
 "beE" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -29986,26 +29225,6 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/maintenance/port)
-"beT" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/turf/open/floor/plasteel/neutral/corner,
-/area/maintenance/port)
-"beU" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/maintenance/port)
 "beV" = (
 /obj/structure/cable/white{
 	icon_state = "4-8"
@@ -30021,31 +29240,6 @@
 	},
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
-/area/maintenance/port)
-"beW" = (
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/neutral/corner{
-	dir = 4
-	},
-/area/maintenance/port)
-"beY" = (
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/neutral/corner{
-	dir = 4
-	},
 /area/maintenance/port)
 "beZ" = (
 /obj/structure/cable/white{
@@ -30083,16 +29277,6 @@
 /turf/open/floor/plasteel/neutral/corner{
 	dir = 4
 	},
-/area/maintenance/port)
-"bfc" = (
-/obj/structure/cable/white{
-	icon_state = "2-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 10
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/neutral/corner,
 /area/maintenance/port)
 "bfd" = (
 /obj/effect/decal/cleanable/dirt,
@@ -30140,46 +29324,6 @@
 	},
 /turf/open/floor/plasteel/purple/corner,
 /area/hallway/primary/central)
-"bfi" = (
-/obj/machinery/door/airlock/maintenance_hatch{
-	name = "Maintenance Hatch";
-	req_access_txt = "12"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/maintenance/starboard)
-"bfj" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/delivery,
-/turf/open/floor/plasteel,
-/area/maintenance/starboard)
-"bfk" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/effect/landmark/blobstart,
-/turf/open/floor/plating,
-/area/maintenance/starboard)
 "bfl" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -30190,7 +29334,7 @@
 	},
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "bfm" = (
 /obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,
 /obj/structure/cable/white{
@@ -30208,7 +29352,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "bfn" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /obj/structure/cable/white{
@@ -30220,11 +29364,16 @@
 /obj/structure/cable/white{
 	icon_state = "1-4"
 	},
+<<<<<<< HEAD
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "bfo" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -30232,8 +29381,18 @@
 /obj/structure/cable/white{
 	icon_state = "4-8"
 	},
+<<<<<<< HEAD
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/neutral/corner,
+=======
+/obj/structure/cable/white{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plating{
+	burnt = 1;
+	icon_state = "panelscorched"
+	},
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 /area/maintenance/starboard)
 "bfp" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -30244,16 +29403,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard)
-"bfq" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/maintenance/starboard)
 "bfr" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /obj/structure/cable/white{
@@ -30262,10 +29411,15 @@
 /obj/structure/cable/white{
 	icon_state = "4-8"
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/neutral/corner{
 	dir = 1
 	},
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "bfs" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 10
@@ -30273,24 +29427,32 @@
 /obj/structure/cable/white{
 	icon_state = "4-8"
 	},
+<<<<<<< HEAD
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plating{
+	broken = 1;
+	icon_state = "platingdmg2"
+	},
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "bft" = (
 /obj/structure/cable/white{
 	icon_state = "0-8"
 	},
 /obj/machinery/power/apc{
+	areastring = "/area/maintenance/starboard/aft";
 	dir = 2;
-	name = "Starboard Maintenance APC";
-	areastring = "/area/maintenance/starboard";
+	name = "Starboard Quater Maintenance APC";
 	pixel_y = -26
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "bfu" = (
 /turf/closed/wall,
 /area/chapel/main)
@@ -30478,25 +29640,6 @@
 	},
 /obj/structure/cable/white{
 	icon_state = "1-4"
-	},
-/turf/open/floor/plasteel/neutral,
-/area/hallway/primary/central)
-"bfM" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/machinery/power/apc{
-	aidisabled = 0;
-	dir = 1;
-	name = "Central Hall APC";
-	areastring = "/area/hallway/primary/central";
-	pixel_y = 24
-	},
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/structure/cable/white{
-	icon_state = "0-8"
 	},
 /turf/open/floor/plasteel/neutral,
 /area/hallway/primary/central)
@@ -30811,43 +29954,76 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/reagent_containers/food/snacks/grown/tomato,
 /obj/effect/decal/cleanable/cobweb,
+<<<<<<< HEAD
 /turf/open/floor/plating,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plasteel/vault/side,
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "bgv" = (
 /obj/machinery/biogenerator,
 /obj/item/wrench,
 /obj/effect/turf_decal/delivery,
+<<<<<<< HEAD
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plasteel/vault/side,
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "bgw" = (
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-22"
 	},
+<<<<<<< HEAD
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/obj/machinery/airalarm{
+	pixel_y = 24
+	},
+/turf/open/floor/plasteel/vault/side,
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "bgx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
+<<<<<<< HEAD
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "bgy" = (
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
 	pixel_x = -3;
 	pixel_y = 3
 	},
+<<<<<<< HEAD
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plasteel/vault/side,
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "bgz" = (
 /obj/machinery/seed_extractor,
 /obj/item/reagent_containers/glass/bucket,
 /obj/effect/turf_decal/delivery,
+<<<<<<< HEAD
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plasteel/vault/side,
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "bgA" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/poppy,
@@ -30855,8 +30031,13 @@
 /obj/item/reagent_containers/food/snacks/grown/cherries,
 /obj/item/shovel/spade,
 /obj/effect/turf_decal/delivery,
+<<<<<<< HEAD
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plasteel/vault/side,
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "bgB" = (
 /obj/structure/mirror{
 	pixel_x = 26
@@ -31223,15 +30404,16 @@
 /obj/structure/sign/nosmoking_2{
 	pixel_x = -32
 	},
+<<<<<<< HEAD
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "bhk" = (
 /turf/open/floor/plasteel/hydrofloor,
-/area/maintenance/starboard)
-"bhl" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
 /area/maintenance/starboard)
 "bhm" = (
 /obj/effect/decal/cleanable/dirt,
@@ -31240,7 +30422,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "bhn" = (
 /obj/structure/sink{
 	dir = 4;
@@ -31249,9 +30431,14 @@
 /obj/structure/sign/botany{
 	pixel_x = 32
 	},
+<<<<<<< HEAD
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "bho" = (
 /obj/machinery/door/airlock/silver{
 	name = "Bathroom"
@@ -31540,8 +30727,15 @@
 /obj/item/reagent_containers/food/snacks/grown/watermelon,
 /obj/item/cultivator,
 /obj/effect/turf_decal/delivery,
+<<<<<<< HEAD
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "bhU" = (
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
@@ -31550,36 +30744,69 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/delivery,
+<<<<<<< HEAD
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "bhV" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/reagent_containers/food/snacks/grown/wheat,
 /obj/item/reagent_containers/glass/bottle/nutrient/ez,
 /obj/effect/turf_decal/delivery,
+<<<<<<< HEAD
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "bhW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small,
+<<<<<<< HEAD
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "bhX" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/reagent_containers/food/snacks/grown/tea,
 /obj/item/hatchet,
 /obj/effect/turf_decal/delivery,
+<<<<<<< HEAD
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "bhY" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/tower,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/reagent_containers/glass/bottle/nutrient/rh,
 /obj/effect/turf_decal/delivery,
+<<<<<<< HEAD
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "bhZ" = (
 /obj/structure/closet/wardrobe/chaplain_black,
 /obj/machinery/light_switch{
@@ -32777,19 +32004,6 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/shuttle/arrival)
-"bkh" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/external{
-	name = "External Docking Port"
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/hallway/secondary/entry)
 "bki" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/fans/tiny,
@@ -33489,15 +32703,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
-"blN" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/item/twohanded/required/kirbyplants{
-	icon_state = "plant-22"
-	},
-/turf/open/floor/plasteel,
-/area/hallway/secondary/exit)
 "blO" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -33507,18 +32712,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
-"blU" = (
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
-	dir = 1
-	},
-/obj/item/twohanded/required/kirbyplants{
-	icon_state = "plant-21"
-	},
-/turf/open/floor/plasteel,
-/area/hallway/secondary/exit)
-"blX" = (
-/turf/open/floor/plasteel,
-/area/hallway/primary/central)
 "blY" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Departure Lounge"
@@ -33544,12 +32737,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
-"bmw" = (
-/obj/item/twohanded/required/kirbyplants{
-	icon_state = "plant-21"
-	},
-/turf/open/floor/plasteel,
-/area/hallway/secondary/exit)
 "bmC" = (
 /obj/machinery/light{
 	dir = 8
@@ -33557,8 +32744,17 @@
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
 "bmG" = (
+<<<<<<< HEAD
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-22"
+=======
+/obj/effect/turf_decal/bot,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 4
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
@@ -33696,25 +32892,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
-"bsN" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/public/glass{
-	name = "Departure Lounge"
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/hallway/secondary/exit)
 "bsO" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -33799,6 +32976,12 @@
 /obj/structure/cable/white{
 	icon_state = "1-4"
 	},
+<<<<<<< HEAD
+=======
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 9
+	},
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
 "bsZ" = (
@@ -33860,7 +33043,7 @@
 /obj/structure/window/reinforced/tinted/fulltile,
 /obj/structure/grille,
 /turf/open/floor/plating,
-/area/maintenance/starboard)
+/area/maintenance/starboard/aft)
 "btj" = (
 /obj/docking_port/mobile/arrivals{
 	dir = 2;
@@ -34045,13 +33228,6 @@
 "buW" = (
 /turf/closed/wall/r_wall,
 /area/engine/supermatter)
-"buZ" = (
-/obj/machinery/power/rad_collector/anchored,
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/turf/open/floor/circuit/green,
-/area/engine/supermatter)
 "bvd" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /turf/open/floor/plating,
@@ -34062,11 +33238,23 @@
 	name = "Asteroid"
 	})
 "bvh" = (
+<<<<<<< HEAD
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/airless/astplate,
 /area/ruin/unpowered{
 	name = "Asteroid"
 	})
+=======
+/obj/structure/closet/emcloset{
+	anchored = 1
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel,
+/area/maintenance/starboard)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "bvo" = (
 /obj/structure/girder,
 /turf/open/floor/plating/airless,
@@ -34510,14 +33698,6 @@
 	dir = 1
 	},
 /area/medical/medbay/zone3)
-"bxU" = (
-/obj/structure/cable/white{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/effect/landmark/event_spawn,
-/turf/open/floor/plasteel/neutral/corner,
-/area/maintenance/port)
 "bxV" = (
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/circuit,
@@ -34536,8 +33716,16 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/event_spawn,
+<<<<<<< HEAD
 /turf/open/floor/plating,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plating{
+	burnt = 1;
+	icon_state = "panelscorched"
+	},
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 "bxY" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -34646,19 +33834,6 @@
 /obj/structure/sign/nanotrasen,
 /turf/closed/wall,
 /area/security/checkpoint)
-"swr" = (
-/obj/docking_port/stationary{
-	dheight = 9;
-	dir = 2;
-	dwidth = 5;
-	height = 24;
-	id = "syndicate_nw";
-	name = "northwest of station";
-	turf_type = /turf/open/space;
-	width = 18
-	},
-/turf/open/space/basic,
-/area/space/nearstation)
 "sws" = (
 /obj/docking_port/stationary{
 	dheight = 1;
@@ -34672,6 +33847,7 @@
 	},
 /turf/open/space,
 /area/space/nearstation)
+<<<<<<< HEAD
 "swt" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -34683,6 +33859,2469 @@
 /obj/machinery/rnd/protolathe/department/medical,
 /turf/closed/wall,
 /area/medical/medbay/zone3)
+=======
+"swv" = (
+/turf/closed/wall/r_wall/rust,
+/area/bridge)
+"swx" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/white{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 9
+	},
+/area/bridge)
+"swy" = (
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/bridge)
+"swz" = (
+/turf/closed/wall/r_wall/rust,
+/area/crew_quarters/heads/hop)
+"swA" = (
+/turf/closed/wall/rust,
+/area/maintenance/starboard/fore)
+"swC" = (
+/turf/closed/wall/r_wall/rust,
+/area/crew_quarters/heads/captain/private)
+"swD" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/bridge)
+"swF" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall/rust,
+/area/ruin/unpowered{
+	name = "Asteroid"
+	})
+"swG" = (
+/turf/closed/wall/rust,
+/area/security/detectives_office)
+"swJ" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 4
+	},
+/area/bridge)
+"swK" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/bridge)
+"swL" = (
+/turf/closed/wall/rust,
+/area/quartermaster/storage)
+"swM" = (
+/obj/machinery/status_display{
+	name = "cargo display";
+	supply_display = 1
+	},
+/turf/closed/wall/rust,
+/area/quartermaster/storage)
+"swN" = (
+/turf/closed/wall/rust,
+/area/ruin/unpowered{
+	name = "Asteroid"
+	})
+"swZ" = (
+/turf/closed/wall/r_wall/rust,
+/area/security/brig)
+"sxc" = (
+/turf/closed/wall/r_wall/rust,
+/area/ruin/unpowered{
+	name = "Asteroid"
+	})
+"sxC" = (
+/turf/closed/wall/r_wall/rust,
+/area/ai_monitored/turret_protected/ai)
+"syC" = (
+/turf/closed/wall/r_wall/rust,
+/area/teleporter)
+"syD" = (
+/turf/closed/wall/rust,
+/area/quartermaster/miningdock)
+"syS" = (
+/turf/closed/wall/rust,
+/area/hallway/primary/central)
+"syT" = (
+/turf/closed/wall/r_wall/rust,
+/area/ai_monitored/storage/eva)
+"sAc" = (
+/turf/closed/wall/rust,
+/area/storage/primary)
+"sAx" = (
+/turf/closed/wall/r_wall/rust,
+/area/engine/atmos)
+"sAy" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/r_wall/rust,
+/area/engine/atmos)
+"sAz" = (
+/turf/closed/wall/r_wall/rust,
+/area/storage/primary)
+"sAA" = (
+/turf/closed/wall/rust,
+/area/crew_quarters/bar/atrium)
+"sAX" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating{
+	broken = 1;
+	icon_state = "platingdmg1"
+	},
+/area/maintenance/starboard/central)
+"sAY" = (
+/turf/open/floor/plating{
+	burnt = 1;
+	icon_state = "panelscorched"
+	},
+/area/maintenance/starboard)
+"sBu" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/r_wall/rust,
+/area/security/brig)
+"sBv" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/rust,
+/area/crew_quarters/theatre)
+"sBw" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/rust,
+/area/crew_quarters/bar/atrium)
+"sBx" = (
+/obj/effect/landmark/xeno_spawn,
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"sBy" = (
+/obj/machinery/door/airlock/external{
+	name = "External Airlock";
+	req_access_txt = "13"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel,
+/area/maintenance/starboard)
+"sBW" = (
+/obj/structure/sign/vacuum,
+/turf/closed/wall/rust,
+/area/maintenance/starboard)
+"sCr" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plating{
+	broken = 1;
+	icon_state = "platingdmg2"
+	},
+/area/maintenance/port/central)
+"sCt" = (
+/obj/structure/easel,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/maintenance/starboard)
+"sCQ" = (
+/obj/structure/closet/crate{
+	icon_state = "crateopen";
+	opened = 1
+	},
+/obj/effect/spawner/lootdrop/maintenance{
+	lootcount = 2;
+	name = "2maintenance loot spawner"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/sign/poster/contraband/random{
+	pixel_x = 32
+	},
+/obj/item/storage/box,
+/turf/open/floor/plasteel,
+/area/maintenance/starboard)
+"sDl" = (
+/turf/closed/wall/rust,
+/area/crew_quarters/dorms)
+"sDn" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/wood,
+/area/crew_quarters/theatre)
+"sDq" = (
+/obj/structure/rack,
+/obj/effect/spawner/lootdrop/maintenance,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/item/tank/internals/air,
+/obj/item/clothing/mask/gas,
+/turf/open/floor/plasteel,
+/area/maintenance/starboard)
+"sDK" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/rust,
+/area/crew_quarters/theatre)
+"sDM" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/rust,
+/area/crew_quarters/bar/atrium)
+"sDP" = (
+/turf/closed/wall/rust,
+/area/hallway/secondary/exit)
+"sEl" = (
+/obj/effect/decal/cleanable/cobweb,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 6
+	},
+/obj/structure/cable/white{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"sEm" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+/obj/structure/cable/white{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"sEn" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"sEJ" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/plasteel/neutral/corner,
+/area/hallway/primary/central)
+"sEK" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Maintenance Hatch";
+	req_access_txt = "12"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"sEL" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"sEN" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/engineering{
+	name = "Technology Storage";
+	req_access_txt = "23"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 2
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault,
+/area/maintenance/starboard)
+"sEQ" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall,
+/area/maintenance/starboard)
+"sFn" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/rack,
+/obj/item/circuitboard/computer/cloning{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/circuitboard/machine/clonepod,
+/obj/item/circuitboard/machine/clonescanner,
+/obj/item/circuitboard/computer/med_data{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 4
+	},
+/area/maintenance/starboard)
+"sFo" = (
+/turf/open/floor/plasteel/vault/side{
+	dir = 9
+	},
+/area/maintenance/starboard)
+"sFp" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 5
+	},
+/area/maintenance/starboard)
+"sFq" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/table,
+/obj/item/clipboard,
+/obj/item/crowbar/red,
+/obj/item/device/aicard,
+/obj/item/device/analyzer,
+/obj/item/device/assembly/flash/handheld,
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/maintenance/starboard)
+"sFs" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating,
+/area/hallway/secondary/exit)
+"sFO" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plating{
+	broken = 1;
+	icon_state = "platingdmg1"
+	},
+/area/maintenance/port/central)
+"sFP" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/open/floor/wood,
+/area/crew_quarters/theatre)
+"sFR" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/rack,
+/obj/item/circuitboard/machine/autolathe{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/circuitboard/machine/microwave,
+/obj/item/circuitboard/computer/secure_data{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 4
+	},
+/area/maintenance/starboard)
+"sFS" = (
+/turf/open/floor/plasteel/vault/side{
+	dir = 10
+	},
+/area/maintenance/starboard)
+"sFT" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/plasteel/vault/side{
+	dir = 6
+	},
+/area/maintenance/starboard)
+"sFU" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/rack,
+/obj/item/clothing/gloves/color/yellow,
+/obj/item/storage/toolbox/electrical,
+/obj/item/electronics/apc,
+/obj/item/electronics/airlock,
+/obj/item/stock_parts/cell/high,
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/maintenance/starboard)
+"sFX" = (
+/obj/structure/table,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/item/clothing/suit/hazardvest{
+	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
+	name = "emergency lifejacket"
+	},
+/obj/item/clothing/suit/hazardvest{
+	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
+	name = "emergency lifejacket"
+	},
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/mask/breath,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/hallway/secondary/exit)
+"sFY" = (
+/obj/structure/table,
+/obj/effect/turf_decal/stripes/line,
+/obj/item/crowbar,
+/obj/item/crowbar,
+/obj/item/tank/internals/emergency_oxygen,
+/obj/item/tank/internals/emergency_oxygen,
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/hallway/secondary/exit)
+"sGy" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/engineering{
+	name = "Technology Storage";
+	req_access_txt = "23"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 2
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/vault,
+/area/maintenance/starboard)
+"sGA" = (
+/obj/structure/cable/white{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 6
+	},
+/turf/open/floor/plating{
+	burnt = 1;
+	icon_state = "panelscorched"
+	},
+/area/maintenance/starboard)
+"sGC" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/escape{
+	dir = 8
+	},
+/area/hallway/secondary/exit)
+"sGD" = (
+/obj/structure/cable/white{
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/exit)
+"sGU" = (
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden{
+	dir = 8
+	},
+/turf/closed/wall/r_wall/rust,
+/area/engine/atmos)
+"sGW" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plating{
+	broken = 1;
+	icon_state = "platingdmg3"
+	},
+/area/maintenance/port/central)
+"sGY" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"sHb" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+/turf/open/floor/plating{
+	burnt = 1;
+	icon_state = "panelscorched"
+	},
+/area/maintenance/starboard)
+"sHd" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating{
+	broken = 1;
+	icon_state = "platingdmg3"
+	},
+/area/maintenance/starboard)
+"sHe" = (
+/obj/structure/cable/white{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"sHf" = (
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/exit)
+"sHz" = (
+/obj/structure/closet/crate/bin,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/hallway/primary/central)
+"sHB" = (
+/turf/open/floor/plasteel/escape{
+	dir = 8
+	},
+/area/hallway/secondary/exit)
+"sHC" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/plasteel/neutral/side{
+	dir = 4
+	},
+/area/hallway/secondary/exit)
+"sHV" = (
+/turf/closed/wall/r_wall/rust,
+/area/engine/engineering)
+"sHZ" = (
+/turf/closed/wall/rust,
+/area/crew_quarters/theatre)
+"sIb" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/status_display{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/exit)
+"sIc" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/airalarm{
+	pixel_y = 24
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/exit)
+"sId" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/neutral/side{
+	dir = 4
+	},
+/area/hallway/secondary/exit)
+"sIe" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/exit)
+"sIu" = (
+/turf/closed/wall/r_wall/rust,
+/area/engine/gravity_generator)
+"sIv" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/escape,
+/area/hallway/secondary/exit)
+"sIw" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/structure/extinguisher_cabinet{
+	pixel_y = -28
+	},
+/obj/machinery/camera{
+	c_tag = "Departures Hallway";
+	dir = 1
+	},
+/turf/open/floor/plasteel/escape,
+/area/hallway/secondary/exit)
+"sIx" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/exit)
+"sIy" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/escape/corner{
+	dir = 8
+	},
+/area/hallway/secondary/exit)
+"sIA" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/r_wall/rust,
+/area/engine/engineering)
+"sIB" = (
+/turf/closed/wall/rust,
+/area/hydroponics)
+"sIC" = (
+/turf/closed/wall/rust,
+/area/crew_quarters/kitchen)
+"sIG" = (
+/obj/machinery/vending/cigarette,
+/obj/machinery/newscaster{
+	pixel_y = -30
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/hallway/secondary/exit)
+"sII" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/r_wall/rust,
+/area/engine/gravity_generator)
+"sIK" = (
+/turf/closed/wall/rust,
+/area/janitor)
+"sIL" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating{
+	broken = 1;
+	icon_state = "platingdmg1"
+	},
+/area/maintenance/starboard/central)
+"sIN" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall/rust,
+/area/maintenance/starboard)
+"sIO" = (
+/turf/open/space/basic,
+/area/space/nearstation)
+"sIP" = (
+/obj/machinery/vending/cola/random,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/vault/side{
+	dir = 4
+	},
+/area/hallway/secondary/exit)
+"sIR" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel,
+/area/hallway/secondary/exit)
+"sIT" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/plating{
+	burnt = 1;
+	icon_state = "panelscorched"
+	},
+/area/maintenance/starboard)
+"sIU" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "supplybridge"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 2
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"sIY" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/rack,
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/obj/item/storage/toolbox/emergency,
+/obj/item/crowbar/red,
+/obj/item/clothing/mask/gas,
+/turf/open/floor/plasteel,
+/area/maintenance/starboard)
+"sJa" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/plasteel/neutral/corner{
+	dir = 4
+	},
+/area/hallway/primary/central)
+"sJc" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+/turf/open/floor/plating{
+	broken = 1;
+	icon_state = "platingdmg1"
+	},
+/area/maintenance/starboard)
+"sJd" = (
+/obj/machinery/button/door{
+	id = "supplybridge";
+	name = "Shuttle Bay Space Bridge Control";
+	pixel_y = 27;
+	req_access_txt = "0"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Bridge Hatch";
+	req_access_txt = "12"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"sJe" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"sJg" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating{
+	burnt = 1;
+	icon_state = "panelscorched"
+	},
+/area/maintenance/starboard)
+"sJi" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"sJj" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Maintenance Hatch";
+	req_access_txt = "12"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"sJk" = (
+/obj/machinery/light,
+/obj/machinery/status_display{
+	pixel_y = -32
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/escape{
+	dir = 10
+	},
+/area/hallway/secondary/exit)
+"sJn" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/crew_quarters/bar/atrium)
+"sJo" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
+/obj/structure/cable/white{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plating{
+	broken = 1;
+	icon_state = "platingdmg1"
+	},
+/area/maintenance/starboard/central)
+"sJq" = (
+/obj/structure/sign/directions/engineering{
+	desc = "A sign that shows there are doors here. There are doors everywhere!";
+	icon_state = "doors";
+	name = "WARNING: EXTERNAL AIRLOCK"
+	},
+/turf/closed/wall,
+/area/maintenance/starboard)
+"sJx" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 12
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/hydroponics)
+"sJy" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/r_wall/rust,
+/area/tcommsat/server)
+"sJA" = (
+/obj/structure/closet/firecloset,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault/side,
+/area/hallway/primary/central)
+"sJD" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/closed/wall/r_wall/rust,
+/area/tcommsat/server)
+"sJG" = (
+/turf/closed/wall/r_wall/rust,
+/area/engine/supermatter)
+"sJH" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/r_wall/rust,
+/area/maintenance/port)
+"sJI" = (
+/turf/closed/wall/rust,
+/area/library)
+"sJJ" = (
+/obj/structure/closet/firecloset,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/hallway/primary/central)
+"sJK" = (
+/obj/structure/closet/crate/bin,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/hallway/primary/central)
+"sJL" = (
+/turf/closed/wall/r_wall,
+/area/science/research)
+"sJN" = (
+/turf/closed/wall/rust,
+/area/maintenance/starboard)
+"sJO" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault/side,
+/area/tcommsat/server)
+"sJP" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault/side,
+/area/tcommsat/server)
+"sJR" = (
+/obj/structure/sign/poster/contraband/random,
+/turf/closed/wall/rust,
+/area/maintenance/starboard/aft)
+"sJS" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/open/floor/wood{
+	broken = 1;
+	icon_state = "wood-broken7"
+	},
+/area/library)
+"sJT" = (
+/turf/closed/wall/rust,
+/area/medical/morgue)
+"sJV" = (
+/turf/closed/wall/r_wall/rust,
+/area/tcommsat/server)
+"sJX" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/wood,
+/area/library)
+"sKa" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/r_wall/rust,
+/area/science/research)
+"sKd" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/wood{
+	broken = 1;
+	icon_state = "wood-broken"
+	},
+/area/library)
+"sKe" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/wood{
+	broken = 1;
+	icon_state = "wood-broken2"
+	},
+/area/library)
+"sKf" = (
+/turf/closed/wall/rust,
+/area/science/research)
+"sKh" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/r_wall/rust,
+/area/science/research)
+"sKj" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault/telecomms{
+	dir = 5
+	},
+/area/tcommsat/server)
+"sKn" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault/telecomms{
+	dir = 5
+	},
+/area/tcommsat/server)
+"sKp" = (
+/turf/closed/wall/rust,
+/area/medical/medbay/zone3)
+"sKx" = (
+/turf/closed/wall/r_wall/rust,
+/area/maintenance/port)
+"sKB" = (
+/turf/closed/wall/rust,
+/area/security/checkpoint)
+"sKE" = (
+/turf/closed/wall/rust,
+/area/maintenance/port)
+"sKH" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/rust,
+/area/maintenance/port)
+"sKI" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/rust,
+/area/maintenance/port)
+"sKJ" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/r_wall/rust,
+/area/science/robotics/lab)
+"sKL" = (
+/obj/structure/sign/poster/contraband/random,
+/turf/closed/wall/rust,
+/area/maintenance/port)
+"sKP" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/r_wall/rust,
+/area/science/robotics/mechbay)
+"sKQ" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/r_wall/rust,
+/area/science/robotics/lab)
+"sKW" = (
+/turf/open/floor/plating{
+	burnt = 1;
+	icon_state = "panelscorched"
+	},
+/area/maintenance/port)
+"sKZ" = (
+/turf/closed/wall/r_wall/rust,
+/area/science/xenobiology)
+"sLc" = (
+/obj/structure/barricade/wooden,
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Maintenance Hatch";
+	req_access_txt = "12"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/effect/turf_decal/stripes/line{
+	dir = 2
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"sLf" = (
+/turf/closed/wall/rust,
+/area/chapel/main)
+"sLg" = (
+/obj/item/twohanded/required/kirbyplants{
+	icon_state = "plant-22"
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/maintenance/starboard/aft)
+"sLm" = (
+/turf/closed/wall/rust,
+/area/hallway/secondary/entry)
+"sLw" = (
+/obj/structure/sign/electricshock,
+/turf/closed/wall/r_wall/rust,
+/area/ai_monitored/turret_protected/ai)
+"sLx" = (
+/obj/structure/table,
+/obj/effect/turf_decal/delivery,
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/camera{
+	c_tag = "AI Chamber - Core";
+	dir = 2;
+	name = "core camera";
+	network = list("RD")
+	},
+/obj/machinery/cell_charger,
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/turret_protected/ai)
+"sLy" = (
+/obj/machinery/power/smes{
+	charge = 5e+006
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/effect/turf_decal/delivery,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sLz" = (
+/obj/item/paper_bin,
+/obj/item/pen,
+/obj/structure/table,
+/obj/effect/turf_decal/delivery,
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/turret_protected/ai)
+"sLA" = (
+/obj/structure/sign/electricshock,
+/turf/closed/wall/r_wall,
+/area/ai_monitored/turret_protected/ai)
+"sLB" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall/r_wall,
+/area/ai_monitored/turret_protected/ai)
+"sLC" = (
+/obj/machinery/porta_turret/ai{
+	dir = 4
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/dark,
+/area/ai_monitored/turret_protected/ai)
+"sLD" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sLE" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sLF" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sLG" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sLI" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall/r_wall/rust,
+/area/ai_monitored/turret_protected/ai)
+"sLJ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sLK" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault/corner,
+/area/ai_monitored/turret_protected/ai)
+"sLL" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "AI Core shutters";
+	name = "AI core shutters"
+	},
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/ai)
+"sLM" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/vault/corner{
+	dir = 8
+	},
+/area/ai_monitored/turret_protected/ai)
+"sLN" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sLO" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 4
+	},
+/area/ai_monitored/turret_protected/ai)
+"sLP" = (
+/obj/machinery/turretid{
+	control_area = "/area/ai_monitored/turret_protected/ai";
+	icon_state = "control_stun";
+	name = "AI Chamber turret control";
+	pixel_x = 3;
+	pixel_y = -23
+	},
+/obj/machinery/door/window{
+	base_state = "leftsecure";
+	dir = 8;
+	obj_integrity = 300;
+	icon_state = "leftsecure";
+	name = "Primary AI Core Access";
+	req_access_txt = "16"
+	},
+/obj/machinery/newscaster/security_unit{
+	pixel_x = 4;
+	pixel_y = 33
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 6
+	},
+/area/ai_monitored/turret_protected/ai)
+"sLQ" = (
+/obj/machinery/requests_console{
+	department = "AI";
+	departmentType = 5;
+	pixel_x = 30;
+	pixel_y = 30
+	},
+/obj/machinery/ai_slipper{
+	uses = 10
+	},
+/obj/machinery/flasher{
+	id = "AI";
+	pixel_x = 23;
+	pixel_y = -23
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sLR" = (
+/obj/machinery/door/window{
+	base_state = "rightsecure";
+	dir = 4;
+	obj_integrity = 300;
+	icon_state = "rightsecure";
+	name = "Primary AI Core Access";
+	req_access_txt = "16"
+	},
+/obj/machinery/camera{
+	c_tag = "AI Chamber - Core";
+	dir = 2;
+	name = "core camera";
+	network = list("RD")
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 10
+	},
+/area/ai_monitored/turret_protected/ai)
+"sLS" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/ai_monitored/turret_protected/ai)
+"sLT" = (
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = -28
+	},
+/obj/machinery/ai_slipper{
+	uses = 10
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sLV" = (
+/obj/item/device/radio/intercom{
+	broadcasting = 0;
+	freerange = 1;
+	listening = 1;
+	name = "Common Channel";
+	pixel_x = -27;
+	pixel_y = -7
+	},
+/obj/item/device/radio/intercom{
+	anyai = 1;
+	freerange = 1;
+	listening = 0;
+	name = "Custom Channel";
+	pixel_y = -27
+	},
+/obj/item/device/radio/intercom{
+	anyai = 1;
+	broadcasting = 0;
+	freerange = 1;
+	frequency = 1447;
+	name = "Private Channel";
+	pixel_x = 27;
+	pixel_y = -7
+	},
+/obj/effect/landmark/start/ai,
+/obj/machinery/button/door{
+	id = "aicorewindow";
+	name = "AI Core shutters control";
+	pixel_x = 24;
+	pixel_y = -22;
+	req_access_txt = "16"
+	},
+/obj/machinery/button/door{
+	id = "aicoredoor";
+	name = "AI Chamber entrance shutters control";
+	pixel_x = -23;
+	pixel_y = -23;
+	req_access_txt = "16"
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sLX" = (
+/obj/machinery/ai_slipper{
+	uses = 10
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sLY" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/plasteel/vault/side{
+	dir = 4
+	},
+/area/ai_monitored/turret_protected/ai)
+"sLZ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/ai_monitored/turret_protected/ai)
+"sMa" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sMb" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 5
+	},
+/turf/open/floor/plasteel/vault/corner{
+	dir = 4
+	},
+/area/ai_monitored/turret_protected/ai)
+"sMc" = (
+/obj/machinery/airalarm{
+	pixel_y = 23
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sMd" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
+/obj/machinery/camera{
+	c_tag = "AI Chamber - Core";
+	dir = 2;
+	name = "core camera";
+	network = list("RD")
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/ai_monitored/turret_protected/ai)
+"sMe" = (
+/obj/machinery/power/apc{
+	aidisabled = 0;
+	dir = 1;
+	name = "AI Chamber APC";
+	areastring = "/area/ai_monitored/turret_protected/ai";
+	pixel_y = 24
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sMf" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/vault/corner{
+	tag = "icon-vaultcorner (NORTH)";
+	icon_state = "vaultcorner";
+	dir = 1
+	},
+/area/ai_monitored/turret_protected/ai)
+"sMg" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sMk" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 6
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sMl" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/holopad,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault,
+/area/ai_monitored/turret_protected/ai)
+"sMm" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sMn" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 9
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sMq" = (
+/turf/closed/wall/r_wall/rust,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMr" = (
+/turf/closed/wall/r_wall,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMv" = (
+/obj/item/crowbar,
+/obj/item/wrench,
+/obj/item/device/mmi,
+/obj/structure/table,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 8
+	},
+/area/ai_monitored/turret_protected/ai)
+"sMw" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/turret_protected/ai)
+"sMx" = (
+/obj/item/folder/blue,
+/obj/item/device/assembly/flash/handheld,
+/obj/structure/table,
+/turf/open/floor/plasteel/vault{
+	dir = 8
+	},
+/area/ai_monitored/turret_protected/ai)
+"sMD" = (
+/turf/closed/wall,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sME" = (
+/turf/closed/wall/rust,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMG" = (
+/obj/machinery/teleport/hub,
+/obj/machinery/airalarm{
+	pixel_y = 23
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMH" = (
+/obj/machinery/teleport/station,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/ai_status_display{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMI" = (
+/obj/machinery/computer/teleporter,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMK" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/r_wall/rust,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sML" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/highsecurity{
+	locked = 1;
+	name = "MiniSat Chamber";
+	req_access_txt = "16"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "aicoredoor";
+	name = "AI Core Access"
+	},
+/obj/machinery/flasher{
+	id = "AI";
+	pixel_x = -26
+	},
+/obj/item/device/radio/intercom{
+	broadcasting = 1;
+	frequency = 1447;
+	listening = 0;
+	name = "AI Intercom";
+	pixel_x = 28
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 8
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMO" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible,
+/obj/structure/cable/white{
+	icon_state = "2-4"
+	},
+/obj/machinery/portable_atmospherics/canister/air,
+/obj/machinery/airalarm{
+	pixel_y = 23
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMP" = (
+/obj/machinery/power/smes{
+	charge = 5e+006
+	},
+/obj/structure/cable/white{
+	icon_state = "0-8"
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/ai_status_display{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMQ" = (
+/obj/machinery/power/port_gen/pacman,
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/structure/sign/electricshock{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMT" = (
+/obj/structure/closet/emcloset/anchored,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMU" = (
+/obj/structure/sign/vacuum,
+/turf/closed/wall/r_wall,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMV" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/machinery/camera{
+	c_tag = "AI Satellite - Access";
+	dir = 4;
+	name = "ai camera";
+	network = list("Sat");
+	start_active = 1
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 9
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMW" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMX" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 6
+	},
+/obj/item/device/radio/intercom{
+	broadcasting = 1;
+	frequency = 1447;
+	listening = 0;
+	name = "AI Intercom";
+	pixel_x = 26;
+	pixel_y = 26
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 5
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMY" = (
+/obj/structure/sign/securearea,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/r_wall,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMZ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/scrubbers/hidden,
+/turf/open/floor/plasteel/vault/side{
+	dir = 9
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNa" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/machinery/holopad,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNb" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 5
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNc" = (
+/obj/structure/sign/securearea,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/r_wall/rust,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNd" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/machinery/meter,
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNe" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNf" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/components/binary/pump{
+	dir = 4;
+	name = "Waste Out";
+	on = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNg" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/r_wall,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNh" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/on{
+	dir = 8
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plating/airless/astplate,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNj" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNk" = (
+/obj/machinery/door/airlock/external{
+	cyclelinkeddir = 1;
+	name = "MiniSat External Access";
+	req_access = null;
+	req_access_txt = "65"
+	},
+/obj/effect/turf_decal/delivery,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNl" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNm" = (
+/obj/structure/transit_tube/station/reverse/flipped{
+	dir = 4
+	},
+/obj/effect/turf_decal/bot,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNn" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/machinery/holopad,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/vault/side{
+	dir = 4
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNo" = (
+/obj/machinery/turretid{
+	control_area = "/area/ai_monitored/turret_protected/aisat_interior";
+	name = "AI Satellite turret control";
+	pixel_x = 0;
+	pixel_y = -24
+	},
+/obj/machinery/door/airlock/hatch{
+	name = "MiniSat Antechamber";
+	req_one_access_txt = "32;19"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNp" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNq" = (
+/obj/machinery/ai_slipper{
+	uses = 10
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNr" = (
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 4
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNs" = (
+/obj/machinery/door/airlock/hatch{
+	name = "MiniSat Antechamber";
+	req_one_access_txt = "32;19"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNt" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNu" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/holopad,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNv" = (
+/obj/machinery/camera{
+	c_tag = "AI Satellite - Maintenance";
+	dir = 8;
+	name = "ai camera";
+	network = list("Sat");
+	start_active = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
+/obj/machinery/newscaster{
+	pixel_x = 32
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 4
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNx" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNy" = (
+/obj/machinery/door/airlock/external{
+	cyclelinkeddir = 1;
+	name = "MiniSat External Access";
+	req_access = null;
+	req_access_txt = "65"
+	},
+/obj/effect/turf_decal/delivery,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNA" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = -28
+	},
+/obj/machinery/newscaster{
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 10
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNB" = (
+/obj/structure/transit_tube,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNC" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 6
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNE" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/machinery/camera{
+	c_tag = "AI Satellite - Antechamber";
+	dir = 4;
+	name = "ai camera";
+	network = list("Sat");
+	start_active = 1
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNF" = (
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNG" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 4
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNI" = (
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/mineral/plasma{
+	amount = 20
+	},
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -26
+	},
+/obj/machinery/power/apc{
+	dir = 2;
+	name = "MiniSat APC";
+	areastring = "/area/ai_monitored/turret_protected/aisat_interior";
+	pixel_y = -27
+	},
+/obj/structure/cable/white,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/table,
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNJ" = (
+/obj/machinery/recharge_station,
+/obj/machinery/status_display{
+	pixel_y = -32
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNK" = (
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/item/storage/toolbox/electrical,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/table,
+/obj/machinery/firealarm{
+	pixel_y = -26
+	},
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNM" = (
+/obj/structure/lattice/catwalk,
+/turf/open/space,
+/area/space/nearstation)
+"sNP" = (
+/obj/structure/transit_tube,
+/obj/effect/spawner/structure/window/hollow/reinforced/middle,
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNQ" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall/r_wall,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNS" = (
+/obj/machinery/porta_turret/ai{
+	installation = /obj/item/gun/energy/e_gun
+	},
+/obj/effect/turf_decal/delivery,
+/obj/machinery/airalarm{
+	dir = 4;
+	pixel_x = -22
+	},
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNT" = (
+/obj/item/stack/sheet/metal,
+/obj/item/stack/sheet/glass{
+	amount = 20;
+	pixel_x = 0;
+	pixel_y = 0
+	},
+/obj/item/device/assembly/flash/handheld,
+/obj/item/device/assembly/flash/handheld,
+/obj/item/device/mmi,
+/obj/item/device/assembly/prox_sensor{
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/obj/structure/table,
+/obj/machinery/status_display{
+	pixel_y = -32
+	},
+/obj/machinery/light,
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNU" = (
+/obj/machinery/porta_turret/ai{
+	installation = /obj/item/gun/energy/e_gun
+	},
+/obj/effect/turf_decal/delivery,
+/obj/machinery/firealarm{
+	pixel_y = -26
+	},
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sOb" = (
+/obj/structure/transit_tube,
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space/nearstation)
+"sOj" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/transit_tube/crossing,
+/turf/open/space/basic,
+/area/space/nearstation)
+"sOk" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall,
+/area/space/nearstation)
+"sOr" = (
+/obj/structure/transit_tube,
+/obj/effect/spawner/structure/window/hollow/reinforced/middle,
+/turf/open/floor/plating,
+/area/bridge)
+"sOs" = (
+/obj/machinery/door/airlock/command{
+	name = "MiniSat Access";
+	req_access_txt = "65"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/bridge)
+"sOt" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/ai_status_display{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 4
+	},
+/area/bridge)
+"sOu" = (
+/obj/structure/transit_tube,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plating,
+/area/bridge)
+"sOv" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/light/small,
+/turf/open/floor/plasteel/vault/side{
+	dir = 4
+	},
+/area/bridge)
+"sOw" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/transit_tube/station/reverse{
+	tag = "icon-closed_terminus0 (WEST)";
+	icon_state = "closed_terminus0";
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/bridge)
+"sOx" = (
+/turf/closed/wall/r_wall,
+/area/ai_monitored/nuke_storage)
+"sOz" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/nuke_storage)
+"sOA" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/nuke_storage)
+"sOB" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/nuke_storage)
+"sOD" = (
+/turf/closed/wall/r_wall/rust,
+/area/ai_monitored/nuke_storage)
+"sOF" = (
+/obj/structure/sign/directions/engineering{
+	desc = "A direction sign, pointing out which way the Supply department is.";
+	dir = 4;
+	icon_state = "direction_supply";
+	name = "supply department"
+	},
+/obj/structure/sign/directions/engineering{
+	desc = "A direction sign, pointing out which way the Command department is.";
+	dir = 1;
+	icon_state = "direction_bridge";
+	name = "command department";
+	pixel_y = 8
+	},
+/obj/structure/sign/directions/science{
+	pixel_y = -8
+	},
+/turf/closed/wall,
+/area/maintenance/starboard)
+"sOG" = (
+/obj/structure/sign/nanotrasen,
+/turf/closed/wall,
+/area/maintenance/starboard)
+"sOI" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 8
+	},
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/white{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/neutral/corner,
+/area/hallway/primary/central)
+"sOJ" = (
+/obj/structure/cable/white{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plating/airless/astplate,
+/area/ruin/unpowered{
+	name = "Asteroid"
+	})
+"sOK" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Maintenance Hatch";
+	req_access_txt = "12"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/maintenance/starboard)
+"sOL" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Maintenance Hatch";
+	req_access_txt = "12"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"sOM" = (
+/turf/closed/wall,
+/area/maintenance/starboard/aft)
+"sON" = (
+/turf/closed/wall/rust,
+/area/maintenance/starboard/aft)
+"sOT" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating{
+	broken = 1;
+	icon_state = "platingdmg2"
+	},
+/area/maintenance/starboard/aft)
+"sOU" = (
+/obj/structure/girder,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"sOV" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"sOY" = (
+/obj/structure/sign/poster/contraband/random,
+/turf/closed/wall,
+/area/maintenance/starboard/aft)
+"sOZ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"sPa" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating{
+	burnt = 1;
+	icon_state = "panelscorched"
+	},
+/area/maintenance/starboard/aft)
+"sPi" = (
+/obj/structure/closet/firecloset,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel,
+/area/maintenance/starboard/aft)
+"sPk" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 5
+	},
+/obj/structure/cable/white{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"sPo" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating{
+	broken = 1;
+	icon_state = "platingdmg1"
+	},
+/area/maintenance/starboard/aft)
+"sPI" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating{
+	broken = 1;
+	icon_state = "platingdmg3"
+	},
+/area/maintenance/starboard/aft)
+"sPK" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating{
+	burnt = 1;
+	icon_state = "panelscorched"
+	},
+/area/maintenance/starboard/aft)
+"sPY" = (
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 
 (1,1,1) = {"
 aaa
@@ -62554,11 +64193,19 @@ aad
 aad
 aad
 aGe
+<<<<<<< HEAD
 aHf
 aIc
 aJi
 aKq
 aLE
+=======
+sIu
+aGe
+aGe
+aGe
+sIu
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 bwY
 afM
 abP
@@ -63068,6 +64715,7 @@ aad
 aad
 aad
 aGe
+<<<<<<< HEAD
 aGe
 aGe
 aJj
@@ -63088,6 +64736,26 @@ aRB
 aMJ
 acG
 ahu
+=======
+aId
+aIc
+aJi
+aKq
+aLE
+sII
+afM
+abu
+afM
+abi
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aad
 aac
 aaa
@@ -63327,6 +64995,7 @@ aad
 afL
 afM
 aGe
+<<<<<<< HEAD
 aJk
 aKt
 aLH
@@ -63342,6 +65011,25 @@ aUO
 buK
 aRB
 buR
+=======
+aHg
+aId
+aHe
+aKq
+aLF
+bxj
+sJy
+bxl
+sJy
+aSO
+aMJ
+aMJ
+sJV
+aMJ
+aMJ
+aMJ
+sJV
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aMJ
 afM
 afL
@@ -63603,6 +65291,30 @@ aMJ
 afM
 aad
 aad
+<<<<<<< HEAD
+=======
+aGe
+aGe
+sIu
+aJj
+aKs
+aLG
+bxk
+aNT
+aOv
+buC
+bxp
+aRB
+aPG
+aTX
+buH
+buJ
+buO
+sKn
+aMJ
+acG
+sxc
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aad
 aaa
 aaa
@@ -64335,6 +66047,7 @@ aad
 aad
 aad
 aad
+<<<<<<< HEAD
 abi
 aqz
 arq
@@ -64364,6 +66077,46 @@ aMN
 aMN
 bxt
 bwW
+=======
+aad
+aad
+aad
+aad
+aad
+anx
+asv
+atw
+asv
+anx
+awA
+axh
+awA
+anx
+aAg
+aBo
+aAg
+anx
+aad
+aad
+aad
+afL
+sII
+aJm
+aKv
+aLJ
+aMM
+aNW
+aOx
+buC
+bxp
+sJP
+aPG
+buG
+buI
+buK
+sKj
+buR
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aMJ
 aMJ
 aMJ
@@ -64630,11 +66383,57 @@ aad
 abi
 aad
 aad
+<<<<<<< HEAD
 aac
 aac
 aac
 aac
 aac
+=======
+aad
+aad
+anx
+asw
+atx
+auq
+anx
+awB
+axi
+aya
+anx
+aAh
+aBp
+aCr
+aqz
+sxc
+ahu
+ahu
+aaV
+bwY
+aJn
+aKw
+aLK
+aMJ
+aNX
+aOy
+buC
+bxp
+aRE
+aSN
+aTZ
+blq
+buN
+buQ
+buU
+sJV
+agE
+afL
+aad
+aaa
+aaa
+aaa
+aaa
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -64885,9 +66684,52 @@ aVK
 aUQ
 aXc
 aad
+<<<<<<< HEAD
 ahu
 aad
 aad
+=======
+aad
+abi
+aqz
+arq
+asx
+aty
+aur
+avx
+asx
+aty
+aur
+avx
+aAi
+aty
+aCs
+aDn
+aEn
+aFq
+aGf
+sIA
+aIe
+aJo
+aKx
+aLL
+aMN
+aMN
+sJD
+aMN
+bxt
+bwW
+aMJ
+aMJ
+aMJ
+sJV
+aMJ
+aMJ
+sJV
+abi
+ahu
+sxc
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aac
 aac
 aac
@@ -65657,6 +67499,10 @@ aWz
 aUQ
 bvh
 bvo
+<<<<<<< HEAD
+=======
+sxc
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aad
 aad
 aad
@@ -67419,6 +69265,7 @@ afL
 aad
 aad
 abi
+<<<<<<< HEAD
 afM
 aqG
 arB
@@ -67452,10 +69299,44 @@ aSQ
 aUa
 aUU
 aUU
+=======
+sAy
+arA
+asH
+atI
+auB
+avG
+awK
+axp
+ayj
+azp
+aAq
+aBy
+aCC
+sAx
+aEt
+aEt
+aGg
+aHr
+aIo
+aJw
+aKE
+buW
+aMX
+aMX
+aMX
+buW
+aQR
+aRO
+aSY
+aPL
+aUS
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aUU
 aVL
 aad
 aOH
+<<<<<<< HEAD
 aZq
 bal
 bbd
@@ -67463,6 +69344,15 @@ bbR
 bcG
 bdE
 bev
+=======
+aZo
+baj
+sKE
+baj
+aZo
+aZo
+sKE
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 baj
 aad
 aad
@@ -67724,6 +69614,18 @@ baj
 aad
 aad
 aad
+<<<<<<< HEAD
+=======
+sKx
+aZp
+bak
+bbc
+bbQ
+bcF
+bdD
+beu
+sKE
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aad
 aad
 aad
@@ -68195,6 +70097,7 @@ aqJ
 arE
 asK
 agF
+<<<<<<< HEAD
 auG
 avL
 aqz
@@ -68214,6 +70117,45 @@ aJB
 aKI
 aLY
 aNa
+=======
+agF
+swZ
+agF
+agF
+agF
+swZ
+agF
+agF
+aqH
+arC
+sBu
+arC
+auE
+avJ
+awN
+axs
+ayl
+azr
+aAt
+aBB
+aCF
+aDu
+aEz
+aFB
+aGo
+aHu
+aIr
+aJz
+aKG
+aLW
+bln
+aOd
+aOG
+aPN
+aQT
+aRR
+aTa
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aEt
 aOI
 aPP
@@ -68455,6 +70397,7 @@ agF
 auH
 avM
 aqz
+<<<<<<< HEAD
 axv
 ayn
 azu
@@ -68494,6 +70437,43 @@ bev
 baj
 aad
 aad
+=======
+azs
+aAu
+aBC
+aCG
+aDv
+aEA
+aDv
+aDv
+aHv
+sHV
+aJA
+aKH
+aLX
+aEt
+aEt
+aOH
+aPO
+sJH
+aQU
+aQU
+sJH
+sJH
+aQU
+aQU
+sJH
+aQU
+aQU
+aZs
+ban
+bap
+bbT
+bcI
+bar
+bew
+aZo
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aad
 aad
 aad
@@ -68688,12 +70668,31 @@ aad
 aad
 aad
 aad
+<<<<<<< HEAD
 abi
 abi
 abT
 abi
 abT
 acG
+=======
+aad
+afL
+abj
+sxc
+ain
+aiS
+ajS
+akU
+alI
+amI
+anz
+aot
+apx
+aqJ
+arE
+asK
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 agF
 agF
 aip
@@ -68729,6 +70728,7 @@ aKK
 aMa
 aNc
 aEt
+<<<<<<< HEAD
 aOK
 aPR
 aQW
@@ -68745,6 +70745,26 @@ aZu
 aQW
 aYA
 aPV
+=======
+aOI
+aPP
+bxR
+aRS
+aTb
+aUb
+aVM
+aVM
+aTb
+aTb
+aTb
+aVM
+aTb
+bao
+bbf
+aZA
+bbR
+bdF
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 bcK
 bdH
 bex
@@ -68989,6 +71009,7 @@ aEt
 aOL
 aPS
 aQW
+<<<<<<< HEAD
 aRU
 aTc
 aUd
@@ -68999,6 +71020,9 @@ aVO
 aXL
 aYx
 aZv
+=======
+sJI
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aQW
 bbh
 aPV
@@ -69209,6 +71233,7 @@ acF
 abi
 afN
 agF
+<<<<<<< HEAD
 ahw
 air
 aiW
@@ -69240,6 +71265,25 @@ aHz
 aIw
 aJF
 aKM
+=======
+auI
+avN
+sAx
+axw
+ayo
+azv
+aAx
+aBF
+awN
+aDy
+aED
+aFE
+aGr
+aHh
+aIu
+aJD
+aKK
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aMa
 aNe
 aEt
@@ -69257,6 +71301,7 @@ aXM
 aYy
 aZw
 aQW
+<<<<<<< HEAD
 bbi
 bbV
 bcL
@@ -69265,6 +71310,14 @@ bey
 aZo
 aad
 aad
+=======
+aYA
+sKH
+bcK
+bdH
+bex
+sKE
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aad
 aad
 aad
@@ -69458,6 +71511,7 @@ aad
 aad
 aaW
 abj
+<<<<<<< HEAD
 abj
 abS
 acD
@@ -69465,6 +71519,12 @@ adw
 aem
 afb
 adw
+=======
+adv
+ael
+swN
+abu
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 agF
 ahx
 ais
@@ -69483,6 +71543,7 @@ agF
 auL
 avQ
 aqz
+<<<<<<< HEAD
 axz
 bxH
 azy
@@ -69502,6 +71563,38 @@ aNf
 aEt
 aOM
 aPU
+=======
+axx
+ayp
+azw
+aAy
+aBG
+aCJ
+aDz
+aEE
+aFF
+aGs
+aHy
+aIv
+aJE
+aKL
+aMb
+aNd
+sHV
+aOL
+aPS
+sJI
+aSc
+aTc
+aUd
+sKd
+aVO
+aWB
+aVO
+aXL
+aYx
+aZv
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aQW
 aRW
 aTe
@@ -69751,6 +71844,7 @@ aEH
 aFI
 anQ
 aEt
+<<<<<<< HEAD
 aIy
 aJH
 aKO
@@ -69759,6 +71853,10 @@ aNg
 aEt
 aON
 aPV
+=======
+aYA
+aPT
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aQW
 aRX
 aTf
@@ -70025,6 +72123,7 @@ aVS
 aWE
 aXh
 aQW
+<<<<<<< HEAD
 aYA
 aZy
 bap
@@ -70033,6 +72132,14 @@ bbX
 bcO
 bdL
 beB
+=======
+sJI
+bbj
+bbW
+bcM
+bdJ
+bez
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 baj
 bfu
 bfu
@@ -70548,6 +72655,7 @@ bcQ
 bcP
 bcP
 baj
+<<<<<<< HEAD
 bfu
 bfu
 bfu
@@ -70558,6 +72666,20 @@ bjh
 bfu
 bfu
 bfu
+=======
+aad
+aad
+aad
+abT
+abT
+swN
+abT
+abT
+aad
+aad
+aad
+aac
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aac
 aaa
 aaa
@@ -70753,6 +72875,7 @@ abT
 abT
 abT
 agF
+<<<<<<< HEAD
 ajc
 ajc
 aip
@@ -70761,10 +72884,14 @@ ajc
 anG
 aoA
 apF
+=======
+swZ
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 agF
 arO
 ajc
 agF
+<<<<<<< HEAD
 auQ
 avV
 awP
@@ -70806,6 +72933,51 @@ bdN
 beC
 baj
 bfw
+=======
+auN
+avS
+aqz
+aqz
+ays
+ays
+ays
+aqz
+aqz
+aDC
+ajh
+aFJ
+aGv
+aHB
+aEt
+aHA
+aHA
+aHA
+aEt
+aEt
+aOO
+aPW
+aQW
+aRY
+aTg
+sJX
+bxS
+aVS
+aWE
+aXh
+aQW
+bbg
+aZy
+bap
+bap
+bbX
+bcO
+bdL
+beB
+sKE
+bfu
+bfu
+sLf
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 bfu
 bgC
 bhp
@@ -71001,6 +73173,7 @@ aac
 aac
 aac
 aad
+<<<<<<< HEAD
 abv
 acI
 adA
@@ -71071,6 +73244,84 @@ biJ
 bjj
 bjz
 bjK
+=======
+aah
+aad
+aad
+aad
+aad
+aad
+aad
+abi
+abi
+acG
+adz
+swN
+abi
+acF
+agG
+ahz
+agF
+aja
+aka
+ala
+alP
+aka
+ala
+aoy
+apD
+aqQ
+arM
+asR
+agF
+auO
+avT
+awO
+axB
+ayt
+ayt
+ayt
+aBK
+aCL
+ayt
+aEI
+aFK
+aGw
+aHC
+aIz
+aIz
+aIz
+aIz
+aNh
+awO
+aOP
+aPX
+aQX
+aRZ
+aTh
+sJX
+aUY
+aVT
+aVQ
+aXi
+aQW
+bbg
+aZz
+baq
+bbl
+bbY
+bcP
+bdM
+bcP
+sKE
+bfv
+bfS
+bgB
+bho
+bia
+biG
+bjg
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 bfu
 aaa
 aaa
@@ -71249,6 +73500,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 aaa
 aaf
 aaa
@@ -71328,6 +73580,86 @@ biG
 bjk
 bjA
 bjL
+=======
+aae
+aac
+aad
+aad
+aad
+aad
+aad
+aad
+abT
+acH
+adw
+aep
+acF
+aem
+agH
+ahA
+swZ
+ajb
+akb
+ala
+alQ
+bxA
+ala
+aoz
+apE
+aqR
+arN
+asS
+agF
+auP
+avU
+anH
+axC
+axC
+axC
+aAC
+aBL
+aCM
+aCM
+aEJ
+aFL
+aGx
+aHD
+aIA
+aCM
+bxP
+aCM
+aNi
+anH
+aOQ
+aPY
+aQY
+aSa
+aSa
+aUg
+sKe
+aVU
+aWE
+aXj
+sJI
+aYC
+aZA
+bar
+bbm
+bbZ
+bcP
+bcP
+bcP
+baj
+bfu
+bfu
+bfu
+bfu
+bib
+biH
+bjh
+bfu
+sLf
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 bfu
 aaa
 aaa
@@ -71515,6 +73847,7 @@ aac
 aac
 aad
 aad
+<<<<<<< HEAD
 abv
 acK
 adC
@@ -71538,6 +73871,43 @@ asU
 atO
 arP
 apI
+=======
+aad
+aad
+aad
+aad
+abT
+abT
+abT
+swN
+swN
+abT
+abT
+swN
+agF
+ajc
+ajc
+aip
+ajc
+ajc
+anG
+aoA
+apF
+agF
+arO
+ajc
+agF
+auQ
+avV
+awP
+awQ
+ayu
+ayu
+aAD
+aBM
+ayu
+ayu
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 awQ
 axF
 ayx
@@ -72065,6 +74435,7 @@ awQ
 aGC
 aHJ
 aIB
+<<<<<<< HEAD
 aIB
 aIB
 aIB
@@ -72100,6 +74471,43 @@ blA
 blD
 blG
 blJ
+=======
+aJJ
+aKQ
+aMf
+aNk
+aOf
+aOT
+aQb
+aRa
+aSd
+aRU
+aUj
+aVb
+aVX
+aWG
+aXl
+aQW
+aYF
+bxR
+aRS
+aTb
+bcb
+bcS
+aTb
+aVM
+beR
+bfy
+bfT
+bgD
+bhq
+bie
+biG
+bjk
+bjA
+bjL
+sLf
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -72310,6 +74718,7 @@ atR
 auV
 awa
 awQ
+<<<<<<< HEAD
 axH
 ayz
 azD
@@ -72336,6 +74745,36 @@ aUm
 aVe
 aWa
 aWJ
+=======
+axF
+ayx
+azB
+aAG
+aBP
+aCO
+aDE
+aEM
+sDl
+aGA
+aHH
+aIC
+aJK
+aKR
+aMg
+aNl
+aID
+aOU
+aQc
+aRb
+aRb
+sJT
+aRb
+aRb
+aRb
+aRb
+aSh
+aSh
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aSh
 aXQ
 aYI
@@ -72346,6 +74785,7 @@ bce
 bcV
 bdR
 aSh
+<<<<<<< HEAD
 beV
 bfB
 bfW
@@ -72354,6 +74794,21 @@ bht
 bii
 biO
 bfu
+=======
+sKp
+bcc
+bcT
+bdP
+aZo
+beS
+bfz
+bfU
+bgE
+bhr
+bif
+biL
+sLf
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 bfu
 bfu
 bfu
@@ -72826,12 +75281,19 @@ awc
 awQ
 awQ
 awQ
+<<<<<<< HEAD
+=======
+sDl
+aAH
+bxK
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 awQ
 aAI
 aBR
 awQ
 awQ
 awQ
+<<<<<<< HEAD
 awQ
 bxN
 aHM
@@ -72844,6 +75306,25 @@ aHM
 aOZ
 bxQ
 ayV
+=======
+aGC
+aGK
+sIK
+aIB
+aIB
+sIK
+aIB
+aIB
+aOW
+aPZ
+aRd
+aSf
+aTk
+aUl
+aVd
+aVZ
+aWI
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aSh
 aTm
 aUo
@@ -73056,6 +75537,7 @@ aad
 aad
 aad
 aad
+<<<<<<< HEAD
 abw
 abX
 acO
@@ -73083,10 +75565,44 @@ apI
 awQ
 axJ
 ayB
+=======
+aad
+aad
+aad
+aad
+abv
+abv
+abv
+abv
+swG
+afi
+afU
+afU
+afU
+afU
+aji
+akh
+alf
+alV
+amQ
+anJ
+aoD
+apI
+aqV
+arS
+asX
+atR
+auV
+awa
+sDl
+axH
+ayz
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 azD
 aAH
 aBS
 azD
+<<<<<<< HEAD
 ayz
 aEQ
 awQ
@@ -73101,6 +75617,28 @@ aHM
 aPa
 aQb
 aKg
+=======
+aDG
+aEO
+sDl
+aGD
+aHK
+aIE
+atc
+aKT
+aMi
+aNn
+awe
+aOX
+aQe
+aRe
+aSg
+aTl
+aUm
+aVe
+aWa
+aWJ
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aSh
 aTn
 aUp
@@ -73117,6 +75655,7 @@ aUn
 aWb
 bdT
 aSh
+<<<<<<< HEAD
 beY
 bfA
 bfZ
@@ -73128,6 +75667,23 @@ bjl
 aaa
 aaa
 aaa
+=======
+bce
+bcV
+bdR
+sKp
+beV
+bfB
+bfW
+bgH
+bht
+bii
+biO
+bfu
+bfu
+bfu
+sLf
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -73313,6 +75869,7 @@ aaa
 aah
 aad
 aad
+<<<<<<< HEAD
 abw
 abY
 acP
@@ -73337,6 +75894,36 @@ atb
 atV
 auY
 awd
+=======
+aad
+aad
+aad
+aad
+bye
+abW
+acN
+adF
+aet
+afj
+afV
+agN
+ahG
+aix
+ajj
+aki
+abt
+alW
+amR
+abt
+syS
+apI
+aqW
+arT
+asY
+atS
+auW
+awb
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 awQ
 axK
 ayC
@@ -73580,6 +76167,7 @@ afZ
 agQ
 ahJ
 abw
+<<<<<<< HEAD
 blf
 akm
 ali
@@ -73594,6 +76182,29 @@ atc
 aoM
 atc
 awe
+=======
+swC
+abw
+abw
+afW
+abw
+swC
+abw
+ajk
+akj
+abt
+alX
+amS
+anJ
+aoE
+apI
+aqX
+arU
+asZ
+atT
+auX
+awc
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 awQ
 awQ
 awQ
@@ -73602,9 +76213,18 @@ awQ
 awQ
 awQ
 awQ
+<<<<<<< HEAD
 awQ
 awQ
 arY
+=======
+bxN
+aHM
+aHM
+sIB
+aHM
+aHM
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aHM
 aII
 aJP
@@ -73846,6 +76466,7 @@ anN
 aoG
 apM
 alg
+<<<<<<< HEAD
 arX
 atd
 atW
@@ -73862,6 +76483,32 @@ atd
 aBU
 aFM
 aGH
+=======
+apJ
+sAz
+apI
+aHF
+atU
+apI
+apI
+awQ
+axJ
+ayB
+azD
+aAH
+aBS
+azD
+ayz
+aEQ
+sDl
+arY
+aHM
+aIG
+aJN
+aKV
+aMk
+aNp
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aHM
 aIJ
 aJQ
@@ -74360,6 +77007,7 @@ anP
 aoI
 apO
 alg
+<<<<<<< HEAD
 arZ
 atf
 atX
@@ -74427,6 +77075,71 @@ bly
 bkS
 bkX
 blc
+=======
+arW
+atc
+aoM
+atc
+awe
+awQ
+awQ
+sDl
+awQ
+awQ
+awQ
+sDl
+awQ
+awQ
+awQ
+arY
+sIB
+aII
+aJP
+aKX
+aMm
+aNq
+aHM
+aPc
+aQd
+aRf
+aRf
+aTp
+aUr
+aTp
+aRf
+aRf
+aXp
+aXU
+aYN
+aZJ
+baA
+bbq
+bbq
+bbq
+bdV
+beF
+bfa
+bfA
+bgb
+bgM
+bhx
+bin
+biT
+sLf
+aae
+aae
+aae
+aae
+bgU
+bki
+bgU
+bgU
+bgU
+bgU
+bgU
+bgU
+bki
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 bgU
 aaa
 aaa
@@ -74681,8 +77394,13 @@ bkE
 bgU
 btk
 bgU
+<<<<<<< HEAD
 bjX
 bgP
+=======
+bjY
+sLm
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 bgU
 bgU
 aae
@@ -74869,6 +77587,7 @@ ajo
 akr
 alk
 aae
+<<<<<<< HEAD
 aae
 anQ
 aoJ
@@ -74915,6 +77634,68 @@ bbu
 bck
 bdc
 bdZ
+=======
+abx
+acb
+acS
+adK
+aew
+afn
+agb
+agS
+ahL
+abw
+ajh
+ako
+alj
+amb
+amW
+amW
+aoH
+apN
+alg
+arY
+ate
+ath
+auZ
+auZ
+auZ
+sDK
+auZ
+auZ
+auZ
+auZ
+sDK
+auZ
+auZ
+auZ
+aGI
+aHN
+aIK
+aJP
+aKZ
+aMo
+aNs
+aHM
+aPd
+aQc
+aRf
+aSk
+aTr
+aUt
+aVl
+aWg
+aRf
+aXr
+aXW
+aYP
+aZL
+baC
+bbs
+aSi
+aWK
+aWK
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aSh
 bfd
 bfG
@@ -75364,6 +78145,7 @@ aaa
 aaf
 aaa
 aai
+<<<<<<< HEAD
 aap
 aaB
 aaO
@@ -75397,6 +78179,40 @@ awj
 awj
 ayI
 azI
+=======
+aay
+swv
+aam
+aak
+abw
+swC
+abw
+abw
+abw
+abw
+agd
+agU
+ahN
+abw
+ajn
+akq
+alg
+amd
+amY
+alg
+syC
+alg
+alg
+arY
+atf
+atY
+avb
+awg
+bxF
+awg
+ayF
+azF
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aAL
 aAL
 aCT
@@ -75869,6 +78685,86 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
+=======
+aae
+aae
+aae
+aak
+aaA
+aaN
+aaY
+abl
+abz
+ace
+acV
+adN
+aey
+afp
+agf
+agW
+ahO
+abl
+ajp
+aks
+alk
+aae
+aae
+anQ
+aoK
+apQ
+aqZ
+asc
+ath
+aua
+avd
+awi
+sDn
+sDn
+ayH
+azH
+auZ
+aBX
+aCS
+aDM
+aEV
+aAL
+aGM
+aHQ
+aIO
+aJU
+aLd
+aMs
+aNw
+aOk
+aPh
+aQk
+aRf
+aRg
+aRf
+aRg
+aRf
+aRg
+aRf
+aSh
+aXR
+aYT
+aZP
+aXR
+aSh
+aSh
+aWK
+bea
+beG
+sKE
+bfH
+baj
+bgQ
+bhD
+bit
+bgP
+aae
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -76134,6 +79030,7 @@ aaa
 aaa
 aae
 aaa
+<<<<<<< HEAD
 aal
 aas
 aaE
@@ -76191,6 +79088,29 @@ aUy
 aUy
 aUy
 aWQ
+=======
+aai
+aap
+aaB
+aaO
+aaZ
+aak
+abA
+acf
+acW
+aak
+aak
+aak
+aak
+swv
+aak
+aak
+ajq
+ake
+all
+ame
+ame
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 abt
 aYc
 aYW
@@ -76391,6 +79311,7 @@ aaa
 aaa
 aae
 aaa
+<<<<<<< HEAD
 aal
 aat
 aaF
@@ -76416,6 +79337,38 @@ anS
 aoP
 apV
 ard
+=======
+aaj
+aaq
+aaC
+aaP
+aba
+abm
+abB
+acg
+swJ
+adO
+aez
+afq
+agg
+agX
+ahP
+sOx
+ajr
+akt
+alm
+amf
+amZ
+abt
+aoM
+apS
+ara
+asd
+ati
+asi
+asg
+asg
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 asg
 asg
 auc
@@ -76647,6 +79600,7 @@ aaa
 aaa
 aaa
 aae
+<<<<<<< HEAD
 aaa
 aal
 aau
@@ -76699,6 +79653,29 @@ aOp
 aPm
 aQq
 amk
+=======
+aak
+aar
+aaD
+aaQ
+acX
+abn
+abC
+ach
+acY
+adP
+aeA
+afr
+afr
+agY
+agi
+adO
+aji
+aku
+aln
+amg
+amg
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 anQ
 aTB
 aUy
@@ -76905,6 +79882,7 @@ aaa
 aaa
 aaf
 aae
+<<<<<<< HEAD
 aak
 aav
 aaH
@@ -76926,6 +79904,60 @@ aky
 alr
 amk
 amk
+=======
+aaa
+aal
+aas
+aaE
+aaR
+abc
+abo
+abD
+aci
+acZ
+sOx
+aeB
+sOz
+agh
+agZ
+ahR
+aiz
+ajs
+akv
+alo
+amh
+ana
+anR
+aoO
+apU
+arc
+asf
+asf
+asf
+avf
+awk
+awU
+axO
+ayJ
+azJ
+aAO
+asf
+ayJ
+aDO
+aEW
+awU
+aGN
+aHS
+asf
+aJW
+aJW
+aMu
+aNy
+aOn
+aPk
+aQo
+amg
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 anQ
 aoR
 apX
@@ -77162,6 +80194,7 @@ aaa
 aaa
 aaf
 aaa
+<<<<<<< HEAD
 aam
 aaw
 aaI
@@ -77193,6 +80226,39 @@ aue
 avj
 awo
 aue
+=======
+aal
+aat
+aaF
+aaR
+abd
+abp
+abE
+acj
+ada
+adR
+aeC
+sOA
+agi
+aha
+ahS
+aiA
+ajt
+akw
+alp
+ami
+anb
+anS
+aoP
+apV
+ard
+asg
+asg
+auc
+avg
+awl
+awV
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 axP
 ayM
 asg
@@ -77419,6 +80485,7 @@ aaa
 aaa
 aaf
 aaa
+<<<<<<< HEAD
 aan
 aap
 aaJ
@@ -77494,6 +80561,82 @@ bhK
 biz
 bgT
 aae
+=======
+aal
+aau
+aaG
+aaR
+swx
+swy
+swD
+aci
+adb
+sOx
+aeD
+sOB
+agj
+ahb
+ahT
+aiB
+aju
+akx
+alq
+amj
+anc
+anT
+aoQ
+apW
+are
+ash
+ash
+aud
+avh
+awm
+awW
+axQ
+ayK
+awW
+aAQ
+ash
+ayK
+awW
+ash
+aFP
+aGP
+aud
+ash
+ayK
+ayK
+aAQ
+aNz
+aOp
+aPm
+aQq
+amk
+anQ
+aTB
+aUy
+aUy
+aUy
+aWS
+syS
+aYe
+aYW
+byo
+baK
+bbA
+bcp
+bdg
+bee
+beJ
+byo
+bfK
+avV
+bgU
+bhH
+bix
+bgU
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 bjO
@@ -77678,6 +80821,7 @@ aaf
 aae
 aae
 aak
+<<<<<<< HEAD
 aaK
 aaT
 abg
@@ -77697,6 +80841,28 @@ akB
 alk
 aae
 aae
+=======
+aav
+aaH
+aaQ
+acX
+buV
+abF
+ack
+adc
+adP
+aeE
+afr
+afr
+ahc
+ahU
+sOD
+ajv
+aky
+alr
+amk
+amk
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 anQ
 aoU
 aqa
@@ -77711,6 +80877,7 @@ axS
 awX
 aue
 aAR
+<<<<<<< HEAD
 aCc
 aCV
 aDS
@@ -77767,6 +80934,36 @@ aaa
 aaa
 aaa
 aaa
+=======
+arf
+aOq
+aPn
+aQr
+amk
+aDc
+aTC
+aUz
+aVr
+aUz
+aWT
+aIZ
+aYc
+aYW
+bys
+byo
+byo
+byo
+bdh
+byo
+sKB
+byo
+bfK
+avV
+bgV
+bhG
+biw
+bgU
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -77919,6 +81116,11 @@ aaa
 aaa
 aaa
 aaa
+aac
+aad
+aad
+aad
+aac
 aaa
 aaa
 aaa
@@ -77927,11 +81129,83 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+<<<<<<< HEAD
+=======
+aam
+aaw
+aaI
+aaS
+abe
+abm
+abG
+acl
+swK
+adO
+aeF
+afs
+agk
+ahd
+ahV
+sOx
+ajw
+akz
+als
+aml
+and
+abt
+aoS
+apY
+ara
+asj
+atj
+aue
+avj
+awo
+aue
+axP
+ayM
+asg
+aAR
+aCa
+aCU
+aDQ
+aue
+aue
+aGQ
+aHU
+aIQ
+aJX
+aLg
+sJn
+ara
+aOr
+aPo
+aQs
+aCM
+anH
+aTD
+aTD
+aVs
+aTD
+aTD
+aTD
+aYf
+aYY
+aTD
+baL
+aTD
+bcq
+aED
+aTD
+aED
+aTD
+aFG
+aGx
+bgR
+bhJ
+biy
+bgU
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aae
 aaa
 aax
@@ -78174,15 +81448,15 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+aac
+aac
+aad
+aad
+aad
+aad
+aad
+aac
+aac
 aaa
 aaa
 aaa
@@ -78192,7 +81466,23 @@ aaa
 aae
 aaa
 aan
+<<<<<<< HEAD
 aay
+=======
+aap
+aaJ
+aaO
+abf
+aak
+abA
+acf
+add
+swv
+swv
+aak
+aak
+aak
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aak
 aaj
 aak
@@ -78428,24 +81718,24 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+aac
+aad
+aad
+aac
+aad
+aad
+aad
+aad
+aad
+sMD
+sMD
+sME
+sNx
+aae
+aae
+aae
+aae
+aae
 aaf
 aaa
 aaa
@@ -78680,6 +81970,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 aaa
 aaa
 aaa
@@ -78700,6 +81991,27 @@ aaa
 aaa
 aaa
 aaa
+=======
+aac
+aac
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+sME
+sMT
+sNj
+sNy
+sNM
+sNM
+sNM
+aae
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -78771,7 +82083,16 @@ bcu
 bdo
 bej
 beL
+<<<<<<< HEAD
 aTR
+=======
+aYu
+bfP
+bfP
+bfP
+bfP
+sKZ
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 bfP
 bgo
 bha
@@ -78941,8 +82262,26 @@ aaa
 aaa
 aaa
 aaa
+aac
+aac
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+sMq
+sMr
+sMU
+sNk
+sMq
+sMr
 aaa
 aaa
+<<<<<<< HEAD
 aaa
 aaa
 aaa
@@ -78962,10 +82301,14 @@ aaa
 aaa
 aaf
 aaa
+=======
+aae
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aae
 aaa
+<<<<<<< HEAD
 aae
 abJ
 acq
@@ -78985,6 +82328,31 @@ anh
 anW
 aoX
 aqe
+=======
+aan
+aay
+aak
+sOs
+aak
+abs
+swz
+abs
+abs
+aeI
+afv
+agn
+abs
+ahY
+ahY
+ajA
+akq
+alu
+amn
+ane
+alu
+syT
+alu
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 alu
 asp
 atm
@@ -79003,6 +82371,7 @@ aFe
 aFW
 aGW
 aCe
+<<<<<<< HEAD
 aIW
 aKe
 aLk
@@ -79029,6 +82398,34 @@ bdp
 aZe
 beL
 bfi
+=======
+aso
+ayP
+aPs
+aQv
+aRt
+aSv
+aTH
+aUB
+aVu
+aWl
+aWU
+aXz
+aYj
+aZc
+aZV
+baO
+bbD
+bxV
+bdm
+beh
+sKP
+sOV
+bfP
+blu
+bgY
+bgm
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 bfP
 bgp
 bhb
@@ -79195,13 +82592,33 @@ aaa
 aaa
 aaa
 aaa
+aac
+aad
+aad
+aad
+sxC
+sxC
+adQ
+adQ
+adQ
+adQ
+sxC
+sMr
+sMG
+sMV
+sNl
+sNA
+sMr
+aaa
+aaa
+aae
+aaa
+aaa
+aae
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
+<<<<<<< HEAD
 aaa
 aaa
 aaa
@@ -79243,6 +82660,39 @@ anX
 ani
 aqf
 alu
+=======
+aak
+sOt
+sOv
+swz
+aco
+adg
+adU
+aeJ
+afw
+ago
+abs
+ahZ
+aiD
+ajB
+akD
+alv
+amo
+anf
+anU
+aoW
+aqc
+syT
+bxC
+atm
+auj
+avo
+awt
+axb
+ara
+ayQ
+azN
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 asp
 atn
 aum
@@ -79296,6 +82746,14 @@ bjq
 bjD
 bjQ
 bfP
+<<<<<<< HEAD
+=======
+bgn
+bgZ
+bhM
+sKZ
+aad
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aad
 aad
 aad
@@ -79452,6 +82910,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 aaa
 aaa
 aaa
@@ -79499,6 +82958,56 @@ anj
 anY
 aoY
 aqg
+=======
+aac
+aac
+aad
+aad
+adQ
+sLB
+adQ
+adQ
+adQ
+sxC
+adQ
+sLB
+sMr
+sMH
+sMW
+sNm
+sNB
+sNP
+sOb
+sOb
+sOj
+sOb
+sOb
+sOj
+sOb
+sOb
+sOb
+sOr
+sOu
+sOw
+abs
+acp
+adh
+adV
+aeK
+afx
+agp
+ahg
+ahZ
+aiE
+ajC
+akE
+alw
+amp
+ang
+anV
+anV
+aqd
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 alu
 asq
 ato
@@ -79523,6 +83032,7 @@ ato
 avs
 aNE
 ayP
+<<<<<<< HEAD
 blo
 aQy
 aRu
@@ -79552,6 +83062,37 @@ biY
 bjr
 bjE
 bjR
+=======
+aPd
+aQc
+aRr
+aSx
+aTJ
+aUD
+aVw
+aWn
+aSz
+aXB
+aYl
+aZe
+aZX
+baQ
+bbF
+bcu
+bdo
+bej
+beL
+sPI
+bfP
+bgo
+bha
+bhN
+bfP
+biW
+bjp
+bhN
+bfP
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 bfP
 aad
 aad
@@ -79708,13 +83249,34 @@ aaa
 aaa
 aaa
 aaa
+aac
+aad
+aad
+sxC
+adQ
+sLC
+sLJ
+ahQ
+sLT
+ahQ
+sMa
+sLC
+sMr
+sMI
+sMX
+sNn
+sNC
+sNQ
+aaa
+aaa
+aae
+aaa
+aaa
+aae
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
+<<<<<<< HEAD
 aaa
 aaa
 aaa
@@ -79800,6 +83362,73 @@ bds
 baa
 aZl
 bfi
+=======
+aak
+swv
+aak
+abs
+acq
+adi
+adW
+aeL
+bxy
+agq
+ahh
+aia
+aiE
+ajC
+akF
+alv
+amq
+anh
+anW
+aoX
+aqe
+alu
+asp
+sBw
+aul
+avq
+awv
+axd
+ara
+ayS
+azP
+aso
+aCe
+aDa
+aDX
+aFe
+aFW
+aGW
+sIC
+aIW
+aKe
+aLk
+aCf
+aNC
+aOt
+aOQ
+aQw
+aRs
+aSy
+aTK
+aUE
+aVx
+aWo
+aSz
+aXC
+aYm
+aZa
+aZe
+baR
+bbG
+aZe
+bdp
+aZe
+beL
+aYu
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 bfP
 bgs
 bhb
@@ -79964,28 +83593,28 @@ aaa
 aaa
 aaa
 aaa
+aac
+aac
+aad
+adQ
+adQ
+sLw
+sLD
+sLK
+sLO
+sLO
+sLY
+sMb
+sLD
+sMq
+sMr
+sMY
+sNo
+sMr
+sMq
+sMr
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+aae
 aaa
 aaa
 aae
@@ -80218,34 +83847,35 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+aac
+aad
+aad
+adQ
+adQ
+sLx
+ahQ
+adQ
+sLP
+adQ
+adQ
+sMc
+sMk
+sMv
+sMK
+sMZ
+sNp
+sNE
+sNS
+sMr
+aad
+aae
 aaa
 aaa
 aaa
 aaa
 aaa
 aae
+<<<<<<< HEAD
 aad
 aad
 aad
@@ -80323,6 +83953,343 @@ bjb
 bju
 bjH
 bfP
+=======
+aaa
+abs
+swz
+acs
+adk
+adX
+aeN
+afz
+ags
+ahi
+aib
+aiF
+ajB
+akH
+alv
+ams
+anj
+anY
+aoY
+aqg
+alu
+aMx
+ato
+aun
+avs
+awx
+axe
+ato
+axe
+azR
+aAX
+axe
+aDb
+ato
+aFg
+axe
+avs
+axe
+sIL
+aKf
+ato
+axe
+aNE
+ayP
+blo
+aQy
+aRu
+aSA
+aTM
+aUF
+aVy
+aWq
+aWq
+aXD
+aYo
+aZg
+aZZ
+baT
+bbH
+bcx
+bdr
+bel
+beN
+bfm
+bfR
+bgr
+bhd
+bhQ
+biD
+biY
+bjr
+bjE
+bjR
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
+bfP
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+aac
+<<<<<<< HEAD
+=======
+aac
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+<<<<<<< HEAD
+=======
+aaa
+aaa
+aaa
+aaa
+"}
+(176,1,1) = {"
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aac
+aad
+aad
+sxC
+adQ
+sLy
+sLE
+sLL
+sLQ
+sLV
+adQ
+sMd
+sMl
+sMw
+sML
+sNa
+sNq
+sNF
+sNT
+sMr
+aad
+sOk
+aae
+aae
+aaf
+aaa
+aaa
+aaa
+aae
+aad
+abs
+abK
+act
+adl
+adX
+aeO
+afA
+agt
+swz
+aic
+aiG
+ajE
+akI
+alu
+alu
+syT
+alu
+alu
+alu
+alu
+abt
+abt
+abt
+abt
+syS
+abt
+abt
+abt
+azS
+aAY
+abt
+abt
+abt
+abt
+abt
+abt
+syS
+abt
+abt
+abt
+abt
+abt
+abt
+aPp
+avU
+aRv
+aSB
+aTN
+aUG
+aVz
+aWr
+aWX
+aXE
+aYp
+aZh
+baa
+baU
+bbI
+baa
+bds
+baa
+aZl
+aYu
+bfP
+bgs
+bhb
+bhR
+biB
+biZ
+bjs
+bjF
+bjS
 bfP
 aad
 aad
@@ -80430,6 +84397,247 @@ aaa
 aaa
 aaa
 "}
+(177,1,1) = {"
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aac
+aad
+aad
+adQ
+sxC
+sLz
+sLF
+adQ
+sLR
+adQ
+adQ
+sMe
+sMm
+sMx
+sMr
+sNb
+sNr
+sNG
+sNU
+sMq
+aad
+aad
+aaa
+aaa
+aae
+aaa
+aaa
+aad
+aah
+aad
+swz
+abs
+abs
+abs
+abs
+swz
+abs
+abs
+abs
+abt
+abt
+ajF
+akJ
+bxz
+amt
+ank
+anZ
+aoZ
+aqh
+ari
+aqh
+aqh
+auo
+avt
+awy
+aqh
+axV
+ayU
+azT
+aAZ
+aCg
+ank
+aly
+aly
+aFX
+aGX
+aly
+aIX
+aly
+aLm
+aqh
+aNF
+ank
+aPw
+aQz
+sJL
+sJL
+aTO
+aUH
+sKf
+aVA
+aVA
+aXF
+aUH
+aZi
+bab
+baV
+bbJ
+bcy
+bdt
+bem
+beO
+sOV
+bfP
+bgo
+bhe
+bhN
+bfP
+bja
+bjt
+bjG
+bjT
+bfP
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+<<<<<<< HEAD
+=======
+aaa
+aaa
+aaa
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
+aaa
+"}
 (179,1,1) = {"
 aaa
 aaa
@@ -80451,8 +84659,8 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
+"}
+(178,1,1) = {"
 aaa
 aaa
 aaa
@@ -80502,11 +84710,38 @@ aaa
 aaa
 aaa
 aad
+aad
+adQ
+adQ
+sLA
+sLG
+sLM
+sLS
+sLS
+sLZ
+sMf
+sMn
+sMr
+sMr
+sNc
+sNs
+sMr
+sMr
+sMq
+aad
+aad
+aaa
+aaa
+aad
+<<<<<<< HEAD
 aah
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aad
 aad
 aad
 aad
+<<<<<<< HEAD
 aad
 bxZ
 abM
@@ -80579,7 +84814,81 @@ bfP
 bjc
 bjv
 bjc
+=======
+swA
+abL
+acu
+adm
+bxw
+bym
+afB
+agu
+ahj
+bym
+aiH
+alz
+akK
+alz
+amu
+anl
+aoa
+apa
+aqi
+blh
+arj
+sOI
+aup
+avu
+atp
+arj
+arj
+arj
+sEJ
+aBa
+aBa
+anl
+aDZ
+alc
+aFY
+bsz
+aDZ
+aIY
+aDZ
+sJa
+arj
+arj
+anl
+aPx
+arj
+aRx
+sOT
+aTP
+aUI
+aVB
+aWs
+aWY
+aXG
+aYq
+aZj
+bac
+baW
+bbK
+bcz
+bdu
+ben
+beP
+bfn
 bfP
+bgt
+bhf
+bhS
+biE
+bjb
+bju
+bjH
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
+bfP
+sKZ
 aad
 aad
 aad
@@ -80687,6 +84996,7 @@ aaa
 aaa
 aaa
 "}
+<<<<<<< HEAD
 (180,1,1) = {"
 aaa
 aaa
@@ -80708,7 +85018,9 @@ aaa
 aaa
 aaa
 aaa
-aaa
+=======
+(179,1,1) = {"
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -80760,10 +85072,32 @@ aaa
 aaa
 aad
 aad
+adQ
+sxC
+sLC
+sLN
+ahQ
+sLX
+ahQ
+sMg
+sLC
+sMr
+sMO
+sNd
+sNt
+sNI
+sMr
+aad
+aad
+aad
+aaa
 aad
 aad
 aad
 aad
+aad
+aad
+<<<<<<< HEAD
 aad
 bxZ
 byf
@@ -80836,6 +85170,79 @@ bfP
 bjd
 bjw
 bjI
+=======
+bxZ
+abM
+byi
+adn
+adn
+adn
+swL
+adn
+adn
+swL
+adn
+ajH
+ado
+adn
+ado
+adp
+aob
+apb
+anQ
+sOF
+sOG
+atq
+aRz
+aRz
+sOK
+aRz
+aRz
+bli
+azU
+aBb
+aCh
+aDc
+aEa
+sHz
+aFi
+bsA
+aHY
+aIZ
+blm
+azU
+aMy
+aHY
+aDc
+aPy
+aQA
+sOM
+sOU
+sOV
+sKa
+aVC
+aWt
+aWZ
+aXH
+aYr
+aZi
+bad
+baX
+bbL
+bcA
+bdv
+beo
+aZl
+sPK
+bfP
+bgm
+bhg
+bgm
+bfP
+bjc
+bjv
+bjc
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 bfP
 aad
 aad
@@ -80845,7 +85252,11 @@ aad
 aad
 aad
 aad
+<<<<<<< HEAD
 aad
+=======
+aac
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aac
 aaa
 aaa
@@ -80944,6 +85355,7 @@ aaa
 aaa
 aaa
 "}
+<<<<<<< HEAD
 (181,1,1) = {"
 aaa
 aaa
@@ -80965,6 +85377,9 @@ aaa
 aaa
 aaa
 aaa
+=======
+(180,1,1) = {"
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -81015,13 +85430,37 @@ aaa
 aaa
 aaa
 aaa
+aad
+aad
+adQ
+sLI
+adQ
+adQ
+adQ
+adQ
+sxC
+sLB
+sMr
+sMP
+sNe
+sNu
+sNJ
+sMr
+aad
+aad
+aac
 aaa
+<<<<<<< HEAD
+=======
+aad
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aad
 aac
 aac
 aad
 aad
 aad
+<<<<<<< HEAD
 bxZ
 byg
 byk
@@ -81094,6 +85533,83 @@ bje
 bjx
 bjI
 bfP
+=======
+aad
+aad
+bxZ
+byf
+byj
+adn
+adZ
+aeP
+afC
+agv
+ahk
+ado
+aiI
+ajI
+akL
+alA
+amv
+ado
+aoc
+apc
+aqj
+aRz
+asr
+bfp
+aRz
+avv
+acx
+axf
+aRz
+aRz
+sEK
+sJN
+aRz
+aRz
+aRz
+aRz
+blL
+bsB
+aRz
+aRz
+aRz
+sOL
+aRz
+abt
+abt
+anQ
+anQ
+sON
+aSE
+sOV
+aUI
+aVD
+aWu
+aXa
+aXI
+aYs
+aZj
+bac
+baY
+bbM
+bxW
+bdw
+bep
+aZl
+sPI
+bfP
+bgm
+bhh
+bgm
+sKZ
+bjd
+bjw
+bjI
+bfP
+aad
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aad
 aad
 aad
@@ -81201,6 +85717,7 @@ aaa
 aaa
 aaa
 "}
+<<<<<<< HEAD
 (182,1,1) = {"
 aaa
 aaa
@@ -81221,6 +85738,9 @@ aaa
 aaa
 aaa
 aaa
+=======
+(181,1,1) = {"
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -81275,10 +85795,36 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
+=======
+aad
+aad
+adQ
+adQ
+adQ
+sxC
+sxC
+adQ
+sxC
+sMr
+sMQ
+sNf
+sNv
+sNK
+sMq
+aad
+aad
+aac
+aaa
+aaa
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
+aad
+aac
+aac
 aad
 aad
 aad
-aad
+<<<<<<< HEAD
 bxZ
 byf
 byl
@@ -81351,6 +85897,82 @@ bfP
 bjc
 bfP
 bfP
+=======
+swA
+byg
+byk
+adn
+aea
+aeQ
+afD
+agw
+ajI
+aid
+aiJ
+agw
+afE
+afE
+amw
+anm
+aod
+apd
+aqk
+aRz
+ass
+aTR
+sJN
+avw
+awz
+axg
+aRz
+sEl
+sEL
+aXb
+bai
+aSC
+aYt
+aRz
+bxM
+bsC
+aSH
+bvh
+sIT
+sJc
+sJN
+aae
+aae
+aae
+aae
+aRy
+aSF
+aTS
+aUJ
+aVE
+sKh
+aVE
+aVE
+sKh
+aZk
+baf
+baZ
+bbN
+bcB
+bdx
+beq
+sKQ
+sOV
+sKZ
+bgm
+bhi
+bgm
+bfP
+bje
+bjx
+bjI
+sKZ
+aad
+aad
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aad
 aad
 aad
@@ -81359,8 +85981,11 @@ aad
 aad
 aad
 aad
+<<<<<<< HEAD
 aad
 aad
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -81458,6 +86083,7 @@ aaa
 aaa
 aaa
 "}
+<<<<<<< HEAD
 (183,1,1) = {"
 aaa
 aaa
@@ -81477,11 +86103,9 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+=======
+(182,1,1) = {"
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -81536,6 +86160,29 @@ aaa
 aad
 aad
 aad
+aad
+aad
+aad
+aad
+aad
+aad
+sMq
+sMr
+sNg
+sMq
+sMr
+sMr
+aad
+aad
+aaa
+aaa
+aaa
+aaa
+aaa
+aad
+aad
+aad
+<<<<<<< HEAD
 bvg
 bvh
 bvh
@@ -81604,6 +86251,83 @@ bgu
 bhj
 bhT
 aRz
+=======
+aad
+bxZ
+byf
+byl
+swL
+aed
+aeT
+afE
+agx
+ahl
+ado
+aiK
+agx
+afF
+alB
+amx
+ado
+aoc
+apc
+aql
+aRz
+ast
+bfo
+aRz
+aRz
+aRz
+sJN
+aRz
+bfp
+aSD
+aRz
+aRz
+aRz
+sGY
+aRz
+sIb
+bsD
+aRz
+sIN
+aRz
+sJd
+sJq
+aaa
+bte
+aPz
+aPz
+sOM
+aSG
+aTT
+aUK
+aVF
+sOZ
+sPa
+sOT
+sPk
+aZl
+bag
+bba
+bbO
+bcC
+bdy
+ber
+aZl
+bxX
+bfP
+sKZ
+bfP
+bfP
+bfP
+bfP
+bjc
+bfP
+bfP
+aad
+aad
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aad
 bvg
 aac
@@ -81613,11 +86337,15 @@ aad
 aad
 aad
 aad
+<<<<<<< HEAD
 aac
 aac
 aac
 aad
 aaa
+=======
+aad
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -81715,6 +86443,7 @@ aaa
 aaa
 aaa
 "}
+<<<<<<< HEAD
 (184,1,1) = {"
 aaa
 aaa
@@ -81733,6 +86462,9 @@ aaa
 aaa
 aaa
 aaa
+=======
+(183,1,1) = {"
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -81785,12 +86517,29 @@ aaa
 aaa
 aaa
 aaa
+aac
+bvI
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+sNh
+aad
+aad
+aad
+aad
+aac
 aaa
 aaa
 aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 aac
 aac
 aac
@@ -81819,6 +86568,110 @@ abt
 aad
 aad
 aad
+=======
+aad
+aad
+aad
+bvg
+bvg
+bvg
+adn
+aec
+aeS
+afF
+agx
+ahm
+adp
+aiL
+ajJ
+akM
+alC
+amy
+adn
+aoe
+ape
+aqm
+sJN
+sAY
+acw
+aXJ
+aSC
+aXJ
+bai
+aXb
+sEm
+aRz
+sFn
+sFR
+sJN
+sGY
+aRz
+bmb
+bsE
+axW
+aae
+sIU
+sJe
+sIU
+aae
+bte
+aPA
+aQB
+sOM
+sJR
+sON
+sOY
+aVG
+sJR
+sOM
+sOY
+aYu
+aZm
+bah
+bah
+bah
+sKJ
+bah
+bah
+beQ
+sOV
+sOM
+bgu
+bhj
+bhT
+sOM
+aad
+bvg
+aac
+aad
+aad
+aad
+aad
+aad
+aad
+aac
+aac
+aac
+aad
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -81939,6 +86792,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 aaa
 aaa
 aaa
@@ -81947,7 +86801,11 @@ aaa
 aaa
 aaa
 aaa
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
+"}
+(184,1,1) = {"
 aaa
 aaa
 aaa
@@ -82003,6 +86861,18 @@ aaa
 aaa
 aaa
 aaa
+aac
+aac
+aad
+aac
+aad
+aad
+aad
+aad
+aad
+aac
+aac
+aad
 aaa
 aaa
 aaa
@@ -82013,7 +86883,93 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 aaa
+=======
+aac
+aac
+aac
+bvg
+aad
+adn
+aed
+aeT
+afG
+agz
+ahn
+aie
+aiM
+ajK
+akN
+alD
+amz
+ann
+aof
+apf
+aqn
+aRz
+abO
+bfp
+aSD
+sCt
+sCQ
+sDq
+aSD
+sEn
+sEN
+sFo
+sFS
+aSH
+sGY
+aRz
+sIc
+sIv
+sFs
+sIO
+sIU
+sJe
+sIU
+aaa
+bte
+aPB
+aQC
+sOM
+aSI
+aTU
+aUL
+aVH
+aWw
+sOM
+sPi
+aYv
+sPa
+sPo
+sOZ
+bbP
+aUK
+bdz
+sPa
+sOZ
+bfr
+sOY
+bgv
+sPY
+bhU
+aRy
+bvg
+aac
+aaa
+aaa
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+aac
+aac
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -82176,11 +87132,16 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 aaa
 aaa
 aaa
 aaa
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
+"}
+(185,1,1) = {"
 aaa
 aaa
 aaa
@@ -82239,6 +87200,13 @@ aaa
 aaa
 aaa
 aaa
+aac
+aac
+aad
+aad
+aad
+aac
+aac
 aaa
 aaa
 aaa
@@ -82252,6 +87220,90 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
+=======
+aac
+aad
+aad
+aad
+adn
+aee
+aeU
+afH
+agA
+aho
+aif
+aiN
+ajL
+akO
+alE
+amA
+ano
+aog
+apg
+aqk
+aRz
+abN
+acy
+aRz
+sJN
+aRz
+aRz
+aRz
+aRz
+aRz
+sFp
+sFT
+sGy
+sHb
+aRz
+bxM
+bsC
+axW
+aae
+sIU
+sJg
+sIU
+aae
+bte
+aPC
+aQD
+aRA
+aSJ
+aTV
+aUM
+aVI
+aWx
+sOM
+sON
+sOM
+sON
+sOM
+sOM
+sON
+sOY
+bdA
+sOM
+sOM
+sOV
+sON
+bgw
+sPY
+bhV
+aRy
+bvg
+aaa
+aaa
+aaa
+aaa
+aad
+aad
+aac
+aad
+aad
+aac
+aac
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -82408,9 +87460,14 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 aaa
 aaa
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
+"}
+(186,1,1) = {"
 aaa
 aaa
 aaa
@@ -82468,6 +87525,10 @@ aaa
 aaa
 aaa
 aaa
+aac
+aac
+aad
+aad
 aaa
 aaa
 aaa
@@ -82483,11 +87544,84 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 aaa
 aaa
 "}
 (187,1,1) = {"
 aaa
+=======
+aac
+aac
+aad
+aad
+ado
+aed
+ajI
+afI
+ajI
+ahp
+adn
+aiO
+ajM
+akP
+alF
+amB
+ado
+acv
+aph
+aqp
+aRz
+bvh
+sBx
+aRz
+aad
+aad
+aah
+aad
+aad
+aSD
+sFq
+sFU
+aRz
+sGY
+sJN
+blM
+sIw
+axW
+aRz
+sJN
+sJd
+abN
+aaa
+bte
+aPz
+aPz
+sOM
+aSK
+aTW
+aUN
+aVJ
+aWy
+sOM
+aad
+aad
+aad
+aad
+aad
+sOM
+bcD
+bdB
+bes
+sOM
+bfs
+sLc
+bgx
+bhm
+bhW
+sON
+aac
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -82640,6 +87774,8 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
+=======
 aaa
 aaa
 aaa
@@ -82652,6 +87788,174 @@ aaa
 aaa
 aaa
 aaa
+"}
+(187,1,1) = {"
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aad
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aac
+swM
+aeh
+agB
+ado
+agB
+ahq
+adp
+ado
+swL
+ado
+adn
+amC
+anp
+aoh
+api
+amD
+amC
+amC
+sBy
+sBW
+aad
+aac
+bvg
+aad
+aad
+sJN
+aRz
+aRz
+aSD
+sHd
+aRz
+bxM
+bsC
+sIG
+aRz
+sIY
+sJi
+aRz
+aae
+aae
+aae
+aae
+sON
+aRy
+aRy
+aRy
+aRy
+aRy
+sON
+aad
+aac
+aad
+aad
+aad
+sOM
+bcE
+bdC
+bet
+sOM
+bft
+sOM
+bgy
+sPY
+bhX
+aRy
+bvg
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -82756,6 +88060,8 @@ aaa
 aaa
 aaa
 aaa
+"}
+(188,1,1) = {"
 aaa
 aaa
 aaa
@@ -82821,6 +88127,76 @@ aaa
 aaa
 aaa
 aaa
+aaa
+aaa
+aaa
+adq
+aeg
+aeX
+adp
+agC
+ahr
+adq
+aae
+aae
+aae
+aae
+syD
+anq
+aoi
+apj
+aqq
+ark
+amC
+sOJ
+bvg
+aac
+aac
+aae
+aac
+aad
+aRz
+aXK
+bhk
+sGA
+sHe
+aRz
+blO
+bsJ
+axW
+aRz
+aSH
+sJj
+aRz
+aae
+aaf
+aaf
+aae
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aac
+aac
+aad
+sOM
+sON
+sOM
+sOM
+sON
+sOM
+sOM
+bgz
+sPY
+sLg
+aRy
+bvg
+aac
 aaa
 aaa
 aaa
@@ -82972,6 +88348,8 @@ aaa
 aaa
 aaa
 aaa
+"}
+(189,1,1) = {"
 aaa
 aaa
 aaa
@@ -83054,6 +88432,45 @@ aaa
 aaa
 aaa
 aaa
+ado
+aeh
+agB
+ado
+agB
+ahq
+ado
+aaa
+aaa
+aaa
+aaa
+amD
+anr
+aoj
+apk
+aqr
+arl
+amC
+bvg
+aac
+aac
+aaa
+aae
+aac
+aac
+sEQ
+aRz
+sJN
+atq
+aRz
+aRz
+bmh
+sIx
+aKh
+sIP
+bmC
+bmG
+axW
+aae
 aaa
 aaa
 aaa
@@ -83067,11 +88484,22 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+aac
+aac
+aac
+aac
+aad
+aad
+aad
+aad
+sOM
+bgA
+bhn
+bhY
+sON
+aad
+aac
+aac
 aaa
 aaa
 aaa
@@ -83169,46 +88597,11 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
+=======
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -83298,6 +88691,8 @@ aaa
 aaa
 aaa
 aaa
+"}
+(190,1,1) = {"
 aaa
 aaa
 aaa
@@ -83315,6 +88710,101 @@ aaa
 aaa
 aaa
 aaa
+aaa
+aaa
+aaa
+<<<<<<< HEAD
+=======
+aaa
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+abQ
+abQ
+abQ
+aei
+aeZ
+abQ
+aeZ
+aht
+abQ
+abQ
+abQ
+aaa
+aaa
+amC
+ans
+aok
+apl
+aqs
+arm
+syD
+aac
+aaa
+aaa
+aaa
+aae
+aaa
+aac
+bvg
+sFs
+sFX
+sGC
+sHf
+sHB
+blM
+sIy
+blZ
+sHB
+blZ
+sJk
+sDP
+aae
+aaa
+aaf
+aaf
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aac
+aac
+aac
+aad
+aad
+sOM
+sON
+sOM
+sOM
+sOM
+aad
+aad
+aad
+aad
 aaa
 aaa
 aaa
@@ -83393,6 +88883,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 aac
 aac
 aac
@@ -83407,57 +88898,8 @@ aad
 aad
 aad
 aad
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -83566,6 +89008,112 @@ aaa
 aaa
 aaa
 aaa
+"}
+(191,1,1) = {"
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+abQ
+acz
+afa
+afa
+afa
+afK
+afa
+afa
+aig
+abQ
+abQ
+akQ
+aaa
+amC
+amC
+amD
+apm
+aqt
+amC
+amC
+aaa
+aaa
+aaa
+aaa
+aae
+aae
+bvg
+bvg
+sFs
+sFY
+sGD
+bsS
+sHC
+sId
+bsM
+bsS
+sIR
+bsS
+bsY
+axW
+aae
+aae
+aae
+aaf
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aac
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+aac
+aac
+aac
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -83624,6 +89172,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 axW
 blM
 blZ
@@ -83633,6 +89182,8 @@ bsS
 bsS
 bsY
 axW
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -83646,6 +89197,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 aaa
 aaa
 aaa
@@ -83666,59 +89218,8 @@ aad
 aac
 aac
 aac
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -83825,6 +89326,8 @@ aaa
 aaa
 aaa
 aaa
+"}
+(192,1,1) = {"
 aaa
 aaa
 aaa
@@ -83857,9 +89360,9 @@ aej
 ads
 ads
 ads
-adt
-aih
-aiP
+ads
+aii
+aiQ
 ajN
 akR
 aaa
@@ -83870,21 +89373,21 @@ apn
 aqu
 amD
 aae
-aaa
-aaa
-aaa
-aaa
-aaa
+aae
+aaf
+aaf
+aae
+aae
 axW
-axW
+sDP
 azb
 axW
 axW
 axW
 azb
-aFj
-aFZ
-bsN
+blL
+blY
+bsB
 azb
 axW
 aKh
@@ -83892,8 +89395,8 @@ bsZ
 azb
 axW
 axW
-aaa
-aaa
+aae
+aaf
 aaa
 aaa
 aaa
@@ -83959,6 +89462,51 @@ aaa
 aaa
 aaa
 aaa
+abQ
+acA
+ads
+aej
+ads
+ads
+ads
+adt
+aih
+aiP
+ajN
+akR
+aaa
+aae
+amD
+aol
+apn
+aqu
+amD
+aae
+aaa
+aaa
+aaa
+aaa
+<<<<<<< HEAD
+aaa
+axW
+axW
+azb
+axW
+axW
+axW
+azb
+aFj
+aFZ
+bsN
+azb
+axW
+aKh
+bsZ
+azb
+axW
+axW
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -83977,11 +89525,22 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+<<<<<<< HEAD
+aac
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -84088,6 +89647,12 @@ aaa
 aaa
 aaa
 aaa
+"}
+(193,1,1) = {"
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -84109,21 +89674,21 @@ aaa
 aaa
 abQ
 buy
-adt
-adt
-adt
 ads
-adt
+ads
+ads
+ads
+ads
 ads
 aii
-aiP
-ajO
+aiQ
+ajN
 akR
 aaa
 aae
 ant
 aom
-apo
+apn
 aqv
 ant
 aae
@@ -84131,7 +89696,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+aae
 axW
 ayW
 azV
@@ -84140,7 +89705,7 @@ aCi
 aDd
 aEb
 aFk
-aDh
+sIe
 bsO
 aHZ
 aJa
@@ -84149,8 +89714,8 @@ bta
 aMz
 aNG
 azb
-aaa
-aaa
+aae
+aaf
 aaa
 aaa
 aaa
@@ -84212,6 +89777,51 @@ aaa
 aaa
 aaa
 aaa
+abQ
+buy
+adt
+adt
+adt
+ads
+adt
+ads
+aii
+aiP
+ajO
+akR
+aaa
+aae
+ant
+aom
+apo
+aqv
+ant
+aae
+aaa
+aaa
+aaa
+aaa
+aaa
+<<<<<<< HEAD
+axW
+ayW
+azV
+aBc
+aCi
+aDd
+aEb
+aFk
+aDh
+bsO
+aHZ
+aJa
+azb
+bta
+aMz
+aNG
+azb
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -84232,6 +89842,19 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+aad
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -84244,12 +89867,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+aab
 aaa
 aaa
 aaa
@@ -84344,6 +89962,11 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
+"}
+(194,1,1) = {"
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -84364,6 +89987,111 @@ aaa
 aaa
 aaa
 aaa
+abQ
+acA
+ads
+ads
+ads
+ads
+ads
+ads
+aii
+aiQ
+ajN
+akR
+aaa
+aaa
+amD
+amD
+apm
+amD
+amD
+aaa
+aaa
+aaa
+aaa
+aaf
+aae
+axW
+ayX
+azW
+aBd
+aCj
+aDe
+aEc
+aFl
+aGa
+bsP
+aIa
+aJb
+aKi
+btb
+aIa
+aNH
+axW
+aae
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aad
+aad
+aad
+aad
+aad
+aad
+aac
+aac
+aac
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+<<<<<<< HEAD
 abQ
 acB
 adt
@@ -84406,6 +90134,9 @@ btb
 aIa
 aNH
 axW
+=======
+aaa
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -84422,6 +90153,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 aaa
 aaa
 aaa
@@ -84437,54 +90169,8 @@ aac
 aac
 aac
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -84591,6 +90277,11 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
+"}
+(195,1,1) = {"
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -84623,6 +90314,101 @@ aaa
 aaa
 abQ
 acC
+aek
+aek
+aek
+buz
+aek
+aek
+aij
+abQ
+abQ
+akS
+aaa
+amE
+amE
+amF
+app
+amF
+amE
+amE
+aaa
+aaa
+aaa
+aaf
+aae
+axW
+ayY
+azX
+aBe
+aCk
+bsv
+bsw
+bsx
+bsw
+bsQ
+aEd
+aJc
+aKj
+btc
+aMA
+aNI
+sDP
+aae
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aac
+aac
+aad
+aad
+aad
+aad
+aad
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+<<<<<<< HEAD
+abQ
+acC
 adu
 aek
 adu
@@ -84641,11 +90427,14 @@ app
 amF
 amE
 amE
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 axW
 ayY
 azX
@@ -84663,6 +90452,8 @@ btc
 aMA
 aNI
 axW
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -84681,6 +90472,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 aaa
 aaa
 aaa
@@ -84692,6 +90484,8 @@ aad
 aad
 aad
 aad
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -84704,52 +90498,11 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -84844,6 +90597,11 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
+"}
+(196,1,1) = {"
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -84894,15 +90652,109 @@ aaa
 amE
 anu
 aon
-apq
+aon
 aqw
 arn
 amE
 aaa
 aaa
 aaa
+aaf
+aae
+axW
+ayZ
+azY
+aBf
+aCl
+aDg
+aEe
+aFn
+aGb
+bsR
+bsT
+bsV
+bsX
+btd
+aMB
+aNJ
+sDP
+aae
+aaf
 aaa
 aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aad
+aad
+aad
+aad
+aad
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+<<<<<<< HEAD
+abQ
+abQ
+abQ
+abQ
+abQ
+abQ
+agD
+abQ
+abQ
+abQ
+abQ
+aaa
+aaa
+amE
+anu
+aon
+apq
+aqw
+arn
+amE
+aaa
+=======
+aaa
+aaa
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
+aaa
+aaa
+aaa
+aaa
+<<<<<<< HEAD
 axW
 ayZ
 azY
@@ -84923,6 +90775,8 @@ axW
 aaa
 aaa
 aaa
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -84943,6 +90797,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 aad
 aad
 aad
@@ -84950,48 +90805,8 @@ aad
 aad
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -85099,6 +90914,23 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
+"}
+(197,1,1) = {"
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -85159,6 +90991,64 @@ aaa
 aaa
 aaa
 aaa
+aae
+axW
+aza
+azZ
+aBg
+aCm
+aDh
+aEf
+aEf
+bll
+aEf
+aEf
+aDh
+azb
+aLt
+aMC
+aNK
+axW
+aae
+aaf
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+<<<<<<< HEAD
+aaa
+amF
+anv
+aoo
+apr
+aqx
+aro
+asu
+aaa
+aaa
+aaa
+aaa
 aaa
 axW
 aza
@@ -85185,6 +91075,8 @@ aaa
 aaa
 aaa
 aaa
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -85206,25 +91098,15 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 aaa
 aaa
 aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -85327,6 +91209,9 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
+"}
+(198,1,1) = {"
 aaa
 aaa
 aaa
@@ -85338,6 +91223,8 @@ aaa
 aaa
 aaa
 aaa
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -85405,6 +91292,22 @@ aaa
 aaa
 aaa
 aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+<<<<<<< HEAD
+aaa
+aaa
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 amE
 anw
 aop
@@ -85415,9 +91318,15 @@ amE
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 aaa
 aaa
 axW
+=======
+aaf
+aae
+sDP
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 azb
 azb
 aBh
@@ -85434,6 +91343,11 @@ aDi
 azb
 azb
 axW
+<<<<<<< HEAD
+=======
+aae
+aaf
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -85460,8 +91374,11 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 aaa
 aaa
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -85669,22 +91586,35 @@ apt
 amF
 amE
 amE
+<<<<<<< HEAD
+aaa
+aaa
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
-aaa
-aaa
+aaf
 aae
 aae
+<<<<<<< HEAD
 azb
 aBi
 azb
 aBi
+=======
+aae
+azb
+aDh
+azb
+aDh
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 azb
 aae
 aae
 aae
 azb
+<<<<<<< HEAD
 aBi
 azb
 aLu
@@ -85692,6 +91622,15 @@ azb
 aae
 aae
 aaa
+=======
+aDh
+azb
+aDh
+azb
+aae
+aae
+aae
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -85935,16 +91874,26 @@ aaa
 aaa
 azb
 aBh
+<<<<<<< HEAD
 azb
 aDi
 azb
+=======
+azb
+aDi
+azb
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
 azb
 aDi
 azb
+<<<<<<< HEAD
 aLv
+=======
+aDi
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 azb
 aaa
 aaa
@@ -86976,7 +92925,11 @@ aLx
 aMF
 aNN
 axY
+<<<<<<< HEAD
 aPF
+=======
+aPE
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aQE
 aaa
 aaa
@@ -87233,7 +93186,11 @@ aLy
 aMG
 aNO
 axX
+<<<<<<< HEAD
 aPF
+=======
+aPE
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aQE
 aaa
 aaa
@@ -88004,7 +93961,11 @@ aLB
 aLB
 aNQ
 axY
+<<<<<<< HEAD
 aPF
+=======
+aPE
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aQE
 aaa
 aaa
@@ -88141,6 +94102,7 @@ aaa
 aaa
 "}
 (209,1,1) = {"
+<<<<<<< HEAD
 aaa
 aaa
 aaa
@@ -88162,6 +94124,8 @@ aaa
 aaa
 aaa
 aaa
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -88222,6 +94186,50 @@ aaa
 aaa
 aaa
 aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+<<<<<<< HEAD
+aaa
+axY
+azh
+aAd
+aBm
+axY
+aDl
+aEh
+aEh
+aEh
+aEh
+aEh
+aJf
+aKo
+aLB
+aLB
+aNR
+axY
+aPF
+aQE
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -88261,7 +94269,7 @@ aLB
 aLB
 aNR
 axY
-aPF
+aPE
 aQE
 aaa
 aaa
@@ -88374,6 +94382,11 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
+"}
+(210,1,1) = {"
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -88479,6 +94492,28 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
+axY
+azi
+aAf
+aBn
+axX
+aDm
+aEi
+aEi
+aEi
+aEi
+aEi
+aJg
+axY
+aLC
+aMI
+aNS
+axX
+aPD
+aQE
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -88631,6 +94666,11 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
+"}
+(211,1,1) = {"
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -88736,6 +94776,26 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
+axX
+axY
+axY
+axX
+axZ
+axX
+axY
+axY
+axY
+axY
+axY
+axX
+axZ
+axX
+axX
+axX
+aLz
+aPD
+=======
 aaa
 aaa
 aaa
@@ -88744,6 +94804,7 @@ aaa
 aaa
 aaa
 aaa
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -88896,6 +94957,8 @@ aaa
 aaa
 aaa
 aaa
+"}
+(212,1,1) = {"
 aaa
 aaa
 aaa
@@ -89125,6 +95188,14 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
+=======
+aaa
+aaa
+aaa
+aaa
+aaa
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -89153,11 +95224,8 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+"}
+(213,1,1) = {"
 aaa
 aaa
 aaa
@@ -89256,6 +95324,28 @@ aaa
 aaa
 aaa
 aaa
+aab
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aab
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aab
 aaa
 aaa
 aaa
@@ -89285,7 +95375,6 @@ aaa
 aaa
 aaa
 aaa
-aab
 aaa
 aaa
 aaa
@@ -89396,25 +95485,8 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+"}
+(214,1,1) = {"
 aaa
 aaa
 aaa
@@ -89672,6 +95744,8 @@ aaa
 aaa
 aaa
 aaa
+"}
+(215,1,1) = {"
 aaa
 aaa
 aaa
@@ -89929,6 +96003,8 @@ aaa
 aaa
 aaa
 aaa
+"}
+(216,1,1) = {"
 aaa
 aaa
 aaa
@@ -90186,6 +96262,8 @@ aaa
 aaa
 aaa
 aaa
+"}
+(217,1,1) = {"
 aaa
 aaa
 aaa
@@ -90443,6 +96521,8 @@ aaa
 aaa
 aaa
 aaa
+"}
+(218,1,1) = {"
 aaa
 aaa
 aaa
@@ -90700,6 +96780,8 @@ aaa
 aaa
 aaa
 aaa
+"}
+(219,1,1) = {"
 aaa
 aaa
 aaa
@@ -90957,6 +97039,8 @@ aaa
 aaa
 aaa
 aaa
+"}
+(220,1,1) = {"
 aaa
 aaa
 aaa
@@ -91214,15 +97298,6 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
 "}
 (221,1,1) = {"
 aaa
@@ -91234,6 +97309,11 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
+=======
+"}
+(221,1,1) = {"
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -91491,6 +97571,8 @@ aaa
 aaa
 aaa
 aaa
+"}
+(222,1,1) = {"
 aaa
 aaa
 aaa
@@ -91748,6 +97830,8 @@ aaa
 aaa
 aaa
 aaa
+"}
+(223,1,1) = {"
 aaa
 aaa
 aaa
@@ -92005,6 +98089,8 @@ aaa
 aaa
 aaa
 aaa
+"}
+(224,1,1) = {"
 aaa
 aaa
 aaa
@@ -92262,6 +98348,8 @@ aaa
 aaa
 aaa
 aaa
+"}
+(225,1,1) = {"
 aaa
 aaa
 aaa
@@ -92519,6 +98607,8 @@ aaa
 aaa
 aaa
 aaa
+"}
+(226,1,1) = {"
 aaa
 aaa
 aaa
@@ -92756,6 +98846,21 @@ aaa
 aaa
 aaa
 aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+<<<<<<< HEAD
+"}
+(227,1,1) = {"
+aaa
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -92767,16 +98872,6 @@ aaa
 aaa
 "}
 (227,1,1) = {"
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
 aaa
 aaa
 aaa
@@ -93034,6 +99129,8 @@ aaa
 aaa
 aaa
 aaa
+"}
+(228,1,1) = {"
 aaa
 aaa
 aaa
@@ -93291,6 +99388,8 @@ aaa
 aaa
 aaa
 aaa
+"}
+(229,1,1) = {"
 aaa
 aaa
 aaa
@@ -93548,6 +99647,8 @@ aaa
 aaa
 aaa
 aaa
+"}
+(230,1,1) = {"
 aaa
 aaa
 aaa
@@ -93783,6 +99884,21 @@ aaa
 aaa
 aaa
 aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+<<<<<<< HEAD
+"}
+(231,1,1) = {"
+=======
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
@@ -94040,6 +100156,8 @@ aaa
 aaa
 aaa
 aaa
+"}
+(232,1,1) = {"
 aaa
 aaa
 aaa
@@ -94297,6 +100415,8 @@ aaa
 aaa
 aaa
 aaa
+"}
+(233,1,1) = {"
 aaa
 aaa
 aaa
@@ -94554,6 +100674,8 @@ aaa
 aaa
 aaa
 aaa
+"}
+(234,1,1) = {"
 aaa
 aaa
 aaa
@@ -94811,6 +100933,8 @@ aaa
 aaa
 aaa
 aaa
+"}
+(235,1,1) = {"
 aaa
 aaa
 aaa
@@ -95068,16 +101192,6 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
 "}
 (236,1,1) = {"
 aaa
@@ -95090,6 +101204,8 @@ aaa
 aaa
 aaa
 aaa
+"}
+(236,1,1) = {"
 aaa
 aaa
 aaa
@@ -95445,6 +101561,19 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
+=======
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+>>>>>>> 8926a7d... Omegastation Updates and Fixes (#34070)
 aaa
 aaa
 aaa
