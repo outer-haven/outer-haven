@@ -4,6 +4,15 @@
 
 #define islist(L) (istype(L, /list))
 
+<<<<<<< HEAD
+=======
+#if DM_VERSION >= 512
+#define in_range(source, user) (get_dist(source, user) <= 1 && (get_step(source, 0)?:z) == (get_step(user, 0)?:z))
+#if DM_VERSION > 512
+#warn Remove this check.
+#endif
+#else
+>>>>>>> d2ea96b... Merge pull request #34147 from MoreRobustThanYou/revert-34120-Cyberboss-patch-3
 #define in_range(source, user) (get_dist(source, user) <= 1)
 
 #define ismovableatom(A) (istype(A, /atom/movable))
