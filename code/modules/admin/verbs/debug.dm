@@ -525,6 +525,23 @@ GLOBAL_PROTECT(AdminProcCallSpamPrevention)
 	var/list/areas_with_camera = list()
 	var/list/station_areas_blacklist = typecacheof(list(/area/holodeck/rec_center, /area/shuttle, /area/engine/supermatter, /area/science/test_area, /area/space, /area/solar, /area/mine, /area/ruin))
 
+<<<<<<< HEAD
+=======
+	if(SSticker.current_state == GAME_STATE_STARTUP)
+		to_chat(usr, "Game still loading, please hold!")
+		return
+
+	var/log_message
+	if(on_station)
+		dat += "<b>Only checking areas on station z-levels.</b><br><br>"
+		log_message = "station z-levels"
+	else
+		log_message = "all z-levels"
+
+	message_admins("<span class='adminnotice'>[key_name_admin(usr)] used the Test Areas debug command checking [log_message].</span>")
+	log_admin("[key_name(usr)] used the Test Areas debug command checking [log_message].")
+
+>>>>>>> 993e14e... Merge pull request #34189 from ShizCalev/test-area-tick
 	for(var/area/A in world)
 		if(on_station)
 			var/turf/picked = safepick(get_area_turfs(A.type))
@@ -533,43 +550,57 @@ GLOBAL_PROTECT(AdminProcCallSpamPrevention)
 					areas_all.Add(A.type)
 		else if(!(A.type in areas_all))
 			areas_all.Add(A.type)
+		CHECK_TICK
 
 	for(var/obj/machinery/power/apc/APC in GLOB.apcs_list)
 		var/area/A = APC.area
+<<<<<<< HEAD
+=======
+		if(!A)
+			dat += "Skipped over [APC] in invalid location, [APC.loc]."
+			continue
+>>>>>>> 993e14e... Merge pull request #34189 from ShizCalev/test-area-tick
 		if(!(A.type in areas_with_APC))
 			areas_with_APC.Add(A.type)
 		else if(A.type in areas_all)
 			areas_with_multiple_APCs.Add(A.type)
+		CHECK_TICK
 
 	for(var/obj/machinery/airalarm/AA in GLOB.machines)
 		var/area/A = get_area(AA)
 		if(!(A.type in areas_with_air_alarm))
 			areas_with_air_alarm.Add(A.type)
+		CHECK_TICK
 
 	for(var/obj/machinery/requests_console/RC in GLOB.machines)
 		var/area/A = get_area(RC)
 		if(!(A.type in areas_with_RC))
 			areas_with_RC.Add(A.type)
+		CHECK_TICK
 
 	for(var/obj/machinery/light/L in GLOB.machines)
 		var/area/A = get_area(L)
 		if(!(A.type in areas_with_light))
 			areas_with_light.Add(A.type)
+		CHECK_TICK
 
 	for(var/obj/machinery/light_switch/LS in GLOB.machines)
 		var/area/A = get_area(LS)
 		if(!(A.type in areas_with_LS))
 			areas_with_LS.Add(A.type)
+		CHECK_TICK
 
 	for(var/obj/item/device/radio/intercom/I in GLOB.machines)
 		var/area/A = get_area(I)
 		if(!(A.type in areas_with_intercom))
 			areas_with_intercom.Add(A.type)
+		CHECK_TICK
 
 	for(var/obj/machinery/camera/C in GLOB.machines)
 		var/area/A = get_area(C)
 		if(!(A.type in areas_with_camera))
 			areas_with_camera.Add(A.type)
+		CHECK_TICK
 
 	var/list/areas_without_APC = areas_all - areas_with_APC
 	var/list/areas_without_air_alarm = areas_all - areas_with_air_alarm
@@ -582,42 +613,82 @@ GLOBAL_PROTECT(AdminProcCallSpamPrevention)
 	if(areas_without_APC.len)
 		to_chat(world, "<b>AREAS WITHOUT AN APC:</b>")
 		for(var/areatype in areas_without_APC)
+<<<<<<< HEAD
 			to_chat(world, "* [areatype]")
+=======
+			dat += "[areatype]<br>"
+			CHECK_TICK
+>>>>>>> 993e14e... Merge pull request #34189 from ShizCalev/test-area-tick
 
 	if(areas_with_multiple_APCs.len)
 		to_chat(world, "<b>AREAS WITH MULTIPLE APCS:</b>")
 		for(var/areatype in areas_with_multiple_APCs)
+<<<<<<< HEAD
 			to_chat(world,"* [areatype]")
+=======
+			dat += "[areatype]<br>"
+			CHECK_TICK
+>>>>>>> 993e14e... Merge pull request #34189 from ShizCalev/test-area-tick
 
 	if(areas_without_air_alarm.len)
 		to_chat(world, "<b>AREAS WITHOUT AN AIR ALARM:</b>")
 		for(var/areatype in areas_without_air_alarm)
+<<<<<<< HEAD
 			to_chat(world, "* [areatype]")
+=======
+			dat += "[areatype]<br>"
+			CHECK_TICK
+>>>>>>> 993e14e... Merge pull request #34189 from ShizCalev/test-area-tick
 
 	if(areas_without_RC.len)
 		to_chat(world, "<b>AREAS WITHOUT A REQUEST CONSOLE:</b>")
 		for(var/areatype in areas_without_RC)
+<<<<<<< HEAD
 			to_chat(world, "* [areatype]")
+=======
+			dat += "[areatype]<br>"
+			CHECK_TICK
+>>>>>>> 993e14e... Merge pull request #34189 from ShizCalev/test-area-tick
 
 	if(areas_without_light.len)
 		to_chat(world, "<b>AREAS WITHOUT ANY LIGHTS:</b>")
 		for(var/areatype in areas_without_light)
+<<<<<<< HEAD
 			to_chat(world, "* [areatype]")
+=======
+			dat += "[areatype]<br>"
+			CHECK_TICK
+>>>>>>> 993e14e... Merge pull request #34189 from ShizCalev/test-area-tick
 
 	if(areas_without_LS.len)
 		to_chat(world, "<b>AREAS WITHOUT A LIGHT SWITCH:</b>")
 		for(var/areatype in areas_without_LS)
+<<<<<<< HEAD
 			to_chat(world, "* [areatype]")
+=======
+			dat += "[areatype]<br>"
+			CHECK_TICK
+>>>>>>> 993e14e... Merge pull request #34189 from ShizCalev/test-area-tick
 
 	if(areas_without_intercom.len)
 		to_chat(world, "<b>AREAS WITHOUT ANY INTERCOMS:</b>")
 		for(var/areatype in areas_without_intercom)
+<<<<<<< HEAD
 			to_chat(world, "* [areatype]")
+=======
+			dat += "[areatype]<br>"
+			CHECK_TICK
+>>>>>>> 993e14e... Merge pull request #34189 from ShizCalev/test-area-tick
 
 	if(areas_without_camera.len)
 		to_chat(world, "<b>AREAS WITHOUT ANY CAMERAS:</b>")
 		for(var/areatype in areas_without_camera)
+<<<<<<< HEAD
 			to_chat(world, "* [areatype]")
+=======
+			dat += "[areatype]<br>"
+			CHECK_TICK
+>>>>>>> 993e14e... Merge pull request #34189 from ShizCalev/test-area-tick
 
 	if(!(areas_with_APC.len || areas_with_multiple_APCs.len || areas_with_air_alarm.len || areas_with_RC.len || areas_with_light.len || areas_with_LS.len || areas_with_intercom.len || areas_with_camera.len))
 		to_chat(world, "<b>No problem areas!</b>")
