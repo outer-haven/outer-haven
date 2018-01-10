@@ -19,9 +19,10 @@
 								2 for preloading absolutely everything;
 								*/
 
-#define BACKGROUND_ENABLED 0    // The default value for all uses of set background. Set background can cause gradual lag and is recommended you only turn this on if necessary.
+#define BACKGROUND_ENABLED FALSE    // The default value for all uses of set background. Set background can cause gradual lag and is recommended you only turn this on if necessary.
 								// 1 will enable set background. 0 will disable set background.
 
+<<<<<<< HEAD
 //ADMIN STUFF
 #define ROUNDSTART_LOGOUT_REPORT_TIME	6000 //Amount of time (in deciseconds) after the rounds starts, that the player disconnect report is issued.
 
@@ -54,12 +55,20 @@
 // AI Toggles
 #define AI_CAMERA_LUMINOSITY	5
 #define AI_VOX 1 // Comment out if you don't want VOX to be enabled and have players download the voice sounds.
+=======
+//Update this whenever you need to take advantage of more recent byond features
+#define MIN_COMPILER_VERSION 511
+#if DM_VERSION < MIN_COMPILER_VERSION
+//Don't forget to update this part
+#error Your version of BYOND is too out-of-date to compile this project. Go to byond.com/download and update.
+#error You need version 511 or higher
+#endif
+>>>>>>> 987f439... Merge pull request #34218 from Cyberboss/CompileCleanup
 
 //Additional code for the above flags.
 #ifdef TESTING
 #warn compiling in TESTING mode. testing() debug messages will be visible.
 #endif
-
 
 #ifdef GC_FAILURE_HARD_LOOKUP
 #define FIND_REF_NO_CHECK_TICK
@@ -68,16 +77,3 @@
 #ifdef TRAVISTESTING
 #define TESTING
 #endif
-
-//Update this whenever you need to take advantage of more recent byond features
-#define MIN_COMPILER_VERSION 511
-#if DM_VERSION < MIN_COMPILER_VERSION
-//Don't forget to update this part
-#error Your version of BYOND is too out-of-date to compile this project. Go to byond.com/download and update.
-#error You need version 511 or higher
-#endif
-
-//Update this whenever the db schema changes
-//make sure you add an update to the schema_version stable in the db changelog
-#define DB_MAJOR_VERSION 4
-#define DB_MINOR_VERSION 0
