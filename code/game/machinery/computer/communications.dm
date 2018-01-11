@@ -284,6 +284,10 @@
 				CentCom_announce(input, usr)
 				to_chat(usr, "<span class='notice'>Message transmitted to Central Command.</span>")
 				log_talk(usr,"[key_name(usr)] has made a CentCom announcement: [input]",LOGSAY)
+<<<<<<< HEAD
+=======
+				deadchat_broadcast("<span class='deadsay'><b>[usr.name] has messaged CentCom:</b> [input]</span>", usr)
+>>>>>>> 683c902... Replace CentComm with CentCom in deadchat message (#34249)
 				CM.lastTimeUsed = world.time
 
 
