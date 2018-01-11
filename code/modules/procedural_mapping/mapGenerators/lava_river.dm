@@ -1,6 +1,10 @@
 
 /datum/mapGenerator/lavaland
+<<<<<<< HEAD
 	var/start_z = 5
+=======
+	var/start_z
+>>>>>>> 827c4b3... Replace hardcoded z-level numbers with a trait system (#34090)
 	var/min_x = 0
 	var/min_y = 0
 	var/max_x = 0
@@ -19,11 +23,13 @@
 /datum/mapGeneratorModule/river
 	var/river_type = /turf/open/lava/smooth
 	var/river_nodes = 4
+<<<<<<< HEAD
 	var/start_z = 5
+=======
+>>>>>>> 827c4b3... Replace hardcoded z-level numbers with a trait system (#34090)
 
 /datum/mapGeneratorModule/river/generate()
 	var/datum/mapGenerator/lavaland/L = mother
 	if(!istype(L))
 		return
-	start_z = L.start_z
-	spawn_rivers(start_z, river_nodes, river_type, min_x = L.min_x, min_y = L.min_y, max_x = L.max_x, max_y = L.max_y)
+	spawn_rivers(L.start_z, river_nodes, river_type, min_x = L.min_x, min_y = L.min_y, max_x = L.max_x, max_y = L.max_y)
