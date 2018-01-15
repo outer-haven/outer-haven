@@ -57,6 +57,9 @@
 		return
 	usr.set_machine(src)
 
+	var/area/A = get_area(usr)
+	var/area_name = A.name
+
 	if(!href_list["operation"])
 		return
 	var/obj/item/circuitboard/computer/communications/CM = circuit
@@ -111,9 +114,17 @@
 					if(GLOB.security_level != old_level)
 						to_chat(usr, "<span class='notice'>Authorization confirmed. Modifying security level.</span>")
 						playsound(src, 'sound/machines/terminal_prompt_confirm.ogg', 50, 0)
+<<<<<<< HEAD
 						//Only notify the admins if an actual change happened
 						log_game("[key_name(usr)] has changed the security level to [get_security_level()].")
 						message_admins("[key_name_admin(usr)] has changed the security level to [get_security_level()].")
+=======
+						//Only notify people if an actual change happened
+						var/security_level = get_security_level()
+						log_game("[key_name(usr)] has changed the security level to [security_level].")
+						message_admins("[key_name_admin(usr)] has changed the security level to [security_level].")
+						deadchat_broadcast("<span class='deadsay'><span class='name'>[usr.name]</span> has changed the security level to [security_level] at <span class='name'>[area_name]</span>.</span>", usr)
+>>>>>>> 978c2bd... Various deadchat messages are more informative and consistent (#34326)
 					tmp_alertlevel = 0
 				else
 					to_chat(usr, "<span class='warning'>You are not authorized to do this!</span>")
@@ -246,11 +257,19 @@
 			make_maint_all_access()
 			log_game("[key_name(usr)] enabled emergency maintenance access.")
 			message_admins("[key_name_admin(usr)] enabled emergency maintenance access.")
+<<<<<<< HEAD
+=======
+			deadchat_broadcast("<span class='deadsay'><span class='name'>[usr.name]</span> enabled emergency maintenance access at <span class='name'>[area_name]</span>.</span>", usr)
+>>>>>>> 978c2bd... Various deadchat messages are more informative and consistent (#34326)
 			state = STATE_DEFAULT
 		if("disableemergency")
 			revoke_maint_all_access()
 			log_game("[key_name(usr)] disabled emergency maintenance access.")
 			message_admins("[key_name_admin(usr)] disabled emergency maintenance access.")
+<<<<<<< HEAD
+=======
+			deadchat_broadcast("<span class='deadsay'><span class='name'>[usr.name]</span> disabled emergency maintenance access at <span class='name'>[area_name]</span>.</span>", usr)
+>>>>>>> 978c2bd... Various deadchat messages are more informative and consistent (#34326)
 			state = STATE_DEFAULT
 
 		// Status display stuff
@@ -284,6 +303,10 @@
 				CentCom_announce(input, usr)
 				to_chat(usr, "<span class='notice'>Message transmitted to Central Command.</span>")
 				log_talk(usr,"[key_name(usr)] has made a CentCom announcement: [input]",LOGSAY)
+<<<<<<< HEAD
+=======
+				deadchat_broadcast("<span class='deadsay'><span class='name'>[usr.name]</span> has messaged CentCom, \"[input]\" at <span class='name'>[area_name]</span>.</span>", usr)
+>>>>>>> 978c2bd... Various deadchat messages are more informative and consistent (#34326)
 				CM.lastTimeUsed = world.time
 
 
@@ -301,6 +324,10 @@
 				Syndicate_announce(input, usr)
 				to_chat(usr, "<span class='danger'>SYSERR @l(19833)of(transmit.dm): !@$ MESSAGE TRANSMITTED TO SYNDICATE COMMAND.</span>")
 				log_talk(usr,"[key_name(usr)] has made a Syndicate announcement: [input]",LOGSAY)
+<<<<<<< HEAD
+=======
+				deadchat_broadcast("<span class='deadsay'><span class='name'>[usr.name]</span> has messaged the Syndicate, \"[input]\" at <span class='name'>[area_name]</span>.</span>", usr)
+>>>>>>> 978c2bd... Various deadchat messages are more informative and consistent (#34326)
 				CM.lastTimeUsed = world.time
 
 		if("RestoreBackup")
@@ -379,9 +406,17 @@
 				tmp_alertlevel = SEC_LEVEL_BLUE //Cannot engage delta with this
 			set_security_level(tmp_alertlevel)
 			if(GLOB.security_level != old_level)
+<<<<<<< HEAD
 				//Only notify the admins if an actual change happened
 				log_game("[key_name(usr)] has changed the security level to [get_security_level()].")
 				message_admins("[key_name_admin(usr)] has changed the security level to [get_security_level()].")
+=======
+				//Only notify people if an actual change happened
+				var/security_level = get_security_level()
+				log_game("[key_name(usr)] has changed the security level to [security_level].")
+				message_admins("[key_name_admin(usr)] has changed the security level to [security_level].")
+				deadchat_broadcast("<span class='deadsay'><span class='name'>[usr.name]</span> has changed the security level to [security_level].</span>", usr)
+>>>>>>> 978c2bd... Various deadchat messages are more informative and consistent (#34326)
 			tmp_alertlevel = 0
 			aistate = STATE_DEFAULT
 		if("ai-changeseclevel")
@@ -691,6 +726,11 @@
 	if(!input || !user.canUseTopic(src))
 		return
 	SScommunications.make_announcement(user, is_silicon, input)
+<<<<<<< HEAD
+=======
+	var/area/A = get_area(user)
+	deadchat_broadcast("<span class='deadsay'><span class='name'>[user.name]</span> made an priority announcement at <span class='name'>[A.name]</span>.</span>", user)
+>>>>>>> 978c2bd... Various deadchat messages are more informative and consistent (#34326)
 
 /obj/machinery/computer/communications/proc/post_status(command, data1, data2)
 
