@@ -156,7 +156,11 @@ GLOBAL_LIST_INIT(bibleitemstates, list("bible", "koran", "scrapbook", "bible",  
 			var/unholy2clean = A.reagents.get_reagent_amount("unholywater")
 			A.reagents.del_reagent("unholywater")
 			A.reagents.add_reagent("holywater",unholy2clean)
+<<<<<<< HEAD
 	if(istype(A, /obj/item/twohanded/required/cult_bastard))
+=======
+	if(istype(A, /obj/item/twohanded/required/cult_bastard) && !iscultist(user))
+>>>>>>> 6e05070... Merge pull request #34552 from Robustin/revert3
 		var/obj/item/twohanded/required/cult_bastard/sword = A
 		to_chat(user, "<span class='notice'>You begin to exorcise [sword].</span>")
 		playsound(src,'sound/hallucinations/veryfar_noise.ogg',40,1)
