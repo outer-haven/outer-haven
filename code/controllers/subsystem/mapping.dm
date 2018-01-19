@@ -39,10 +39,21 @@ SUBSYSTEM_DEF(mapping)
 	repopulate_sorted_areas()
 	process_teleport_locs()			//Sets up the wizard teleport locations
 	preloadTemplates()
+<<<<<<< HEAD
+=======
+#ifndef LOWMEMORYMODE
+	// Create space levels
+	for(var/I in 1 to ZLEVEL_SPACE_RUIN_COUNT)
+		add_new_zlevel("Empty Area [2 + I]", CROSSLINKED, list(ZTRAIT_SPACE_RUINS = TRUE))
+	add_new_zlevel("Empty Area [3 + ZLEVEL_SPACE_RUIN_COUNT]", CROSSLINKED, list())  // no ruins
+	add_new_zlevel("Transit", UNAFFECTED, list(ZTRAIT_TRANSIT = TRUE))
+
+>>>>>>> eb19844... Merge pull request #34571 from MrStonedOne/lowmemorymode
 	// Pick a random away mission.
 	createRandomZlevel()
 	// Generate mining.
 	loading_ruins = TRUE
+<<<<<<< HEAD
 	var/mining_type = config.minetype
 	if (mining_type == "lavaland")
 		seedRuins(list(ZLEVEL_LAVALAND), CONFIG_GET(number/lavaland_budget), /area/lavaland/surface/outdoors/unexplored, lava_ruins_templates)
@@ -59,6 +70,20 @@ SUBSYSTEM_DEF(mapping)
 
 	seedRuins(space_zlevels, CONFIG_GET(number/space_budget), /area/space, space_ruins_templates)
 	loading_ruins = FALSE
+=======
+	var/list/lava_ruins = levels_by_trait(ZTRAIT_LAVA_RUINS)
+	if (lava_ruins.len)
+		seedRuins(lava_ruins, CONFIG_GET(number/lavaland_budget), /area/lavaland/surface/outdoors/unexplored, lava_ruins_templates)
+		for (var/lava_z in lava_ruins)
+			spawn_rivers(lava_z)
+
+	// Generate deep space ruins
+	var/list/space_ruins = levels_by_trait(ZTRAIT_SPACE_RUINS)
+	if (space_ruins.len)
+		seedRuins(space_ruins, CONFIG_GET(number/space_budget), /area/space, space_ruins_templates)
+	loading_ruins = FALSE
+#endif
+>>>>>>> eb19844... Merge pull request #34571 from MrStonedOne/lowmemorymode
 	repopulate_sorted_areas()
 	// Set up Z-level transistions.
 	setup_map_transitions()

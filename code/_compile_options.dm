@@ -19,8 +19,14 @@
 								2 for preloading absolutely everything;
 								*/
 
+<<<<<<< HEAD
 #define BACKGROUND_ENABLED 0    // The default value for all uses of set background. Set background can cause gradual lag and is recommended you only turn this on if necessary.
 								// 1 will enable set background. 0 will disable set background.
+=======
+#ifdef LOWMEMORYMODE
+#define FORCE_MAP "_maps/runtimestation.json"
+#endif
+>>>>>>> eb19844... Merge pull request #34571 from MrStonedOne/lowmemorymode
 
 //ADMIN STUFF
 #define ROUNDSTART_LOGOUT_REPORT_TIME	6000 //Amount of time (in deciseconds) after the rounds starts, that the player disconnect report is issued.
