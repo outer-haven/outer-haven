@@ -2727,7 +2727,6 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 2
 	},
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/red/corner{
 	dir = 1
 	},
@@ -9571,7 +9570,6 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 4
 	},
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel,
 /area/crew_quarters/dorms)
 "auj" = (
@@ -10666,7 +10664,6 @@
 /obj/structure/cable/yellow{
 	icon_state = "2-8"
 	},
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel,
 /area/security/brig)
 "awn" = (
@@ -19281,7 +19278,6 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/floorgrime,
 /area/crew_quarters/locker)
 "aOA" = (
@@ -22736,7 +22732,6 @@
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "aVI" = (
-/obj/effect/landmark/lightsout,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
@@ -23704,7 +23699,6 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/obj/effect/landmark/lightsout,
 /obj/effect/turf_decal/plaque{
 	icon_state = "L7"
 	},
@@ -24653,7 +24647,6 @@
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "aZJ" = (
-/obj/effect/landmark/lightsout,
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 9
@@ -25954,7 +25947,6 @@
 "bbZ" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
 "bca" = (
@@ -34114,7 +34106,6 @@
 /obj/structure/cable/yellow{
 	icon_state = "2-4"
 	},
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
 "bsp" = (
@@ -39183,7 +39174,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/neutral/corner{
 	dir = 1
 	},
@@ -39354,7 +39344,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/neutral/corner{
 	dir = 4
 	},
@@ -39478,7 +39467,6 @@
 /turf/open/floor/plasteel/bar,
 /area/crew_quarters/bar)
 "bDE" = (
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/bar,
 /area/crew_quarters/bar)
 "bDF" = (
@@ -39753,7 +39741,6 @@
 /turf/open/floor/wood,
 /area/security/vacantoffice)
 "bEr" = (
-/obj/effect/landmark/lightsout,
 /turf/open/floor/wood,
 /area/security/vacantoffice)
 "bEs" = (
@@ -42982,7 +42969,6 @@
 /area/library)
 "bLj" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/effect/landmark/lightsout,
 /turf/open/floor/carpet,
 /area/library)
 "bLk" = (
@@ -44330,7 +44316,6 @@
 /turf/open/floor/plasteel,
 /area/engine/atmos)
 "bNT" = (
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel,
 /area/engine/atmos)
 "bNU" = (
@@ -48364,7 +48349,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/obj/effect/landmark/lightsout,
 /obj/effect/turf_decal/plaque{
 	icon_state = "L8"
 	},
@@ -50978,7 +50962,6 @@
 /turf/open/floor/plasteel/white,
 /area/medical/storage)
 "cbL" = (
-/obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 2
 	},
@@ -57551,7 +57534,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/white,
 /area/science/research)
 "cpt" = (
@@ -61581,7 +61563,6 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
 	},
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/aft)
 "cxk" = (
@@ -63742,7 +63723,14 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
+<<<<<<< HEAD
 /obj/effect/turf_decal/stripes/line{
+=======
+/turf/open/floor/plasteel,
+/area/science/misc_lab)
+"cBF" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+>>>>>>> 8a60f85... Merge pull request #34578 from coiax/lightsout-lightsout
 	dir = 4
 	},
 /turf/open/floor/plasteel,
@@ -66011,7 +65999,6 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/white,
 /area/science/research)
 "cGi" = (
@@ -66205,7 +66192,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 10
 	},
-/obj/effect/landmark/lightsout,
 /obj/machinery/holopad,
 /obj/structure/cable/yellow{
 	icon_state = "2-4"
@@ -69938,7 +69924,6 @@
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit/departure_lounge)
 "cNM" = (
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit/departure_lounge)
 "cNN" = (
@@ -72635,7 +72620,6 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/obj/effect/landmark/lightsout,
 /obj/machinery/holopad,
 /turf/open/floor/plasteel/white,
 /area/science/xenobiology)

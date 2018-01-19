@@ -3091,7 +3091,6 @@
 /obj/structure/cable/white{
 	icon_state = "2-8"
 	},
-/obj/effect/landmark/lightsout,
 /obj/machinery/holopad,
 /obj/structure/cable/white{
 	icon_state = "1-2"
@@ -4869,7 +4868,6 @@
 /turf/open/floor/plasteel/neutral,
 /area/hallway/secondary/entry)
 "akh" = (
-/obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
@@ -16619,7 +16617,6 @@
 	},
 /area/hallway/primary/fore)
 "aJe" = (
-/obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8
 	},
@@ -17304,7 +17301,6 @@
 	},
 /area/quartermaster/sorting)
 "aKG" = (
-/obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
@@ -20825,7 +20821,6 @@
 /turf/open/floor/carpet,
 /area/crew_quarters/bar/atrium)
 "aSb" = (
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/redyellow,
 /area/crew_quarters/bar/atrium)
 "aSc" = (
@@ -21390,7 +21385,6 @@
 /obj/machinery/atmospherics/pipe/simple/yellow/visible{
 	dir = 4
 	},
-/obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/neutral,
 /area/engine/atmos)
@@ -24206,7 +24200,6 @@
 /obj/structure/cable/white{
 	icon_state = "2-8"
 	},
-/obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 4
 	},
@@ -25493,7 +25486,6 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
-/obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
@@ -28021,7 +28013,6 @@
 /area/quartermaster/miningoffice)
 "bgJ" = (
 /obj/machinery/holopad,
-/obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
@@ -32193,7 +32184,6 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/neutral,
 /area/security/brig)
 "bpl" = (
@@ -33039,7 +33029,6 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "bqP" = (
-/obj/effect/landmark/lightsout,
 /obj/structure/cable/white{
 	icon_state = "4-8"
 	},
@@ -39678,7 +39667,6 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
-/obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
@@ -42355,7 +42343,6 @@
 /obj/structure/cable/white{
 	icon_state = "4-8"
 	},
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/neutral,
 /area/engine/break_room)
 "bIk" = (
@@ -42536,7 +42523,6 @@
 /turf/open/floor/plasteel,
 /area/storage/primary)
 "bIy" = (
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/neutral,
 /area/storage/primary)
 "bIz" = (
@@ -45852,7 +45838,6 @@
 	},
 /area/security/detectives_office)
 "bPn" = (
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/neutral,
 /area/hallway/primary/starboard)
 "bPo" = (
@@ -49976,7 +49961,6 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
-/obj/effect/landmark/lightsout,
 /obj/structure/cable/white{
 	icon_state = "1-4"
 	},
@@ -52741,7 +52725,6 @@
 /turf/open/floor/plasteel/neutral,
 /area/hallway/primary/central)
 "ccy" = (
-/obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/blue/corner,
 /area/hallway/primary/central)
@@ -54113,7 +54096,6 @@
 /obj/structure/cable/white{
 	icon_state = "2-4"
 	},
-/obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
@@ -56420,7 +56402,6 @@
 	},
 /area/security/courtroom)
 "cjW" = (
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -56847,7 +56828,6 @@
 /turf/open/floor/plasteel/grimy,
 /area/library)
 "ckS" = (
-/obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
@@ -61925,7 +61905,6 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/holopad,
-/obj/effect/landmark/lightsout,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/command)
@@ -62704,7 +62683,6 @@
 /turf/open/floor/plasteel/neutral,
 /area/hallway/primary/central)
 "cxe" = (
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/neutral,
 /area/hallway/primary/central)
 "cxf" = (
@@ -63579,7 +63557,6 @@
 /turf/open/floor/plasteel/neutral,
 /area/crew_quarters/locker)
 "cyT" = (
-/obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 1
 	},
@@ -66054,7 +66031,6 @@
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "cEb" = (
-/obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
@@ -67355,7 +67331,6 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/neutral,
 /area/hallway/primary/central)
 "cGH" = (
@@ -68257,7 +68232,6 @@
 /turf/closed/wall,
 /area/maintenance/port)
 "cIz" = (
-/obj/effect/landmark/lightsout,
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
@@ -69759,7 +69733,6 @@
 /turf/open/floor/plasteel/neutral,
 /area/crew_quarters/dorms)
 "cLd" = (
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/neutral,
 /area/crew_quarters/dorms)
 "cLe" = (
@@ -70488,7 +70461,6 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
-/obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/manifold4w/scrubbers/hidden,
 /obj/structure/disposalpipe/junction/flip{
 	dir = 1
@@ -73020,7 +72992,6 @@
 /turf/open/floor/plasteel/whitepurple/corner,
 /area/science/research)
 "cSt" = (
-/obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
@@ -73951,7 +73922,6 @@
 	},
 /area/hallway/primary/aft)
 "cUp" = (
-/obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
@@ -74037,7 +74007,6 @@
 /turf/open/floor/plasteel/cmo,
 /area/medical/medbay/central)
 "cUy" = (
-/obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
@@ -75349,7 +75318,6 @@
 /obj/structure/cable/white{
 	icon_state = "4-8"
 	},
-/obj/effect/landmark/lightsout,
 /obj/effect/turf_decal/stripes/line{
 	dir = 2
 	},
@@ -80706,7 +80674,6 @@
 	icon_state = "4-8"
 	},
 /obj/item/device/radio/beacon,
-/obj/effect/landmark/lightsout,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel/whiteblue,
 /area/medical/medbay/central)
@@ -82463,8 +82430,14 @@
 /turf/open/floor/plasteel,
 /area/science/research/abandoned)
 "dmw" = (
+<<<<<<< HEAD
 /turf/open/floor/plasteel/neutral/side{
 	dir = 4
+=======
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/white/side{
+	dir = 10
+>>>>>>> 8a60f85... Merge pull request #34578 from coiax/lightsout-lightsout
 	},
 /area/science/research/abandoned)
 "dmx" = (
@@ -83511,7 +83484,6 @@
 /area/science/research)
 "doF" = (
 /obj/machinery/holopad,
-/obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
@@ -87603,7 +87575,6 @@
 /obj/structure/cable/white{
 	icon_state = "2-8"
 	},
-/obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
 	},
@@ -91339,7 +91310,6 @@
 /turf/open/floor/plasteel,
 /area/science/robotics/lab)
 "dEP" = (
-/obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 4
 	},
@@ -95267,7 +95237,6 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
-/obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
@@ -99303,7 +99272,6 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/green,
 /area/medical/virology)
 "dVC" = (
@@ -101651,7 +101619,6 @@
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit/departure_lounge)
 "eaF" = (
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/neutral,
 /area/hallway/secondary/exit/departure_lounge)
 "eaG" = (
@@ -105094,7 +105061,6 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/grimy,
 /area/chapel/main)
 
