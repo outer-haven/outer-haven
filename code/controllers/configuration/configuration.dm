@@ -22,7 +22,11 @@ GLOBAL_PROTECT(config_dir)
 	config = src
 	InitEntries()
 	LoadModes()
+<<<<<<< HEAD
 	if(LoadEntries("config.txt") <= 1)
+=======
+	if(fexists("config/config.txt") && LoadEntries("config.txt") <= 1)
+>>>>>>> 1bc398c... Merge pull request #34603 from optimumtact/pigfuck
 		log_config("No $include directives found in config.txt! Loading legacy game_options/dbconfig/comms files...")
 		LoadEntries("game_options.txt")
 		LoadEntries("dbconfig.txt")
@@ -192,6 +196,15 @@ GLOBAL_PROTECT(config_dir)
 		qdel(M)
 	votable_modes += "secret"
 
+<<<<<<< HEAD
+=======
+/datum/controller/configuration/proc/LoadMOTD()
+	motd = file2text("[GLOB.config_dir]/motd.txt")
+	var/tm_info = GLOB.revdata.GetTestMergeInfo()
+	if(motd || tm_info)
+		motd = motd ? "[motd]<br>[tm_info]" : tm_info
+
+>>>>>>> 1bc398c... Merge pull request #34603 from optimumtact/pigfuck
 /datum/controller/configuration/proc/loadmaplist(filename)
 	log_config("Loading config file [filename]...")
 	filename = "[GLOB.config_dir][filename]"
