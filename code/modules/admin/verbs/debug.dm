@@ -640,7 +640,26 @@ GLOBAL_PROTECT(AdminProcCallSpamPrevention)
 		return
 
 
+<<<<<<< HEAD
 	var/list/outfits = list("Naked","Custom","As Job...")
+=======
+	if(!dresscode)
+		return
+
+	SSblackbox.record_feedback("tally", "admin_verb", 1, "Select Equipment") //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!
+	for (var/obj/item/I in M.get_equipped_items())
+		qdel(I)
+	if(dresscode != "Naked")
+		M.equipOutfit(dresscode)
+
+	M.regenerate_icons()
+
+	log_admin("[key_name(usr)] changed the equipment of [key_name(M)] to [dresscode].")
+	message_admins("<span class='adminnotice'>[key_name_admin(usr)] changed the equipment of [key_name_admin(M)] to [dresscode].</span>")
+
+/client/proc/robust_dress_shop()
+	var/list/outfits = list("Cancel","Naked","Custom","As Job...")
+>>>>>>> 2a6565e... Fixes cancelling equipment selection being equivalent to selecting "Naked" (#34557)
 	var/list/paths = subtypesof(/datum/outfit) - typesof(/datum/outfit/job)
 	for(var/path in paths)
 		var/datum/outfit/O = path //not much to initalize here but whatever
@@ -655,6 +674,12 @@ GLOBAL_PROTECT(AdminProcCallSpamPrevention)
 	if (outfits[dresscode])
 		dresscode = outfits[dresscode]
 
+<<<<<<< HEAD
+=======
+	if(dresscode == "Cancel")
+		return
+
+>>>>>>> 2a6565e... Fixes cancelling equipment selection being equivalent to selecting "Naked" (#34557)
 	if (dresscode == "As Job...")
 		var/list/job_paths = subtypesof(/datum/outfit/job)
 		var/list/job_outfits = list()
