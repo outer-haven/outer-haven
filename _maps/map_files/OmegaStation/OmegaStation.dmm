@@ -1345,10 +1345,17 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/old,
+<<<<<<< HEAD
 /turf/open/floor/plating,
 /area/ruin/unpowered{
 	name = "Asteroid"
 	})
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/asteroid/nearstation)
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 "acF" = (
 /turf/open/floor/plating,
 /area/ruin/unpowered{
@@ -1750,9 +1757,14 @@
 	areastring = "/area/maintenance/starboard/fore";
 	pixel_x = 26
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/neutral/corner{
 	dir = 8;
 	heat_capacity = 1e+006
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /area/maintenance/starboard/fore)
 "adn" = (
@@ -1809,11 +1821,18 @@
 	name = "Asteroid"
 	})
 "adw" = (
+<<<<<<< HEAD
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/unpowered{
 	name = "Asteroid"
 	})
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/asteroid/nearstation)
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 "adx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/clothing/suit/space/orange,
@@ -1882,7 +1901,13 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
 /obj/effect/landmark/xeno_spawn,
+<<<<<<< HEAD
 /turf/open/floor/plating,
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/fore)
 "adG" = (
 /obj/structure/toilet{
@@ -2240,8 +2265,16 @@
 	lootcount = 2;
 	name = "2maintenance loot spawner"
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/neutral/side{
 	dir = 10
+=======
+/turf/open/floor/plating,
+/area/asteroid/nearstation)
+"aem" = (
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /area/ruin/unpowered{
 	name = "Asteroid"
@@ -2270,9 +2303,15 @@
 	name = "Asteroid"
 	})
 "aep" = (
+<<<<<<< HEAD
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/neutral/corner{
 	dir = 4
+=======
+/turf/open/floor/plating,
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /area/ruin/unpowered{
 	name = "Asteroid"
@@ -2321,7 +2360,13 @@
 /obj/structure/cable/white{
 	icon_state = "0-2"
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel,
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/fore)
 "aeu" = (
 /obj/structure/sign/nanotrasen,
@@ -2994,8 +3039,13 @@
 	icon_state = "1-8"
 	},
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+<<<<<<< HEAD
 /turf/open/floor/plasteel/vault{
 	dir = 5
+=======
+/turf/open/floor/wood{
+	icon_state = "wood-broken"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /area/crew_quarters/heads/hop)
 "afy" = (
@@ -3466,8 +3516,13 @@
 	c_tag = "Head of Personnel's Office";
 	dir = 1
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/vault{
 	dir = 8
+=======
+/turf/open/floor/wood{
+	icon_state = "wood-broken5"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /area/crew_quarters/heads/hop)
 "ags" = (
@@ -3477,8 +3532,13 @@
 	pixel_y = -42
 	},
 /obj/effect/landmark/start/head_of_personnel,
+<<<<<<< HEAD
 /turf/open/floor/plasteel/vault{
 	dir = 5
+=======
+/turf/open/floor/wood{
+	icon_state = "wood-broken6"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /area/crew_quarters/heads/hop)
 "agt" = (
@@ -3516,9 +3576,14 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/neutral/corner{
 	dir = 8;
 	heat_capacity = 1e+006
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /area/maintenance/starboard/fore)
 "agv" = (
@@ -3694,7 +3759,13 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
+<<<<<<< HEAD
 /turf/open/floor/plating,
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/fore)
 "agO" = (
 /obj/machinery/light{
@@ -3964,7 +4035,13 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/neutral/corner,
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/starboard/fore)
 "ahk" = (
 /obj/machinery/firealarm{
@@ -8294,8 +8371,14 @@
 /obj/structure/cable/white{
 	icon_state = "4-8"
 	},
+<<<<<<< HEAD
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/starboard/central)
 "aoU" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -8853,8 +8936,13 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 6
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/yellow/side{
 	dir = 9
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /area/maintenance/port/central)
 "apQ" = (
@@ -8973,7 +9061,13 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/caution,
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/starboard/central)
 "aqb" = (
 /obj/machinery/shieldgen,
@@ -9490,8 +9584,13 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+<<<<<<< HEAD
 /turf/open/floor/plasteel/yellow/side{
 	dir = 4
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /area/maintenance/port/central)
 "ara" = (
@@ -9561,11 +9660,16 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
+<<<<<<< HEAD
 /obj/effect/turf_decal/stripes/line{
 	dir = 2
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /turf/open/floor/plasteel,
 /area/maintenance/starboard/central)
@@ -10191,6 +10295,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/neutral/corner,
 /area/maintenance/port/central)
 "asa" = (
@@ -10203,6 +10308,10 @@
 	},
 /turf/open/floor/plasteel/neutral/corner{
 	dir = 1
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /area/maintenance/port/central)
 "asb" = (
@@ -10304,6 +10413,7 @@
 /obj/structure/cable/white{
 	icon_state = "4-8"
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/neutral/corner{
 	dir = 1
 	},
@@ -10314,6 +10424,10 @@
 	},
 /obj/structure/cable/white{
 	icon_state = "4-8"
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /turf/open/floor/plasteel/neutral/corner,
 /area/maintenance/starboard/central)
@@ -10769,8 +10883,13 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 9
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/yellow/side{
 	dir = 4
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /area/maintenance/port/central)
 "atc" = (
@@ -10783,7 +10902,13 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
+<<<<<<< HEAD
 /turf/open/floor/plating,
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/port/central)
 "ate" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -10870,8 +10995,13 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/neutral/corner{
 	dir = 1
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /area/maintenance/starboard/central)
 "atp" = (
@@ -11064,8 +11194,13 @@
 /obj/structure/sign/poster/contraband/random{
 	pixel_x = 32
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/caution/corner{
 	dir = 1
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /area/maintenance/port/fore)
 "atL" = (
@@ -11301,7 +11436,13 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/grimy,
+=======
+/turf/open/floor/wood{
+	icon_state = "wood-broken6"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/crew_quarters/theatre)
 "aua" = (
 /obj/structure/window/reinforced{
@@ -11433,7 +11574,13 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
+<<<<<<< HEAD
 /turf/open/floor/plating,
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/starboard/central)
 "auo" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -11623,7 +11770,13 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
+<<<<<<< HEAD
 /turf/open/floor/plating,
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/port/fore)
 "auJ" = (
 /obj/structure/cable/white{
@@ -11635,7 +11788,13 @@
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/landmark/revenantspawn,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+<<<<<<< HEAD
 /turf/open/floor/plating,
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/port/fore)
 "auK" = (
 /obj/structure/cable/white{
@@ -11661,7 +11820,13 @@
 /obj/structure/cable/white{
 	icon_state = "2-4"
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/red/corner,
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/port/fore)
 "auM" = (
 /obj/structure/cable/white{
@@ -11793,8 +11958,14 @@
 /turf/open/floor/plasteel,
 /area/storage/primary)
 "auY" = (
+<<<<<<< HEAD
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/port/central)
 "auZ" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -11963,7 +12134,13 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
+<<<<<<< HEAD
 /turf/open/floor/plating,
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/starboard/central)
 "avt" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
@@ -12104,7 +12281,13 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 6
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/caution,
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/port/fore)
 "avJ" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -12114,7 +12297,13 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/caution,
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/port/fore)
 "avK" = (
 /obj/structure/cable/white{
@@ -12166,7 +12355,13 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 1
 	},
+<<<<<<< HEAD
 /turf/open/floor/plating,
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/port/fore)
 "avN" = (
 /obj/structure/girder,
@@ -12392,7 +12587,13 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+<<<<<<< HEAD
 /turf/open/floor/plasteel/grimy,
+=======
+/turf/open/floor/wood{
+	icon_state = "wood-broken"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/crew_quarters/theatre)
 "awj" = (
 /obj/structure/chair/comfy/brown{
@@ -14073,7 +14274,13 @@
 	pixel_y = -22
 	},
 /obj/machinery/light,
+<<<<<<< HEAD
 /turf/open/floor/plasteel/grimy,
+=======
+/turf/open/floor/wood{
+	icon_state = "wood-broken5"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/crew_quarters/theatre)
 "azG" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
@@ -14165,12 +14372,23 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/neutral/side,
 /area/maintenance/starboard/central)
 "azQ" = (
 /obj/machinery/atmospherics/pipe/manifold4w/scrubbers/hidden,
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/maintenance/starboard/central)
+"azQ" = (
+/obj/machinery/atmospherics/pipe/manifold4w/scrubbers/hidden,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /turf/open/floor/plasteel,
 /area/maintenance/starboard/central)
@@ -14715,9 +14933,14 @@
 /obj/structure/cable/white{
 	icon_state = "1-4"
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/neutral/side{
 	dir = 1;
 	heat_capacity = 1e+006
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /area/maintenance/starboard/central)
 "aAW" = (
@@ -15216,7 +15439,13 @@
 	},
 /area/crew_quarters/theatre)
 "aBW" = (
+<<<<<<< HEAD
 /turf/open/floor/plasteel/grimy,
+=======
+/turf/open/floor/wood{
+	icon_state = "wood-broken7"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/crew_quarters/theatre)
 "aBX" = (
 /obj/machinery/vending/autodrobe,
@@ -16118,7 +16347,13 @@
 /obj/structure/cable/white{
 	icon_state = "1-4"
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/grimy,
+=======
+/turf/open/floor/wood{
+	icon_state = "wood-broken5"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/crew_quarters/theatre)
 "aDM" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -17652,12 +17887,17 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/neutral/corner,
 /area/maintenance/port/central)
 "aGG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable/white{
 	icon_state = "4-8"
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -17686,8 +17926,13 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+<<<<<<< HEAD
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /turf/open/floor/plasteel,
 /area/maintenance/port/central)
@@ -17711,8 +17956,13 @@
 /obj/structure/cable/white{
 	icon_state = "4-8"
 	},
+<<<<<<< HEAD
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /turf/open/floor/plasteel,
 /area/maintenance/port/central)
@@ -17724,8 +17974,13 @@
 /obj/structure/cable/white{
 	icon_state = "4-8"
 	},
+<<<<<<< HEAD
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /turf/open/floor/plasteel,
 /area/maintenance/port/central)
@@ -18299,8 +18554,13 @@
 /obj/structure/cable/white{
 	icon_state = "2-8"
 	},
+<<<<<<< HEAD
 /obj/effect/turf_decal/stripes/line{
 	dir = 2
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /turf/open/floor/plasteel,
 /area/maintenance/port/central)
@@ -18812,8 +19072,14 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
+<<<<<<< HEAD
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/port/central)
 "aIG" = (
 /obj/item/crowbar/red,
@@ -19615,7 +19881,13 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 4
 	},
+<<<<<<< HEAD
 /turf/open/floor/plating,
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/starboard/central)
 "aKg" = (
 /obj/structure/closet/emcloset,
@@ -21346,7 +21618,13 @@
 /obj/structure/cable/white{
 	icon_state = "4-8"
 	},
+<<<<<<< HEAD
 /turf/open/floor/plating,
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/starboard/central)
 "aND" = (
 /obj/effect/decal/cleanable/dirt,
@@ -21957,8 +22235,13 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
+<<<<<<< HEAD
 /obj/effect/turf_decal/stripes/line{
 	dir = 2
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /turf/open/floor/plasteel,
 /area/maintenance/port)
@@ -23536,7 +23819,13 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
+<<<<<<< HEAD
 /turf/open/floor/plating,
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/port)
 "aRT" = (
 /obj/structure/table/wood,
@@ -23843,7 +24132,13 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/neutral/corner,
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/starboard)
 "aSD" = (
 /obj/structure/girder,
@@ -24391,8 +24686,13 @@
 /obj/structure/cable/white{
 	icon_state = "4-8"
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/neutral/corner{
 	dir = 1
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /area/maintenance/starboard)
 "aTQ" = (
@@ -24403,8 +24703,13 @@
 /obj/structure/cable/white{
 	icon_state = "4-8"
 	},
+<<<<<<< HEAD
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -24429,9 +24734,16 @@
 	icon_state = "4-8"
 	},
 /obj/effect/landmark/blobstart,
+<<<<<<< HEAD
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/maintenance/starboard/aft)
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 "aTT" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 10
@@ -24439,9 +24751,16 @@
 /obj/structure/cable/white{
 	icon_state = "2-8"
 	},
+<<<<<<< HEAD
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/maintenance/starboard/aft)
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 "aTU" = (
 /obj/structure/table/wood,
 /obj/item/poster/random_contraband{
@@ -24547,7 +24866,13 @@
 /obj/structure/cable/white{
 	icon_state = "4-8"
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/grimy,
+=======
+/turf/open/floor/wood{
+	icon_state = "wood-broken5"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/library)
 "aUg" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -24796,8 +25121,15 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/neutral/corner,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/maintenance/starboard/aft)
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 "aUL" = (
 /obj/structure/table/wood,
 /obj/item/electronics/firelock,
@@ -25265,7 +25597,13 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
+<<<<<<< HEAD
 /turf/open/floor/plating,
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/port)
 "aVN" = (
 /obj/structure/table/wood,
@@ -25898,9 +26236,14 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
+<<<<<<< HEAD
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/neutral/corner{
 	dir = 1
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /area/maintenance/starboard)
 "aXc" = (
@@ -26673,7 +27016,13 @@
 /obj/machinery/light_switch{
 	pixel_y = 24
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/grimy,
+=======
+/turf/open/floor/wood{
+	icon_state = "wood-broken6"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/library)
 "aYx" = (
 /obj/effect/landmark/start/librarian,
@@ -26703,7 +27052,13 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 6
 	},
+<<<<<<< HEAD
 /turf/open/floor/plating,
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/port)
 "aYA" = (
 /obj/effect/decal/cleanable/dirt,
@@ -26713,8 +27068,13 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/neutral/corner{
 	dir = 1
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /area/maintenance/port)
 "aYB" = (
@@ -27107,7 +27467,13 @@
 	name = "Station Intercom";
 	pixel_y = -26
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/grimy,
+=======
+/turf/open/floor/wood{
+	icon_state = "wood-broken"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/library)
 "aZw" = (
 /obj/structure/table/wood,
@@ -27553,9 +27919,15 @@
 /obj/structure/cable/white{
 	icon_state = "1-2"
 	},
+<<<<<<< HEAD
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/neutral/corner,
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/starboard)
 "baj" = (
 /turf/closed/wall,
@@ -28054,6 +28426,7 @@
 	dir = 4
 	},
 /obj/effect/landmark/blobstart,
+<<<<<<< HEAD
 /turf/open/floor/plating,
 /area/maintenance/port)
 "bbi" = (
@@ -28062,6 +28435,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
@@ -28517,8 +28894,14 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
+<<<<<<< HEAD
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/port)
 "bcc" = (
 /obj/structure/reagent_dispensers/watertank,
@@ -29983,6 +30366,7 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 1
 	},
+<<<<<<< HEAD
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/maintenance/port)
@@ -30000,6 +30384,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable/white{
 	icon_state = "4-8"
+=======
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -30080,8 +30469,13 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/neutral/corner{
 	dir = 4
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /area/maintenance/port)
 "bfc" = (
@@ -30239,8 +30633,13 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
+<<<<<<< HEAD
 /obj/structure/cable/white{
 	icon_state = "4-8"
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard)
@@ -30273,10 +30672,17 @@
 /obj/structure/cable/white{
 	icon_state = "4-8"
 	},
+<<<<<<< HEAD
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/maintenance/starboard/aft)
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 "bft" = (
 /obj/structure/cable/white{
 	icon_state = "0-8"
@@ -30399,7 +30805,13 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/effect/landmark/blobstart,
+<<<<<<< HEAD
 /turf/open/floor/plasteel/neutral,
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/port)
 "bfF" = (
 /obj/structure/cable/white{
@@ -30415,8 +30827,17 @@
 /obj/structure/cable/white{
 	icon_state = "4-8"
 	},
+<<<<<<< HEAD
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
+=======
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/port)
 "bfH" = (
 /obj/effect/decal/cleanable/dirt,
@@ -34399,7 +34820,13 @@
 	icon_state = "4-8"
 	},
 /obj/effect/landmark/event_spawn,
+<<<<<<< HEAD
 /turf/open/floor/plasteel/neutral/corner,
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/starboard/central)
 "bxD" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -34536,8 +34963,15 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/event_spawn,
+<<<<<<< HEAD
 /turf/open/floor/plating,
 /area/maintenance/starboard)
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/maintenance/starboard/aft)
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 "bxY" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -34572,8 +35006,14 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
+<<<<<<< HEAD
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
+=======
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/maintenance/starboard/fore)
 "byj" = (
 /obj/effect/decal/cleanable/dirt,
@@ -34672,17 +35112,2370 @@
 	},
 /turf/open/space,
 /area/space/nearstation)
+<<<<<<< HEAD
 "swt" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
 /obj/machinery/rnd/protolathe/department/service,
 /turf/open/floor/plasteel/redyellow,
+=======
+"swv" = (
+/turf/closed/wall/r_wall/rust,
+/area/bridge)
+"swx" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/white{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 9
+	},
+/area/bridge)
+"swy" = (
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/bridge)
+"swz" = (
+/turf/closed/wall/r_wall/rust,
+/area/crew_quarters/heads/hop)
+"swA" = (
+/turf/closed/wall/rust,
+/area/maintenance/starboard/fore)
+"swC" = (
+/turf/closed/wall/r_wall/rust,
+/area/crew_quarters/heads/captain/private)
+"swD" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/bridge)
+"swF" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall/rust,
+/area/asteroid/nearstation)
+"swG" = (
+/turf/closed/wall/rust,
+/area/security/detectives_office)
+"swJ" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 4
+	},
+/area/bridge)
+"swK" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/bridge)
+"swL" = (
+/turf/closed/wall/rust,
+/area/quartermaster/storage)
+"swM" = (
+/obj/machinery/status_display{
+	name = "cargo display";
+	supply_display = 1
+	},
+/turf/closed/wall/rust,
+/area/quartermaster/storage)
+"swN" = (
+/turf/closed/wall/rust,
+/area/asteroid/nearstation)
+"swZ" = (
+/turf/closed/wall/r_wall/rust,
+/area/security/brig)
+"sxc" = (
+/turf/closed/wall/r_wall/rust,
+/area/asteroid/nearstation)
+"sxC" = (
+/turf/closed/wall/r_wall/rust,
+/area/ai_monitored/turret_protected/ai)
+"syC" = (
+/turf/closed/wall/r_wall/rust,
+/area/teleporter)
+"syD" = (
+/turf/closed/wall/rust,
+/area/quartermaster/miningdock)
+"syS" = (
+/turf/closed/wall/rust,
+/area/hallway/primary/central)
+"syT" = (
+/turf/closed/wall/r_wall/rust,
+/area/ai_monitored/storage/eva)
+"sAc" = (
+/turf/closed/wall/rust,
+/area/storage/primary)
+"sAx" = (
+/turf/closed/wall/r_wall/rust,
+/area/engine/atmos)
+"sAy" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/r_wall/rust,
+/area/engine/atmos)
+"sAz" = (
+/turf/closed/wall/r_wall/rust,
+/area/storage/primary)
+"sAA" = (
+/turf/closed/wall/rust,
+/area/crew_quarters/bar/atrium)
+"sAX" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/maintenance/starboard/central)
+"sAY" = (
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/maintenance/starboard)
+"sBu" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/r_wall/rust,
+/area/security/brig)
+"sBv" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/rust,
+/area/crew_quarters/theatre)
+"sBw" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/rust,
+/area/crew_quarters/bar/atrium)
+"sBx" = (
+/obj/effect/landmark/xeno_spawn,
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"sBy" = (
+/obj/machinery/door/airlock/external{
+	name = "External Airlock";
+	req_access_txt = "13"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel,
+/area/maintenance/starboard)
+"sBW" = (
+/obj/structure/sign/vacuum,
+/turf/closed/wall/rust,
+/area/maintenance/starboard)
+"sCr" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/maintenance/port/central)
+"sCt" = (
+/obj/structure/easel,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/maintenance/starboard)
+"sCQ" = (
+/obj/structure/closet/crate{
+	icon_state = "crateopen";
+	opened = 1
+	},
+/obj/effect/spawner/lootdrop/maintenance{
+	lootcount = 2;
+	name = "2maintenance loot spawner"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/sign/poster/contraband/random{
+	pixel_x = 32
+	},
+/obj/item/storage/box,
+/turf/open/floor/plasteel,
+/area/maintenance/starboard)
+"sDl" = (
+/turf/closed/wall/rust,
+/area/crew_quarters/dorms)
+"sDn" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/wood,
+/area/crew_quarters/theatre)
+"sDq" = (
+/obj/structure/rack,
+/obj/effect/spawner/lootdrop/maintenance,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/item/tank/internals/air,
+/obj/item/clothing/mask/gas,
+/turf/open/floor/plasteel,
+/area/maintenance/starboard)
+"sDK" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/rust,
+/area/crew_quarters/theatre)
+"sDM" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/rust,
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 /area/crew_quarters/bar/atrium)
 "swu" = (
 /obj/machinery/rnd/protolathe/department/medical,
 /turf/closed/wall,
+<<<<<<< HEAD
 /area/medical/medbay/zone3)
+=======
+/area/maintenance/starboard)
+"sFn" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/rack,
+/obj/item/circuitboard/computer/cloning{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/circuitboard/machine/clonepod,
+/obj/item/circuitboard/machine/clonescanner,
+/obj/item/circuitboard/computer/med_data{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 4
+	},
+/area/maintenance/starboard)
+"sFo" = (
+/turf/open/floor/plasteel/vault/side{
+	dir = 9
+	},
+/area/maintenance/starboard)
+"sFp" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 5
+	},
+/area/maintenance/starboard)
+"sFq" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/table,
+/obj/item/clipboard,
+/obj/item/crowbar/red,
+/obj/item/device/aicard,
+/obj/item/device/analyzer,
+/obj/item/device/assembly/flash/handheld,
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/maintenance/starboard)
+"sFs" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating,
+/area/hallway/secondary/exit)
+"sFO" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/maintenance/port/central)
+"sFP" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/open/floor/wood,
+/area/crew_quarters/theatre)
+"sFR" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/rack,
+/obj/item/circuitboard/machine/autolathe{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/circuitboard/machine/microwave,
+/obj/item/circuitboard/computer/secure_data{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 4
+	},
+/area/maintenance/starboard)
+"sFS" = (
+/turf/open/floor/plasteel/vault/side{
+	dir = 10
+	},
+/area/maintenance/starboard)
+"sFT" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/plasteel/vault/side{
+	dir = 6
+	},
+/area/maintenance/starboard)
+"sFU" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/rack,
+/obj/item/clothing/gloves/color/yellow,
+/obj/item/storage/toolbox/electrical,
+/obj/item/electronics/apc,
+/obj/item/electronics/airlock,
+/obj/item/stock_parts/cell/high,
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/maintenance/starboard)
+"sFX" = (
+/obj/structure/table,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/item/clothing/suit/hazardvest{
+	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
+	name = "emergency lifejacket"
+	},
+/obj/item/clothing/suit/hazardvest{
+	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
+	name = "emergency lifejacket"
+	},
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/mask/breath,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/hallway/secondary/exit)
+"sFY" = (
+/obj/structure/table,
+/obj/effect/turf_decal/stripes/line,
+/obj/item/crowbar,
+/obj/item/crowbar,
+/obj/item/tank/internals/emergency_oxygen,
+/obj/item/tank/internals/emergency_oxygen,
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/hallway/secondary/exit)
+"sGy" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/engineering{
+	name = "Technology Storage";
+	req_access_txt = "23"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 2
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/vault,
+/area/maintenance/starboard)
+"sGA" = (
+/obj/structure/cable/white{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 6
+	},
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/maintenance/starboard)
+"sGC" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/escape{
+	dir = 8
+	},
+/area/hallway/secondary/exit)
+"sGD" = (
+/obj/structure/cable/white{
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/exit)
+"sGU" = (
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden{
+	dir = 8
+	},
+/turf/closed/wall/r_wall/rust,
+/area/engine/atmos)
+"sGW" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/maintenance/port/central)
+"sGY" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"sHb" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/maintenance/starboard)
+"sHd" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/maintenance/starboard)
+"sHe" = (
+/obj/structure/cable/white{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"sHf" = (
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/exit)
+"sHz" = (
+/obj/structure/closet/crate/bin,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/hallway/primary/central)
+"sHB" = (
+/turf/open/floor/plasteel/escape{
+	dir = 8
+	},
+/area/hallway/secondary/exit)
+"sHC" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/plasteel/neutral/side{
+	dir = 4
+	},
+/area/hallway/secondary/exit)
+"sHV" = (
+/turf/closed/wall/r_wall/rust,
+/area/engine/engineering)
+"sHZ" = (
+/turf/closed/wall/rust,
+/area/crew_quarters/theatre)
+"sIb" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/status_display{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/exit)
+"sIc" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/airalarm{
+	pixel_y = 24
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/exit)
+"sId" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/neutral/side{
+	dir = 4
+	},
+/area/hallway/secondary/exit)
+"sIe" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/exit)
+"sIu" = (
+/turf/closed/wall/r_wall/rust,
+/area/engine/gravity_generator)
+"sIv" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/escape,
+/area/hallway/secondary/exit)
+"sIw" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/structure/extinguisher_cabinet{
+	pixel_y = -28
+	},
+/obj/machinery/camera{
+	c_tag = "Departures Hallway";
+	dir = 1
+	},
+/turf/open/floor/plasteel/escape,
+/area/hallway/secondary/exit)
+"sIx" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/exit)
+"sIy" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/escape/corner{
+	dir = 8
+	},
+/area/hallway/secondary/exit)
+"sIA" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/r_wall/rust,
+/area/engine/engineering)
+"sIB" = (
+/turf/closed/wall/rust,
+/area/hydroponics)
+"sIC" = (
+/turf/closed/wall/rust,
+/area/crew_quarters/kitchen)
+"sIG" = (
+/obj/machinery/vending/cigarette,
+/obj/machinery/newscaster{
+	pixel_y = -30
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/hallway/secondary/exit)
+"sII" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/r_wall/rust,
+/area/engine/gravity_generator)
+"sIK" = (
+/turf/closed/wall/rust,
+/area/janitor)
+"sIL" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/maintenance/starboard/central)
+"sIN" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall/rust,
+/area/maintenance/starboard)
+"sIO" = (
+/turf/open/space/basic,
+/area/space/nearstation)
+"sIP" = (
+/obj/machinery/vending/cola/random,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/vault/side{
+	dir = 4
+	},
+/area/hallway/secondary/exit)
+"sIR" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel,
+/area/hallway/secondary/exit)
+"sIT" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/maintenance/starboard)
+"sIU" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "supplybridge"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 2
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"sIY" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/rack,
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/obj/item/storage/toolbox/emergency,
+/obj/item/crowbar/red,
+/obj/item/clothing/mask/gas,
+/turf/open/floor/plasteel,
+/area/maintenance/starboard)
+"sJa" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/plasteel/neutral/corner{
+	dir = 4
+	},
+/area/hallway/primary/central)
+"sJc" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/maintenance/starboard)
+"sJd" = (
+/obj/machinery/button/door{
+	id = "supplybridge";
+	name = "Shuttle Bay Space Bridge Control";
+	pixel_y = 27;
+	req_access_txt = "0"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Bridge Hatch";
+	req_access_txt = "12"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"sJe" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"sJg" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/maintenance/starboard)
+"sJi" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"sJj" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Maintenance Hatch";
+	req_access_txt = "12"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"sJk" = (
+/obj/machinery/light,
+/obj/machinery/status_display{
+	pixel_y = -32
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/escape{
+	dir = 10
+	},
+/area/hallway/secondary/exit)
+"sJn" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/crew_quarters/bar/atrium)
+"sJo" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
+/obj/structure/cable/white{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/maintenance/starboard/central)
+"sJq" = (
+/obj/structure/sign/directions/engineering{
+	desc = "A sign that shows there are doors here. There are doors everywhere!";
+	icon_state = "doors";
+	name = "WARNING: EXTERNAL AIRLOCK"
+	},
+/turf/closed/wall,
+/area/maintenance/starboard)
+"sJx" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 12
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/hydroponics)
+"sJy" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/r_wall/rust,
+/area/tcommsat/server)
+"sJA" = (
+/obj/structure/closet/firecloset,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault/side,
+/area/hallway/primary/central)
+"sJD" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/closed/wall/r_wall/rust,
+/area/tcommsat/server)
+"sJG" = (
+/turf/closed/wall/r_wall/rust,
+/area/engine/supermatter)
+"sJH" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/r_wall/rust,
+/area/maintenance/port)
+"sJI" = (
+/turf/closed/wall/rust,
+/area/library)
+"sJJ" = (
+/obj/structure/closet/firecloset,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/hallway/primary/central)
+"sJK" = (
+/obj/structure/closet/crate/bin,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/hallway/primary/central)
+"sJL" = (
+/turf/closed/wall/r_wall,
+/area/science/research)
+"sJN" = (
+/turf/closed/wall/rust,
+/area/maintenance/starboard)
+"sJO" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault/side,
+/area/tcommsat/server)
+"sJP" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault/side,
+/area/tcommsat/server)
+"sJR" = (
+/obj/structure/sign/poster/contraband/random,
+/turf/closed/wall/rust,
+/area/maintenance/starboard/aft)
+"sJS" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/library)
+"sJT" = (
+/turf/closed/wall/rust,
+/area/medical/morgue)
+"sJV" = (
+/turf/closed/wall/r_wall/rust,
+/area/tcommsat/server)
+"sJX" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/wood,
+/area/library)
+"sKa" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/r_wall/rust,
+/area/science/research)
+"sKd" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/wood{
+	icon_state = "wood-broken"
+	},
+/area/library)
+"sKe" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken2"
+	},
+/area/library)
+"sKf" = (
+/turf/closed/wall/rust,
+/area/science/research)
+"sKh" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/r_wall/rust,
+/area/science/research)
+"sKj" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault/telecomms{
+	dir = 5
+	},
+/area/tcommsat/server)
+"sKn" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault/telecomms{
+	dir = 5
+	},
+/area/tcommsat/server)
+"sKp" = (
+/turf/closed/wall/rust,
+/area/medical/medbay/zone3)
+"sKx" = (
+/turf/closed/wall/r_wall/rust,
+/area/maintenance/port)
+"sKB" = (
+/turf/closed/wall/rust,
+/area/security/checkpoint)
+"sKE" = (
+/turf/closed/wall/rust,
+/area/maintenance/port)
+"sKH" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/rust,
+/area/maintenance/port)
+"sKI" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/rust,
+/area/maintenance/port)
+"sKJ" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/r_wall/rust,
+/area/science/robotics/lab)
+"sKL" = (
+/obj/structure/sign/poster/contraband/random,
+/turf/closed/wall/rust,
+/area/maintenance/port)
+"sKP" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/r_wall/rust,
+/area/science/robotics/mechbay)
+"sKQ" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/r_wall/rust,
+/area/science/robotics/lab)
+"sKW" = (
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/maintenance/port)
+"sKZ" = (
+/turf/closed/wall/r_wall/rust,
+/area/science/xenobiology)
+"sLc" = (
+/obj/structure/barricade/wooden,
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Maintenance Hatch";
+	req_access_txt = "12"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/effect/turf_decal/stripes/line{
+	dir = 2
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"sLf" = (
+/turf/closed/wall/rust,
+/area/chapel/main)
+"sLg" = (
+/obj/item/twohanded/required/kirbyplants{
+	icon_state = "plant-22"
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/maintenance/starboard/aft)
+"sLm" = (
+/turf/closed/wall/rust,
+/area/hallway/secondary/entry)
+"sLw" = (
+/obj/structure/sign/electricshock,
+/turf/closed/wall/r_wall/rust,
+/area/ai_monitored/turret_protected/ai)
+"sLx" = (
+/obj/structure/table,
+/obj/effect/turf_decal/delivery,
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/camera{
+	c_tag = "AI Chamber - Core";
+	dir = 2;
+	name = "core camera";
+	network = list("RD")
+	},
+/obj/machinery/cell_charger,
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/turret_protected/ai)
+"sLy" = (
+/obj/machinery/power/smes{
+	charge = 5e+006
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/effect/turf_decal/delivery,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sLz" = (
+/obj/item/paper_bin,
+/obj/item/pen,
+/obj/structure/table,
+/obj/effect/turf_decal/delivery,
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/turret_protected/ai)
+"sLA" = (
+/obj/structure/sign/electricshock,
+/turf/closed/wall/r_wall,
+/area/ai_monitored/turret_protected/ai)
+"sLB" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall/r_wall,
+/area/ai_monitored/turret_protected/ai)
+"sLC" = (
+/obj/machinery/porta_turret/ai{
+	dir = 4
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/dark,
+/area/ai_monitored/turret_protected/ai)
+"sLD" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sLE" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sLF" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sLG" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sLI" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall/r_wall/rust,
+/area/ai_monitored/turret_protected/ai)
+"sLJ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sLK" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault/corner,
+/area/ai_monitored/turret_protected/ai)
+"sLL" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "AI Core shutters";
+	name = "AI core shutters"
+	},
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/ai)
+"sLM" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/vault/corner{
+	dir = 8
+	},
+/area/ai_monitored/turret_protected/ai)
+"sLN" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sLO" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 4
+	},
+/area/ai_monitored/turret_protected/ai)
+"sLP" = (
+/obj/machinery/turretid{
+	control_area = "/area/ai_monitored/turret_protected/ai";
+	icon_state = "control_stun";
+	name = "AI Chamber turret control";
+	pixel_x = 3;
+	pixel_y = -23
+	},
+/obj/machinery/door/window{
+	base_state = "leftsecure";
+	dir = 8;
+	obj_integrity = 300;
+	icon_state = "leftsecure";
+	name = "Primary AI Core Access";
+	req_access_txt = "16"
+	},
+/obj/machinery/newscaster/security_unit{
+	pixel_x = 4;
+	pixel_y = 33
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 6
+	},
+/area/ai_monitored/turret_protected/ai)
+"sLQ" = (
+/obj/machinery/requests_console{
+	department = "AI";
+	departmentType = 5;
+	pixel_x = 30;
+	pixel_y = 30
+	},
+/obj/machinery/ai_slipper{
+	uses = 10
+	},
+/obj/machinery/flasher{
+	id = "AI";
+	pixel_x = 23;
+	pixel_y = -23
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sLR" = (
+/obj/machinery/door/window{
+	base_state = "rightsecure";
+	dir = 4;
+	obj_integrity = 300;
+	icon_state = "rightsecure";
+	name = "Primary AI Core Access";
+	req_access_txt = "16"
+	},
+/obj/machinery/camera{
+	c_tag = "AI Chamber - Core";
+	dir = 2;
+	name = "core camera";
+	network = list("RD")
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 10
+	},
+/area/ai_monitored/turret_protected/ai)
+"sLS" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/ai_monitored/turret_protected/ai)
+"sLT" = (
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = -28
+	},
+/obj/machinery/ai_slipper{
+	uses = 10
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sLV" = (
+/obj/item/device/radio/intercom{
+	broadcasting = 0;
+	freerange = 1;
+	listening = 1;
+	name = "Common Channel";
+	pixel_x = -27;
+	pixel_y = -7
+	},
+/obj/item/device/radio/intercom{
+	anyai = 1;
+	freerange = 1;
+	listening = 0;
+	name = "Custom Channel";
+	pixel_y = -27
+	},
+/obj/item/device/radio/intercom{
+	anyai = 1;
+	broadcasting = 0;
+	freerange = 1;
+	frequency = 1447;
+	name = "Private Channel";
+	pixel_x = 27;
+	pixel_y = -7
+	},
+/obj/effect/landmark/start/ai,
+/obj/machinery/button/door{
+	id = "aicorewindow";
+	name = "AI Core shutters control";
+	pixel_x = 24;
+	pixel_y = -22;
+	req_access_txt = "16"
+	},
+/obj/machinery/button/door{
+	id = "aicoredoor";
+	name = "AI Chamber entrance shutters control";
+	pixel_x = -23;
+	pixel_y = -23;
+	req_access_txt = "16"
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sLX" = (
+/obj/machinery/ai_slipper{
+	uses = 10
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sLY" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/plasteel/vault/side{
+	dir = 4
+	},
+/area/ai_monitored/turret_protected/ai)
+"sLZ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/ai_monitored/turret_protected/ai)
+"sMa" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sMb" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 5
+	},
+/turf/open/floor/plasteel/vault/corner{
+	dir = 4
+	},
+/area/ai_monitored/turret_protected/ai)
+"sMc" = (
+/obj/machinery/airalarm{
+	pixel_y = 23
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sMd" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
+/obj/machinery/camera{
+	c_tag = "AI Chamber - Core";
+	dir = 2;
+	name = "core camera";
+	network = list("RD")
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/ai_monitored/turret_protected/ai)
+"sMe" = (
+/obj/machinery/power/apc{
+	aidisabled = 0;
+	dir = 1;
+	name = "AI Chamber APC";
+	areastring = "/area/ai_monitored/turret_protected/ai";
+	pixel_y = 24
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sMf" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/vault/corner{
+	tag = "icon-vaultcorner (NORTH)";
+	icon_state = "vaultcorner";
+	dir = 1
+	},
+/area/ai_monitored/turret_protected/ai)
+"sMg" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sMk" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 6
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sMl" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/holopad,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault,
+/area/ai_monitored/turret_protected/ai)
+"sMm" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sMn" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 9
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/ai)
+"sMq" = (
+/turf/closed/wall/r_wall/rust,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMr" = (
+/turf/closed/wall/r_wall,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMv" = (
+/obj/item/crowbar,
+/obj/item/wrench,
+/obj/item/device/mmi,
+/obj/structure/table,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 8
+	},
+/area/ai_monitored/turret_protected/ai)
+"sMw" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/turret_protected/ai)
+"sMx" = (
+/obj/item/folder/blue,
+/obj/item/device/assembly/flash/handheld,
+/obj/structure/table,
+/turf/open/floor/plasteel/vault{
+	dir = 8
+	},
+/area/ai_monitored/turret_protected/ai)
+"sMD" = (
+/turf/closed/wall,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sME" = (
+/turf/closed/wall/rust,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMG" = (
+/obj/machinery/teleport/hub,
+/obj/machinery/airalarm{
+	pixel_y = 23
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMH" = (
+/obj/machinery/teleport/station,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/ai_status_display{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMI" = (
+/obj/machinery/computer/teleporter,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMK" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/r_wall/rust,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sML" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/highsecurity{
+	locked = 1;
+	name = "MiniSat Chamber";
+	req_access_txt = "16"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "aicoredoor";
+	name = "AI Core Access"
+	},
+/obj/machinery/flasher{
+	id = "AI";
+	pixel_x = -26
+	},
+/obj/item/device/radio/intercom{
+	broadcasting = 1;
+	frequency = 1447;
+	listening = 0;
+	name = "AI Intercom";
+	pixel_x = 28
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 8
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMO" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible,
+/obj/structure/cable/white{
+	icon_state = "2-4"
+	},
+/obj/machinery/portable_atmospherics/canister/air,
+/obj/machinery/airalarm{
+	pixel_y = 23
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMP" = (
+/obj/machinery/power/smes{
+	charge = 5e+006
+	},
+/obj/structure/cable/white{
+	icon_state = "0-8"
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/ai_status_display{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMQ" = (
+/obj/machinery/power/port_gen/pacman,
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/structure/sign/electricshock{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMT" = (
+/obj/structure/closet/emcloset/anchored,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMU" = (
+/obj/structure/sign/vacuum,
+/turf/closed/wall/r_wall,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMV" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/machinery/camera{
+	c_tag = "AI Satellite - Access";
+	dir = 4;
+	name = "ai camera";
+	network = list("Sat");
+	start_active = 1
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 9
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMW" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMX" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 6
+	},
+/obj/item/device/radio/intercom{
+	broadcasting = 1;
+	frequency = 1447;
+	listening = 0;
+	name = "AI Intercom";
+	pixel_x = 26;
+	pixel_y = 26
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 5
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMY" = (
+/obj/structure/sign/securearea,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/r_wall,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sMZ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/scrubbers/hidden,
+/turf/open/floor/plasteel/vault/side{
+	dir = 9
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNa" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/machinery/holopad,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 1
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNb" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 5
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNc" = (
+/obj/structure/sign/securearea,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/r_wall/rust,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNd" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/machinery/meter,
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNe" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNf" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/components/binary/pump{
+	dir = 4;
+	name = "Waste Out";
+	on = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNg" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/r_wall,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNh" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/on{
+	dir = 8
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plating/airless/astplate,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNj" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNk" = (
+/obj/machinery/door/airlock/external{
+	cyclelinkeddir = 1;
+	name = "MiniSat External Access";
+	req_access = null;
+	req_access_txt = "65"
+	},
+/obj/effect/turf_decal/delivery,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNl" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNm" = (
+/obj/structure/transit_tube/station/reverse/flipped{
+	dir = 4
+	},
+/obj/effect/turf_decal/bot,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNn" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/machinery/holopad,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/vault/side{
+	dir = 4
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNo" = (
+/obj/machinery/turretid{
+	control_area = "/area/ai_monitored/turret_protected/aisat_interior";
+	name = "AI Satellite turret control";
+	pixel_y = -24
+	},
+/obj/machinery/door/airlock/hatch{
+	name = "MiniSat Antechamber";
+	req_one_access_txt = "32;19"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNp" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNq" = (
+/obj/machinery/ai_slipper{
+	uses = 10
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNr" = (
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 4
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNs" = (
+/obj/machinery/door/airlock/hatch{
+	name = "MiniSat Antechamber";
+	req_one_access_txt = "32;19"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNt" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNu" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/holopad,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNv" = (
+/obj/machinery/camera{
+	c_tag = "AI Satellite - Maintenance";
+	dir = 8;
+	name = "ai camera";
+	network = list("Sat");
+	start_active = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
+/obj/machinery/newscaster{
+	pixel_x = 32
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 4
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNx" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNy" = (
+/obj/machinery/door/airlock/external{
+	cyclelinkeddir = 1;
+	name = "MiniSat External Access";
+	req_access = null;
+	req_access_txt = "65"
+	},
+/obj/effect/turf_decal/delivery,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNA" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = -28
+	},
+/obj/machinery/newscaster{
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 10
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNB" = (
+/obj/structure/transit_tube,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNC" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 6
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNE" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/machinery/camera{
+	c_tag = "AI Satellite - Antechamber";
+	dir = 4;
+	name = "ai camera";
+	network = list("Sat");
+	start_active = 1
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 8
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNF" = (
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNG" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 4
+	},
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNI" = (
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/mineral/plasma{
+	amount = 20
+	},
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -26
+	},
+/obj/machinery/power/apc{
+	dir = 2;
+	name = "MiniSat APC";
+	areastring = "/area/ai_monitored/turret_protected/aisat_interior";
+	pixel_y = -27
+	},
+/obj/structure/cable/white,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/table,
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNJ" = (
+/obj/machinery/recharge_station,
+/obj/machinery/status_display{
+	pixel_y = -32
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNK" = (
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/item/storage/toolbox/electrical,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/table,
+/obj/machinery/firealarm{
+	pixel_y = -26
+	},
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNM" = (
+/obj/structure/lattice/catwalk,
+/turf/open/space,
+/area/space/nearstation)
+"sNP" = (
+/obj/structure/transit_tube,
+/obj/effect/spawner/structure/window/hollow/reinforced/middle,
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNQ" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall/r_wall,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNS" = (
+/obj/machinery/porta_turret/ai{
+	installation = /obj/item/gun/energy/e_gun
+	},
+/obj/effect/turf_decal/delivery,
+/obj/machinery/airalarm{
+	dir = 4;
+	pixel_x = -22
+	},
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNT" = (
+/obj/item/stack/sheet/metal,
+/obj/item/stack/sheet/glass{
+	amount = 20
+	},
+/obj/item/device/assembly/flash/handheld,
+/obj/item/device/assembly/flash/handheld,
+/obj/item/device/mmi,
+/obj/item/device/assembly/prox_sensor{
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/obj/structure/table,
+/obj/machinery/status_display{
+	pixel_y = -32
+	},
+/obj/machinery/light,
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sNU" = (
+/obj/machinery/porta_turret/ai{
+	installation = /obj/item/gun/energy/e_gun
+	},
+/obj/effect/turf_decal/delivery,
+/obj/machinery/firealarm{
+	pixel_y = -26
+	},
+/turf/open/floor/plasteel/vault/side,
+/area/ai_monitored/turret_protected/aisat_interior)
+"sOb" = (
+/obj/structure/transit_tube,
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space/nearstation)
+"sOj" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/transit_tube/crossing,
+/turf/open/space/basic,
+/area/space/nearstation)
+"sOk" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall,
+/area/space/nearstation)
+"sOr" = (
+/obj/structure/transit_tube,
+/obj/effect/spawner/structure/window/hollow/reinforced/middle,
+/turf/open/floor/plating,
+/area/bridge)
+"sOs" = (
+/obj/machinery/door/airlock/command{
+	name = "MiniSat Access";
+	req_access_txt = "65"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/bridge)
+"sOt" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/ai_status_display{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/vault/side{
+	dir = 4
+	},
+/area/bridge)
+"sOu" = (
+/obj/structure/transit_tube,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plating,
+/area/bridge)
+"sOv" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/light/small,
+/turf/open/floor/plasteel/vault/side{
+	dir = 4
+	},
+/area/bridge)
+"sOw" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/transit_tube/station/reverse{
+	tag = "icon-closed_terminus0 (WEST)";
+	icon_state = "closed_terminus0";
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/bridge)
+"sOx" = (
+/turf/closed/wall/r_wall,
+/area/ai_monitored/nuke_storage)
+"sOz" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/nuke_storage)
+"sOA" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/nuke_storage)
+"sOB" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/circuit/green,
+/area/ai_monitored/nuke_storage)
+"sOD" = (
+/turf/closed/wall/r_wall/rust,
+/area/ai_monitored/nuke_storage)
+"sOF" = (
+/obj/structure/sign/directions/engineering{
+	desc = "A direction sign, pointing out which way the Supply department is.";
+	dir = 4;
+	icon_state = "direction_supply";
+	name = "supply department"
+	},
+/obj/structure/sign/directions/engineering{
+	desc = "A direction sign, pointing out which way the Command department is.";
+	dir = 1;
+	icon_state = "direction_bridge";
+	name = "command department";
+	pixel_y = 8
+	},
+/obj/structure/sign/directions/science{
+	pixel_y = -8
+	},
+/turf/closed/wall,
+/area/maintenance/starboard)
+"sOG" = (
+/obj/structure/sign/nanotrasen,
+/turf/closed/wall,
+/area/maintenance/starboard)
+"sOI" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 8
+	},
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/white{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/neutral/corner,
+/area/hallway/primary/central)
+"sOJ" = (
+/obj/structure/cable/white{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plating/airless/astplate,
+/area/asteroid/nearstation)
+"sOK" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Maintenance Hatch";
+	req_access_txt = "12"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/maintenance/starboard)
+"sOL" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Maintenance Hatch";
+	req_access_txt = "12"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"sOM" = (
+/turf/closed/wall,
+/area/maintenance/starboard/aft)
+"sON" = (
+/turf/closed/wall/rust,
+/area/maintenance/starboard/aft)
+"sOT" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/maintenance/starboard/aft)
+"sOU" = (
+/obj/structure/girder,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"sOV" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"sOY" = (
+/obj/structure/sign/poster/contraband/random,
+/turf/closed/wall,
+/area/maintenance/starboard/aft)
+"sOZ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"sPa" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/maintenance/starboard/aft)
+"sPi" = (
+/obj/structure/closet/firecloset,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel,
+/area/maintenance/starboard/aft)
+"sPk" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 5
+	},
+/obj/structure/cable/white{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"sPo" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/maintenance/starboard/aft)
+"sPI" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/maintenance/starboard/aft)
+"sPK" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/maintenance/starboard/aft)
+"sPY" = (
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+>>>>>>> 81afde8... Fixes irreparable plating (#34472)
 
 (1,1,1) = {"
 aaa
