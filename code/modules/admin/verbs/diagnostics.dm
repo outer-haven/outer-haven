@@ -1,3 +1,23 @@
+<<<<<<< HEAD
+=======
+/proc/show_air_status_to(turf/target, mob/user)
+	var/datum/gas_mixture/env = target.return_air()
+	var/list/env_gases = env.gases
+	var/burning = FALSE
+	if(isopenturf(target))
+		var/turf/open/T = target
+		if(T.active_hotspot)
+			burning = TRUE
+
+	var/list/lines = list("<span class='adminnotice'>[COORD(target)]: [env.temperature] K ([env.temperature - T0C] C), [env.return_pressure()] kPa[(burning)?(", <font color='red'>burning</font>"):(null)]</span>")
+	for(var/id in env_gases)
+		var/gas = env_gases[id]
+		var/moles = gas[MOLES]
+		if (moles >= 0.00001)
+			lines += "[gas[GAS_META][META_GAS_NAME]]: [moles] mol"
+	to_chat(usr, lines.Join("\n"))
+
+>>>>>>> a4db037... Added observer verb View Gases (#34574)
 /client/proc/air_status(turf/target)
 	set category = "Debug"
 	set name = "Display Air Status"
