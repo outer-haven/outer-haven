@@ -2270,9 +2270,14 @@
 	name = "Asteroid"
 	})
 "aep" = (
+<<<<<<< HEAD
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/neutral/corner{
 	dir = 4
+=======
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+>>>>>>> 0e2707d... Merge pull request #34581 from ShizCalev/stacked-turf-cleanup
 	},
 /area/ruin/unpowered{
 	name = "Asteroid"

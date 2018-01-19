@@ -23,6 +23,7 @@
 	})
 "d" = (
 /turf/closed/wall/mineral/plastitanium,
+<<<<<<< HEAD
 /area/ruin/powered{
 	name = "Shuttle"
 	})
@@ -34,11 +35,15 @@
 /area/ruin/powered{
 	name = "Shuttle"
 	})
+=======
+/area/ruin/powered/shuttle/medium_2)
+>>>>>>> 0e2707d... Merge pull request #34581 from ShizCalev/stacked-turf-cleanup
 "f" = (
 /obj/structure/shuttle/engine/propulsion/burst/right{
 	dir = 8
 	},
 /turf/open/space,
+<<<<<<< HEAD
 /area/ruin/powered{
 	name = "Shuttle"
 	})
@@ -51,6 +56,9 @@
 /area/ruin/powered{
 	name = "Shuttle"
 	})
+=======
+/area/ruin/powered/shuttle/medium_2)
+>>>>>>> 0e2707d... Merge pull request #34581 from ShizCalev/stacked-turf-cleanup
 "h" = (
 /turf/closed/wall/mineral/titanium,
 /area/ruin/powered{
@@ -58,6 +66,7 @@
 	})
 "i" = (
 /turf/closed/wall/mineral/titanium/overspace,
+<<<<<<< HEAD
 /area/ruin/powered{
 	name = "Shuttle"
 	})
@@ -69,6 +78,9 @@
 /area/ruin/powered{
 	name = "Shuttle"
 	})
+=======
+/area/ruin/powered/shuttle/medium_2)
+>>>>>>> 0e2707d... Merge pull request #34581 from ShizCalev/stacked-turf-cleanup
 "k" = (
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered{
@@ -98,6 +110,7 @@
 	})
 "p" = (
 /turf/open/floor/plasteel/darkyellow,
+<<<<<<< HEAD
 /area/ruin/powered{
 	name = "Shuttle"
 	})
@@ -108,6 +121,9 @@
 /area/ruin/powered{
 	name = "Shuttle"
 	})
+=======
+/area/ruin/powered/shuttle/medium_2)
+>>>>>>> 0e2707d... Merge pull request #34581 from ShizCalev/stacked-turf-cleanup
 "r" = (
 /obj/structure/table,
 /turf/open/floor/plasteel,
@@ -159,6 +175,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/darkyellow,
+<<<<<<< HEAD
 /area/ruin/powered{
 	name = "Shuttle"
 	})
@@ -179,6 +196,9 @@
 /area/ruin/powered{
 	name = "Shuttle"
 	})
+=======
+/area/ruin/powered/shuttle/medium_2)
+>>>>>>> 0e2707d... Merge pull request #34581 from ShizCalev/stacked-turf-cleanup
 "B" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ruin/powered{
@@ -233,15 +253,15 @@ a
 (4,1,1) = {"
 b
 f
-j
 d
 d
-q
+d
+d
 a
-j
 d
 d
-q
+d
+d
 b
 f
 "}
@@ -250,11 +270,11 @@ c
 c
 d
 d
-g
+h
 h
 l
 h
-z
+h
 d
 d
 c
@@ -263,7 +283,7 @@ c
 (6,1,1) = {"
 d
 d
-g
+h
 h
 h
 r
@@ -271,7 +291,7 @@ m
 r
 h
 h
-z
+h
 d
 d
 "}
@@ -292,7 +312,7 @@ d
 "}
 (8,1,1) = {"
 d
-g
+h
 h
 n
 h
@@ -302,7 +322,7 @@ B
 h
 n
 h
-z
+h
 d
 "}
 (9,1,1) = {"
@@ -321,7 +341,7 @@ h
 d
 "}
 (10,1,1) = {"
-e
+d
 h
 k
 k
@@ -333,7 +353,7 @@ h
 k
 k
 h
-A
+d
 "}
 (11,1,1) = {"
 a
