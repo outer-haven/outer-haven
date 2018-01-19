@@ -3100,7 +3100,6 @@
 /area/maintenance/department/crew_quarters/dorms)
 "aju" = (
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/department/crew_quarters/dorms)
@@ -4121,7 +4120,6 @@
 /area/space/nearstation)
 "alP" = (
 /turf/open/floor/plating{
-	burnt = 1;
 	icon_state = "panelscorched"
 	},
 /area/maintenance/department/crew_quarters/dorms)
@@ -4503,7 +4501,6 @@
 /area/space/nearstation)
 "amF" = (
 /turf/open/floor/wood{
-	broken = 1;
 	icon_state = "wood-broken"
 	},
 /area/maintenance/department/crew_quarters/dorms)
@@ -6793,7 +6790,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plating{
-	burnt = 1;
 	icon_state = "panelscorched"
 	},
 /area/maintenance/department/crew_quarters/dorms)
@@ -10144,7 +10140,6 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg1"
 	},
 /area/maintenance/department/security/brig)
@@ -10528,7 +10523,6 @@
 /area/maintenance/solars/port)
 "aAZ" = (
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/department/security/brig)
@@ -10542,7 +10536,6 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg1"
 	},
 /area/maintenance/department/security/brig)
@@ -10974,7 +10967,6 @@
 "aCd" = (
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/department/security/brig)
@@ -14197,7 +14189,6 @@
 	dir = 4
 	},
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg1"
 	},
 /area/maintenance/department/cargo)
@@ -14225,7 +14216,6 @@
 	},
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plating{
-	burnt = 1;
 	icon_state = "panelscorched"
 	},
 /area/maintenance/department/cargo)
@@ -14623,7 +14613,6 @@
 /area/maintenance/department/cargo)
 "aKo" = (
 /turf/open/floor/plating{
-	burnt = 1;
 	icon_state = "panelscorched"
 	},
 /area/maintenance/department/cargo)
@@ -15697,7 +15686,6 @@
 "aNf" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/plating{
-	burnt = 1;
 	icon_state = "panelscorched"
 	},
 /area/maintenance/department/crew_quarters/bar)
@@ -15720,7 +15708,6 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/department/crew_quarters/bar)
@@ -16223,7 +16210,6 @@
 "aOw" = (
 /obj/structure/grille/broken,
 /turf/open/floor/plating{
-	burnt = 1;
 	icon_state = "panelscorched"
 	},
 /area/maintenance/department/crew_quarters/bar)
@@ -16710,13 +16696,11 @@
 	icon_state = "plant-22"
 	},
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/department/crew_quarters/bar)
 "aPz" = (
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/department/crew_quarters/bar)
@@ -17152,7 +17136,6 @@
 	dir = 10
 	},
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/department/crew_quarters/bar)
@@ -17165,7 +17148,6 @@
 	},
 /obj/effect/landmark/blobstart,
 /turf/open/floor/plating{
-	burnt = 1;
 	icon_state = "panelscorched"
 	},
 /area/maintenance/department/crew_quarters/bar)
@@ -17179,7 +17161,6 @@
 	dir = 4
 	},
 /turf/open/floor/plating{
-	burnt = 1;
 	icon_state = "panelscorched"
 	},
 /area/maintenance/department/crew_quarters/bar)
@@ -17263,7 +17244,6 @@
 	dir = 4
 	},
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/department/crew_quarters/bar)
@@ -17680,7 +17660,6 @@
 	opacity = 1
 	},
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/department/crew_quarters/bar)
@@ -22192,14 +22171,12 @@
 "bcx" = (
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/plating{
-	burnt = 1;
 	icon_state = "panelscorched"
 	},
 /area/maintenance/department/cargo)
 "bcy" = (
 /obj/item/chair,
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/department/cargo)
@@ -22567,7 +22544,6 @@
 /area/crew_quarters/bar)
 "bdz" = (
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/department/cargo)
@@ -25532,7 +25508,6 @@
 	},
 /obj/effect/landmark/revenantspawn,
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg1"
 	},
 /area/maintenance/department/cargo)
@@ -26086,7 +26061,6 @@
 	icon_state = "2-4"
 	},
 /turf/open/floor/plating{
-	burnt = 1;
 	icon_state = "panelscorched"
 	},
 /area/maintenance/department/engine)
@@ -26096,7 +26070,6 @@
 	},
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg1"
 	},
 /area/maintenance/department/engine)
@@ -26521,7 +26494,6 @@
 	dir = 1
 	},
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg1"
 	},
 /area/maintenance/department/cargo)
@@ -26530,7 +26502,6 @@
 	dir = 8
 	},
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg1"
 	},
 /area/maintenance/department/cargo)
@@ -26577,7 +26548,6 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg1"
 	},
 /area/maintenance/department/engine)
@@ -30705,7 +30675,6 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg1"
 	},
 /area/maintenance/department/engine)
@@ -31604,7 +31573,6 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating{
-	burnt = 1;
 	icon_state = "panelscorched"
 	},
 /area/maintenance/department/engine)
@@ -32367,7 +32335,6 @@
 	dir = 4
 	},
 /turf/open/floor/plating{
-	burnt = 1;
 	icon_state = "panelscorched"
 	},
 /area/maintenance/department/engine)
@@ -32856,7 +32823,6 @@
 	},
 /obj/item/extinguisher,
 /turf/open/floor/plating{
-	burnt = 1;
 	icon_state = "panelscorched"
 	},
 /area/maintenance/department/engine)
@@ -41046,7 +41012,6 @@
 /area/maintenance/department/engine)
 "bTY" = (
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/department/engine)
@@ -42062,7 +42027,6 @@
 "bWm" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg1"
 	},
 /area/maintenance/department/engine)
@@ -43621,7 +43585,6 @@
 "caa" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg1"
 	},
 /area/maintenance/department/engine)
@@ -48141,7 +48104,6 @@
 	dir = 5
 	},
 /turf/open/floor/plating{
-	burnt = 1;
 	icon_state = "panelscorched"
 	},
 /area/maintenance/department/crew_quarters/dorms)
@@ -48273,7 +48235,6 @@
 	dir = 4
 	},
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg1"
 	},
 /area/maintenance/department/crew_quarters/bar)
@@ -48286,7 +48247,6 @@
 	},
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating{
-	burnt = 1;
 	icon_state = "panelscorched"
 	},
 /area/maintenance/department/crew_quarters/bar)
@@ -48298,7 +48258,6 @@
 	dir = 4
 	},
 /turf/open/floor/plating{
-	burnt = 1;
 	icon_state = "panelscorched"
 	},
 /area/maintenance/department/crew_quarters/bar)
@@ -50989,7 +50948,6 @@
 "cBm" = (
 /obj/item/cigbutt/cigarbutt,
 /turf/open/floor/plating{
-	burnt = 1;
 	icon_state = "panelscorched"
 	},
 /area/maintenance/department/crew_quarters/dorms)
@@ -51089,14 +51047,12 @@
 /area/maintenance/department/crew_quarters/dorms)
 "cBz" = (
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg1"
 	},
 /area/maintenance/department/crew_quarters/dorms)
 "cBA" = (
 /obj/structure/grille/broken,
 /turf/open/floor/plating{
-	burnt = 1;
 	icon_state = "panelscorched"
 	},
 /area/maintenance/department/crew_quarters/dorms)
@@ -51106,7 +51062,6 @@
 	dir = 8
 	},
 /turf/open/floor/plating{
-	broken = 1;
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/department/crew_quarters/dorms)
