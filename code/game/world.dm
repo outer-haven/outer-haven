@@ -15,7 +15,7 @@ GLOBAL_PROTECT(security_mode)
 
 	make_datum_references_lists()	//initialises global lists for referencing frequently used datums (so that we only ever do it once)
 
-	new /datum/controller/configuration
+	config.Load()
 
 	CheckSchemaVersion()
 	SetRoundID()
@@ -45,7 +45,11 @@ GLOBAL_PROTECT(security_mode)
 
 /world/proc/SetupExternalRSC()
 #if (PRELOAD_RSC == 0)
+<<<<<<< HEAD
 	external_rsc_urls = world.file2list("config/external_rsc_urls.txt","\n")
+=======
+	GLOB.external_rsc_urls = world.file2list("[global.config.directory]/external_rsc_urls.txt","\n")
+>>>>>>> 015258d... Config dir again except this time it works (#34606)
 	var/i=1
 	while(i<=external_rsc_urls.len)
 		if(external_rsc_urls[i])
