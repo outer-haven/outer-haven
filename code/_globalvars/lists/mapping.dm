@@ -7,6 +7,7 @@ GLOBAL_LIST_INIT(cardinals, list(NORTH, SOUTH, EAST, WEST))
 GLOBAL_LIST_INIT(alldirs, list(NORTH, SOUTH, EAST, WEST, NORTHEAST, NORTHWEST, SOUTHEAST, SOUTHWEST))
 GLOBAL_LIST_INIT(diagonals, list(NORTHEAST, NORTHWEST, SOUTHEAST, SOUTHWEST))
 
+<<<<<<< HEAD
 GLOBAL_LIST_INIT(station_z_levels, list(ZLEVEL_STATION_PRIMARY))
 
 GLOBAL_LIST(global_map)
@@ -20,6 +21,8 @@ GLOBAL_LIST(global_map)
 	//3 - AI satellite
 	//5 - empty space
 
+=======
+>>>>>>> 35faafa... Refactor weather to use Z traits, assorted related cleanup (#34633)
 GLOBAL_LIST_EMPTY(landmarks_list)				//list of all landmarks created
 GLOBAL_LIST_EMPTY(start_landmarks_list)			//list of all spawn points created
 GLOBAL_LIST_EMPTY(department_security_spawns)	//list of all department security spawns
