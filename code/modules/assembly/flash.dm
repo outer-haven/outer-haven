@@ -67,7 +67,35 @@
 
 	last_used = world.time
 	times_used = max(0, times_used) //sanity
+<<<<<<< HEAD
 	return 1
+=======
+	if(max(0, prob(times_used * 3) - burnout_resistance)) //The more often it's used in a short span of time the more likely it will burn out
+		burn_out()
+		return FALSE
+	return TRUE
+
+//BYPASS CHECKS ALSO PREVENTS BURNOUT!
+/obj/item/device/assembly/flash/proc/AOE_flash(bypass_checks = FALSE, range = 3, power = 5, targeted = FALSE, mob/user)
+	if(!bypass_checks && !try_use_flash())
+		return FALSE
+	var/list/mob/targets = get_flash_targets(loc, range, FALSE)
+	if(user)
+		targets -= user
+	for(var/mob/living/carbon/C in targets)
+		flash_carbon(C, user, power, targeted, TRUE)
+	return TRUE
+
+/obj/item/device/assembly/flash/proc/get_flash_targets(atom/target_loc, range = 3, override_vision_checks = FALSE)
+	if(!target_loc)
+		target_loc = loc
+	if(override_vision_checks)
+		return get_hearers_in_view(range, get_turf(target_loc))
+	if(isturf(target_loc) || (ismob(target_loc) && isturf(target_loc.loc)))
+		return viewers(range, get_turf(target_loc))
+	else
+		return typecache_filter_list(target_loc.GetAllContents(), typecacheof(list(/mob/living)))
+>>>>>>> ed416c8... Fixes flash_carbon runtime (#34707)
 
 /obj/item/device/assembly/flash/proc/try_use_flash(mob/user = null)
 	if(crit_fail)
@@ -82,9 +110,19 @@
 	return 1
 
 
+<<<<<<< HEAD
 /obj/item/device/assembly/flash/proc/flash_carbon(mob/living/carbon/M, mob/user = null, power = 15, targeted = 1)
 	add_logs(user, M, "flashed", src)
 	if(user && targeted)
+=======
+/obj/item/device/assembly/flash/proc/flash_carbon(mob/living/carbon/M, mob/user, power = 15, targeted = TRUE, generic_message = FALSE)
+	if(!istype(M))
+		return
+	add_logs(user, M, "[targeted? "flashed(targeted)" : "flashed(AOE)"]", src)
+	if(generic_message && M != user)
+		to_chat(M, "<span class='disarm'>[src] emits a blinding light!</span>")
+	if(targeted)
+>>>>>>> ed416c8... Fixes flash_carbon runtime (#34707)
 		if(M.flash_act(1, 1))
 			M.confused += power
 			terrible_conversion_proc(M, user)
