@@ -285,7 +285,7 @@
 "bc" = (
 /obj/machinery/porta_turret{
 	dir = 8;
-	emagged = 1;
+	set_obj_flags = "EMAGGED";
 	installation = /obj/item/gun/energy/lasercannon
 	},
 /turf/open/floor/plating,
@@ -404,7 +404,7 @@
 "by" = (
 /obj/machinery/porta_turret{
 	dir = 8;
-	emagged = 1;
+	set_obj_flags = "EMAGGED";
 	installation = /obj/item/gun/energy/lasercannon
 	},
 /turf/open/floor/plating,
@@ -449,7 +449,7 @@
 "bG" = (
 /obj/machinery/porta_turret{
 	dir = 8;
-	emagged = 1;
+	set_obj_flags = "EMAGGED";
 	installation = /obj/item/gun/energy/lasercannon
 	},
 /turf/open/floor/plating,
@@ -1118,7 +1118,7 @@
 "dZ" = (
 /obj/machinery/porta_turret{
 	dir = 8;
-	emagged = 1;
+	set_obj_flags = "EMAGGED";
 	installation = /obj/item/gun/energy/lasercannon
 	},
 /turf/open/floor/engine,
@@ -1970,7 +1970,7 @@
 "gP" = (
 /obj/machinery/porta_turret{
 	dir = 8;
-	emagged = 1;
+	set_obj_flags = "EMAGGED";
 	installation = /obj/item/gun/energy/lasercannon
 	},
 /turf/open/floor/plating/airless,
@@ -2966,7 +2966,7 @@
 "kq" = (
 /obj/machinery/porta_turret{
 	dir = 8;
-	emagged = 1;
+	set_obj_flags = "EMAGGED";
 	installation = /obj/item/gun/energy/lasercannon
 	},
 /turf/open/floor/engine/vacuum,

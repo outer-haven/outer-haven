@@ -1129,7 +1129,7 @@
 "cr" = (
 /obj/machinery/door/airlock/public/glass{
 	density = 0;
-	emagged = 1;
+	set_obj_flags = "EMAGGED";
 	icon_state = "open";
 	locked = 1;
 	name = "Dormitories"
@@ -1442,7 +1442,7 @@
 "cT" = (
 /obj/machinery/door/airlock{
 	density = 0;
-	emagged = 1;
+	set_obj_flags = "EMAGGED";
 	icon_state = "open";
 	id_tag = "awaydorm4";
 	locked = 1;
@@ -1758,7 +1758,7 @@
 "du" = (
 /obj/machinery/door/airlock/external{
 	density = 0;
-	emagged = 1;
+	set_obj_flags = "EMAGGED";
 	icon_state = "open";
 	locked = 1;
 	opacity = 0;
@@ -1919,7 +1919,7 @@
 "dI" = (
 /obj/machinery/door/airlock/external{
 	density = 0;
-	emagged = 1;
+	set_obj_flags = "EMAGGED";
 	icon_state = "open";
 	locked = 1;
 	opacity = 0;
@@ -2800,7 +2800,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/research{
 	density = 0;
-	emagged = 1;
+	set_obj_flags = "EMAGGED";
 	icon_state = "open";
 	locked = 1;
 	name = "Xenobiology Lab";
@@ -3968,7 +3968,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/command{
 	density = 0;
-	emagged = 1;
+	set_obj_flags = "EMAGGED";
 	icon_state = "open";
 	locked = 1;
 	name = "Research Director's Office";
