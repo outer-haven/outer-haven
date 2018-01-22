@@ -1199,6 +1199,7 @@ B --><-- A
 	sleep(duration)
 	A.cut_overlay(O)
 
+<<<<<<< HEAD
 /proc/get_areas_in_z(zlevel)
 	. = list()
 	var/validarea = FALSE
@@ -1211,6 +1212,10 @@ B --><-- A
 				break
 		if(validarea)
 			. += A
+=======
+/proc/get_random_station_turf()
+	return safepick(get_area_turfs(pick(GLOB.the_station_areas)))
+>>>>>>> 70df93a... Fixes portal storm event (#34725)
 
 /proc/get_closest_atom(type, list, source)
 	var/closest_atom
