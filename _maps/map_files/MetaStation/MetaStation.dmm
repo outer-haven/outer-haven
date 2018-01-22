@@ -2723,6 +2723,7 @@
 	dir = 1
 	},
 /area/security/prison)
+<<<<<<< HEAD
 "afQ" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 2
@@ -2732,6 +2733,8 @@
 	dir = 1
 	},
 /area/security/prison)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "afR" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 1
@@ -11309,15 +11312,6 @@
 /turf/open/floor/plasteel/neutral/corner{
 	dir = 1
 	},
-/area/crew_quarters/dorms)
-"axH" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
 /area/crew_quarters/dorms)
 "axI" = (
 /obj/machinery/door/airlock{
@@ -22735,11 +22729,14 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
+<<<<<<< HEAD
 "aVI" = (
 /obj/effect/landmark/lightsout,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "aVJ" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 5
@@ -27391,11 +27388,6 @@
 /area/quartermaster/office)
 "bfd" = (
 /obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel,
-/area/hallway/primary/port)
-"bfe" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
 "bff" = (
@@ -39176,6 +39168,7 @@
 	dir = 1
 	},
 /area/hallway/secondary/command)
+<<<<<<< HEAD
 "bDc" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -39188,6 +39181,8 @@
 	dir = 1
 	},
 /area/hallway/secondary/command)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "bDd" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -39350,6 +39345,7 @@
 	dir = 4
 	},
 /area/hallway/secondary/command)
+<<<<<<< HEAD
 "bDt" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -39359,6 +39355,8 @@
 	dir = 4
 	},
 /area/hallway/secondary/command)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "bDu" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -39477,10 +39475,13 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /turf/open/floor/plasteel/bar,
 /area/crew_quarters/bar)
+<<<<<<< HEAD
 "bDE" = (
 /obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/bar,
 /area/crew_quarters/bar)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "bDF" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/bar,
@@ -39752,10 +39753,13 @@
 	},
 /turf/open/floor/wood,
 /area/security/vacantoffice)
+<<<<<<< HEAD
 "bEr" = (
 /obj/effect/landmark/lightsout,
 /turf/open/floor/wood,
 /area/security/vacantoffice)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "bEs" = (
 /obj/item/paper_bin{
 	pixel_x = -2;
@@ -42980,11 +42984,14 @@
 /obj/structure/bookcase/random/adult,
 /turf/open/floor/wood,
 /area/library)
+<<<<<<< HEAD
 "bLj" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/effect/landmark/lightsout,
 /turf/open/floor/carpet,
 /area/library)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "bLk" = (
 /obj/structure/bookcase/random/reference,
 /turf/open/floor/wood,
@@ -44329,10 +44336,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/atmos)
+<<<<<<< HEAD
 "bNT" = (
 /obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel,
 /area/engine/atmos)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "bNU" = (
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 0;
@@ -52427,6 +52437,7 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
+<<<<<<< HEAD
 "ceM" = (
 /obj/machinery/autolathe{
 	icon_state = "autolathe";
@@ -52436,6 +52447,8 @@
 	dir = 2
 	},
 /area/science/research)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "ceN" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
@@ -52454,14 +52467,6 @@
 	pixel_x = -1;
 	pixel_y = -29
 	},
-/turf/open/floor/plasteel/whitepurple/side{
-	dir = 2
-	},
-/area/science/research)
-"ceP" = (
-/obj/structure/table,
-/obj/item/stock_parts/cell/potato,
-/obj/machinery/light,
 /turf/open/floor/plasteel/whitepurple/side{
 	dir = 2
 	},
@@ -53664,16 +53669,6 @@
 	},
 /area/science/lab)
 "chk" = (
-/turf/open/floor/plasteel/whitepurple/side{
-	dir = 1
-	},
-/area/science/lab)
-"chl" = (
-/obj/structure/noticeboard{
-	desc = "A board for pinning important notices upon.";
-	name = "notice board";
-	pixel_y = 31
-	},
 /turf/open/floor/plasteel/whitepurple/side{
 	dir = 1
 	},
@@ -57541,6 +57536,7 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/research)
+<<<<<<< HEAD
 "cps" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -57554,6 +57550,8 @@
 /obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/white,
 /area/science/research)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "cpt" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -60452,13 +60450,6 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/science/storage)
-"cuX" = (
-/obj/effect/landmark/xeno_spawn,
-/obj/machinery/atmospherics/components/unary/vent_pump/on{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/maintenance/starboard/aft)
 "cuY" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -60470,6 +60461,7 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "cuZ" = (
+<<<<<<< HEAD
 /obj/machinery/door/airlock/maintenance/abandoned{
 	name = "Storage Room";
 	req_access_txt = "0";
@@ -60507,6 +60499,10 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
+=======
+/turf/closed/wall/r_wall,
+/area/science/circuit)
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "cvd" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -60976,12 +60972,6 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/science/storage)
-"cvZ" = (
-/obj/structure/closet/crate,
-/obj/item/device/multitool,
-/obj/item/clothing/gloves/color/fyellow,
-/turf/open/floor/plating,
-/area/maintenance/starboard/aft)
 "cwa" = (
 /obj/structure/rack,
 /obj/item/hand_labeler_refill,
@@ -62642,15 +62632,6 @@
 "czt" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
-	},
-/turf/open/floor/plasteel/white,
-/area/science/mixing)
-"czu" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/general/visible{
-	dir = 5
 	},
 /turf/open/floor/plasteel/white,
 /area/science/mixing)
@@ -65623,10 +65604,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/mixing)
-"cFt" = (
-/obj/effect/decal/cleanable/oil,
-/turf/open/floor/plating,
-/area/maintenance/starboard/aft)
 "cFu" = (
 /obj/structure/closet,
 /obj/item/device/assembly/prox_sensor{
@@ -66630,15 +66607,6 @@
 	},
 /turf/closed/wall/r_wall,
 /area/science/mixing)
-"cHj" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plating{
-	icon_state = "platingdmg2"
-	},
-/area/maintenance/starboard/aft)
 "cHk" = (
 /obj/structure/cable,
 /obj/machinery/power/tracker,
@@ -69937,10 +69905,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit/departure_lounge)
+<<<<<<< HEAD
 "cNM" = (
 /obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit/departure_lounge)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "cNN" = (
 /obj/structure/flora/ausbushes/fernybush,
 /obj/structure/flora/ausbushes/fullgrass,
@@ -79601,10 +79572,6 @@
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/port/aft)
-"dxO" = (
-/obj/structure/closet/emcloset,
-/turf/open/floor/plating,
-/area/maintenance/starboard/aft)
 "dxQ" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -79652,17 +79619,6 @@
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
-"dyQ" = (
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
-/area/maintenance/starboard/aft)
 "dzc" = (
 /obj/machinery/space_heater,
 /turf/open/floor/plating,
@@ -79682,14 +79638,6 @@
 /area/maintenance/port/aft)
 "dzQ" = (
 /obj/structure/reagent_dispensers/fueltank,
-/turf/open/floor/plating,
-/area/maintenance/starboard/aft)
-"dzR" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/obj/effect/landmark/event_spawn,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "dAd" = (
@@ -80630,6 +80578,524 @@
 /obj/structure/sign/poster/official/random,
 /turf/closed/wall,
 /area/hydroponics)
+<<<<<<< HEAD
+=======
+"QsX" = (
+/obj/machinery/autolathe{
+	name = "public autolathe"
+	},
+/obj/machinery/door/window/eastright{
+	dir = 2;
+	name = "Research and Development Desk";
+	req_access_txt = "7"
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "research_shutters";
+	name = "research shutters"
+	},
+/turf/open/floor/plasteel/whitepurple,
+/area/science/lab)
+"QsY" = (
+/obj/structure/table,
+/obj/item/device/paicard,
+/turf/open/floor/plasteel/whitepurple/side{
+	dir = 2
+	},
+/area/science/research)
+"QsZ" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel/whitepurple/side{
+	dir = 2
+	},
+/area/science/research)
+"Qta" = (
+/obj/structure/chair/office/light{
+	dir = 1;
+	pixel_y = 3
+	},
+/turf/open/floor/plasteel/whitepurple/side{
+	dir = 1
+	},
+/area/science/lab)
+"Qtb" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"Qtc" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/door/airlock/maintenance,
+/obj/machinery/door/firedoor,
+/turf/open/floor/plating,
+/area/science/circuit)
+"Qtd" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"Qte" = (
+/obj/structure/target_stake,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"Qtf" = (
+/obj/structure/closet/crate,
+/obj/item/target/alien,
+/obj/item/target/alien,
+/obj/item/target/clown,
+/obj/item/target/clown,
+/obj/item/target/syndicate,
+/obj/item/target/syndicate,
+/obj/item/gun/energy/laser/practice,
+/obj/item/gun/energy/laser/practice,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"Qtg" = (
+/obj/structure/falsewall,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"Qth" = (
+/obj/structure/reagent_dispensers/beerkeg{
+	desc = "One of the more successful achievements of the Nanotrasen Corporate Warfare Division, their nuclear fission explosives are renowned for being cheap to produce and devastatingly effective. Signs explain that though this particular device has been decommissioned, every Nanotrasen station is equipped with an equivalent one, just in case. All Captains carefully guard the disk needed to detonate them - at least, the sign says they do. There seems to be a tap on the back.";
+	icon = 'icons/obj/machines/nuke.dmi';
+	icon_state = "nuclearbomb_base";
+	name = "Nanotrasen-brand nuclear fission explosive";
+	pixel_x = 2;
+	pixel_y = 6
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"Qti" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/space)
+"Qtj" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
+"Qtl" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/door/airlock/research/glass{
+	name = "Circuitry Lab";
+	req_access_txt = "47"
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"Qtm" = (
+/turf/closed/wall,
+/area/science/circuit)
+"Qtt" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"Qtu" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"Qtv" = (
+/obj/machinery/airalarm{
+	pixel_y = 32
+	},
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/obj/machinery/disposal/bin,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"Qtw" = (
+/obj/item/device/multitool,
+/obj/item/screwdriver,
+/obj/structure/table/reinforced,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/light_switch{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"Qtx" = (
+/obj/structure/table/reinforced,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/requests_console{
+	department = "Science";
+	departmentType = 2;
+	dir = 2;
+	name = "Science Requests Console";
+	pixel_y = 30;
+	receive_ore_updates = 1
+	},
+/obj/item/device/integrated_electronics/debugger,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"Qty" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/item/stock_parts/cell/super,
+/obj/item/stock_parts/cell/super,
+/obj/item/stack/sheet/metal/fifty,
+/obj/structure/table/reinforced,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/computer/security/telescreen{
+	desc = "Used for watching the RD's goons from the safety of your own office.";
+	name = "Research Monitor";
+	network = list("RD");
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"Qtz" = (
+/obj/item/screwdriver,
+/obj/structure/table/reinforced,
+/obj/structure/sign/poster/official/random{
+	pixel_y = 32
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"QtA" = (
+/obj/machinery/power/apc{
+	areastring = "/area/science/circuit";
+	dir = 1;
+	name = "Circuitry Lab APC";
+	pixel_y = 30
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/structure/table/reinforced,
+/obj/item/device/multitool,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"QtB" = (
+/obj/item/stock_parts/cell/super,
+/obj/item/stock_parts/cell/super,
+/obj/item/stack/sheet/metal/fifty,
+/obj/structure/table/reinforced,
+/obj/machinery/computer/security/telescreen{
+	desc = "Used for watching the RD's goons from the safety of your own office.";
+	name = "Research Monitor";
+	network = list("RD");
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"QtD" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"QtH" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"QtI" = (
+/obj/structure/table/reinforced,
+/obj/item/device/integrated_circuit_printer/upgraded,
+/obj/item/device/integrated_electronics/analyzer,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"QtJ" = (
+/obj/effect/landmark/start/scientist,
+/obj/structure/chair/office/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"QtK" = (
+/obj/item/device/integrated_electronics/wirer,
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"QtL" = (
+/obj/structure/table/reinforced,
+/obj/item/device/integrated_circuit_printer/upgraded,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"QtM" = (
+/obj/structure/chair/office/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"QtN" = (
+/obj/item/device/integrated_electronics/analyzer,
+/obj/item/device/integrated_electronics/debugger,
+/obj/item/device/integrated_electronics/wirer,
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"QtO" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/science/circuit)
+"QtP" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/door/airlock/maintenance,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"QtQ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"QtR" = (
+/obj/structure/table/reinforced,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"QtS" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"QtT" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/rnd/protolathe/department/science,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"QtU" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/autolathe,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"QtV" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"QtW" = (
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/paper_bin,
+/obj/item/pen,
+/obj/structure/table/reinforced,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 32
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"QtY" = (
+/obj/structure/chair/comfy,
+/turf/open/floor/plasteel,
+/area/science/misc_lab)
+"QtZ" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel,
+/area/science/misc_lab)
+"Qua" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/open/floor/plasteel,
+/area/science/misc_lab)
+"Qub" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"Qud" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"Quf" = (
+/obj/structure/table/glass,
+/obj/machinery/camera/autoname{
+	dir = 4;
+	network = list("SS13")
+	},
+/turf/open/floor/plasteel,
+/area/science/misc_lab)
+"Quh" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 6
+	},
+/turf/open/floor/plasteel,
+/area/science/misc_lab)
+"Qui" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/machinery/door/airlock/research/glass{
+	name = "Circuitry Lab";
+	req_access_txt = "47"
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"Quj" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"Quk" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"Qul" = (
+/obj/machinery/light,
+/obj/structure/sign/poster/official/random{
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"Qum" = (
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -24
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"Qun" = (
+/obj/item/device/radio/intercom{
+	pixel_y = -30
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"Quo" = (
+/obj/machinery/camera{
+	c_tag = "Research Division Circuitry Lab";
+	dir = 1;
+	network = list("SS13","RD")
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"Qup" = (
+/obj/machinery/light,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"Quq" = (
+/obj/structure/table/reinforced,
+/obj/machinery/computer/libraryconsole/bookmanagement,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"Qur" = (
+/obj/machinery/bookbinder,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"Qus" = (
+/obj/machinery/libraryscanner,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"Quw" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 2
+	},
+/turf/closed/wall,
+/area/science/circuit)
+"QuJ" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space/nearstation)
+"QuM" = (
+/obj/machinery/vending/assist,
+/turf/open/floor/plasteel,
+/area/science/mixing)
+"QuN" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 5
+	},
+/turf/open/floor/plasteel,
+/area/science/mixing)
+"QuR" = (
+/obj/machinery/vending/snack/random,
+/turf/open/floor/plasteel,
+/area/science/mixing)
+"QuS" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/machinery/vending/coffee,
+/turf/open/floor/plasteel,
+/area/science/mixing)
+"QuT" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"QuU" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"QuW" = (
+/obj/effect/landmark/event_spawn,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 
 (1,1,1) = {"
 aaa
@@ -96181,7 +96647,7 @@ bxJ
 bzx
 bBi
 bCM
-bEr
+bBg
 bBg
 bHM
 bJv
@@ -98988,7 +99454,7 @@ aQl
 aMv
 aSS
 aMv
-aVI
+aQl
 aXh
 aMv
 bar
@@ -100554,7 +101020,7 @@ bEy
 bGr
 bwd
 bwd
-bLj
+bwd
 bMK
 bOl
 bPR
@@ -102078,7 +102544,7 @@ aYT
 baC
 bbZ
 bdu
-bfe
+bbZ
 bgX
 biQ
 bkv
@@ -104661,7 +105127,7 @@ bAZ
 bkz
 bzN
 bBB
-bDc
+bDa
 bEG
 bGB
 bIb
@@ -105122,7 +105588,7 @@ ady
 adT
 adc
 aeW
-afQ
+afK
 agJ
 ahx
 ait
@@ -106513,7 +106979,7 @@ cKy
 cLo
 cLm
 cLm
-cNM
+cLm
 cOr
 cOU
 dDG
@@ -110572,7 +111038,7 @@ bwB
 byp
 bAd
 byo
-bDt
+bDj
 bEZ
 bGM
 bIp
@@ -112912,7 +113378,7 @@ cgo
 cgo
 cgo
 ccd
-cps
+cpr
 cci
 crQ
 ctc
@@ -114427,7 +114893,7 @@ bwN
 byz
 bAj
 bBU
-bDE
+bwO
 dDb
 bHb
 bMP
@@ -116515,11 +116981,21 @@ cgq
 cgq
 cgq
 dxQ
+<<<<<<< HEAD
 dyc
 dwN
 dvY
 dvY
 dvY
+=======
+cuZ
+Qtt
+cwZ
+cwZ
+cyM
+Quk
+Qtm
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 cQv
 cAN
 cBI
@@ -116775,8 +117251,15 @@ cuc
 cvb
 dyp
 cwZ
+<<<<<<< HEAD
 dwN
 cyM
+=======
+cwZ
+cyM
+Qul
+Qtm
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 czF
 cAN
 cBJ
@@ -116959,7 +117442,7 @@ asY
 aui
 avm
 asY
-axH
+aui
 ayO
 aAg
 aBA
@@ -117030,10 +117513,19 @@ dvY
 dvY
 dvY
 cuZ
+<<<<<<< HEAD
 dvY
 dvY
 cxN
 dvY
+=======
+Qtu
+cxN
+cxN
+Qud
+cxO
+Qtm
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 czG
 cAN
 cBK
@@ -117286,11 +117778,21 @@ cqX
 cpH
 dvY
 cud
+<<<<<<< HEAD
 cvc
 dwN
 dvY
 cxO
 dvY
+=======
+cuZ
+Qtv
+cxO
+cxO
+QuW
+Qum
+Qtm
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 cQB
 cAO
 cBL
@@ -117547,7 +118049,13 @@ cpK
 cwd
 dvY
 cxP
+<<<<<<< HEAD
 dvY
+=======
+cxO
+Qun
+Qtm
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 czI
 cAP
 cAP
@@ -117799,12 +118307,23 @@ cpJ
 cqZ
 dvY
 dvY
+<<<<<<< HEAD
 dvY
 dxk
 dvY
 dvY
 cxO
 dvY
+=======
+Qte
+Qtm
+Qtw
+QtI
+QtR
+cxO
+Quo
+Qtm
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 aaf
 aaf
 aaf
@@ -118056,7 +118575,18 @@ dxh
 clY
 crZ
 dvY
+<<<<<<< HEAD
 aaa
+=======
+Qtf
+Qtm
+Qtx
+QtJ
+QtS
+QuW
+cxO
+Qtm
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 aaf
 aaa
 aaf
@@ -118312,12 +118842,24 @@ cot
 cnb
 cra
 csa
+<<<<<<< HEAD
 dxk
 aaf
 aaf
 aaf
 aaf
 ack
+=======
+dvY
+Qtg
+Qtm
+Qty
+QtK
+QtT
+cxO
+Qup
+Qtm
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 aaa
 aaa
 aaa
@@ -118570,12 +119112,23 @@ dwN
 cou
 csb
 dvY
+<<<<<<< HEAD
 aaa
 aaf
 aaa
 aaa
 aaa
 aaa
+=======
+Qth
+Qtm
+Qtz
+QtL
+QtU
+cxO
+Quq
+Qtm
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 aaa
 aaa
 aaa
@@ -118826,6 +119379,7 @@ dwN
 dwN
 cgs
 csc
+<<<<<<< HEAD
 dxk
 aaa
 aaf
@@ -118833,6 +119387,17 @@ aaa
 aaa
 aaa
 aaa
+=======
+dvY
+Qti
+Qtm
+QtA
+QtM
+QtV
+cxO
+Qur
+Qtm
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 aaa
 aaa
 aaa
@@ -119084,12 +119649,23 @@ cpK
 dwN
 csc
 dvY
+<<<<<<< HEAD
 aaa
 aaf
 aaa
 aaa
 aaa
 aaa
+=======
+Qtj
+Qtm
+QtB
+QtN
+QtW
+cxO
+Qus
+Qtm
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 aaa
 aaa
 aaa
@@ -123685,7 +124261,7 @@ bHx
 bIU
 bKB
 bMh
-bNT
+bCi
 bCi
 bKD
 bCi

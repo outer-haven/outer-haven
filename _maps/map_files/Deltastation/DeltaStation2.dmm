@@ -4868,6 +4868,7 @@
 	},
 /turf/open/floor/plasteel/neutral,
 /area/hallway/secondary/entry)
+<<<<<<< HEAD
 "akh" = (
 /obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -4875,6 +4876,8 @@
 	},
 /turf/open/floor/plasteel/neutral,
 /area/hallway/secondary/entry)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "aki" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 1
@@ -16512,10 +16515,6 @@
 	icon_state = "wood-broken6"
 	},
 /area/hallway/secondary/service)
-"aIR" = (
-/obj/structure/closet/secure_closet/personal/cabinet,
-/turf/open/floor/wood,
-/area/hallway/secondary/service)
 "aIS" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 8
@@ -17774,13 +17773,6 @@
 "aLF" = (
 /obj/structure/table/wood,
 /obj/item/storage/briefcase,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/turf/open/floor/wood,
-/area/hallway/secondary/service)
-"aLG" = (
-/obj/item/twohanded/required/kirbyplants/random,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
@@ -20824,10 +20816,13 @@
 /obj/machinery/holopad,
 /turf/open/floor/carpet,
 /area/crew_quarters/bar/atrium)
+<<<<<<< HEAD
 "aSb" = (
 /obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/redyellow,
 /area/crew_quarters/bar/atrium)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "aSc" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/public/glass{
@@ -25489,6 +25484,7 @@
 	dir = 1
 	},
 /area/security/prison)
+<<<<<<< HEAD
 "bbj" = (
 /obj/structure/cable/white{
 	icon_state = "1-2"
@@ -25501,6 +25497,8 @@
 	dir = 1
 	},
 /area/security/prison)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "bbk" = (
 /obj/structure/cable/white,
 /obj/machinery/power/apc/highcap/five_k{
@@ -37911,11 +37909,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/execution/transfer)
-"bAe" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/delivery,
-/turf/open/floor/plasteel,
-/area/security/execution/transfer)
 "bAf" = (
 /obj/machinery/door/airlock/external{
 	cyclelinkeddir = 8;
@@ -42351,6 +42344,7 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/engine/break_room)
+<<<<<<< HEAD
 "bIj" = (
 /obj/structure/cable/white{
 	icon_state = "4-8"
@@ -42358,6 +42352,8 @@
 /obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/neutral,
 /area/engine/break_room)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "bIk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable/white{
@@ -42535,10 +42531,13 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/storage/primary)
+<<<<<<< HEAD
 "bIy" = (
 /obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/neutral,
 /area/storage/primary)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "bIz" = (
 /obj/structure/table/reinforced,
 /obj/item/stack/packageWrap,
@@ -45851,10 +45850,13 @@
 	dir = 5
 	},
 /area/security/detectives_office)
+<<<<<<< HEAD
 "bPn" = (
 /obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/neutral,
 /area/hallway/primary/starboard)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "bPo" = (
 /obj/structure/closet/secure_closet/brig{
 	id = "brig2";
@@ -52740,11 +52742,14 @@
 	},
 /turf/open/floor/plasteel/neutral,
 /area/hallway/primary/central)
+<<<<<<< HEAD
 "ccy" = (
 /obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/blue/corner,
 /area/hallway/primary/central)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "ccz" = (
 /obj/machinery/status_display,
 /turf/closed/wall/r_wall,
@@ -56419,12 +56424,15 @@
 	dir = 5
 	},
 /area/security/courtroom)
+<<<<<<< HEAD
 "cjW" = (
 /obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/security/courtroom)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "cjX" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/public/glass{
@@ -56846,6 +56854,7 @@
 	},
 /turf/open/floor/plasteel/grimy,
 /area/library)
+<<<<<<< HEAD
 "ckS" = (
 /obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -56853,6 +56862,8 @@
 	},
 /turf/open/floor/plasteel/grimy,
 /area/library)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "ckT" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 1
@@ -62703,10 +62714,13 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/neutral,
 /area/hallway/primary/central)
+<<<<<<< HEAD
 "cxe" = (
 /obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/neutral,
 /area/hallway/primary/central)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "cxf" = (
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/stripes/line{
@@ -62910,17 +62924,6 @@
 	},
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
-"cxC" = (
-/obj/machinery/power/rad_collector/anchored,
-/obj/machinery/power/rad_collector/anchored,
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/engine/engineering)
 "cxD" = (
 /obj/structure/rack,
 /obj/item/crowbar,
@@ -63578,6 +63581,7 @@
 	},
 /turf/open/floor/plasteel/neutral,
 /area/crew_quarters/locker)
+<<<<<<< HEAD
 "cyT" = (
 /obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
@@ -63588,6 +63592,8 @@
 	},
 /turf/open/floor/plasteel/neutral,
 /area/crew_quarters/locker)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "cyU" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 9
@@ -67351,6 +67357,7 @@
 	},
 /turf/open/floor/plasteel,
 /area/gateway)
+<<<<<<< HEAD
 "cGG" = (
 /obj/structure/cable/white{
 	icon_state = "1-2"
@@ -67358,6 +67365,8 @@
 /obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/neutral,
 /area/hallway/primary/central)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "cGH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/mirror{
@@ -68256,6 +68265,7 @@
 	},
 /turf/closed/wall,
 /area/maintenance/port)
+<<<<<<< HEAD
 "cIz" = (
 /obj/effect/landmark/lightsout,
 /obj/structure/cable/white{
@@ -68266,6 +68276,8 @@
 	},
 /turf/open/floor/plasteel/neutral,
 /area/hallway/primary/central)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "cIA" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /turf/open/floor/plasteel/neutral/corner{
@@ -69776,9 +69788,6 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/plasteel/neutral,
-/area/crew_quarters/dorms)
-"cLh" = (
 /turf/open/floor/plasteel/neutral,
 /area/crew_quarters/dorms)
 "cLi" = (
@@ -73019,6 +73028,7 @@
 	},
 /turf/open/floor/plasteel/whitepurple/corner,
 /area/science/research)
+<<<<<<< HEAD
 "cSt" = (
 /obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -73026,6 +73036,8 @@
 	},
 /turf/open/floor/plasteel/whitepurple/corner,
 /area/science/research)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "cSu" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -74036,6 +74048,7 @@
 	},
 /turf/open/floor/plasteel/cmo,
 /area/medical/medbay/central)
+<<<<<<< HEAD
 "cUy" = (
 /obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -74043,6 +74056,8 @@
 	},
 /turf/open/floor/plasteel/cmo,
 /area/medical/medbay/central)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "cUz" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -81933,6 +81948,7 @@
 /turf/open/floor/plasteel,
 /area/science/research/abandoned)
 "dlj" = (
+<<<<<<< HEAD
 /obj/structure/chair/office/light{
 	dir = 1
 	},
@@ -81946,6 +81962,10 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/science/research/abandoned)
+=======
+/turf/open/floor/plasteel,
+/area/science/circuit)
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "dll" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -82477,13 +82497,6 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/science/research/abandoned)
-"dmz" = (
-/obj/structure/rack,
-/obj/item/storage/toolbox/electrical,
-/obj/item/device/multitool,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
 /area/science/research/abandoned)
 "dmA" = (
 /obj/machinery/light/small{
@@ -84133,16 +84146,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/wood,
 /area/crew_quarters/abandoned_gambling_den)
-"dpW" = (
-/obj/structure/table/reinforced,
-/obj/item/folder/white,
-/obj/item/stock_parts/cell/high,
-/obj/item/stack/sheet/glass,
-/obj/item/stack/sheet/glass,
-/obj/item/stack/sheet/glass,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/science/research/abandoned)
 "dpX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -85558,25 +85561,6 @@
 /obj/item/book/manual/wiki/engineering_hacking,
 /turf/open/floor/plating,
 /area/crew_quarters/abandoned_gambling_den)
-"dtb" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/science/research/abandoned)
-"dtc" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/maintenance_hatch{
-	name = "Maintenance Hatch";
-	req_access_txt = "12"
-	},
-/obj/structure/barricade/wooden,
-/obj/effect/turf_decal/stripes/line{
-	dir = 2
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/science/research/abandoned)
 "dtd" = (
 /obj/structure/girder,
 /obj/effect/decal/cleanable/dirt,
@@ -87250,12 +87234,6 @@
 /turf/open/floor/plasteel/neutral/corner{
 	dir = 8
 	},
-/area/hallway/primary/aft)
-"dwE" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/turf/open/floor/plasteel/neutral,
 /area/hallway/primary/aft)
 "dwF" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
@@ -99299,6 +99277,7 @@
 	dir = 8
 	},
 /area/medical/virology)
+<<<<<<< HEAD
 "dVB" = (
 /obj/structure/cable/white{
 	icon_state = "1-2"
@@ -99306,6 +99285,8 @@
 /obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/green,
 /area/medical/virology)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "dVC" = (
 /obj/item/device/radio/intercom{
 	name = "Station Intercom";
@@ -101650,10 +101631,13 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit/departure_lounge)
+<<<<<<< HEAD
 "eaF" = (
 /obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/neutral,
 /area/hallway/secondary/exit/departure_lounge)
+=======
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 "eaG" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/item/device/radio/intercom{
@@ -104895,10 +104879,6 @@
 	},
 /turf/closed/wall,
 /area/quartermaster/office)
-"ehu" = (
-/obj/machinery/rnd/protolathe/department/security,
-/turf/open/floor/plasteel/neutral,
-/area/security/main)
 "ehv" = (
 /turf/open/floor/plasteel/caution,
 /area/engine/engineering)
@@ -104909,84 +104889,7 @@
 	},
 /turf/open/floor/plasteel/caution,
 /area/engine/engineering)
-"ehx" = (
-/obj/structure/cable/white{
-	icon_state = "4-8"
-	},
-/obj/machinery/rnd/protolathe/department/engineering,
-/turf/open/floor/plasteel/neutral,
-/area/engine/engineering)
 "ehy" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 2
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/caution/stand_clear,
-/turf/open/floor/plasteel,
-/area/hallway/secondary/entry)
-"ehz" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 2
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/caution/stand_clear,
-/turf/open/floor/plasteel,
-/area/hallway/secondary/entry)
-"ehA" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 2
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/caution/stand_clear,
-/turf/open/floor/plasteel,
-/area/hallway/secondary/entry)
-"ehB" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 2
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/caution/stand_clear,
-/turf/open/floor/plasteel,
-/area/hallway/secondary/entry)
-"ehC" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 2
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/caution/stand_clear,
-/turf/open/floor/plasteel,
-/area/hallway/secondary/entry)
-"ehD" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 2
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/caution/stand_clear,
-/turf/open/floor/plasteel,
-/area/hallway/secondary/entry)
-"ehE" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 2
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/caution/stand_clear,
-/turf/open/floor/plasteel,
-/area/hallway/secondary/entry)
-"ehF" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 2
 	},
@@ -105063,32 +104966,13 @@
 /obj/effect/turf_decal/caution/stand_clear,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit/departure_lounge)
-"ehN" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 2
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/caution/stand_clear,
-/turf/open/floor/plasteel,
-/area/hallway/secondary/exit/departure_lounge)
-"ehO" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 2
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/caution/stand_clear,
-/turf/open/floor/plasteel,
-/area/hallway/secondary/exit/departure_lounge)
 "ehP" = (
 /obj/machinery/computer/security/telescreen/entertainment{
 	pixel_y = -32
 	},
 /turf/open/floor/plasteel/dark,
 /area/library)
+<<<<<<< HEAD
 "ehQ" = (
 /obj/structure/cable/white{
 	icon_state = "1-2"
@@ -105097,6 +104981,358 @@
 /obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/grimy,
 /area/chapel/main)
+=======
+"QNf" = (
+/obj/machinery/autolathe,
+/obj/machinery/door/window/southleft{
+	name = "Research Lab Desk";
+	req_access_txt = "7"
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "rndlab1";
+	name = "Research and Development Shutter"
+	},
+/turf/open/floor/plasteel/whitepurple/side{
+	dir = 4
+	},
+/area/science/lab)
+"QNg" = (
+/obj/effect/turf_decal/loading_area,
+/turf/open/floor/plasteel/whitepurple/corner,
+/area/science/research)
+"QNh" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/neutral/side,
+/area/maintenance/port)
+"QNi" = (
+/turf/closed/wall,
+/area/science/circuit)
+"QNl" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/r_wall,
+/area/science/circuit)
+"QNm" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/closed/wall/r_wall,
+/area/science/circuit)
+"QNo" = (
+/obj/structure/table/reinforced,
+/obj/machinery/camera{
+	c_tag = "Science - Experimentation Lab";
+	dir = 2;
+	name = "science camera";
+	network = list("SS13","RD")
+	},
+/obj/machinery/requests_console{
+	department = "Circuitry Lab";
+	name = "Circuitry Lab RC";
+	pixel_y = 32;
+	receive_ore_updates = 1
+	},
+/obj/item/device/integrated_circuit_printer/upgraded,
+/turf/open/floor/plasteel/white/side,
+/area/science/circuit)
+"QNp" = (
+/obj/structure/disposalpipe/trunk,
+/obj/machinery/disposal/bin,
+/obj/machinery/airalarm{
+	pixel_y = 23
+	},
+/turf/open/floor/plasteel/white/side,
+/area/science/circuit)
+"QNq" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"QNt" = (
+/obj/structure/chair/office/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white/side{
+	dir = 9
+	},
+/area/science/circuit)
+"QNu" = (
+/turf/open/floor/plasteel/white/side{
+	dir = 5
+	},
+/area/science/circuit)
+"QNv" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white/side{
+	dir = 9
+	},
+/area/science/circuit)
+"QNz" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"QNA" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/whitepurple/side,
+/area/science/misc_lab)
+"QNC" = (
+/obj/structure/table/reinforced,
+/obj/item/device/integrated_electronics/analyzer,
+/obj/item/device/integrated_electronics/debugger,
+/obj/item/device/integrated_electronics/wirer,
+/turf/open/floor/plasteel/white/side{
+	dir = 10
+	},
+/area/science/circuit)
+"QND" = (
+/turf/open/floor/plasteel/white/side{
+	dir = 10
+	},
+/area/science/circuit)
+"QNE" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/camera{
+	c_tag = "Science - Lab Access";
+	dir = 8;
+	name = "science camera";
+	network = list("SS13","RD")
+	},
+/obj/structure/sign/departments/science{
+	pixel_x = 32
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"QNF" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/table/glass,
+/turf/open/floor/plasteel/whitepurple/side{
+	dir = 8
+	},
+/area/science/misc_lab)
+"QNG" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/item/twohanded/required/kirbyplants/random,
+/obj/machinery/camera{
+	c_tag = "MiniSat Service Bay";
+	dir = 8;
+	network = list("MiniSat");
+	start_active = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/whitepurple/side{
+	dir = 4
+	},
+/area/science/misc_lab)
+"QNI" = (
+/obj/structure/table/reinforced,
+/obj/item/device/integrated_electronics/analyzer,
+/obj/item/device/integrated_electronics/debugger,
+/obj/item/device/integrated_electronics/wirer,
+/turf/open/floor/plasteel/white/side{
+	dir = 9
+	},
+/area/science/circuit)
+"QNJ" = (
+/turf/open/floor/plasteel/white/side{
+	dir = 9
+	},
+/area/science/circuit)
+"QNK" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"QNM" = (
+/obj/structure/sign/nanotrasen,
+/turf/closed/wall/r_wall,
+/area/science/circuit)
+"QNO" = (
+/turf/open/floor/plasteel/white/side{
+	dir = 6
+	},
+/area/science/circuit)
+"QNP" = (
+/turf/open/floor/plasteel/white/side{
+	dir = 10
+	},
+/area/science/misc_lab)
+"QNQ" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/effect/landmark/xeno_spawn,
+/turf/open/floor/plasteel/white/side{
+	dir = 6
+	},
+/area/science/circuit)
+"QNS" = (
+/obj/structure/table/reinforced,
+/obj/machinery/newscaster{
+	pixel_y = -32
+	},
+/obj/item/device/integrated_circuit_printer/upgraded,
+/turf/open/floor/plasteel/white/side{
+	dir = 1
+	},
+/area/science/circuit)
+"QNT" = (
+/obj/structure/target_stake,
+/turf/open/floor/plasteel/white/side{
+	dir = 1
+	},
+/area/science/circuit)
+"QNU" = (
+/obj/machinery/light,
+/obj/structure/table/reinforced,
+/obj/machinery/computer/libraryconsole/bookmanagement,
+/turf/open/floor/plasteel/white/side{
+	dir = 1
+	},
+/area/science/circuit)
+"QNV" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/light,
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/open/floor/plasteel/whitepurple/side,
+/area/science/misc_lab)
+"QNW" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plasteel/whitepurple/corner,
+/area/science/misc_lab)
+"QNX" = (
+/turf/closed/wall/r_wall,
+/area/science/misc_lab)
+"QNZ" = (
+/turf/closed/wall,
+/area/science/misc_lab)
+"QOb" = (
+/obj/machinery/power/apc{
+	areastring = "/area/science/research/abandoned";
+	dir = 1;
+	name = "Abandoned Research Lab APC";
+	pixel_y = 24
+	},
+/obj/structure/cable/white{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating,
+/area/science/research/abandoned)
+"QOc" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 6
+	},
+/obj/structure/cable/white{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel,
+/area/science/research/abandoned)
+"QOd" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel,
+/area/science/research/abandoned)
+"QOe" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/science/research/abandoned)
+"QOf" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/science/research/abandoned)
+"QOg" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/neutral/side{
+	dir = 8
+	},
+/area/maintenance/port)
+"QOh" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/circuit/green,
+/area/science/research/abandoned)
+"QOi" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/science/research/abandoned)
+"QOj" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/open/floor/circuit/green,
+/area/science/research/abandoned)
+"QOk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable/white{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/neutral,
+/area/science/research/abandoned)
+"QOl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/neutral,
+/area/science/research/abandoned)
+"QOm" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/maintenance/port)
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 
 (1,1,1) = {"
 aaa
@@ -129936,14 +130172,22 @@ cEo
 ddO
 cQt
 dgl
+<<<<<<< HEAD
 dhQ
+=======
+dhR
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 djn
 dle
 dmr
 dog
 dpW
 drz
+<<<<<<< HEAD
 dhQ
+=======
+dhR
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 dul
 dvZ
 dxH
@@ -130193,6 +130437,7 @@ cRP
 ddP
 deW
 cKk
+<<<<<<< HEAD
 dhQ
 djo
 dlf
@@ -130201,6 +130446,16 @@ dms
 dpX
 dlg
 dtb
+=======
+dhR
+QNo
+QNt
+QNC
+QNI
+dpX
+QNS
+dhR
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 djs
 dlf
 dxI
@@ -130457,7 +130712,11 @@ dmt
 doh
 dpY
 drA
+<<<<<<< HEAD
 dhQ
+=======
+dhR
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 dum
 dli
 dpZ
@@ -130714,11 +130973,19 @@ dmu
 doi
 doi
 drB
+<<<<<<< HEAD
 dtc
 dpZ
 dli
 dxJ
 dxJ
+=======
+dhR
+QOb
+QOc
+QOh
+QOj
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 dxJ
 dBV
 dlg
@@ -130964,14 +131231,24 @@ dcb
 cMY
 deX
 dgn
+<<<<<<< HEAD
 dhS
+=======
+dhR
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 djr
 dli
 dmv
 doj
+<<<<<<< HEAD
 dpZ
 don
 dhQ
+=======
+QNQ
+QNT
+dhR
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 dun
 dli
 dxK
@@ -131221,14 +131498,24 @@ cNd
 cMY
 deX
 dgo
+<<<<<<< HEAD
 dhQ
 djs
 dli
+=======
+dhR
+QNp
+dok
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 dmw
 dok
 dqa
 drC
+<<<<<<< HEAD
 dhQ
+=======
+dhR
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 duo
 dmu
 dlg
@@ -131478,14 +131765,24 @@ cMY
 cMY
 deY
 cKl
+<<<<<<< HEAD
 dhQ
 djt
 dlh
+=======
+dhR
+djt
+dmx
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 dmx
 dol
 dqb
 drD
+<<<<<<< HEAD
 dtb
+=======
+dhR
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 dup
 dlg
 dxL
@@ -131735,14 +132032,23 @@ dcc
 cMY
 cOD
 cKj
+<<<<<<< HEAD
 dhQ
+=======
+dhR
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 dju
 dlj
 dmy
 dom
 dqc
+<<<<<<< HEAD
 drB
 dtb
+=======
+QNU
+dhR
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 duq
 dlh
 dxM
@@ -131992,14 +132298,22 @@ cRS
 cMY
 deZ
 dgo
+<<<<<<< HEAD
 dhQ
+=======
+dhR
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 djv
 dlk
 dmz
 don
 dqd
 drE
+<<<<<<< HEAD
 dtb
+=======
+dhR
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 dur
 dmu
 dxN
@@ -132249,6 +132563,7 @@ dcd
 cMY
 deX
 dgo
+<<<<<<< HEAD
 dhQ
 dhQ
 dhQ
@@ -132257,6 +132572,16 @@ doo
 dqd
 drF
 dhQ
+=======
+dhR
+QNq
+QNz
+QNE
+doo
+dqd
+drF
+dhR
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 dus
 dwa
 dom
@@ -132459,7 +132784,7 @@ bBd
 bDb
 bEP
 bGw
-bIj
+bIf
 bKj
 bMc
 bOh
@@ -132509,11 +132834,19 @@ dgp
 cIv
 djw
 dll
+<<<<<<< HEAD
 dhQ
 dhQ
 dqe
 dhQ
 dhQ
+=======
+dhR
+QNM
+dqe
+dhR
+dhR
+>>>>>>> 161a00b... Fixes missing title under autolathes (#34753)
 dut
 dwb
 dxO
@@ -136586,7 +136919,7 @@ cei
 cfZ
 chQ
 cjt
-ckS
+ckR
 cms
 cnO
 cpu
@@ -137342,7 +137675,7 @@ bBr
 bDo
 bEY
 bGI
-bIy
+bGI
 bGI
 bGK
 bOr
@@ -139429,7 +139762,7 @@ bvM
 bvM
 bvM
 bvM
-cIz
+bFE
 cKu
 bsO
 cNm
@@ -139665,7 +139998,7 @@ bUA
 bWN
 bYV
 bYV
-ccy
+bYV
 cem
 bYV
 bYV
@@ -139992,7 +140325,7 @@ dKD
 dUp
 dVd
 dVS
-ehQ
+dVd
 dVd
 dVd
 dVd
@@ -141748,7 +142081,7 @@ bsO
 cNs
 cPb
 cQN
-cSt
+cSs
 cUi
 cQQ
 cXw
@@ -142456,7 +142789,7 @@ aLL
 aNh
 aOK
 aQt
-aSb
+aLL
 aTI
 aVs
 aNh
@@ -143338,7 +143671,7 @@ dXN
 dYH
 dZp
 dZZ
-eaF
+dUx
 ebm
 dYH
 ecH
@@ -143969,7 +144302,7 @@ adw
 aaa
 aaO
 ajw
-akh
+akg
 akL
 aaO
 amq
@@ -144080,7 +144413,7 @@ dqT
 cPk
 cXD
 cPk
-dwE
+cUp
 dlR
 cPk
 cPk
@@ -146375,7 +146708,7 @@ cNB
 cPr
 cQW
 cSF
-cUy
+cUx
 cQT
 cXL
 cZt
@@ -148679,7 +149012,7 @@ bvM
 bvM
 bvM
 bvM
-cGG
+bvM
 bvM
 bFE
 cKE
@@ -150206,7 +150539,7 @@ ccX
 ceO
 cgC
 cim
-cjW
+cjV
 clk
 cmS
 cou
@@ -150472,7 +150805,7 @@ crj
 csM
 cbk
 cvM
-cxe
+cxa
 bsE
 cAm
 cBL
@@ -153354,7 +153687,7 @@ dSe
 dSZ
 dTS
 dUP
-dVB
+dTS
 dWv
 dXj
 dYc
@@ -154328,7 +154661,7 @@ csW
 cux
 cvX
 cxo
-cyT
+cyR
 cAt
 cBY
 cDz
@@ -154564,7 +154897,7 @@ bHu
 bJq
 bHu
 bHu
-bPn
+bHu
 bHu
 bHu
 bVi
@@ -157677,7 +158010,7 @@ cFB
 cDI
 cIj
 cJr
-cLh
+cLd
 cMC
 cNV
 cPV
@@ -158138,7 +158471,7 @@ aUy
 aWg
 aXM
 aZu
-bbj
+bbd
 bcP
 bcM
 aad
