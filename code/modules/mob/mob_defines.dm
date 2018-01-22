@@ -1,4 +1,5 @@
 /mob
+	datum_flags = DF_USE_TAG
 	density = TRUE
 	layer = MOB_LAYER
 	animate_movement = 2
