@@ -80,6 +80,11 @@
 	set_security_level("delta")
 	for(var/V in SSticker.mode.servants_of_ratvar)
 		var/datum/mind/M = V
+<<<<<<< HEAD
+=======
+		if(!M || !M.current)
+			continue
+>>>>>>> 349234c... Merge pull request #34750 from ShizCalev/clockwork-current-
 		if(ishuman(M.current))
 			M.current.add_overlay(mutable_appearance('icons/effects/genetics.dmi', "servitude", -MUTATIONS_LAYER))
 	for(var/V in GLOB.brass_recipes)
@@ -113,7 +118,13 @@
 /obj/structure/destructible/clockwork/massive/celestial_gateway/proc/mass_recall()
 	for(var/V in SSticker.mode.servants_of_ratvar)
 		var/datum/mind/M = V
+<<<<<<< HEAD
 		if(M.current.stat != DEAD)
+=======
+		if(!M || !M.current)
+			continue
+		if(isliving(M.current) && M.current.stat != DEAD)
+>>>>>>> 349234c... Merge pull request #34750 from ShizCalev/clockwork-current-
 			M.current.forceMove(get_turf(src))
 		M.current.overlay_fullscreen("flash", /obj/screen/fullscreen/flash)
 		M.current.clear_fullscreen("flash", 5)
