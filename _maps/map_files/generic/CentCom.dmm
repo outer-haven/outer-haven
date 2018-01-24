@@ -4393,11 +4393,17 @@
 /turf/open/floor/plating/asteroid/snow/airless,
 /area/syndicate_mothership)
 "mB" = (
+<<<<<<< HEAD
 /turf/closed/indestructible/fakeglass{
 	icon_state = "fakewindows";
 	dir = 1
 	},
 /area/syndicate_mothership/control)
+=======
+/obj/effect/baseturf_helper/asteroid/snow,
+/turf/closed/indestructible/rock/snow,
+/area/syndicate_mothership)
+>>>>>>> 252a7e3... baseturf editors on syndicate base (#34815)
 "mC" = (
 /obj/item/disk/data,
 /obj/effect/light_emitter{
@@ -4619,10 +4625,15 @@
 	},
 /area/abductor_ship)
 "ng" = (
+<<<<<<< HEAD
 /turf/closed/indestructible/fakeglass{
 	icon_state = "fakewindows2";
 	dir = 1
 	},
+=======
+/obj/effect/baseturf_helper/asteroid/snow,
+/turf/closed/indestructible/riveted,
+>>>>>>> 252a7e3... baseturf editors on syndicate base (#34815)
 /area/syndicate_mothership/control)
 "nh" = (
 /obj/item/toy/figure/syndie,
@@ -24629,7 +24640,7 @@ aa
 aa
 aa
 aa
-hh
+mB
 hh
 hh
 hh
@@ -32150,7 +32161,7 @@ hl
 hl
 oW
 ku
-ku
+ng
 qJ
 re
 se
