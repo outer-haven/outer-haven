@@ -147,8 +147,12 @@
 	if(tank && !tank.air_contents.remove(gasPerThrow * pressureSetting))
 		to_chat(user, "<span class='warning'>\The [src] lets out a weak hiss and doesn't react!</span>")
 		return
+<<<<<<< HEAD
 
 	if(user.has_disability(DISABILITY_CLUMSY) && prob(75) && clumsyCheck && iscarbon(user))
+=======
+	if(user.has_trait(TRAIT_CLUMSY) && prob(75) && clumsyCheck && iscarbon(user))
+>>>>>>> 5a08a3a... Extends the disability refactor to include more traits, removing some snowflake code (#34664)
 		var/mob/living/carbon/C = user
 		C.visible_message("<span class='warning'>[C] loses their grip on [src], causing it to go off!</span>", "<span class='userdanger'>[src] slips out of your hands and goes off!</span>")
 		C.dropItemToGround(src, TRUE)

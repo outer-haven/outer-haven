@@ -396,15 +396,32 @@
 	glass_name = "glass of Nuka Cola"
 	glass_desc = "Don't cry, Don't raise your eye, It's only nuclear wasteland."
 
+/datum/reagent/consumable/nuka_cola/on_mob_add(mob/M)
+	..()
+	if(isliving(M))
+		var/mob/living/L = M
+		L.add_trait(TRAIT_GOTTAGOFAST, id)
+
+/datum/reagent/consumable/nuka_cola/on_mob_delete(mob/M)
+	if(isliving(M))
+		var/mob/living/L = M
+		L.remove_trait(TRAIT_GOTTAGOFAST, id)
+	..()
+
 /datum/reagent/consumable/nuka_cola/on_mob_life(mob/living/M)
 	M.Jitter(20)
 	M.set_drugginess(30)
 	M.dizziness +=5
 	M.drowsyness = 0
 	M.AdjustSleeping(-40, FALSE)
+<<<<<<< HEAD
 	M.status_flags |= GOTTAGOFAST
 	if (M.bodytemperature > 310)//310 is the normal bodytemp. 310.055
 		M.bodytemperature = max(310, M.bodytemperature - (5 * TEMPERATURE_DAMAGE_COEFFICIENT))
+=======
+	if (M.bodytemperature > BODYTEMP_NORMAL)//310.15 is the normal bodytemp.
+		M.bodytemperature = max(BODYTEMP_NORMAL, M.bodytemperature - (5 * TEMPERATURE_DAMAGE_COEFFICIENT))
+>>>>>>> 5a08a3a... Extends the disability refactor to include more traits, removing some snowflake code (#34664)
 	..()
 	. = 1
 

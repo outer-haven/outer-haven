@@ -25,6 +25,12 @@
 	create_internal_organs() //most of it is done in set_species now, this is only for parent call
 
 	handcrafting = new()
+<<<<<<< HEAD
+=======
+
+	. = ..()
+
+>>>>>>> 5a08a3a... Extends the disability refactor to include more traits, removing some snowflake code (#34664)
 	AddComponent(/datum/component/redirect, list(COMSIG_COMPONENT_CLEAN_ACT), CALLBACK(src, .proc/clean_blood))
 
 	. = ..()
@@ -616,7 +622,7 @@
 /mob/living/carbon/human/proc/do_cpr(mob/living/carbon/C)
 	CHECK_DNA_AND_SPECIES(C)
 
-	if(C.stat == DEAD || (C.status_flags & FAKEDEATH))
+	if(C.stat == DEAD || (C.has_trait(TRAIT_FAKEDEATH)))
 		to_chat(src, "<span class='warning'>[C.name] is dead!</span>")
 		return
 	if(is_mouth_covered())
