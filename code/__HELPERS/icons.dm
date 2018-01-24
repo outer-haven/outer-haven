@@ -714,7 +714,11 @@ The _flatIcons list is a cache for generated icon files.
 */
 
 // Creates a single icon from a given /atom or /image.  Only the first argument is required.
+<<<<<<< HEAD
 /proc/getFlatIcon(image/A, defdir=A.dir, deficon=A.icon, defstate=A.icon_state, defblend=A.blend_mode)
+=======
+/proc/getFlatIcon(image/A, defdir, deficon, defstate, defblend, start = TRUE, no_anim = FALSE)
+>>>>>>> 849420e... Merge pull request #34829 from AnturK/photosnotmovies
 	// We start with a blank canvas, otherwise some icon procs crash silently
 	var/icon/flat = icon('icons/effects/effects.dmi', "nothing") // Final flattened icon
 	if(!A)
@@ -827,7 +831,11 @@ The _flatIcons list is a cache for generated icon files.
 			curblend = BLEND_OVERLAY
 			add = icon(I.icon, I.icon_state, I.dir)
 		else // 'I' is an appearance object.
+<<<<<<< HEAD
 			add = getFlatIcon(new/image(I), curdir, curicon, curstate, curblend)
+=======
+			add = getFlatIcon(new/image(I), curdir, curicon, curstate, curblend, FALSE, no_anim)
+>>>>>>> 849420e... Merge pull request #34829 from AnturK/photosnotmovies
 
 		// Find the new dimensions of the flat icon to fit the added overlay
 		addX1 = min(flatX1, I.pixel_x+1)
@@ -849,7 +857,14 @@ The _flatIcons list is a cache for generated icon files.
 	if(A.alpha < 255)
 		flat.Blend(rgb(255, 255, 255, A.alpha), ICON_MULTIPLY)
 
+<<<<<<< HEAD
 	return icon(flat, "", curdir)
+=======
+	if(no_anim)
+		return icon(flat, "", SOUTH, frame=1)
+	else
+		return icon(flat, "", SOUTH)
+>>>>>>> 849420e... Merge pull request #34829 from AnturK/photosnotmovies
 
 /proc/getIconMask(atom/A)//By yours truly. Creates a dynamic mask for a mob/whatever. /N
 	var/icon/alpha_mask = new(A.icon,A.icon_state)//So we want the default icon and icon state of A.

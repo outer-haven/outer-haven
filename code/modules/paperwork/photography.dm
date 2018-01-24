@@ -216,7 +216,7 @@
 	var/icon/res = icon('icons/effects/96x96.dmi', "")
 
 	for(var/atom/A in sorted)
-		var/icon/img = getFlatIcon(A)
+		var/icon/img = getFlatIcon(A, no_anim = TRUE)
 		if(isliving(A))
 			var/mob/living/L = A
 			if(L.lying)
@@ -235,7 +235,13 @@
 			blueprints = 1
 
 	for(var/turf/T in turfs)
+<<<<<<< HEAD
 		res.Blend(getFlatIcon(T.loc), blendMode2iconMode(T.blend_mode), 32 * (T.x - center.x) + 33, 32 * (T.y - center.y) + 33)
+=======
+		var/area/A = T.loc
+		if(A.icon_state)//There's actually something to blend in.
+			res.Blend(getFlatIcon(A,no_anim = TRUE), blendMode2iconMode(A.blend_mode), world.icon_size * (T.x - center.x) + 33, world.icon_size * (T.y - center.y) + 33)
+>>>>>>> 849420e... Merge pull request #34829 from AnturK/photosnotmovies
 
 	return res
 
