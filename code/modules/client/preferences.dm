@@ -878,7 +878,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 						metadata = sanitize(copytext(new_metadata,1,MAX_MESSAGE_LEN))
 
 				if("hair")
-					var/new_hair = input(user, "Choose your character's hair colour:", "Character Preference") as null|color
+					var/new_hair = input(user, "Choose your character's hair colour:", "Character Preference","#"+hair_color) as color|null
 					if(new_hair)
 						hair_color = sanitize_hexcolor(new_hair)
 
@@ -905,7 +905,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 						hair_style = previous_list_item(hair_style, GLOB.hair_styles_female_list)
 
 				if("facial")
-					var/new_facial = input(user, "Choose your character's facial-hair colour:", "Character Preference") as null|color
+					var/new_facial = input(user, "Choose your character's facial-hair colour:", "Character Preference","#"+facial_hair_color) as color|null
 					if(new_facial)
 						facial_hair_color = sanitize_hexcolor(new_facial)
 
@@ -955,7 +955,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 						socks = new_socks
 
 				if("eyes")
-					var/new_eyes = input(user, "Choose your character's eye colour:", "Character Preference") as color|null
+					var/new_eyes = input(user, "Choose your character's eye colour:", "Character Preference","#"+eye_color) as color|null
 					if(new_eyes)
 						eye_color = sanitize_hexcolor(new_eyes)
 
@@ -972,7 +972,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 							features["mcolor"] = pref_species.default_color
 
 				if("mutant_color")
-					var/new_mutantcolor = input(user, "Choose your character's alien/mutant color:", "Character Preference") as color|null
+					var/new_mutantcolor = input(user, "Choose your character's alien/mutant color:", "Character Preference","#"+features["mcolor"]) as color|null
 					if(new_mutantcolor)
 						var/temp_hsv = RGBtoHSV(new_mutantcolor)
 						if(new_mutantcolor == "#000000")
@@ -1048,7 +1048,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 						skin_tone = new_s_tone
 
 				if("ooccolor")
-					var/new_ooccolor = input(user, "Choose your OOC colour:", "Game Preference") as color|null
+					var/new_ooccolor = input(user, "Choose your OOC colour:", "Game Preference",ooccolor) as color|null
 					if(new_ooccolor)
 						ooccolor = new_ooccolor
 
@@ -1141,10 +1141,21 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					var/pickedui = input(user, "Choose your UI style.", "Character Preference")  as null|anything in list("Midnight", "Plasmafire", "Retro", "Slimecore", "Operative", "Clockwork")
 					if(pickedui)
 						UI_style = pickedui
+<<<<<<< HEAD
 				if("PDA")
 					var/pickedPDA = input(user, "Choose your PDA style.", "Character Preference")  as null|anything in list(MONO, SHARE, ORBITRON, VT)
 					if(pickedPDA)
 						pda_style = pickedPDA
+=======
+				if("pda_style")
+					var/pickedPDAStyle = input(user, "Choose your PDA style.", "Character Preference")  as null|anything in list(MONO, SHARE, ORBITRON, VT)
+					if(pickedPDAStyle)
+						pda_style = pickedPDAStyle
+				if("pda_color")
+					var/pickedPDAColor = input(user, "Choose your PDA Interface color.", "Character Preference",pda_color) as color|null
+					if(pickedPDAColor)
+						pda_color = pickedPDAColor
+>>>>>>> f98a4e6... Merge pull request #34755 from ChuckTheSheep/Current-Color-as-Default-Color-in-Inputs
 
 		else
 			switch(href_list["preference"])
