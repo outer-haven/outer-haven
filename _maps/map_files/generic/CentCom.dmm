@@ -3253,11 +3253,12 @@
 "jC" = (
 /obj/docking_port/stationary{
 	dir = 8;
-	dwidth = 5;
+	dwidth = 8;
 	height = 7;
 	id = "supply_away";
+	json_key = "cargo";
 	name = "CentCom";
-	width = 12
+	width = 20
 	},
 /turf/open/space,
 /area/space)
@@ -8033,7 +8034,8 @@
 	height = 50;
 	id = "emergency_away";
 	name = "CentCom Emergency Shuttle Dock";
-	width = 50
+	width = 50;
+	json_key = "emergency"
 	},
 /turf/open/space,
 /area/space)
@@ -8440,7 +8442,11 @@
 /turf/open/floor/carpet,
 /area/wizard_station)
 "we" = (
+<<<<<<< HEAD
 /obj/structure/sign/securearea{
+=======
+/obj/structure/sign/warning/securearea{
+>>>>>>> 8e20aa3... Refactors shuttles to be loaded in, rather than be on the station maps (#33766)
 	desc = "A warning sign which reads 'FOURTH WALL'.";
 	name = "\improper FOURTH WALL";
 	pixel_x = -32
@@ -13169,6 +13175,18 @@
 	dir = 4
 	},
 /area/tdome/tdomeobserve)
+"Im" = (
+/turf/closed/indestructible/fakeglass{
+	icon_state = "fakewindows2";
+	dir = 8
+	},
+/area/tdome/tdomeobserve)
+"In" = (
+/turf/closed/indestructible/fakeglass{
+	icon_state = "fakewindows";
+	dir = 4
+	},
+/area/tdome/tdomeobserve)
 "Io" = (
 /obj/item/storage/box/matches{
 	pixel_x = -3;
@@ -13677,6 +13695,18 @@
 /turf/closed/indestructible/fakeglass{
 	icon_state = "fakewindows";
 	dir = 8
+	},
+/area/tdome/tdomeadmin)
+"JJ" = (
+/turf/closed/indestructible/fakeglass{
+	icon_state = "fakewindows2";
+	dir = 8
+	},
+/area/tdome/tdomeadmin)
+"JK" = (
+/turf/closed/indestructible/fakeglass{
+	icon_state = "fakewindows";
+	dir = 4
 	},
 /area/tdome/tdomeadmin)
 "JJ" = (
@@ -14678,11 +14708,16 @@
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/syndicate/airlock)
 "Mx" = (
+<<<<<<< HEAD
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/syndicate/airlock)
+=======
+/turf/open/floor/plating/asteroid/snow/airless,
+/area/syndicate_mothership)
+>>>>>>> 8e20aa3... Refactors shuttles to be loaded in, rather than be on the station maps (#33766)
 "My" = (
 /obj/docking_port/stationary{
 	area_type = /area/syndicate_mothership;
@@ -14693,9 +14728,11 @@
 	height = 17;
 	id = "syndicate_away";
 	name = "syndicate recon outpost";
+	roundstart_template = /datum/map_template/shuttle/infiltrator/basic;
 	turf_type = /turf/open/floor/plating/asteroid/snow;
 	width = 23
 	},
+<<<<<<< HEAD
 /obj/machinery/door/poddoor{
 	id = "smindicate";
 	name = "outer blast door"
@@ -14723,10 +14760,25 @@
 /obj/structure/fans/tiny,
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
+=======
+/turf/open/floor/plating/asteroid/snow/airless,
+/area/syndicate_mothership)
+"Mz" = (
+/turf/open/floor/plasteel/dark,
+/area/shuttle/syndicate/airlock)
+"MA" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+>>>>>>> 8e20aa3... Refactors shuttles to be loaded in, rather than be on the station maps (#33766)
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/syndicate/airlock)
-"Mz" = (
+"MB" = (
+/obj/structure/chair{
+	dir = 4;
+	name = "tactical chair"
+	},
+/obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/syndicate/airlock)
 "MA" = (
@@ -14765,6 +14817,12 @@
 	},
 /turf/open/floor/plating/asteroid/snow/airless,
 /area/syndicate_mothership)
+"ME" = (
+/obj/machinery/computer/camera_advanced{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/wizard_station)
 
 (1,1,1) = {"
 aa
@@ -19823,7 +19881,11 @@ lI
 lI
 qE
 qE
+<<<<<<< HEAD
 uC
+=======
+ME
+>>>>>>> 8e20aa3... Refactors shuttles to be loaded in, rather than be on the station maps (#33766)
 vj
 ya
 qZ
@@ -27018,16 +27080,16 @@ kt
 kt
 kt
 kt
-yc
-yd
-yd
-yd
-yd
-yd
-yd
-yd
-yd
-yd
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
 kt
 hl
 hh
@@ -27269,22 +27331,22 @@ hl
 hl
 hl
 kt
-tY
-tZ
-tZ
-tZ
-tZ
-tZ
-yd
-yL
-zs
-yL
-AC
-Bj
-BT
-Cj
-CS
-Di
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
 kt
 hl
 hh
@@ -27526,22 +27588,22 @@ hl
 hl
 hl
 kt
-tZ
-uG
-vo
-vo
-vo
-xA
-yd
-yM
-zt
-zR
-zR
-Bk
-zR
-Ck
-CS
-Dj
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
 kt
 hl
 hh
@@ -27783,22 +27845,22 @@ kt
 kt
 kt
 kt
-tZ
-uH
-uH
-uH
-uH
-uH
-ye
-yN
-zt
-zS
-AD
-Bl
-BU
-Cl
-CS
-Dk
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
 kt
 hl
 hh
@@ -28033,29 +28095,29 @@ hl
 hl
 my
 hl
-oS
-oT
-oT
-oT
-oT
 hl
 hl
-tZ
-uH
-uH
-uH
-uH
-uH
-yd
-yO
-zt
-zT
-AE
-Bm
-yf
-yd
-yd
-Dl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
 kt
 hl
 hh
@@ -28290,26 +28352,26 @@ hl
 hl
 hl
 hl
-oT
-px
-pR
-qI
-oT
-rY
 hl
-tZ
-uI
-vp
-wf
-wR
-xB
-yd
-yP
-zt
-zT
-AE
-Bn
-yd
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
 hl
 hl
 kt
@@ -28547,28 +28609,28 @@ hl
 hl
 hl
 hl
-oU
-py
-pS
-qI
-oT
-rZ
-rZ
-tZ
-tZ
-tZ
-tZ
-wS
-xC
-yf
-yQ
-yQ
-zU
-yQ
-yd
-yd
-rZ
-rZ
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
 kt
 hl
 hl
@@ -28804,28 +28866,28 @@ hl
 hl
 hl
 nx
-oU
-pz
-pT
-qI
-rb
-sa
-sY
-ua
-sY
-sY
-wg
-sb
-sb
-sb
-sb
-zu
-zV
-AF
-Bo
-BV
-Cm
-CT
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
 kt
 hl
 hl
@@ -29061,28 +29123,28 @@ hl
 hl
 hl
 hl
-oU
-pA
-pU
-qI
-rc
-sb
-sZ
-sZ
-sZ
-sb
-wh
-sb
-sZ
-sZ
-sZ
-sZ
-zV
-AF
-Bo
-BW
-Cm
-CU
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
 kt
 hl
 hl
@@ -29318,28 +29380,28 @@ hl
 my
 hl
 hl
-oU
-pB
-pT
-qI
-oT
-sc
-ta
-ub
-ta
-ta
-wg
-sb
-sb
-sb
-sb
-zv
-zV
-AF
-Bo
-BV
-Cm
-CV
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
 kt
 hl
 hl
@@ -29575,6 +29637,7 @@ hl
 hl
 hl
 hl
+<<<<<<< HEAD
 oU
 pC
 pV
@@ -29597,6 +29660,30 @@ yh
 yh
 rZ
 rZ
+=======
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+>>>>>>> 8e20aa3... Refactors shuttles to be loaded in, rather than be on the station maps (#33766)
 kt
 hl
 hl
@@ -29832,13 +29919,8 @@ hl
 hl
 hl
 hl
-oT
-pD
-pW
-qI
-oT
-sd
 hl
+<<<<<<< HEAD
 vq
 Mt
 Mv
@@ -29852,6 +29934,27 @@ zX
 AG
 Bp
 yh
+=======
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+>>>>>>> 8e20aa3... Refactors shuttles to be loaded in, rather than be on the station maps (#33766)
 hl
 hl
 kt
@@ -30089,29 +30192,29 @@ hl
 hl
 hl
 hl
-oV
-oT
-oT
-oT
-oT
 hl
 hl
-vq
-wU
-wU
-wU
-wU
-wU
-yh
-yT
-zw
-zX
-AG
-Bq
-yg
-yh
-yh
-Dm
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
 kt
 hl
 hh
@@ -30353,22 +30456,22 @@ kt
 kt
 kt
 kt
-vq
-wU
-wU
-wU
-wU
-wU
-yi
-yU
-zw
-zY
-AH
-Br
-zZ
-Cn
-CW
-Dn
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
 kt
 hl
 hh
@@ -30610,6 +30713,7 @@ nx
 hl
 hl
 kt
+<<<<<<< HEAD
 vq
 Mu
 Mw
@@ -30626,6 +30730,24 @@ zZ
 Co
 CW
 Do
+=======
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+>>>>>>> 8e20aa3... Refactors shuttles to be loaded in, rather than be on the station maps (#33766)
 kt
 hl
 hh
@@ -30867,22 +30989,28 @@ hl
 hl
 hl
 kt
+<<<<<<< HEAD
 yj
 vq
 vq
+=======
+hl
+hl
+hl
+>>>>>>> 8e20aa3... Refactors shuttles to be loaded in, rather than be on the station maps (#33766)
 My
-vs
-vq
-yh
-yW
-zw
-Aa
-AI
-Bt
-BX
-Cn
-CW
-Dp
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
 kt
 hl
 hh
@@ -31130,16 +31258,16 @@ uK
 uJ
 uK
 kt
-yj
-yh
-yh
-yh
-yh
-yh
-yh
-yh
-yh
-yh
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
+hl
 kt
 hl
 hh
