@@ -144,6 +144,13 @@
 
 
 /obj/singularity/energy_ball/proc/dust_mobs(atom/A)
+<<<<<<< HEAD
+=======
+	if(isliving(A))
+		var/mob/living/L = A
+		if(L.incorporeal_move || L.status_flags & GODMODE)
+			return
+>>>>>>> d7c5fca... Merge pull request #34838 from ShizCalev/sm-godmode-fix
 	if(!iscarbon(A))
 		return
 	for(var/obj/machinery/power/grounding_rod/GR in orange(src, 2))
