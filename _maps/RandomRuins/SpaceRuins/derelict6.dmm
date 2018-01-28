@@ -33,9 +33,15 @@
 /turf/template_noop,
 /area/template_noop)
 "af" = (
+<<<<<<< HEAD
 /turf/open/floor/plating/airless{
 	icon_plating = "platingdmg3";
 	icon_state = "platingdmg3"
+=======
+/obj/structure/fluff/broken_flooring{
+	icon_state = "pile";
+	dir = 8
+>>>>>>> 249bb6b... mapmerge2 on lots of maps (#35023)
 	},
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plating/airless{

@@ -17,9 +17,6 @@
 "d" = (
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/escape)
-"e" = (
-/turf/closed/wall/mineral/titanium/overspace,
-/area/shuttle/escape)
 "f" = (
 /obj/machinery/status_display,
 /turf/closed/wall/mineral/titanium,
@@ -44,15 +41,6 @@
 	},
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/escape)
-"i" = (
-/turf/closed/wall/mineral/titanium,
-/area/shuttle/escape)
-"j" = (
-/turf/closed/wall/mineral/titanium,
-/area/shuttle/escape)
-"k" = (
-/turf/closed/wall/mineral/titanium,
-/area/shuttle/escape)
 "l" = (
 /obj/machinery/vending/wallmed,
 /turf/closed/wall/mineral/titanium,
@@ -61,9 +49,6 @@
 /obj/structure/window/shuttle,
 /obj/structure/grille,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
-"n" = (
-/turf/closed/wall/mineral/titanium,
 /area/shuttle/escape)
 "o" = (
 /turf/open/floor/mineral/titanium/blue,
@@ -95,9 +80,6 @@
 "t" = (
 /turf/closed/wall/mineral/titanium/interior,
 /area/shuttle/escape)
-"u" = (
-/turf/template_noop,
-/area/template_noop)
 "v" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/maintenance,
@@ -149,12 +131,6 @@
 	},
 /obj/structure/table/reinforced,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/escape)
-"C" = (
-/turf/closed/wall/mineral/titanium,
-/area/shuttle/escape)
-"D" = (
-/turf/closed/wall/mineral/titanium,
 /area/shuttle/escape)
 "E" = (
 /obj/machinery/door/airlock/public/glass{
@@ -214,16 +190,6 @@
 	},
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/escape)
-"N" = (
-/turf/closed/wall/mineral/titanium,
-/area/shuttle/escape)
-"O" = (
-/turf/closed/wall/mineral/titanium,
-/area/shuttle/escape)
-"P" = (
-/obj/machinery/status_display,
-/turf/closed/wall/mineral/titanium,
-/area/shuttle/escape)
 "Q" = (
 /obj/machinery/light,
 /turf/open/floor/mineral/titanium/blue,
@@ -249,15 +215,6 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium/brig,
-/area/shuttle/escape)
-"U" = (
-/obj/structure/chair{
-	dir = 4
-	},
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium/blue,
 /area/shuttle/escape)
 "V" = (
 /obj/machinery/light{

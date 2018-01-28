@@ -53,6 +53,7 @@
 	dir = 1
 	},
 /turf/open/floor/oldshuttle,
+<<<<<<< HEAD
 /area/ruin/powered)
 "m" = (
 /turf/closed/indestructible/oldshuttle/corner{
@@ -75,6 +76,9 @@
 "q" = (
 /turf/closed/indestructible/oldshuttle/corner,
 /area/ruin/powered)
+=======
+/area/ruin/powered/shuttle/medium_4)
+>>>>>>> 249bb6b... mapmerge2 on lots of maps (#35023)
 "r" = (
 /obj/machinery/power/generator,
 /turf/open/floor/oldshuttle,
@@ -162,7 +166,7 @@ g
 g
 g
 g
-m
+b
 d
 k
 u
@@ -178,8 +182,8 @@ c
 g
 g
 g
-m
-o
+b
+f
 a
 a
 a
@@ -199,7 +203,7 @@ c
 c
 c
 c
-p
+h
 a
 "}
 (7,1,1) = {"
@@ -217,7 +221,7 @@ i
 c
 s
 c
-p
+h
 "}
 (8,1,1) = {"
 b
@@ -233,7 +237,7 @@ l
 l
 c
 g
-n
+e
 c
 "}
 (9,1,1) = {"
@@ -247,7 +251,7 @@ l
 l
 l
 l
-m
+b
 c
 g
 g
@@ -281,7 +285,7 @@ l
 l
 l
 l
-n
+e
 c
 g
 g
@@ -301,7 +305,7 @@ l
 l
 c
 g
-m
+b
 c
 "}
 (13,1,1) = {"
@@ -319,7 +323,7 @@ i
 c
 s
 c
-o
+f
 "}
 (14,1,1) = {"
 a
@@ -335,7 +339,7 @@ c
 c
 c
 c
-o
+f
 a
 "}
 (15,1,1) = {"
@@ -348,8 +352,8 @@ c
 g
 g
 g
-n
-p
+e
+h
 a
 a
 a
@@ -366,7 +370,7 @@ g
 g
 g
 g
-n
+e
 d
 k
 t
@@ -417,7 +421,7 @@ a
 a
 a
 a
-q
+e
 c
 k
 v
