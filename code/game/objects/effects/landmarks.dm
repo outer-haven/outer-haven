@@ -4,10 +4,29 @@
 	icon_state = "x2"
 	anchored = TRUE
 	invisibility = INVISIBILITY_ABSTRACT
+<<<<<<< HEAD
 
 /obj/effect/landmark/New()
 	..()
 	tag = text("landmark*[]", name)
+=======
+	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
+
+/obj/effect/landmark/singularity_act()
+	return
+
+// Please stop bombing the Observer-Start landmark.
+/obj/effect/landmark/ex_act()
+	return
+
+/obj/effect/landmark/singularity_pull()
+	return
+
+INITIALIZE_IMMEDIATE(/obj/effect/landmark)
+
+/obj/effect/landmark/Initialize()
+	. = ..()
+>>>>>>> ce905c1... Merge pull request #34983 from tgstation/Cyberboss-patch-1
 	GLOB.landmarks_list += src
 
 /obj/effect/landmark/Destroy()
