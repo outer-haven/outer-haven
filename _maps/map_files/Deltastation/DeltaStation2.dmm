@@ -22081,7 +22081,6 @@
 "aUv" = (
 /obj/structure/bed,
 /obj/item/bedsheet/brown,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/red/side{
 	dir = 8
 	},
@@ -22119,7 +22118,6 @@
 /obj/structure/bed,
 /obj/item/bedsheet/brown,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/red/side{
 	dir = 8
 	},
@@ -46652,7 +46650,6 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -63160,7 +63157,6 @@
 	},
 /area/library)
 "cyd" = (
-/obj/effect/landmark/revenantspawn,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 1
 	},
@@ -81798,7 +81794,6 @@
 /obj/structure/chair/office/dark{
 	dir = 4
 	},
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/wood,
 /area/maintenance/starboard/aft)
 "dkT" = (
@@ -84883,7 +84878,6 @@
 "drv" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -86208,7 +86202,6 @@
 	},
 /area/science/explab)
 "duz" = (
-/obj/effect/landmark/revenantspawn,
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/vault{
 	dir = 8
@@ -90870,12 +90863,10 @@
 /area/medical/morgue)
 "dDM" = (
 /obj/structure/bodycontainer/morgue,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plating,
 /area/medical/morgue)
 "dDN" = (
 /obj/structure/bodycontainer/morgue,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -90883,7 +90874,6 @@
 "dDO" = (
 /obj/structure/bodycontainer/morgue,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -92687,7 +92677,6 @@
 /area/medical/morgue)
 "dHG" = (
 /obj/structure/bodycontainer/morgue,
-/obj/effect/landmark/revenantspawn,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
@@ -93402,7 +93391,6 @@
 "dIZ" = (
 /obj/structure/bodycontainer/morgue,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plating,
 /area/medical/morgue)
 "dJa" = (
@@ -99373,7 +99361,6 @@
 "dVK" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/blood/old,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/dark,
 /area/library/abandoned)
 "dVL" = (
@@ -99703,7 +99690,6 @@
 	},
 /area/medical/virology)
 "dWz" = (
-/obj/effect/landmark/revenantspawn,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/medical/virology)

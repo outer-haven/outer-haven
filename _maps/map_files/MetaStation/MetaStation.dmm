@@ -703,7 +703,6 @@
 /obj/item/clothing/glasses/sunglasses/blindfold,
 /obj/item/clothing/mask/muzzle,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/obj/effect/landmark/revenantspawn,
 /obj/item/device/electropack,
 /turf/open/floor/plasteel/dark,
 /area/security/execution/education)
@@ -1340,7 +1339,6 @@
 /obj/item/clothing/suit/straight_jacket,
 /obj/item/clothing/glasses/sunglasses/blindfold,
 /obj/item/clothing/mask/muzzle,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/white,
 /area/security/prison)
 "adh" = (
@@ -1357,7 +1355,6 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/white,
 /area/security/prison)
 "adj" = (
@@ -6172,7 +6169,6 @@
 	dir = 1
 	},
 /obj/structure/bodycontainer/morgue,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/dark,
 /area/security/brig)
 "ane" = (
@@ -15697,7 +15693,6 @@
 /area/security/brig)
 "aGu" = (
 /obj/structure/bodycontainer/morgue,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/dark,
 /area/security/detectives_office)
 "aGv" = (
@@ -17631,7 +17626,6 @@
 /turf/open/floor/plating,
 /area/engine/engineering)
 "aKy" = (
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plating,
 /area/engine/engineering)
 "aKz" = (
@@ -20824,7 +20818,6 @@
 	},
 /area/construction/mining/aux_base)
 "aRG" = (
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
 "aRH" = (
@@ -24523,7 +24516,6 @@
 /obj/structure/cable/yellow{
 	icon_state = "0-4"
 	},
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -30254,7 +30246,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/white,
 /area/crew_quarters/heads/captain/private)
 "bkL" = (
@@ -34769,7 +34760,6 @@
 /turf/open/floor/plasteel,
 /area/engine/break_room)
 "btE" = (
-/obj/effect/landmark/revenantspawn,
 /obj/item/device/radio/intercom{
 	freerange = 0;
 	frequency = 1459;
@@ -41432,7 +41422,6 @@
 	dir = 4
 	},
 /obj/machinery/light/small,
-/obj/effect/landmark/revenantspawn,
 /obj/effect/decal/cleanable/blood/old,
 /obj/effect/decal/cleanable/blood/gibs/old,
 /turf/open/floor/plasteel/floorgrime,
@@ -54390,7 +54379,6 @@
 /turf/open/floor/plasteel,
 /area/science/research)
 "ciL" = (
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "ciM" = (
@@ -54659,7 +54647,6 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
 	},
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/dark,
 /area/medical/surgery)
 "cjx" = (
@@ -63957,7 +63944,6 @@
 /area/medical/morgue)
 "cCf" = (
 /obj/structure/bodycontainer/morgue,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/dark,
 /area/medical/morgue)
 "cCg" = (
@@ -63989,7 +63975,6 @@
 /obj/item/paper/guides/jobs/medical/morgue{
 	pixel_x = -4
 	},
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/dark,
 /area/medical/morgue)
 "cCl" = (
@@ -64355,7 +64340,6 @@
 	dir = 8
 	},
 /obj/structure/bodycontainer/morgue,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/dark,
 /area/medical/morgue)
 "cCV" = (
@@ -65419,7 +65403,6 @@
 	pixel_x = -23
 	},
 /obj/structure/bodycontainer/morgue,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/dark,
 /area/medical/morgue)
 "cEV" = (
@@ -67114,7 +67097,6 @@
 /obj/structure/cable/yellow{
 	icon_state = "0-8"
 	},
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/dark,
 /area/science/server)
 "cIc" = (
@@ -69091,7 +69073,6 @@
 	},
 /obj/item/organ/heart,
 /obj/item/device/soulstone/anybody/chaplain,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/cult{
 	dir = 2
 	},
@@ -71914,7 +71895,6 @@
 /turf/open/floor/engine,
 /area/science/xenobiology)
 "cSo" = (
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/engine,
 /area/science/xenobiology)
 "cSp" = (
