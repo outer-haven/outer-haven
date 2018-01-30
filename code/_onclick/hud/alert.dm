@@ -330,21 +330,25 @@ or shoot a gun to move around via Newton's 3rd Law of Motion."
 			var/datum/objective/eldergod/summon_objective = locate() in antag.cult_team.objectives
 			if(!summon_objective)
 				return
+			desc = "The sacrifice is complete, summon Nar-Sie! The summoning can only take place in [english_list(summon_objective.summon_spots)]!"
 			if(icon_state == "runed_sense1")
 				return
 			animate(src, transform = null, time = 1, loop = 0)
 			angle = 0
 			cut_overlays()
 			icon_state = "runed_sense1"
-			desc = "The sacrifice is complete, summon Nar-Sie! The summoning can only take place in [english_list(summon_objective.summon_spots)]!"
 			add_overlay(narnar)
 		return
 	var/turf/P = get_turf(blood_target)
 	var/turf/Q = get_turf(mob_viewer)
+<<<<<<< HEAD
 	var/area/A = get_area(P)
 	if(P.z != Q.z) //The target is on a different Z level, we cannot sense that far.
+=======
+	if(!P || !Q || (P.z != Q.z)) //The target is on a different Z level, we cannot sense that far.
+>>>>>>> 418a8c0... Cult Update (#33810)
 		icon_state = "runed_sense2"
-		desc = "[blood_target] is no longer in your sector, you cannot sense its presence here."
+		desc = "You can no longer sense your target's presence."
 		return
 	desc = "You are currently tracking [blood_target] in [A.name]."
 	var/target_angle = Get_Angle(Q, P)
