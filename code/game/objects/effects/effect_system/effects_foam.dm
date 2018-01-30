@@ -196,16 +196,12 @@
 	metal = metaltype
 
 /datum/effect_system/foam_spread/start()
-	var/obj/effect/particle_effect/foam/foundfoam = locate() in location
-	if(foundfoam)//If there was already foam where we start, we add our foaminess to it.
-		foundfoam.amount += amount
-	else
-		var/obj/effect/particle_effect/foam/F = new effect_type(location)
-		var/foamcolor = mix_color_from_reagents(chemholder.reagents.reagent_list)
-		chemholder.reagents.copy_to(F, chemholder.reagents.total_volume/amount)
-		F.add_atom_colour(foamcolor, FIXED_COLOUR_PRIORITY)
-		F.amount = amount
-		F.metal = metal
+	var/obj/effect/particle_effect/foam/F = new effect_type(location)
+	var/foamcolor = mix_color_from_reagents(chemholder.reagents.reagent_list)
+	chemholder.reagents.copy_to(F, chemholder.reagents.total_volume/amount)
+	F.add_atom_colour(foamcolor, FIXED_COLOUR_PRIORITY)
+	F.amount = amount
+	F.metal = metal
 
 
 //////////////////////////////////////////////////////////
