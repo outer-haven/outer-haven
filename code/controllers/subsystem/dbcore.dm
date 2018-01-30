@@ -17,6 +17,12 @@ SUBSYSTEM_DEF(dbcore)
 	var/const/IS_NOT_NULL = 4
 	var/const/IS_PRIMARY_KEY = 8
 	var/const/IS_UNSIGNED = 16
+<<<<<<< HEAD
+=======
+	var/schema_mismatch = 0
+	var/db_minor = 0
+	var/db_major = 0
+>>>>>>> 71ca25a... Merge pull request #35120 from tgstation/a
 // TODO: Investigate more recent type additions and see if I can handle them. - Nadrew
 
 	var/_db_con// This variable contains a reference to the actual database connection.
