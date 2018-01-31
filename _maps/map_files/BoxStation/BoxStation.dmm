@@ -987,7 +987,6 @@
 "acI" = (
 /obj/machinery/door/poddoor/preopen{
 	id = "executionfireblast";
-	layer = 2.9;
 	name = "blast door"
 	},
 /obj/machinery/atmospherics/pipe/simple/general/hidden,
@@ -1127,7 +1126,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/door/poddoor/preopen{
 	id = "executionfireblast";
-	layer = 2.9;
 	name = "blast door"
 	},
 /obj/machinery/door/firedoor,
@@ -1144,7 +1142,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/preopen{
 	id = "executionfireblast";
-	layer = 2.9;
 	name = "blast door"
 	},
 /obj/machinery/door/firedoor,
@@ -16892,7 +16889,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/preopen{
 	id = "bridge blast";
-	layer = 2.9;
 	name = "bridge blast door"
 	},
 /turf/open/floor/plating,
@@ -16903,7 +16899,6 @@
 	},
 /obj/machinery/door/poddoor/preopen{
 	id = "bridge blast";
-	layer = 2.9;
 	name = "bridge blast door"
 	},
 /obj/effect/spawner/structure/window/reinforced,
@@ -16920,7 +16915,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/preopen{
 	id = "bridge blast";
-	layer = 2.9;
 	name = "bridge blast door"
 	},
 /turf/open/floor/plating,
@@ -16938,7 +16932,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/preopen{
 	id = "bridge blast";
-	layer = 2.9;
 	name = "bridge blast door"
 	},
 /turf/open/floor/plating,
@@ -16954,7 +16947,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/preopen{
 	id = "bridge blast";
-	layer = 2.9;
 	name = "bridge blast door"
 	},
 /turf/open/floor/plating,
@@ -16966,7 +16958,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/preopen{
 	id = "bridge blast";
-	layer = 2.9;
 	name = "bridge blast door"
 	},
 /turf/open/floor/plating,
@@ -21421,7 +21412,6 @@
 "bbW" = (
 /obj/machinery/door/poddoor/preopen{
 	id = "heads_meeting";
-	layer = 2.9;
 	name = "privacy shutters"
 	},
 /obj/effect/spawner/structure/window/reinforced,
@@ -21775,7 +21765,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/preopen{
 	id = "heads_meeting";
-	layer = 2.9;
 	name = "privacy shutters"
 	},
 /turf/open/floor/plating,
@@ -24778,7 +24767,6 @@
 	},
 /obj/machinery/door/poddoor/preopen{
 	id = "Disposal Exit";
-	layer = 3;
 	name = "disposal exit vent"
 	},
 /turf/open/floor/plating,
@@ -26746,7 +26734,6 @@
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "hop";
-	layer = 2.9;
 	name = "Privacy Shutters"
 	},
 /turf/open/floor/plasteel,
@@ -27347,7 +27334,6 @@
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "hop";
-	layer = 2.9;
 	name = "Privacy Shutters"
 	},
 /obj/effect/spawner/structure/window/reinforced,
@@ -28004,7 +27990,6 @@
 /obj/structure/cable,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "hop";
-	layer = 2.9;
 	name = "Privacy Shutters"
 	},
 /obj/effect/spawner/structure/window/reinforced,
@@ -37848,7 +37833,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "kanyewest";
-	layer = 2.9;
 	name = "privacy shutters"
 	},
 /turf/open/floor/plating,
@@ -38471,8 +38455,7 @@
 "bQi" = (
 /obj/machinery/door/poddoor/preopen{
 	id = "atmos";
-	layer = 2.9;
-	name = "atmos blast door"
+	name = "Atmospherics Blast Door"
 	},
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -38955,8 +38938,7 @@
 	},
 /obj/machinery/door/poddoor/preopen{
 	id = "atmos";
-	layer = 2.9;
-	name = "atmos blast door"
+	name = "Atmospherics Blast Door"
 	},
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
@@ -39426,8 +39408,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/preopen{
 	id = "atmos";
-	layer = 2.9;
-	name = "atmos blast door"
+	name = "Atmospherics Blast Door"
 	},
 /turf/open/floor/plating,
 /area/engine/atmos)
@@ -41148,7 +41129,7 @@
 	},
 /obj/machinery/door/poddoor/preopen{
 	id = "atmos";
-	name = "atmos blast door"
+	name = "Atmospherics Blast Door"
 	},
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
@@ -41166,7 +41147,7 @@
 	},
 /obj/machinery/door/poddoor/preopen{
 	id = "atmos";
-	name = "atmos blast door"
+	name = "Atmospherics Blast Door"
 	},
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
