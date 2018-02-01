@@ -108,9 +108,9 @@
 	return data["targets"][1]
 
 /datum/signal/subspace/pda/proc/format_message()
-	if (logged && data["photo"])
-		return "\"[data["message"]]\" (<a href='byond://?src=[REF(logged)];photo=1'>Photo</a>)"
-	return "\"data["message"]\""
+	if (data["photo"])
+		return "[data["message"]] <a href='byond://?src=[REF(src)];photo=1'>(Photo)</a>"
+	return data["message"]
 
 /datum/signal/subspace/pda/broadcast()
 	if (!logged)  // Can only go through if a message server logs it
