@@ -9371,10 +9371,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
-"atJ" = (
-/obj/effect/spawner/structure/window/shuttle,
-/turf/open/floor/plating,
-/area/shuttle/labor)
 "atK" = (
 /obj/machinery/computer/gulag_teleporter_computer{
 	dir = 1
@@ -9862,30 +9858,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
-"auQ" = (
-/turf/closed/wall/mineral/titanium,
-/area/shuttle/labor)
-"auR" = (
-/obj/machinery/computer/shuttle/labor{
-	dir = 4
-	},
-/obj/structure/reagent_dispensers/peppertank{
-	pixel_x = -31
-	},
-/turf/open/floor/mineral/plastitanium/brig,
-/area/shuttle/labor)
-"auS" = (
-/obj/structure/chair/office/dark{
-	dir = 1
-	},
-/turf/open/floor/mineral/plastitanium/brig,
-/area/shuttle/labor)
-"auT" = (
-/obj/structure/table,
-/obj/item/folder/red,
-/obj/item/restraints/handcuffs,
-/turf/open/floor/mineral/plastitanium/brig,
-/area/shuttle/labor)
 "auU" = (
 /obj/structure/disposalpipe/segment{
 	dir = 6
@@ -10466,34 +10438,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
-"avU" = (
-/turf/open/floor/mineral/plastitanium/brig,
-/area/shuttle/labor)
-"avV" = (
-/obj/machinery/button/flasher{
-	id = "gulagshuttleflasher";
-	name = "Flash Control";
-	pixel_y = -26;
-	req_access_txt = "1"
-	},
-/obj/machinery/light,
-/turf/open/floor/mineral/plastitanium/brig,
-/area/shuttle/labor)
-"avW" = (
-/obj/machinery/mineral/labor_claim_console{
-	machinedir = 2;
-	pixel_x = 30;
-	pixel_y = 30
-	},
-/turf/open/floor/mineral/plastitanium/brig,
-/area/shuttle/labor)
-"avX" = (
-/obj/machinery/door/airlock/titanium{
-	name = "Labor Shuttle Airlock";
-	req_access_txt = "2"
-	},
-/turf/open/floor/mineral/plastitanium/brig,
-/area/shuttle/labor)
 "avY" = (
 /obj/machinery/door/airlock/external{
 	name = "Labor Camp Shuttle Airlock";
@@ -10894,13 +10838,6 @@
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
-"awN" = (
-/turf/closed/wall/mineral/titanium,
-/area/shuttle/mining)
-"awO" = (
-/obj/effect/spawner/structure/window/shuttle,
-/turf/open/floor/plating,
-/area/shuttle/mining)
 "awP" = (
 /obj/item/clothing/gloves/color/rainbow,
 /obj/item/clothing/shoes/sneakers/rainbow,
@@ -10957,20 +10894,6 @@
 "awW" = (
 /turf/closed/wall/r_wall,
 /area/security/nuke_storage)
-"awX" = (
-/obj/machinery/door/airlock/titanium{
-	name = "Labor Shuttle Airlock";
-	req_access_txt = "2"
-	},
-/turf/open/floor/plasteel/dark,
-/area/shuttle/labor)
-"awY" = (
-/obj/machinery/mineral/stacking_machine/laborstacker{
-	input_dir = 2;
-	output_dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/shuttle/labor)
 "awZ" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 8
@@ -11546,14 +11469,6 @@
 /obj/item/stack/rods,
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
-"ayg" = (
-/obj/structure/table,
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/mining)
-"ayh" = (
-/obj/machinery/computer/shuttle/mining,
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/mining)
 "ayi" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -11642,6 +11557,7 @@
 	dir = 8
 	},
 /area/security/nuke_storage)
+<<<<<<< HEAD
 "ayt" = (
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/labor)
@@ -11652,6 +11568,8 @@
 	},
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/labor)
+=======
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 "ayw" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable/yellow{
@@ -11967,6 +11885,7 @@
 /obj/item/stack/cable_coil,
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
+<<<<<<< HEAD
 "azh" = (
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/mining)
@@ -11976,6 +11895,8 @@
 	},
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/mining)
+=======
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 "azj" = (
 /obj/item/ore/iron,
 /obj/effect/turf_decal/stripes/line{
@@ -12173,22 +12094,6 @@
 	dir = 1
 	},
 /area/security/nuke_storage)
-"azA" = (
-/obj/structure/chair{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/labor)
-"azB" = (
-/obj/structure/chair{
-	dir = 8
-	},
-/obj/machinery/flasher{
-	id = "gulagshuttleflasher";
-	pixel_x = 25
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/labor)
 "azC" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -12895,10 +12800,6 @@
 	dir = 1
 	},
 /area/security/nuke_storage)
-"aAU" = (
-/obj/structure/closet/crate,
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/labor)
 "aAV" = (
 /obj/machinery/door/airlock/titanium{
 	id_tag = "prisonshuttle";
@@ -13536,14 +13437,6 @@
 	dir = 1
 	},
 /area/security/nuke_storage)
-"aCi" = (
-/obj/structure/shuttle/engine/heater,
-/obj/structure/window/reinforced{
-	dir = 1;
-	layer = 2.9
-	},
-/turf/open/floor/plating,
-/area/shuttle/labor)
 "aCj" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/security/glass{
@@ -13963,27 +13856,6 @@
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
-"aDe" = (
-/obj/structure/closet/crate,
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/mining)
-"aDf" = (
-/obj/structure/shuttle/engine/heater,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/turf/open/floor/plating/airless,
-/area/shuttle/mining)
-"aDg" = (
-/obj/structure/ore_box,
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/mining)
 "aDh" = (
 /obj/machinery/firealarm{
 	dir = 8;
@@ -14089,10 +13961,6 @@
 /obj/structure/sign/securearea,
 /turf/closed/wall/r_wall,
 /area/security/nuke_storage)
-"aDt" = (
-/obj/structure/shuttle/engine/propulsion,
-/turf/open/floor/plating,
-/area/shuttle/labor)
 "aDu" = (
 /turf/closed/wall,
 /area/hallway/primary/fore)
@@ -14647,14 +14515,6 @@
 	},
 /turf/open/floor/plasteel/floorgrime,
 /area/quartermaster/warehouse)
-"aEu" = (
-/obj/structure/shuttle/engine/propulsion/burst,
-/obj/structure/window/reinforced{
-	dir = 1;
-	layer = 2.9
-	},
-/turf/open/floor/plating/airless,
-/area/shuttle/mining)
 "aEv" = (
 /obj/machinery/computer/security/mining{
 	dir = 4;
@@ -17630,10 +17490,13 @@
 /obj/machinery/portable_atmospherics/canister/toxins,
 /turf/open/floor/plating,
 /area/engine/engineering)
+<<<<<<< HEAD
 "aKy" = (
 /obj/effect/landmark/revenantspawn,
 /turf/open/floor/plating,
 /area/engine/engineering)
+=======
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 "aKz" = (
 /obj/machinery/door/poddoor{
 	id = "Secure Storage";
@@ -26326,19 +26189,6 @@
 	},
 /turf/open/space,
 /area/space/nearstation)
-"bcS" = (
-/turf/closed/wall/mineral/titanium,
-/area/shuttle/arrival)
-"bcT" = (
-/obj/machinery/door/airlock/titanium{
-	name = "Arrivals Shuttle Airlock"
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
-"bcU" = (
-/obj/effect/spawner/structure/window/shuttle,
-/turf/open/floor/plating,
-/area/shuttle/arrival)
 "bcV" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
@@ -27148,6 +26998,7 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/aisat)
+<<<<<<< HEAD
 "beB" = (
 /obj/structure/table,
 /obj/item/storage/firstaid/regular{
@@ -27209,6 +27060,8 @@
 	},
 /turf/open/floor/plating/airless,
 /area/shuttle/arrival)
+=======
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 "beK" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable/yellow{
@@ -27964,25 +27817,6 @@
 	},
 /turf/open/space,
 /area/space/nearstation)
-"bgq" = (
-/obj/structure/chair,
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
-"bgt" = (
-/obj/structure/shuttle/engine/heater{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/turf/open/floor/plating/airless,
-/area/shuttle/arrival)
-"bgu" = (
-/obj/structure/shuttle/engine/propulsion{
-	dir = 4
-	},
-/turf/open/floor/plating/airless,
-/area/shuttle/arrival)
 "bgv" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/machinery/light{
@@ -29744,12 +29578,6 @@
 "bjT" = (
 /turf/closed/wall/r_wall,
 /area/ai_monitored/storage/satellite)
-"bjU" = (
-/obj/structure/chair{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
 "bjV" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 8
@@ -30731,49 +30559,6 @@
 	dir = 8
 	},
 /area/ai_monitored/storage/satellite)
-"blN" = (
-/obj/structure/closet/emcloset,
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
-"blO" = (
-/obj/item/device/radio/intercom{
-	name = "Station Intercom (General)";
-	pixel_y = -29
-	},
-/obj/machinery/light,
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
-"blP" = (
-/obj/structure/sign/map/left{
-	desc = "A framed picture of the station. Clockwise from security at the top (red), you see engineering (yellow), science (purple), escape (red and white), medbay (green), arrivals (blue and white), and finally cargo (brown).";
-	icon_state = "map-left-MS";
-	pixel_y = -32
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
-"blQ" = (
-/obj/structure/sign/map/right{
-	desc = "A framed picture of the station. Clockwise from security at the top (red), you see engineering (yellow), science (purple), escape (red and white), medbay (green), arrivals (blue and white), and finally cargo (brown).";
-	icon_state = "map-right-MS";
-	pixel_y = -32
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
-"blR" = (
-/obj/machinery/requests_console{
-	department = "Arrival shuttle";
-	name = "Arrivals Shuttle console";
-	pixel_y = -30
-	},
-/obj/machinery/light,
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
-"blS" = (
-/obj/structure/shuttle/engine/propulsion/burst/left{
-	dir = 4
-	},
-/turf/open/floor/plating/airless,
-/area/shuttle/arrival)
 "blT" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
@@ -46173,7 +45958,6 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
-/obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/cafeteria{
 	dir = 5
 	},
@@ -46700,9 +46484,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
-/obj/structure/cable/yellow{
-	icon_state = "2-4"
-	},
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 1
 	},
@@ -46738,11 +46519,11 @@
 /obj/structure/cable/yellow{
 	icon_state = "0-2"
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 10
-	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard)
@@ -46762,8 +46543,8 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 9
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard)
@@ -47293,11 +47074,6 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
 /area/hydroponics)
-"bUl" = (
-/obj/effect/turf_decal/bot,
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plasteel,
-/area/hydroponics)
 "bUm" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/chem_master/condimaster{
@@ -47385,26 +47161,29 @@
 	sortType = 20
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/maintenance/starboard)
 "bUt" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 10
-	},
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 5
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard)
@@ -47418,8 +47197,8 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 5
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard)
@@ -47427,10 +47206,10 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+/obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/structure/disposalpipe/segment{
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
 /turf/open/floor/plating{
@@ -47921,17 +47700,22 @@
 	},
 /area/hydroponics)
 "bVz" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/disposalpipe/segment,
+/turf/closed/wall,
+/area/hallway/secondary/service)
+"bVA" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/machinery/door/airlock{
+	name = "Service Hall";
+	req_access_txt = "null";
+	req_one_access_txt = "25;26;35;28"
+	},
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
-/area/maintenance/starboard)
-"bVA" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/turf/open/floor/plating,
-/area/maintenance/starboard)
+/area/hallway/secondary/service)
 "bVB" = (
 /obj/structure/rack,
 /obj/item/extinguisher,
@@ -48622,15 +48406,18 @@
 /turf/open/floor/plasteel/hydrofloor,
 /area/hydroponics)
 "bWX" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
+/obj/structure/table,
+/obj/item/storage/bag/plants,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 8
 	},
-/area/maintenance/starboard)
+/obj/item/reagent_containers/glass/bucket,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/service)
 "bWY" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 6
@@ -49216,33 +49003,26 @@
 /turf/open/floor/plasteel/hydrofloor,
 /area/hydroponics)
 "bYo" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 8
-	},
-/obj/structure/cable/yellow{
-	icon_state = "1-4"
 	},
 /obj/structure/disposalpipe/junction/flip{
 	dir = 2
 	},
-/turf/open/floor/plating,
-/area/maintenance/starboard)
+/obj/structure/table,
+/obj/item/kitchen/rollingpin,
+/turf/open/floor/plasteel,
+/area/hallway/secondary/service)
 "bYp" = (
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plating,
-/area/maintenance/starboard)
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
+/turf/open/floor/plasteel,
+/area/hallway/secondary/service)
 "bYq" = (
 /obj/structure/rack,
 /obj/item/tank/internals/oxygen,
@@ -49809,13 +49589,14 @@
 /turf/open/floor/plasteel/showroomfloor,
 /area/crew_quarters/kitchen)
 "bZy" = (
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
-	dir = 8
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/machinery/door/airlock{
+	name = "Service Hall";
+	req_access_txt = "null";
+	req_one_access_txt = "25;26;35;28"
 	},
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
-/area/maintenance/starboard)
+/turf/open/floor/plating,
+/area/hallway/secondary/service)
 "bZz" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -49823,9 +49604,7 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard)
 "bZA" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
@@ -50529,9 +50308,6 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard)
 "caU" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
 /obj/structure/disposalpipe/sorting/mail{
 	sortType = 21
 	},
@@ -50544,22 +50320,17 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/turf/open/floor/plating,
-/area/maintenance/starboard)
-"caV" = (
-/obj/structure/rack,
-/obj/item/extinguisher,
-/obj/item/clothing/mask/gas,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard)
 "caW" = (
-/obj/structure/closet,
-/obj/item/stack/cable_coil/random,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 9
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard)
@@ -52030,6 +51801,9 @@
 /area/maintenance/starboard)
 "cdW" = (
 /obj/item/device/flashlight,
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/maintenance/starboard)
 "cdX" = (
@@ -54608,14 +54382,14 @@
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 6
-	},
 /obj/structure/cable/yellow{
 	icon_state = "2-4"
 	},
 /obj/machinery/light/small{
 	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard)
@@ -57077,18 +56851,15 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "cow" = (
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/effect/spawner/lootdrop/maintenance,
-/turf/open/floor/plating,
-/area/maintenance/starboard)
+/obj/machinery/rnd/protolathe/department/service,
+/turf/open/floor/plasteel,
+/area/hallway/secondary/service)
 "cox" = (
 /obj/structure/mineral_door/wood{
 	name = "The Gobbetting Barmaid"
@@ -67879,19 +67650,6 @@
 	dir = 4
 	},
 /area/science/robotics/lab)
-"cJI" = (
-/obj/structure/table/optable,
-/obj/item/surgical_drapes,
-/obj/item/storage/firstaid/regular,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/machinery/light/small/built{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
 "cJJ" = (
 /obj/machinery/computer/operating{
 	dir = 1;
@@ -71912,10 +71670,13 @@
 "cSn" = (
 /turf/open/floor/engine,
 /area/science/xenobiology)
+<<<<<<< HEAD
 "cSo" = (
 /obj/effect/landmark/revenantspawn,
 /turf/open/floor/engine,
 /area/science/xenobiology)
+=======
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 "cSp" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -72409,17 +72170,6 @@
 	},
 /turf/open/floor/engine,
 /area/science/xenobiology)
-"cTh" = (
-/obj/machinery/door/poddoor{
-	id = "QMLoaddoor";
-	name = "supply dock loading door"
-	},
-/obj/machinery/conveyor{
-	dir = 8;
-	id = "QMLoad"
-	},
-/turf/open/floor/plating,
-/area/shuttle/supply)
 "cTi" = (
 /obj/structure/chair{
 	dir = 4
@@ -72661,9 +72411,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/engine/atmos)
-"cUS" = (
-/turf/closed/wall/mineral/titanium,
-/area/shuttle/supply)
 "cUT" = (
 /obj/machinery/light{
 	dir = 1
@@ -72680,6 +72427,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/wood,
 /area/library)
+<<<<<<< HEAD
 "cUV" = (
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/supply)
@@ -72720,6 +72468,8 @@
 	},
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/supply)
+=======
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 "cUZ" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Supply Shuttle Airlock";
@@ -72768,9 +72518,6 @@
 	},
 /turf/open/floor/wood,
 /area/library)
-"cVc" = (
-/turf/closed/wall/mineral/titanium/interior,
-/area/shuttle/supply)
 "cVd" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 8
@@ -72802,13 +72549,6 @@
 	},
 /turf/open/floor/wood,
 /area/library)
-"cVg" = (
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/structure/shuttle/engine/heater,
-/turf/open/floor/plating/airless,
-/area/shuttle/supply)
 "cVh" = (
 /obj/structure/closet/emcloset,
 /turf/open/floor/plasteel/dark,
@@ -72820,6 +72560,7 @@
 	},
 /turf/open/floor/wood,
 /area/library)
+<<<<<<< HEAD
 "cVj" = (
 /obj/structure/shuttle/engine/propulsion,
 /turf/open/floor/plating/airless,
@@ -72868,6 +72609,8 @@
 	},
 /turf/open/floor/plating/airless,
 /area/shuttle/transport)
+=======
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 "cVx" = (
 /obj/machinery/door/airlock/titanium,
 /obj/docking_port/mobile{
@@ -72907,12 +72650,6 @@
 /obj/structure/lattice/catwalk,
 /turf/open/space,
 /area/engine/atmos)
-"cVB" = (
-/obj/structure/chair{
-	dir = 1
-	},
-/turf/open/floor/pod/dark,
-/area/shuttle/transport)
 "cVC" = (
 /mob/living/simple_animal/sloth/citrus,
 /turf/open/floor/plasteel,
@@ -72928,29 +72665,12 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/auxillary_base)
-"cVF" = (
-/turf/closed/wall/mineral/titanium,
-/area/shuttle/abandoned)
-"cVG" = (
-/obj/effect/spawner/structure/window/shuttle,
-/turf/open/floor/plating,
-/area/shuttle/abandoned)
 "cVH" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
 /turf/open/floor/plating,
 /area/shuttle/auxillary_base)
-"cVI" = (
-/obj/machinery/door/airlock/titanium{
-	name = "recovery shuttle external airlock"
-	},
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
 "cVJ" = (
 /obj/structure/window/reinforced,
 /obj/machinery/computer/atmos_control/tank{
@@ -72983,34 +72703,13 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/auxillary_base)
-"cVN" = (
-/obj/structure/shuttle/engine/propulsion/left{
-	dir = 8
-	},
-/turf/open/floor/plating/airless,
-/area/shuttle/abandoned)
-"cVO" = (
-/obj/structure/toilet{
-	pixel_y = 9
-	},
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/effect/decal/cleanable/greenglow{
-	desc = "Looks like something's sprung a leak"
-	},
-/obj/machinery/light/small/built{
-	dir = 8
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
 "cVQ" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/open/floor/plating,
 /area/shuttle/auxillary_base)
+<<<<<<< HEAD
 "cVR" = (
 /obj/structure/mirror{
 	pixel_x = 28
@@ -73220,6 +72919,8 @@
 	},
 /turf/open/floor/plating/airless,
 /area/shuttle/abandoned)
+=======
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 "cWg" = (
 /obj/docking_port/mobile/auxillary_base{
 	dheight = 4;
@@ -73238,6 +72939,7 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/auxillary_base)
+<<<<<<< HEAD
 "cWi" = (
 /obj/machinery/door/airlock/titanium{
 	name = "bathroom"
@@ -73468,49 +73170,12 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/abandoned)
+=======
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 "cWA" = (
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
-"cWB" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cWC" = (
-/obj/effect/decal/cleanable/oil,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel,
-/area/shuttle/abandoned)
-"cWD" = (
-/obj/structure/closet/emcloset,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/effect/turf_decal/bot,
-/obj/machinery/light/small,
-/turf/open/floor/plasteel,
-/area/shuttle/abandoned)
-"cWE" = (
-/obj/structure/closet/firecloset/full,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel,
-/area/shuttle/abandoned)
 "cWF" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/effect/turf_decal/stripes/line{
@@ -73518,37 +73183,6 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/auxillary_base)
-"cWG" = (
-/obj/machinery/door/airlock/titanium{
-	name = "bathroom"
-	},
-/obj/effect/decal/cleanable/blood/old,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
-"cWH" = (
-/obj/machinery/vending/boozeomat{
-	icon_deny = "smartfridge";
-	icon_state = "smartfridge";
-	req_access_txt = "0";
-	use_power = 0
-	},
-/turf/closed/wall/mineral/titanium,
-/area/shuttle/abandoned)
-"cWI" = (
-/obj/machinery/door/airlock/titanium{
-	name = "dormitory"
-	},
-/obj/effect/decal/cleanable/blood/old,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
 "cWJ" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating,
@@ -73557,20 +73191,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/construction/mining/aux_base)
-"cWL" = (
-/obj/machinery/door/airlock/titanium{
-	name = "recovery shuttle interior airlock"
-	},
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
 "cWM" = (
 /obj/machinery/door/airlock/external{
 	cyclelinkeddir = 1;
@@ -73581,6 +73201,7 @@
 	},
 /turf/open/floor/plating,
 /area/construction/mining/aux_base)
+<<<<<<< HEAD
 "cWN" = (
 /obj/machinery/door/airlock/titanium{
 	name = "cargo bay"
@@ -73726,6 +73347,8 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/abandoned)
+=======
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 "cXc" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -73733,235 +73356,6 @@
 /obj/structure/easel,
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
-"cXf" = (
-/obj/structure/table,
-/obj/item/folder/blue,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/item/device/gps{
-	gpstag = "NTREC1";
-	pixel_x = -1;
-	pixel_y = 2
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cXg" = (
-/obj/machinery/door/airlock/titanium{
-	name = "recovery shuttle interior airlock"
-	},
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
-"cXh" = (
-/obj/structure/table,
-/obj/item/reagent_containers/food/drinks/shaker,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cXi" = (
-/obj/structure/chair{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cXj" = (
-/obj/structure/table,
-/obj/item/storage/fancy/donut_box,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cXk" = (
-/obj/structure/table,
-/obj/item/reagent_containers/food/condiment/peppermill{
-	pixel_x = 3;
-	pixel_y = 4
-	},
-/obj/item/reagent_containers/food/condiment/saltshaker{
-	pixel_x = -3;
-	pixel_y = 4
-	},
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cXl" = (
-/obj/structure/chair{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cXm" = (
-/obj/machinery/door/airlock/titanium{
-	name = "living quarters"
-	},
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
-"cXn" = (
-/obj/item/clothing/suit/bio_suit,
-/obj/item/clothing/suit/bio_suit,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/item/clothing/gloves/color/latex,
-/obj/item/clothing/gloves/color/latex,
-/obj/item/clothing/head/bio_hood,
-/obj/item/clothing/head/bio_hood,
-/obj/item/clothing/mask/breath,
-/obj/item/clothing/mask/breath,
-/obj/structure/table,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cXo" = (
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/item/roller{
-	pixel_x = -3;
-	pixel_y = 7
-	},
-/obj/item/roller{
-	pixel_x = 3;
-	pixel_y = 4
-	},
-/obj/item/reagent_containers/spray/cleaner,
-/obj/structure/table,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cXp" = (
-/obj/effect/decal/cleanable/blood/old,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/effect/decal/cleanable/blood/gibs/limb,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cXq" = (
-/obj/effect/decal/cleanable/blood/gibs/old,
-/obj/effect/decal/cleanable/blood/old,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/effect/decal/remains/human{
-	desc = "They look like human remains, and have clearly been gnawed at."
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cXr" = (
-/obj/item/storage/toolbox/emergency{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/storage/toolbox/emergency,
-/obj/item/storage/toolbox/emergency{
-	pixel_x = 3;
-	pixel_y = -3
-	},
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/structure/table,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cXs" = (
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/item/clothing/gloves/color/black,
-/obj/item/clothing/gloves/color/black,
-/obj/item/clothing/suit/armor/vest,
-/obj/item/clothing/suit/armor/vest,
-/obj/structure/table,
-/obj/item/clothing/head/helmet/swat/nanotrasen,
-/obj/item/clothing/head/helmet/swat/nanotrasen,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cXt" = (
-/obj/machinery/door/airlock/titanium{
-	name = "bridge"
-	},
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
-"cXu" = (
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/machinery/computer/shuttle/white_ship{
-	dir = 8
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cXv" = (
-/obj/effect/decal/cleanable/blood/old,
-/obj/structure/chair/comfy/black{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cXw" = (
-/obj/structure/reagent_dispensers/watertank,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/structure/light_construct/small{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
-"cXx" = (
-/obj/machinery/vending/cola/random,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cXy" = (
-/obj/structure/chair{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
 "cXz" = (
 /obj/structure/cable/white{
 	icon_state = "4-8"
@@ -73977,38 +73371,6 @@
 "cXA" = (
 /turf/closed/wall/r_wall,
 /area/security/checkpoint/engineering)
-"cXC" = (
-/obj/item/phone{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/cigbutt/cigarbutt{
-	pixel_x = 5;
-	pixel_y = -1
-	},
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cXD" = (
-/obj/effect/decal/cleanable/blood/old,
-/obj/effect/decal/cleanable/blood/gibs/old,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/item/clothing/head/centhat{
-	desc = "There's a gouge through the top where something has clawed clean through it. Whoever was wearing it probably doesn't need a hat any more.";
-	name = "\improper damaged CentCom hat"
-	},
-/obj/effect/decal/remains/human{
-	desc = "They look like human remains, and have clearly been gnawed at."
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
 "cXE" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
@@ -74017,6 +73379,7 @@
 	dir = 1
 	},
 /area/construction/mining/aux_base)
+<<<<<<< HEAD
 "cXF" = (
 /obj/machinery/vending/snack/random,
 /turf/open/floor/mineral/titanium,
@@ -74048,10 +73411,13 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/abandoned)
+=======
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 "cXI" = (
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/maintenance/starboard)
+<<<<<<< HEAD
 "cXJ" = (
 /obj/structure/table,
 /obj/item/device/radio/off{
@@ -74120,6 +73486,8 @@
 	},
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/abandoned)
+=======
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 "cXR" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 10
@@ -74128,89 +73496,6 @@
 	dir = 1
 	},
 /area/construction/mining/aux_base)
-"cXS" = (
-/obj/item/storage/bag/plants/portaseeder,
-/obj/structure/table,
-/obj/item/reagent_containers/spray/plantbgone{
-	pixel_x = 13;
-	pixel_y = 5
-	},
-/obj/item/reagent_containers/glass/bottle/nutrient/ez,
-/obj/item/reagent_containers/glass/bottle/nutrient/ez,
-/obj/item/reagent_containers/glass/bottle/nutrient/ez,
-/obj/item/reagent_containers/glass/bottle/nutrient/rh{
-	pixel_x = -2;
-	pixel_y = 3
-	},
-/obj/effect/decal/cleanable/cobweb,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cXT" = (
-/obj/machinery/biogenerator{
-	idle_power_usage = 0;
-	use_power = 0
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cXU" = (
-/obj/machinery/vending/hydroseeds{
-	use_power = 0
-	},
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/machinery/light/small/built{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cXV" = (
-/obj/machinery/processor,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/machinery/light/small/built{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cXW" = (
-/obj/structure/table,
-/obj/machinery/microwave{
-	pixel_x = -3;
-	pixel_y = 6
-	},
-/obj/item/storage/box/donkpockets,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/effect/decal/cleanable/cobweb/cobweb2,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cXX" = (
-/obj/structure/kitchenspike,
-/obj/effect/decal/cleanable/blood/gibs/old,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cXY" = (
-/obj/effect/decal/cleanable/oil,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
 "cXZ" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/structure/window/reinforced{
@@ -74219,32 +73504,6 @@
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/maintenance/starboard)
-"cYa" = (
-/obj/machinery/sleeper{
-	dir = 4;
-	use_power = 0
-	},
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cYb" = (
-/obj/structure/closet/crate/freezer,
-/obj/item/reagent_containers/blood/empty{
-	pixel_x = -3;
-	pixel_y = -3
-	},
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/random,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/effect/decal/cleanable/xenoblood,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
 "cYc" = (
 /obj/structure/table/optable{
 	name = "Robotics Operating Table"
@@ -74261,314 +73520,17 @@
 	dir = 1
 	},
 /area/science/robotics/lab)
-"cYd" = (
-/obj/structure/table,
-/obj/item/wrench,
-/obj/item/crowbar,
-/obj/item/clothing/suit/apron,
-/obj/item/shovel/spade,
-/obj/item/cultivator,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/item/wirecutters,
-/obj/item/device/plant_analyzer,
-/obj/item/reagent_containers/glass/bucket,
-/obj/machinery/light/small/built{
-	dir = 8
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cYe" = (
-/obj/machinery/smartfridge{
-	use_power = 0
-	},
-/turf/closed/wall/mineral/titanium,
-/area/shuttle/abandoned)
-"cYf" = (
-/obj/structure/sink{
-	dir = 4;
-	pixel_x = 11
-	},
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
-"cYg" = (
-/obj/structure/sink{
-	dir = 8;
-	pixel_x = -12;
-	pixel_y = 2
-	},
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
-"cYh" = (
-/obj/structure/table,
-/obj/item/kitchen/rollingpin,
-/obj/item/kitchen/knife,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/machinery/light/small/built{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cYi" = (
-/obj/effect/decal/cleanable/egg_smudge,
-/obj/effect/decal/cleanable/flour,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
 "cYj" = (
 /obj/structure/closet/firecloset,
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/maintenance/starboard)
-"cYl" = (
-/obj/structure/chair/office/light,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
-"cYm" = (
-/obj/machinery/vending/wallmed{
-	name = "Emergency NanoMed";
-	pixel_x = -28;
-	req_access_txt = "0";
-	use_power = 0
-	},
-/obj/machinery/iv_drip,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/machinery/light/small/built{
-	dir = 8
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
-"cYn" = (
-/obj/effect/decal/cleanable/xenoblood,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/effect/decal/remains/xeno{
-	desc = "A pile of remains that look vaguely humanoid. The skull is abnormally elongated, and there are burns through some of the other bones."
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
-"cYo" = (
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/effect/decal/cleanable/ash,
-/obj/effect/decal/cleanable/xenoblood,
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
-"cYp" = (
-/obj/structure/sink{
-	dir = 4;
-	pixel_x = 11
-	},
-/obj/effect/decal/cleanable/xenoblood,
-/obj/effect/decal/cleanable/xenoblood/xgibs/limb,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
-"cYq" = (
-/obj/structure/shuttle/engine/propulsion/right{
-	dir = 8
-	},
-/turf/open/floor/plating/airless,
-/area/shuttle/abandoned)
-"cYr" = (
-/obj/machinery/hydroponics/constructable,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cYs" = (
-/obj/machinery/hydroponics/constructable,
-/obj/item/seeds/glowshroom,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cYt" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/item/storage/box/monkeycubes{
-	pixel_y = 4
-	},
-/obj/item/storage/fancy/egg_box{
-	pixel_y = 5
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cYu" = (
-/obj/structure/table,
-/obj/machinery/reagentgrinder{
-	pixel_y = 6
-	},
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cYv" = (
-/obj/structure/table,
-/obj/item/reagent_containers/food/condiment/flour,
-/obj/item/reagent_containers/food/condiment/flour,
-/obj/item/reagent_containers/food/condiment/flour,
-/obj/item/reagent_containers/food/condiment/flour,
-/obj/item/reagent_containers/food/condiment/milk,
-/obj/item/reagent_containers/food/condiment/milk,
-/obj/item/reagent_containers/food/condiment/milk,
-/obj/item/reagent_containers/food/condiment/soymilk,
-/obj/item/reagent_containers/food/condiment/soymilk,
-/obj/item/reagent_containers/food/condiment/sugar,
-/obj/item/reagent_containers/food/condiment/sugar,
-/obj/item/reagent_containers/food/condiment/sugar,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cYw" = (
-/obj/structure/table,
-/obj/item/reagent_containers/glass/beaker{
-	pixel_x = 5
-	},
-/obj/item/reagent_containers/food/condiment/enzyme{
-	layer = 5
-	},
-/obj/item/reagent_containers/dropper,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cYx" = (
-/obj/structure/table,
-/obj/item/reagent_containers/glass/beaker{
-	pixel_x = 5;
-	pixel_y = 2
-	},
-/obj/item/reagent_containers/glass/beaker,
-/obj/item/reagent_containers/dropper,
-/obj/item/reagent_containers/syringe,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cYy" = (
-/obj/structure/table,
-/obj/item/hand_labeler,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cYz" = (
-/obj/structure/table,
-/obj/item/folder/white{
-	pixel_x = 4;
-	pixel_y = -3
-	},
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cYA" = (
-/obj/structure/table,
-/obj/item/defibrillator,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cYB" = (
-/obj/structure/table,
-/obj/item/clothing/gloves/color/latex,
-/obj/item/clothing/mask/surgical,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/item/clothing/suit/apron/surgical,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cYC" = (
-/obj/structure/table,
-/obj/item/reagent_containers/glass/bottle/epinephrine{
-	pixel_x = 6
-	},
-/obj/item/reagent_containers/glass/bottle/charcoal{
-	pixel_x = -3
-	},
-/obj/item/reagent_containers/syringe,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"cYD" = (
-/obj/structure/table,
-/obj/item/storage/backpack/duffelbag/med/surgery{
-	pixel_y = 4
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
 "cYE" = (
 /obj/structure/closet/toolcloset,
 /turf/open/floor/plasteel/yellow/side{
 	dir = 1
 	},
 /area/construction/mining/aux_base)
-"cYF" = (
-/obj/effect/spawner/structure/window/shuttle,
-/turf/open/floor/plating,
-/area/shuttle/escape)
 "cYG" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/structure/cable/yellow{
@@ -74576,15 +73538,6 @@
 	},
 /turf/open/floor/plasteel/yellow/side,
 /area/construction/mining/aux_base)
-"cYH" = (
-/obj/machinery/door/airlock/titanium{
-	name = "Emergency Shuttle Airlock"
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
-"cYI" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/shuttle/escape)
 "cYJ" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Emergency Shuttle Airlock"
@@ -74629,6 +73582,7 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
+<<<<<<< HEAD
 "cYM" = (
 /obj/structure/tank_dispenser/oxygen{
 	layer = 2.7;
@@ -74724,6 +73678,8 @@
 "cYO" = (
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/escape)
+=======
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 "cYP" = (
 /obj/machinery/door/airlock/engineering{
 	cyclelinkeddir = 1;
@@ -74741,104 +73697,18 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/closed/wall,
 /area/construction/mining/aux_base)
-"cYS" = (
-/obj/item/device/radio/intercom{
-	dir = 4;
-	name = "Station Intercom (General)";
-	pixel_y = 27
-	},
-/obj/structure/chair,
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
 "cYT" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel/white,
 /area/science/xenobiology)
-"cYU" = (
-/obj/structure/table,
-/obj/item/clipboard,
-/obj/item/folder/yellow,
-/obj/item/pen,
-/obj/item/hand_labeler_refill,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel,
-/area/shuttle/escape)
-"cYV" = (
-/turf/open/floor/plasteel/floorgrime,
-/area/shuttle/escape)
-"cYW" = (
-/obj/structure/closet/crate/medical{
-	name = "medical crate"
-	},
-/obj/item/storage/firstaid/regular,
-/obj/item/storage/firstaid/o2{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/obj/item/storage/firstaid/toxin{
-	pixel_x = -4;
-	pixel_y = 3
-	},
-/obj/item/device/healthanalyzer{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/obj/item/lazarus_injector,
-/obj/effect/turf_decal/bot,
-/mob/living/simple_animal/bot/medbot{
-	name = "\improper emergency medibot";
-	pixel_x = -3;
-	pixel_y = 2
-	},
-/turf/open/floor/plasteel,
-/area/shuttle/escape)
-"cYX" = (
-/obj/item/cigbutt,
-/turf/open/floor/plasteel/floorgrime,
-/area/shuttle/escape)
-"cYY" = (
-/obj/structure/extinguisher_cabinet,
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/shuttle/escape)
-"cYZ" = (
-/obj/machinery/vending/wallmed{
-	name = "Emergency NanoMed";
-	req_access_txt = "0";
-	use_power = 0
-	},
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/shuttle/escape)
 "cZa" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/white,
 /area/science/xenobiology)
-"cZb" = (
-/obj/structure/closet/crate{
-	name = "emergency supplies crate"
-	},
-/obj/item/storage/toolbox/emergency,
-/obj/item/storage/toolbox/emergency,
-/obj/item/device/flashlight/flare{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/obj/item/device/flashlight/flare{
-	pixel_x = -6;
-	pixel_y = -2
-	},
-/obj/item/crowbar,
-/obj/item/wrench,
-/obj/item/device/radio,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel,
-/area/shuttle/escape)
 "cZc" = (
 /obj/item/device/radio/intercom{
 	freerange = 0;
@@ -74856,9 +73726,6 @@
 	dir = 4
 	},
 /area/chapel/main)
-"cZe" = (
-/turf/closed/wall/mineral/titanium,
-/area/shuttle/escape)
 "cZf" = (
 /obj/structure/chair,
 /obj/machinery/light{
@@ -74869,10 +73736,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
+<<<<<<< HEAD
 "cZg" = (
 /obj/structure/sign/nosmoking_2,
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/escape)
+=======
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 "cZh" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -74881,61 +73751,6 @@
 	dir = 4
 	},
 /area/hallway/secondary/entry)
-"cZi" = (
-/obj/structure/chair,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
-"cZj" = (
-/obj/structure/shuttle/engine/propulsion{
-	dir = 8
-	},
-/turf/open/floor/plating/airless,
-/area/shuttle/escape)
-"cZk" = (
-/obj/item/device/radio/intercom{
-	dir = 2;
-	name = "Station Intercom (General)";
-	pixel_y = -31
-	},
-/obj/structure/chair{
-	dir = 1
-	},
-/obj/machinery/light,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
-"cZl" = (
-/obj/structure/shuttle/engine/heater{
-	dir = 8
-	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/turf/open/floor/plating/airless,
-/area/shuttle/escape)
-"cZm" = (
-/obj/structure/chair/office/dark{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
-"cZn" = (
-/obj/machinery/status_display,
-/turf/closed/wall/mineral/titanium,
-/area/shuttle/escape)
-"cZo" = (
-/obj/structure/chair{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
-"cZp" = (
-/obj/machinery/door/airlock/medical/glass{
-	id_tag = null;
-	name = "Escape Shuttle Infirmary";
-	req_access_txt = "0"
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
 "cZq" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -74948,6 +73763,7 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
+<<<<<<< HEAD
 "cZr" = (
 /obj/structure/sign/bluecross_2,
 /turf/closed/wall/mineral/titanium,
@@ -74970,182 +73786,11 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/escape)
+=======
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 "cZv" = (
 /turf/open/floor/circuit/killroom,
 /area/science/xenobiology)
-"cZw" = (
-/obj/structure/table,
-/obj/item/reagent_containers/glass/bottle/epinephrine{
-	pixel_x = 6
-	},
-/obj/item/reagent_containers/glass/bottle/charcoal{
-	pixel_x = -3
-	},
-/obj/item/reagent_containers/glass/bottle/epinephrine{
-	pixel_x = -3;
-	pixel_y = 8
-	},
-/obj/item/reagent_containers/glass/bottle/charcoal{
-	pixel_x = 6;
-	pixel_y = 8
-	},
-/obj/item/reagent_containers/syringe/epinephrine{
-	pixel_x = 3;
-	pixel_y = -2
-	},
-/obj/item/reagent_containers/syringe/epinephrine{
-	pixel_x = 4;
-	pixel_y = 1
-	},
-/obj/item/reagent_containers/syringe/epinephrine{
-	pixel_x = -2;
-	pixel_y = 5
-	},
-/obj/item/reagent_containers/syringe/epinephrine{
-	pixel_x = 2;
-	pixel_y = 8
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
-"cZx" = (
-/obj/structure/table,
-/obj/item/defibrillator/loaded,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
-"cZy" = (
-/obj/structure/table,
-/obj/item/paper_bin{
-	pixel_x = -2;
-	pixel_y = 8
-	},
-/obj/item/device/radio/intercom{
-	dir = 2;
-	name = "Station Intercom (General)";
-	pixel_y = -31
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
-"cZz" = (
-/obj/structure/table/optable,
-/obj/item/surgical_drapes,
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
-"cZA" = (
-/obj/structure/table,
-/obj/item/folder/blue,
-/obj/structure/extinguisher_cabinet{
-	dir = 4;
-	pixel_y = -27
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
-"cZB" = (
-/obj/machinery/space_heater,
-/obj/structure/extinguisher_cabinet{
-	dir = 4;
-	pixel_y = -27
-	},
-/obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel,
-/area/shuttle/escape)
-"cZC" = (
-/obj/machinery/door/airlock/titanium{
-	name = "Emergency Shuttle Cargo Bay Airlock"
-	},
-/obj/effect/turf_decal/delivery,
-/turf/open/floor/plasteel,
-/area/shuttle/escape)
-"cZD" = (
-/obj/structure/chair{
-	dir = 4
-	},
-/turf/open/floor/mineral/plastitanium/brig,
-/area/shuttle/escape)
-"cZE" = (
-/obj/structure/table,
-/obj/item/storage/box/handcuffs{
-	pixel_x = 2;
-	pixel_y = 2
-	},
-/turf/open/floor/mineral/plastitanium/brig,
-/area/shuttle/escape)
-"cZF" = (
-/obj/structure/chair,
-/turf/open/floor/mineral/plastitanium/brig,
-/area/shuttle/escape)
-"cZG" = (
-/turf/open/floor/mineral/plastitanium/brig,
-/area/shuttle/escape)
-"cZH" = (
-/obj/structure/table,
-/obj/machinery/recharger{
-	active_power_usage = 0;
-	idle_power_usage = 0;
-	use_power = 0
-	},
-/turf/open/floor/mineral/plastitanium/brig,
-/area/shuttle/escape)
-"cZI" = (
-/obj/machinery/door/airlock/security/glass{
-	name = "Brig";
-	req_access_txt = "2"
-	},
-/turf/open/floor/mineral/plastitanium/brig,
-/area/shuttle/escape)
-"cZJ" = (
-/obj/structure/table,
-/obj/item/restraints/handcuffs{
-	pixel_y = 3
-	},
-/turf/open/floor/mineral/plastitanium/brig,
-/area/shuttle/escape)
-"cZK" = (
-/obj/structure/closet/emcloset,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
-"cZL" = (
-/obj/structure/chair{
-	dir = 4
-	},
-/turf/open/floor/plasteel/floorgrime,
-/area/shuttle/escape)
-"cZM" = (
-/obj/machinery/shower,
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
-"cZN" = (
-/obj/machinery/sleeper{
-	dir = 8
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
-"cZO" = (
-/obj/structure/rack,
-/obj/item/crowbar,
-/obj/item/wrench,
-/obj/item/weldingtool,
-/obj/item/wirecutters,
-/obj/item/stack/cable_coil,
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/shuttle/escape)
-"cZP" = (
-/obj/structure/reagent_dispensers/watertank,
-/obj/effect/turf_decal/delivery,
-/turf/open/floor/plasteel,
-/area/shuttle/escape)
-"cZQ" = (
-/obj/machinery/door/airlock/command/glass{
-	name = "Cockpit";
-	req_access_txt = "19"
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
 "cZR" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/structure/cable/yellow{
@@ -75159,160 +73804,6 @@
 	dir = 8
 	},
 /area/security/main)
-"cZS" = (
-/obj/structure/table,
-/obj/item/restraints/handcuffs{
-	pixel_y = 3
-	},
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
-"cZT" = (
-/obj/structure/table,
-/obj/item/storage/firstaid/regular,
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
-"cZU" = (
-/obj/structure/reagent_dispensers/fueltank,
-/obj/effect/turf_decal/delivery,
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/shuttle/escape)
-"cZV" = (
-/obj/machinery/door/airlock/command{
-	name = "Emergency Recovery Airlock";
-	req_access = null;
-	req_access_txt = "19"
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
-"cZW" = (
-/obj/effect/turf_decal/delivery,
-/turf/open/floor/plasteel,
-/area/shuttle/escape)
-"cZX" = (
-/obj/machinery/recharge_station,
-/obj/effect/turf_decal/delivery,
-/turf/open/floor/plasteel,
-/area/shuttle/escape)
-"cZY" = (
-/obj/structure/chair{
-	dir = 8
-	},
-/turf/open/floor/mineral/plastitanium/brig,
-/area/shuttle/escape)
-"cZZ" = (
-/obj/structure/chair/office/dark{
-	dir = 8
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
-"daa" = (
-/obj/machinery/computer/security,
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
-"dab" = (
-/obj/structure/reagent_dispensers/peppertank,
-/turf/closed/wall/mineral/titanium,
-/area/shuttle/escape)
-"dac" = (
-/obj/structure/rack,
-/obj/item/storage/toolbox/electrical{
-	pixel_x = -3;
-	pixel_y = 1
-	},
-/obj/item/storage/toolbox/mechanical{
-	pixel_y = -1
-	},
-/obj/item/storage/toolbox/emergency{
-	pixel_x = 3;
-	pixel_y = -5
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/shuttle/escape)
-"dad" = (
-/obj/machinery/suit_storage_unit/standard_unit,
-/turf/open/floor/plasteel/floorgrime,
-/area/shuttle/escape)
-"dae" = (
-/obj/machinery/door/airlock/external{
-	name = "Emergency Recovery Airlock"
-	},
-/turf/open/floor/plasteel/floorgrime,
-/area/shuttle/escape)
-"daf" = (
-/obj/machinery/computer/crew,
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
-"dag" = (
-/obj/structure/chair/office/dark,
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
-"dah" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/shuttle/escape)
-"dai" = (
-/obj/structure/table,
-/obj/item/storage/fancy/donut_box,
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
-"daj" = (
-/obj/structure/table,
-/obj/item/phone{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/cigbutt/cigarbutt{
-	pixel_x = 5;
-	pixel_y = -1
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
-"dak" = (
-/obj/machinery/computer/communications{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
-"dal" = (
-/obj/machinery/computer/emergency_shuttle{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
-"dam" = (
-/obj/structure/table,
-/obj/item/storage/toolbox/emergency{
-	pixel_y = 3
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
-"dan" = (
-/obj/machinery/computer/station_alert{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
-"dao" = (
-/obj/structure/table,
-/obj/machinery/recharger{
-	active_power_usage = 0;
-	idle_power_usage = 0;
-	pixel_y = 4;
-	use_power = 0
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
 "dap" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/structure/chair{
@@ -75323,89 +73814,6 @@
 	dir = 4
 	},
 /area/security/main)
-"daq" = (
-/obj/structure/table,
-/obj/item/folder/red{
-	pixel_x = 3
-	},
-/obj/item/folder/white{
-	pixel_x = -4;
-	pixel_y = 2
-	},
-/obj/item/device/radio/intercom{
-	dir = 2;
-	name = "Station Intercom (General)";
-	pixel_y = -31
-	},
-/obj/item/book/manual/wiki/security_space_law{
-	pixel_x = -4;
-	pixel_y = 4
-	},
-/turf/open/floor/mineral/plastitanium/brig,
-/area/shuttle/escape)
-"dar" = (
-/obj/structure/reagent_dispensers/watertank,
-/turf/open/floor/plasteel/floorgrime,
-/area/shuttle/escape)
-"das" = (
-/obj/structure/table,
-/obj/item/scalpel{
-	pixel_y = 12
-	},
-/obj/item/circular_saw,
-/obj/item/retractor{
-	pixel_x = 4
-	},
-/obj/item/hemostat{
-	pixel_x = -4
-	},
-/obj/item/clothing/gloves/color/latex,
-/obj/item/clothing/mask/surgical,
-/obj/item/device/radio/intercom{
-	dir = 2;
-	name = "Station Intercom (General)";
-	pixel_x = -27
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
-"dat" = (
-/obj/machinery/vending/wallmed{
-	name = "Emergency NanoMed";
-	req_access_txt = "0";
-	use_power = 0
-	},
-/turf/closed/wall/mineral/titanium,
-/area/shuttle/escape)
-"dau" = (
-/obj/structure/sink,
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
-"dav" = (
-/obj/structure/rack,
-/obj/item/tank/internals/oxygen/red,
-/obj/item/clothing/suit/fire/firefighter,
-/obj/item/clothing/mask/gas,
-/obj/item/clothing/head/hardhat/red,
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/shuttle/escape)
-"daw" = (
-/obj/item/device/radio/intercom{
-	dir = 2;
-	name = "Station Intercom (General)";
-	pixel_y = -31
-	},
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/obj/effect/turf_decal/bot,
-/obj/machinery/light/small,
-/turf/open/floor/plasteel,
-/area/shuttle/escape)
-"dax" = (
-/obj/structure/extinguisher_cabinet,
-/turf/closed/wall/mineral/titanium,
-/area/shuttle/escape)
 "daA" = (
 /obj/machinery/door/window/southleft{
 	dir = 2;
@@ -76823,34 +75231,6 @@
 /obj/docking_port/stationary/public_mining_dock,
 /turf/open/floor/plating,
 /area/shuttle/auxillary_base)
-"ddH" = (
-/obj/machinery/door/airlock/external,
-/turf/open/floor/pod/dark,
-/area/shuttle/transport)
-"ddJ" = (
-/obj/machinery/door/airlock/titanium,
-/turf/open/floor/pod/light,
-/area/shuttle/transport)
-"ddK" = (
-/obj/machinery/computer/shuttle/ferry/request{
-	dir = 8
-	},
-/turf/open/floor/pod/dark,
-/area/shuttle/transport)
-"ddL" = (
-/obj/structure/shuttle/engine/heater{
-	dir = 8
-	},
-/obj/structure/window/reinforced{
-	dir = 1;
-	pixel_y = 1
-	},
-/turf/open/floor/plating/airless,
-/area/shuttle/transport)
-"ddM" = (
-/obj/machinery/door/airlock/external,
-/turf/open/floor/pod/light,
-/area/shuttle/transport)
 "ddO" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible,
 /turf/open/floor/plasteel/dark,
@@ -78941,12 +77321,6 @@
 	},
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
-"djE" = (
-/obj/structure/chair{
-	dir = 8
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
 "djM" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 4
@@ -78960,6 +77334,7 @@
 	name = "arrivals";
 	width = 7
 	},
+<<<<<<< HEAD
 /turf/open/floor/plating/airless,
 /area/shuttle/arrival)
 "djR" = (
@@ -78968,6 +77343,10 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/arrival)
+=======
+/turf/open/space/basic,
+/area/space)
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 "djW" = (
 /obj/structure/table/wood,
 /obj/item/clipboard,
@@ -78985,192 +77364,6 @@
 	},
 /turf/open/floor/plating,
 /area/chapel/main)
-"dli" = (
-/obj/structure/chair,
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
-"dlj" = (
-/obj/structure/chair{
-	dir = 1
-	},
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
-"dlk" = (
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/machinery/light/small/built{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
-"dll" = (
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/machinery/light/built{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
-"dlm" = (
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/machinery/light/built{
-	dir = 2
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
-"dln" = (
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/machinery/light,
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
-"dlo" = (
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"dlp" = (
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
-	},
-/obj/machinery/light/small/built{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"dlq" = (
-/obj/structure/chair,
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
-"dlr" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
-"dls" = (
-/obj/machinery/holopad,
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
-"dlt" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
-"dlv" = (
-/obj/structure/table,
-/obj/item/stack/medical/gauze,
-/obj/item/stack/medical/bruise_pack,
-/obj/item/stack/medical/ointment,
-/obj/machinery/status_display{
-	dir = 8;
-	pixel_x = 32
-	},
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
-"dlw" = (
-/obj/structure/chair{
-	dir = 1
-	},
-/obj/machinery/light,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
-"dlx" = (
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/mineral/plastitanium/brig,
-/area/shuttle/escape)
-"dly" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plasteel/floorgrime,
-/area/shuttle/escape)
-"dlz" = (
-/obj/structure/chair{
-	dir = 8
-	},
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/mineral/plastitanium/brig,
-/area/shuttle/escape)
-"dlA" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/labor)
-"dlB" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/mining)
-"dlC" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/supply)
-"dlD" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/supply)
-"dlE" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/pod/light,
-/area/shuttle/transport)
-"dlF" = (
-/obj/machinery/light/small,
-/turf/open/floor/pod/light,
-/area/shuttle/transport)
-"dlG" = (
-/obj/machinery/light,
-/turf/open/floor/pod/light,
-/area/shuttle/transport)
-"dlH" = (
-/obj/machinery/sleeper{
-	dir = 8
-	},
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
 "dlI" = (
 /turf/closed/wall/r_wall,
 /area/engine/supermatter)
@@ -79275,9 +77468,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
-"dnH" = (
-/turf/open/floor/plating,
-/area/maintenance/port/fore)
 "dnM" = (
 /obj/structure/chair{
 	dir = 8
@@ -79373,6 +77563,13 @@
 "dqT" = (
 /turf/closed/wall/r_wall,
 /area/maintenance/starboard/fore)
+"dqU" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/machinery/vending/coffee,
+/turf/open/floor/plasteel,
+/area/science/mixing)
 "drQ" = (
 /turf/open/floor/plating{
 	icon_state = "platingdmg2"
@@ -79568,9 +77765,6 @@
 /area/maintenance/starboard/aft)
 "dwL" = (
 /turf/closed/wall/r_wall,
-/area/maintenance/starboard/aft)
-"dwN" = (
-/turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "dwQ" = (
 /obj/structure/chair/stool,
@@ -80458,49 +78652,33 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
-"dDN" = (
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
+"dGH" = (
+/obj/effect/landmark/event_spawn,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"dLK" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
 	},
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
 	},
-/obj/structure/chair/office/light{
-	dir = 1
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"eoK" = (
+/obj/structure/disposalpipe/segment{
+	dir = 9
 	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
-"dDO" = (
-/obj/effect/decal/cleanable/blood/old,
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
 	},
-/obj/structure/chair/office/light,
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
-"dDP" = (
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 9
 	},
-/obj/structure/table,
-/obj/item/device/megaphone,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"EDa" = (
-/obj/docking_port/stationary{
-	dheight = 1;
-	dir = 8;
-	dwidth = 12;
-	height = 17;
-	id = "syndicate_nw";
-	name = "northwest of station";
-	turf_type = /turf/open/space;
-	width = 23
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
 	},
+<<<<<<< HEAD
 /turf/open/space/basic,
 /area/space/nearstation)
 "EDb" = (
@@ -80550,46 +78728,500 @@
 /area/shuttle/abandoned)
 "EDl" = (
 /obj/machinery/porta_turret/centcom_shuttle/weak{
+=======
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"eqq" = (
+/obj/item/screwdriver,
+/obj/structure/table/reinforced,
+/obj/structure/sign/poster/official/random{
+	pixel_y = 32
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"eqG" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"evy" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/space)
+"eEe" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"eFN" = (
+/obj/structure/bodycontainer/crematorium{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/chapel/office)
+"eXy" = (
+/obj/machinery/airalarm{
+	pixel_y = 32
+	},
+/obj/structure/disposalpipe/trunk{
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 	dir = 4
 	},
-/turf/closed/wall/mineral/titanium,
-/area/shuttle/abandoned)
-"EDm" = (
-/obj/effect/decal/cleanable/dirt{
-	desc = "A thin layer of dust coating the floor.";
-	name = "dust"
+/obj/machinery/disposal/bin,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"eZe" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
 	},
-/obj/machinery/turretid{
-	icon_state = "control_kill";
-	lethal = 1;
-	locked = 0;
-	pixel_x = -28;
-	req_access = null
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
 	},
-/turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
-"EDo" = (
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"fdr" = (
+/obj/structure/closet/firecloset,
+/turf/open/floor/plating,
+/area/engine/engineering)
+"fDD" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"gfh" = (
+/obj/machinery/libraryscanner,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"gix" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/door/airlock/research/glass{
+	name = "Circuitry Lab";
+	req_access_txt = "47"
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"gnZ" = (
+/obj/item/device/radio/intercom{
+	pixel_y = -30
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"gEk" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"gGT" = (
+/obj/effect/landmark/start/scientist,
+/obj/structure/chair/office/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"gHh" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/door/airlock/maintenance,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"gJs" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /turf/open/floor/plating,
 /area/engine/atmos)
-"EDw" = (
-/obj/machinery/rnd/protolathe/department/service,
-/obj/machinery/door/firedoor,
+"gLC" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/open/floor/plasteel,
+/area/science/misc_lab)
+"gNe" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
 /turf/open/floor/plating,
+/area/maintenance/aft)
+<<<<<<< HEAD
+"Ljw" = (
+/obj/structure/sign/poster/official/random,
+/turf/closed/wall,
 /area/hydroponics)
-"EDx" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/hallway/secondary/entry)
-"EDz" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/security/prison)
-"EDB" = (
+=======
+"gRS" = (
+/obj/structure/table/reinforced,
+/obj/item/device/integrated_circuit_printer/upgraded,
+/obj/item/device/integrated_electronics/analyzer,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"hfJ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/autolathe,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"ioI" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/machinery/door/airlock/research/glass{
+	name = "Circuitry Lab";
+	req_access_txt = "47"
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"izu" = (
+/obj/machinery/autolathe{
+	name = "public autolathe"
+	},
+/obj/machinery/door/window/eastright{
+	dir = 2;
+	name = "Research and Development Desk";
+	req_access_txt = "7"
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "research_shutters";
+	name = "research shutters"
+	},
+/turf/open/floor/plasteel/whitepurple,
+/area/science/lab)
+"jwW" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/crew_quarters/fitness/recreation)
-"EDC" = (
+"jyv" = (
+/obj/item/stock_parts/cell/super,
+/obj/item/stock_parts/cell/super,
+/obj/item/stack/sheet/metal/fifty,
+/obj/structure/table/reinforced,
+/obj/machinery/computer/security/telescreen{
+	desc = "Used for watching the RD's goons from the safety of your own office.";
+	name = "Research Monitor";
+	network = list("RD");
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"kfu" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"krD" = (
+/turf/closed/wall,
+/area/science/circuit)
+"kys" = (
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc{
+	areastring = "/area/hallway/secondary/service";
+	dir = 1;
+	name = "Service Hall APC";
+	pixel_y = 25
+	},
+/obj/machinery/airalarm{
+	dir = 8;
+	pixel_x = 24
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/service)
+"kOt" = (
+/obj/item/device/multitool,
+/obj/item/screwdriver,
+/obj/structure/table/reinforced,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/light_switch{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"kVo" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"lal" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"llb" = (
+/obj/structure/table/reinforced,
+/obj/item/device/integrated_circuit_printer/upgraded,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"lsv" = (
+/obj/machinery/power/apc{
+	areastring = "/area/science/circuit";
+	dir = 1;
+	name = "Circuitry Lab APC";
+	pixel_y = 30
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/structure/table/reinforced,
+/obj/item/device/multitool,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"lzk" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"lMz" = (
+/obj/structure/falsewall,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"lMJ" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space/nearstation)
+"mjJ" = (
+/obj/structure/reagent_dispensers/beerkeg{
+	desc = "One of the more successful achievements of the Nanotrasen Corporate Warfare Division, their nuclear fission explosives are renowned for being cheap to produce and devastatingly effective. Signs explain that though this particular device has been decommissioned, every Nanotrasen station is equipped with an equivalent one, just in case. All Captains carefully guard the disk needed to detonate them - at least, the sign says they do. There seems to be a tap on the back.";
+	icon = 'icons/obj/machines/nuke.dmi';
+	icon_state = "nuclearbomb_base";
+	name = "Nanotrasen-brand nuclear fission explosive";
+	pixel_x = 2;
+	pixel_y = 6
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"mvj" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/closed/wall,
+/area/hallway/secondary/service)
+"mzh" = (
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -24
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"ngl" = (
+/obj/machinery/bookbinder,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"nnK" = (
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/paper_bin,
+/obj/item/pen,
+/obj/structure/table/reinforced,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 32
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"noG" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/science/circuit)
+"nyo" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/service)
+"nAG" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"obb" = (
+/obj/structure/target_stake,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"ocT" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/item/stock_parts/cell/super,
+/obj/item/stock_parts/cell/super,
+/obj/item/stack/sheet/metal/fifty,
+/obj/structure/table/reinforced,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/computer/security/telescreen{
+	desc = "Used for watching the RD's goons from the safety of your own office.";
+	name = "Research Monitor";
+	network = list("RD");
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"ohj" = (
+/obj/item/device/integrated_electronics/analyzer,
+/obj/item/device/integrated_electronics/debugger,
+/obj/item/device/integrated_electronics/wirer,
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"oub" = (
+/obj/structure/sign/poster/official/random,
+/turf/closed/wall,
+/area/hydroponics)
+"oLW" = (
+/obj/structure/table/reinforced,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/requests_console{
+	department = "Science";
+	departmentType = 2;
+	dir = 2;
+	name = "Science Requests Console";
+	pixel_y = 30;
+	receive_ore_updates = 1
+	},
+/obj/item/device/integrated_electronics/debugger,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"oRL" = (
+/obj/docking_port/stationary{
+	dir = 2;
+	dwidth = 11;
+	height = 15;
+	id = "whiteship_home";
+	name = "SS13: Auxiliary Dock, Station-Port";
+	width = 28
+	},
+/turf/open/space/basic,
+/area/space)
+"oUA" = (
+/obj/structure/table/reinforced,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"pvA" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"pCV" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 6
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"qnJ" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/door/airlock/maintenance,
+/obj/machinery/door/firedoor,
+/turf/open/floor/plating,
+/area/science/circuit)
+"qqg" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 6
+	},
+/turf/open/floor/plasteel,
+/area/science/misc_lab)
+"qBh" = (
+/obj/structure/table,
+/obj/item/device/paicard,
+/turf/open/floor/plasteel/whitepurple/side{
+	dir = 2
+	},
+/area/science/research)
+"qBq" = (
 /turf/closed/wall/mineral/plastitanium,
-/area/engine/break_room)
-"EDD" = (
+/area/hallway/secondary/entry)
+"qJZ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"qRM" = (
+/obj/machinery/camera{
+	c_tag = "Research Division Circuitry Lab";
+	dir = 1;
+	network = list("SS13","RD")
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"rzX" = (
+/obj/structure/chair/office/light{
+	dir = 1;
+	pixel_y = 3
+	},
+/turf/open/floor/plasteel/whitepurple/side{
+	dir = 1
+	},
+/area/science/lab)
+"rQK" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
@@ -80604,31 +79236,208 @@
 	dir = 8
 	},
 /area/security/main)
-"EDE" = (
-/obj/structure/closet/firecloset,
-/turf/open/floor/plating,
-/area/engine/engineering)
-"EDF" = (
-/obj/machinery/light/small{
+"rSL" = (
+/obj/machinery/vending/snack/random,
+/turf/open/floor/plasteel,
+/area/science/mixing)
+"sdi" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"siF" = (
+/obj/structure/grille,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"sJW" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/engine/break_room)
+"tjH" = (
+/obj/structure/table/reinforced,
+/obj/machinery/computer/libraryconsole/bookmanagement,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"tsx" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/maintenance/aft)
-"EDG" = (
+/area/maintenance/starboard)
+"txj" = (
+/obj/structure/chair/office/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"tFJ" = (
+/obj/structure/bodycontainer/morgue{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/medical/morgue)
+"tVY" = (
+/obj/structure/closet/crate,
+/obj/item/target/alien,
+/obj/item/target/alien,
+/obj/item/target/clown,
+/obj/item/target/clown,
+/obj/item/target/syndicate,
+/obj/item/target/syndicate,
+/obj/item/gun/energy/laser/practice,
+/obj/item/gun/energy/laser/practice,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"upN" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"urv" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/security/prison)
+"uun" = (
+/obj/machinery/vending/assist,
+/turf/open/floor/plasteel,
+/area/science/mixing)
+"uGW" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 5
+	},
+/turf/open/floor/plasteel,
+/area/science/mixing)
+"uHc" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"uJU" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plating,
+/area/maintenance/starboard)
+"uRM" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel/whitepurple/side{
+	dir = 2
+	},
+/area/science/research)
+"uTS" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/rnd/protolathe/department/science,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"uYk" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"vhG" = (
+/obj/structure/table/glass,
+/obj/machinery/camera/autoname{
+	dir = 4;
+	network = list("SS13")
+	},
+/turf/open/floor/plasteel,
+/area/science/misc_lab)
+"vLD" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
+"wFH" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
 /obj/effect/landmark/blobstart,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
-"EDH" = (
+"wKo" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 2
+	},
+/turf/closed/wall,
+/area/science/circuit)
+"wOE" = (
 /obj/machinery/droneDispenser,
 /turf/open/floor/plating,
 /area/maintenance/aft)
-"Ljw" = (
-/obj/structure/sign/poster/official/random,
+"wPk" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"wRy" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel,
+/area/science/misc_lab)
+"xkG" = (
+/obj/item/device/integrated_electronics/wirer,
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"xyp" = (
+/obj/docking_port/stationary{
+	dheight = 1;
+	dir = 8;
+	dwidth = 12;
+	height = 17;
+	id = "syndicate_nw";
+	name = "northwest of station";
+	turf_type = /turf/open/space;
+	width = 23
+	},
+/turf/open/space/basic,
+/area/space/nearstation)
+"xAp" = (
+/obj/structure/chair/comfy,
+/turf/open/floor/plasteel,
+/area/science/misc_lab)
+"xVl" = (
 /turf/closed/wall,
-/area/hydroponics)
+/area/hallway/secondary/service)
+"xVP" = (
+/obj/machinery/light,
+/obj/structure/sign/poster/official/random{
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"ygk" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"ykE" = (
+/obj/machinery/light,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 
 (1,1,1) = {"
 aaa
@@ -89730,7 +88539,7 @@ aaa
 aaa
 aaa
 aaa
-EDx
+qBq
 aRA
 aRA
 aRA
@@ -90535,6 +89344,7 @@ aWU
 bOd
 aZZ
 bOd
+<<<<<<< HEAD
 EDi
 cVY
 cWp
@@ -90550,6 +89360,23 @@ cXa
 dlp
 cYy
 cVF
+=======
+oRL
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 aaa
 aaa
 aaa
@@ -90758,7 +89585,7 @@ aaa
 aaa
 aaf
 aaa
-EDx
+qBq
 aRA
 aRA
 aRA
@@ -91483,7 +90310,7 @@ aaa
 aaa
 aaa
 aaa
-EDa
+xyp
 aaa
 aaa
 aaa
@@ -94342,7 +93169,7 @@ arX
 dne
 dne
 dne
-dnH
+aRG
 aoc
 drQ
 dne
@@ -94351,8 +93178,8 @@ dne
 dst
 aDc
 dhE
-dnH
-dnH
+aRG
+aRG
 cWA
 auG
 dnd
@@ -98195,7 +97022,7 @@ apt
 dnk
 doJ
 atu
-dnH
+aRG
 dnZ
 awQ
 ayk
@@ -99732,7 +98559,7 @@ aji
 dnd
 alE
 dnr
-dnH
+aRG
 alE
 dou
 dne
@@ -100503,7 +99330,7 @@ dho
 akq
 alH
 amW
-dnH
+aRG
 apw
 dod
 dne
@@ -100760,7 +99587,7 @@ ajl
 akr
 alI
 amX
-dnH
+aRG
 dnZ
 aqP
 dne
@@ -100860,7 +99687,11 @@ cLT
 cMC
 cNt
 cTf
+<<<<<<< HEAD
 cNt
+=======
+eFN
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 cMI
 cPC
 djX
@@ -101017,8 +99848,8 @@ aio
 aks
 alJ
 amY
-dnH
-dnH
+aRG
+aRG
 aqQ
 dne
 atB
@@ -105366,7 +104197,7 @@ aaf
 aaf
 aaf
 aaa
-EDz
+urv
 aax
 aax
 aax
@@ -105986,9 +104817,15 @@ cyZ
 cAd
 ctA
 dbr
+<<<<<<< HEAD
 cCj
 dDC
 cCj
+=======
+tFJ
+dDC
+tFJ
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 cFU
 cCe
 ctK
@@ -106394,7 +105231,7 @@ aaa
 aaf
 aaa
 aaa
-EDz
+urv
 abe
 abe
 abe
@@ -109048,7 +107885,11 @@ bZk
 cau
 cce
 ccd
+<<<<<<< HEAD
 ceN
+=======
+qBh
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 cgd
 chj
 ciC
@@ -109819,9 +108660,15 @@ bZm
 cax
 cch
 cdK
+<<<<<<< HEAD
 ceQ
 cge
 chk
+=======
+uRM
+cgf
+rzX
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 ciF
 ckb
 clD
@@ -110013,7 +108860,7 @@ akM
 alY
 cZR
 cZR
-EDD
+rQK
 arm
 asC
 atT
@@ -110077,7 +108924,11 @@ cay
 cci
 cdL
 ceR
+<<<<<<< HEAD
 cgf
+=======
+izu
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 chm
 ciG
 ckc
@@ -110108,7 +108959,7 @@ cIN
 cJM
 cCq
 cgM
-EDF
+gNe
 cwc
 cNe
 cNT
@@ -110365,7 +109216,7 @@ cFh
 cFh
 cKH
 cLz
-EDG
+wFH
 cMk
 bTs
 bTs
@@ -110623,7 +109474,7 @@ cJN
 cCq
 cgN
 cMl
-EDH
+wOE
 bTs
 aaf
 aaf
@@ -114693,7 +113544,7 @@ bNA
 bOU
 bQD
 bRS
-Ljw
+oub
 bUi
 bVu
 bWO
@@ -115227,6 +114078,7 @@ com
 cpA
 cqS
 cgq
+<<<<<<< HEAD
 cgq
 crR
 crR
@@ -115238,6 +114090,21 @@ dvY
 cAI
 cBD
 cCD
+=======
+dwL
+dwL
+dwL
+dwL
+dwL
+dwL
+xAp
+vhG
+cAI
+cBD
+cCD
+uun
+rSL
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 dvY
 cEz
 cFt
@@ -115490,8 +114357,19 @@ cuX
 cvZ
 dvY
 cub
+<<<<<<< HEAD
 cKc
 czC
+=======
+cJa
+cJa
+cJa
+gHh
+wRy
+wRy
+wRy
+cBE
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 cAJ
 cBE
 cCE
@@ -115721,8 +114599,8 @@ bNC
 bOW
 bQH
 bRV
-EDw
-bUl
+bST
+bUh
 bVx
 bWS
 bYi
@@ -115745,6 +114623,7 @@ cgq
 dxO
 cuY
 cwa
+<<<<<<< HEAD
 dvY
 dyQ
 dwN
@@ -115757,6 +114636,22 @@ dww
 dwN
 dyc
 cIn
+=======
+dzQ
+dwL
+gLC
+qqg
+cAK
+cBF
+cCF
+uGW
+dqU
+dvY
+dww
+gEk
+eZe
+cJa
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 cPx
 cJb
 cKb
@@ -116001,10 +114896,15 @@ crW
 cgq
 dvY
 cuZ
+<<<<<<< HEAD
 dvY
 dvY
 dxQ
 dwv
+=======
+ioI
+krD
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 czD
 cAL
 cBG
@@ -116259,9 +115159,17 @@ cgq
 cub
 cva
 cwb
+<<<<<<< HEAD
 cIk
 cxM
 dvY
+=======
+lal
+ygk
+sdi
+fDD
+wKo
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 czD
 cQC
 cBH
@@ -116514,11 +115422,21 @@ cgq
 cgq
 cgq
 dxQ
+<<<<<<< HEAD
 dyc
 dwN
 dvY
 dvY
 dvY
+=======
+cuZ
+eqG
+cwZ
+cwZ
+cyM
+uYk
+krD
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 cQv
 cAN
 cBI
@@ -116767,7 +115685,11 @@ clW
 cIk
 cJa
 cpG
+<<<<<<< HEAD
 cJa
+=======
+kVo
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 dDu
 ctk
 cuc
@@ -116776,6 +115698,11 @@ dyp
 cwZ
 dwN
 cyM
+<<<<<<< HEAD
+=======
+xVP
+krD
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 czF
 cAN
 cBJ
@@ -116798,9 +115725,13 @@ aaa
 aaf
 aaa
 aaa
+<<<<<<< HEAD
 aaa
 aaa
 aaa
+=======
+vLD
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 aaa
 aaf
 aaa
@@ -117027,12 +115958,23 @@ dvY
 dvY
 dvY
 dvY
+<<<<<<< HEAD
 dvY
 cuZ
 dvY
 dvY
 cxN
 dvY
+=======
+qnJ
+cuZ
+upN
+cxN
+cxN
+qJZ
+cxO
+krD
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 czG
 cAN
 cBK
@@ -117285,11 +116227,21 @@ cqX
 cpH
 dvY
 cud
+<<<<<<< HEAD
 cvc
 dwN
 dvY
 cxO
 dvY
+=======
+cuZ
+eXy
+cxO
+cxO
+dGH
+mzh
+krD
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 cQB
 cAO
 cBL
@@ -117541,12 +116493,23 @@ cpI
 cqY
 crY
 dvY
+<<<<<<< HEAD
 dww
 cpK
 cwd
 dvY
 cxP
 dvY
+=======
+lzk
+gix
+cwd
+kfu
+cxP
+cxO
+gnZ
+krD
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 czI
 cAP
 cAP
@@ -117798,12 +116761,23 @@ cpJ
 cqZ
 dvY
 dvY
+<<<<<<< HEAD
 dvY
 dxk
 dvY
 dvY
 cxO
 dvY
+=======
+obb
+krD
+kOt
+gRS
+oUA
+cxO
+qRM
+krD
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 aaf
 aaf
 aaf
@@ -118037,10 +117011,10 @@ byN
 bTb
 bUt
 bVA
-bVA
+nyo
 bYp
 bZy
-bVA
+tsx
 bZB
 cdW
 cfk
@@ -118055,7 +117029,18 @@ dxh
 clY
 crZ
 dvY
+<<<<<<< HEAD
 aaa
+=======
+tVY
+krD
+oLW
+gGT
+wPk
+dGH
+cxO
+krD
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 aaf
 aaa
 aaf
@@ -118293,11 +117278,11 @@ cco
 byN
 bTc
 bUu
-apb
-apb
+xVl
+kys
 cow
-bZz
-apb
+xVl
+dLK
 alq
 alq
 cfl
@@ -118311,12 +117296,24 @@ cot
 cnb
 cra
 csa
+<<<<<<< HEAD
 dxk
 aaf
 aaf
 aaf
 aaf
 ack
+=======
+dvY
+lMz
+krD
+ocT
+xkG
+uTS
+cxO
+ykE
+krD
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 aaa
 aaa
 aaa
@@ -118548,13 +117545,13 @@ dim
 bPe
 dis
 byN
-apc
+bvd
 bUv
-anM
-apb
-bXa
-bZz
-caV
+xVl
+xVl
+mvj
+xVl
+dLK
 alq
 cdX
 cfm
@@ -118569,12 +117566,23 @@ dwN
 cou
 csb
 dvY
+<<<<<<< HEAD
 aaa
 aaf
 aaa
 aaa
 aaa
 aaa
+=======
+mjJ
+krD
+eqq
+llb
+hfJ
+cxO
+tjH
+krD
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 aaa
 aaa
 aaa
@@ -118736,7 +117744,7 @@ aaa
 aaa
 aaf
 aaa
-EDB
+jwW
 adl
 aQf
 adl
@@ -118808,9 +117816,9 @@ byN
 cjr
 bTe
 bVB
-apb
-bXa
-bZz
+bVC
+nAG
+pCV
 caW
 alq
 cdY
@@ -118825,6 +117833,7 @@ dwN
 dwN
 cgs
 csc
+<<<<<<< HEAD
 dxk
 aaa
 aaf
@@ -118832,6 +117841,17 @@ aaa
 aaa
 aaa
 aaa
+=======
+dvY
+evy
+krD
+lsv
+txj
+eEe
+cxO
+ngl
+krD
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 aaa
 aaa
 aaa
@@ -119062,11 +118082,11 @@ bHl
 bPg
 bHl
 bSc
-bTe
-apc
-bVC
-apb
-bXa
+eoK
+uHc
+uJU
+uJU
+pvA
 bZA
 bZE
 bZE
@@ -119083,12 +118103,23 @@ cpK
 dwN
 csc
 dvY
+<<<<<<< HEAD
 aaa
 aaf
 aaa
 aaa
 aaa
 aaa
+=======
+vLD
+krD
+jyv
+ohj
+nnK
+cxO
+gfh
+krD
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 aaa
 aaa
 aaa
@@ -119339,6 +118370,7 @@ cov
 cpL
 crb
 csd
+<<<<<<< HEAD
 dxk
 aaa
 aaf
@@ -119346,6 +118378,17 @@ aaa
 aaa
 aaa
 aaa
+=======
+dvY
+vLD
+krD
+krD
+noG
+krD
+noG
+krD
+krD
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 aaa
 aaa
 aaa
@@ -119863,6 +118906,11 @@ aaf
 aaf
 aaf
 aaf
+<<<<<<< HEAD
+=======
+lMJ
+lMJ
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 aaf
 aaa
 aaf
@@ -120311,7 +119359,7 @@ axY
 aJm
 aKy
 aMb
-EDE
+fdr
 axY
 aPX
 aRm
@@ -122156,7 +121204,11 @@ cbe
 ccO
 bza
 aaf
+<<<<<<< HEAD
 EDo
+=======
+gJs
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 chO
 cjd
 ckG
@@ -122176,6 +121228,11 @@ aaa
 aaa
 aaf
 aaf
+<<<<<<< HEAD
+=======
+lMJ
+lMJ
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 aaf
 aaf
 aaa
@@ -122210,8 +121267,11 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 aaa
 aaa
+=======
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 aaa
 aaa
 aaa
@@ -123184,7 +122244,7 @@ cbi
 ccS
 bza
 aaf
-EDo
+gJs
 chR
 cjg
 ckH
@@ -124212,7 +123272,7 @@ cVJ
 ccQ
 bza
 aaf
-EDo
+gJs
 chU
 cjj
 ckJ
@@ -124439,7 +123499,7 @@ dgI
 bgb
 cTi
 bgb
-EDC
+sJW
 aNC
 brM
 aNC
@@ -125003,6 +124063,11 @@ aaa
 aaf
 aaf
 aaf
+<<<<<<< HEAD
+=======
+lMJ
+lMJ
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 aaf
 aaf
 aaa
@@ -125734,19 +124799,19 @@ aaa
 aaf
 bAR
 dBC
-EDo
+gJs
 bFZ
 bAR
 bCA
-EDo
+gJs
 bFZ
 bAR
 bCA
-EDo
+gJs
 bFZ
 bAR
 bCA
-EDo
+gJs
 bFZ
 bAR
 aaf
@@ -128545,7 +127610,7 @@ aaa
 aaa
 aag
 aaa
-EDb
+siF
 aaa
 aaa
 aaa
@@ -128562,7 +127627,7 @@ bzj
 bzj
 aai
 bzj
-EDb
+siF
 bzj
 bzj
 bKK
@@ -128570,7 +127635,7 @@ bzj
 bzj
 bzj
 bzj
-EDb
+siF
 aai
 bzj
 bzj
@@ -130104,7 +129169,7 @@ aaa
 aaa
 aai
 aaa
-EDb
+siF
 aaa
 aaa
 aaa
@@ -130361,7 +129426,7 @@ aaa
 aaa
 aai
 aaa
-EDb
+siF
 aaa
 aaa
 aaa
@@ -131115,7 +130180,7 @@ aaa
 aaa
 aag
 aaa
-EDb
+siF
 aaa
 aaa
 aaf
@@ -131646,7 +130711,7 @@ aaf
 aaf
 aag
 aaa
-EDb
+siF
 aaa
 aaa
 aaa
