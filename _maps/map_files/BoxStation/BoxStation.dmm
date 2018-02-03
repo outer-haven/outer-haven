@@ -13462,8 +13462,9 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+/obj/structure/cable{
+	icon_state = "1-8"
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
@@ -14016,9 +14017,7 @@
 	dir = 4;
 	sortType = 21
 	},
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
-	dir = 1
-	},
+/obj/machinery/atmospherics/pipe/manifold4w/scrubbers/hidden,
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
 "aIk" = (
@@ -33181,7 +33180,7 @@
 /obj/machinery/door/airlock/medical/glass{
 	id_tag = null;
 	name = "Medbay Storage";
-	req_access_txt = "45"
+	req_access_txt = "5"
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -33223,13 +33222,13 @@
 /turf/open/floor/plasteel/floorgrime,
 /area/science/storage)
 "bEd" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /obj/machinery/door/airlock/medical/glass{
 	id_tag = null;
 	name = "Medbay Storage";
-	req_access_txt = "45"
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
+	req_access_txt = "5"
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/sleeper)
@@ -39629,10 +39628,13 @@
 /obj/machinery/vending/medical,
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
+<<<<<<< HEAD
 "bSZ" = (
 /obj/effect/landmark/revenantspawn,
 /turf/open/floor/engine,
 /area/science/xenobiology)
+=======
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 "bTa" = (
 /obj/machinery/door/window/northleft{
 	dir = 4;
@@ -55458,6 +55460,7 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/xenobiology)
+<<<<<<< HEAD
 "kSb" = (
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
@@ -56861,11 +56864,317 @@
 "Qov" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+=======
+"cVb" = (
+/turf/closed/wall,
+/area/hallway/secondary/service)
+"dfh" = (
+/obj/machinery/power/apc{
+	areastring = "/area/science/circuit";
+	name = "Circuitry Lab APC";
+	pixel_x = 30
+	},
+/obj/effect/turf_decal/stripes/line{
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"dMZ" = (
+/obj/structure/sign/poster/official/random{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"eaI" = (
+/obj/structure/table/reinforced,
+/obj/item/device/radio/intercom{
+	pixel_x = -30
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"eyM" = (
+/obj/machinery/mineral/ore_redemption{
+	input_dir = 2;
+	output_dir = 1
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/plasteel,
+/area/quartermaster/miningdock)
+"eRz" = (
+/obj/structure/lattice,
+/obj/structure/grille,
+/turf/open/space/basic,
+/area/space/nearstation)
+"eVL" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/machinery/light_switch{
+	pixel_y = 28
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/quartermaster/miningdock)
+"flc" = (
+/obj/machinery/bookbinder,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"fnC" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/machinery/airalarm{
+	dir = 4;
+	pixel_x = -23
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/hydrofloor,
+/area/hallway/secondary/service)
+"fsQ" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/dark,
+/area/engine/engineering)
+"fKl" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/effect/landmark/event_spawn,
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"gbq" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/construction)
+"gbT" = (
+/obj/structure/table,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/turf/open/floor/plating,
+/area/maintenance/department/medical/morgue)
+"gjl" = (
+/turf/closed/wall,
+/area/quartermaster/warehouse)
+"gwd" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"gWd" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plating,
+/area/construction)
+"gXs" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space/nearstation)
+"gZG" = (
+/obj/structure/closet/crate/freezer/surplus_limbs,
+/obj/item/reagent_containers/glass/beaker/synthflesh,
+/turf/open/floor/plasteel/white/side{
+	dir = 8
+	},
+/area/medical/sleeper)
+<<<<<<< HEAD
+=======
+"hcE" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "Cargo Warehouse APC";
+	areastring = "/area/quartermaster/warehouse";
+	pixel_x = 26
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating,
+/area/maintenance/port)
+"ijc" = (
+/obj/structure/table,
+/obj/item/stack/sheet/metal/fifty,
+/turf/open/floor/plasteel/dark,
+/area/engine/engineering)
+"ipA" = (
+/obj/machinery/droneDispenser,
+/turf/open/floor/plating,
+/area/maintenance/department/medical/morgue)
+"itG" = (
+/obj/structure/table/reinforced,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"iNn" = (
+/obj/machinery/camera{
+	c_tag = "Kitchen Cold Room"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/reagent_dispensers/cooking_oil,
+/turf/open/floor/plasteel/showroomfloor,
+/area/crew_quarters/kitchen)
+"jbf" = (
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/apc{
+	areastring = "/area/hallway/secondary/service";
+	dir = 1;
+	name = "Service Hall APC";
+	pixel_y = 25
+	},
+/turf/open/floor/plasteel/hydrofloor,
+/area/hallway/secondary/service)
+"jgm" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/machinery/camera{
+	c_tag = "Circuitry Lab";
+	dir = 8;
+	network = list("SS13","RD")
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"jlm" = (
+/obj/machinery/rnd/protolathe/department/cargo,
+/turf/open/floor/plasteel,
+/area/quartermaster/office)
+"jrE" = (
+/obj/machinery/rnd/protolathe/department/science,
+/obj/structure/sign/poster/official/random{
+	pixel_x = 32
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"jAD" = (
+/obj/structure/grille,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"jCq" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 5
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"jHt" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"jMY" = (
+/obj/structure/table,
+/obj/item/stack/cable_coil{
+	pixel_x = 3;
+	pixel_y = -7
+	},
+/obj/item/stack/cable_coil,
+/turf/open/floor/plasteel/dark,
+/area/engine/engineering)
+"jSO" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"jVl" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"khb" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 10
+	},
+/obj/structure/table,
+/obj/item/kitchen/rollingpin,
+/turf/open/floor/plasteel/hydrofloor,
+/area/hallway/secondary/service)
+"kob" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"kPd" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/hydrofloor,
+/area/hallway/secondary/service)
+"kQk" = (
+/obj/structure/rack,
+/obj/effect/spawner/lootdrop/maintenance{
+	lootcount = 2;
+	name = "2maintenance loot spawner"
+	},
+/turf/open/floor/plating,
+/area/maintenance/department/medical/morgue)
+"kQq" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
 	dir = 4
 	},
 /turf/open/floor/engine,
 /area/engine/engineering)
-"Qoz" = (
+"kSb" = (
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel,
+/area/quartermaster/miningdock)
+"lAB" = (
+/obj/structure/sign/nanotrasen,
+/turf/closed/wall,
+/area/science/circuit)
+"lMg" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"lQG" = (
+/obj/effect/spawner/structure/window,
+/turf/open/floor/plating,
+/area/science/circuit)
+"mBv" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
@@ -56876,116 +57185,72 @@
 	},
 /turf/open/floor/engine,
 /area/engine/engineering)
-"QoA" = (
-/obj/structure/table,
-/obj/item/stack/cable_coil{
-	pixel_x = 3;
-	pixel_y = -7
+"mNi" = (
+/obj/machinery/light_switch{
+	pixel_x = -20
 	},
-/obj/item/stack/cable_coil,
-/turf/open/floor/plasteel/dark,
-/area/engine/engineering)
-"QoB" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/turf/open/floor/plasteel/dark,
-/area/engine/engineering)
-"QoC" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/plasteel/dark,
-/area/engine/engineering)
-"QoD" = (
-/obj/structure/table,
-/obj/item/stack/sheet/metal/fifty,
-/turf/open/floor/plasteel/dark,
-/area/engine/engineering)
-"QoG" = (
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"mRe" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"noK" = (
 /obj/structure/girder,
 /turf/open/floor/plasteel/dark,
 /area/engine/engineering)
-"QoH" = (
-/obj/item/wrench,
-/obj/item/weldingtool,
-/obj/item/clothing/head/welding{
-	pixel_x = -3;
-	pixel_y = 5
+"nxv" = (
+/obj/machinery/power/apc{
+	name = "Construction Area APC";
+	areastring = "/area/construction";
+	pixel_y = -24
 	},
-/obj/structure/rack,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plating,
+/area/construction)
+"nzh" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/dark,
 /area/engine/engineering)
-"QoI" = (
+"nGt" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"nRG" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"oDF" = (
 /obj/machinery/light,
 /turf/open/floor/plating,
 /area/engine/engineering)
-"QoK" = (
-/obj/item/crowbar/large,
-/obj/structure/rack,
-/obj/item/device/flashlight,
-/turf/open/floor/plasteel/dark,
-/area/engine/engineering)
-"QoL" = (
-/obj/machinery/camera{
-	c_tag = "Kitchen Cold Room"
+"oHU" = (
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/obj/structure/reagent_dispensers/cooking_oil,
-/turf/open/floor/plasteel/showroomfloor,
-/area/crew_quarters/kitchen)
-"QoM" = (
-/obj/machinery/rnd/protolathe/department/service,
-/turf/open/floor/plating,
-/area/crew_quarters/kitchen)
-"QoN" = (
-/obj/machinery/rnd/protolathe/department/cargo,
 /turf/open/floor/plasteel,
-/area/quartermaster/storage)
-"QoO" = (
-/obj/machinery/mineral/ore_redemption{
-	input_dir = 2;
-	output_dir = 1
-	},
-/obj/machinery/door/firedoor,
-/turf/open/floor/plasteel,
-/area/quartermaster/miningdock)
-"QoP" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/obj/machinery/light_switch{
-	pixel_y = 28
-	},
-/obj/machinery/light{
+/area/science/circuit)
+"oUh" = (
+/obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
-/area/quartermaster/miningdock)
-"QoT" = (
-/obj/effect/turf_decal/loading_area,
-/turf/open/floor/plasteel/showroomfloor,
-/area/crew_quarters/kitchen)
-"QoU" = (
-/obj/structure/closet/crate/freezer/surplus_limbs,
-/obj/item/reagent_containers/glass/beaker/synthflesh,
-/turf/open/floor/plasteel/white/side{
-	dir = 8
-	},
-/area/medical/sleeper)
-"QoV" = (
-/obj/structure/rack,
-/obj/effect/spawner/lootdrop/maintenance{
-	lootcount = 2;
-	name = "2maintenance loot spawner"
-	},
-/turf/open/floor/plating,
-/area/maintenance/department/medical/morgue)
-"QoW" = (
-/obj/machinery/droneDispenser,
-/turf/open/floor/plating,
-/area/maintenance/department/medical/morgue)
-"QoX" = (
-/obj/structure/table,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/glass/fifty,
-/turf/open/floor/plating,
-/area/maintenance/department/medical/morgue)
-"QoY" = (
+/obj/machinery/disposal/bin,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"pHl" = (
 /obj/structure/table,
 /obj/item/storage/box/beakers{
 	pixel_x = 2;
@@ -57013,6 +57278,227 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/sleeper)
+"pNx" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/floorgrime,
+/area/science/misc_lab)
+"qeQ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"qpv" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/autolathe,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"quT" = (
+/obj/structure/lattice,
+/obj/structure/grille/broken,
+/turf/open/space/basic,
+/area/space/nearstation)
+"rmX" = (
+/obj/structure/table,
+/obj/item/reagent_containers/food/drinks/beer,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"rKP" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/construction)
+"saK" = (
+/obj/structure/closet/crate,
+/obj/item/target/alien,
+/obj/item/target/alien,
+/obj/item/target/clown,
+/obj/item/target/clown,
+/obj/item/target/syndicate,
+/obj/item/target/syndicate,
+/obj/item/gun/energy/laser/practice,
+/obj/item/gun/energy/laser/practice,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"sxs" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/table,
+/obj/item/shovel/spade,
+/turf/open/floor/plasteel/hydrofloor,
+/area/hallway/secondary/service)
+"sLv" = (
+/obj/structure/closet,
+/obj/effect/spawner/lootdrop/maintenance,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"sOs" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/door/airlock/maintenance/abandoned,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"sSW" = (
+/obj/structure/chair/office/light,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"tal" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall,
+/area/hallway/secondary/service)
+"tMl" = (
+/obj/effect/turf_decal/loading_area,
+/turf/open/floor/plasteel/showroomfloor,
+/area/crew_quarters/kitchen)
+"udp" = (
+/obj/item/crowbar/large,
+/obj/structure/rack,
+/obj/item/device/flashlight,
+/turf/open/floor/plasteel/dark,
+/area/engine/engineering)
+"uhH" = (
+/obj/item/wrench,
+/obj/item/weldingtool,
+/obj/item/clothing/head/welding{
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/obj/structure/rack,
+/turf/open/floor/plasteel/dark,
+/area/engine/engineering)
+"uoB" = (
+/obj/structure/table/reinforced,
+/obj/item/device/multitool,
+/obj/item/screwdriver,
+/obj/machinery/camera{
+	c_tag = "Circuitry Lab North";
+	network = list("SS13","RD")
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"uNu" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"uVS" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"vxh" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/maintenance{
+	lootcount = 8;
+	name = "8maintenance loot spawner"
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"vzp" = (
+/obj/structure/table/reinforced,
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"vCb" = (
+/obj/machinery/rnd/protolathe/department/service,
+/turf/open/floor/plasteel/hydrofloor,
+/area/hallway/secondary/service)
+"vCt" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"vPE" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/libraryscanner,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"wkN" = (
+/turf/closed/wall,
+/area/science/circuit)
+"wrp" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/hydrofloor,
+/area/hallway/secondary/service)
+"wvX" = (
+/obj/structure/table/reinforced,
+/obj/machinery/light,
+/obj/item/stock_parts/cell/super,
+/obj/item/stock_parts/cell/super,
+/obj/item/stack/sheet/metal/fifty,
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+"wBd" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 6
+	},
+/turf/closed/wall,
+/area/hallway/secondary/service)
+"wUY" = (
+/obj/structure/table,
+/obj/item/reagent_containers/glass/bucket,
+/turf/open/floor/plasteel/hydrofloor,
+/area/hallway/secondary/service)
+"xhV" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plating,
+/area/construction)
+"xiw" = (
+/obj/machinery/door/airlock{
+	name = "Service Hall";
+	req_access_txt = "0";
+	req_one_access_txt = "25;26;35;28"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/hallway/secondary/service)
+"xIa" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/grille_or_trash,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"ycu" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 
 (1,1,1) = {"
 aaa
@@ -77186,7 +77672,11 @@ aWu
 aYa
 aZD
 aZD
+<<<<<<< HEAD
 aZD
+=======
+hcE
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 aZD
 aZD
 bff
@@ -77449,7 +77939,7 @@ aZF
 aZF
 bgy
 aZE
-QoN
+bjr
 bjr
 ama
 bmh
@@ -77705,7 +78195,11 @@ baS
 bdS
 bdU
 ckQ
+<<<<<<< HEAD
 aZE
+=======
+gjl
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 bjq
 bjr
 bjr
@@ -78476,7 +78970,11 @@ bcS
 bbt
 bfi
 beD
+<<<<<<< HEAD
 aZE
+=======
+gjl
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 aZE
 biA
 bmg
@@ -78726,6 +79224,7 @@ aTH
 aPK
 aWz
 aWC
+<<<<<<< HEAD
 aZE
 aZE
 aZE
@@ -78733,6 +79232,15 @@ bcT
 aZE
 aZE
 aZE
+=======
+gjl
+gjl
+gjl
+bcT
+gjl
+gjl
+gjl
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 aZE
 bju
 biv
@@ -79259,7 +79767,7 @@ bjv
 btv
 buc
 bxz
-QoP
+eVL
 bwV
 byy
 bBa
@@ -79770,9 +80278,9 @@ bnz
 bpA
 bbR
 bkM
-bbR
+jlm
 bud
-QoO
+eyM
 kSb
 bAZ
 bGm
@@ -83688,7 +84196,7 @@ aaf
 aaT
 aaT
 aaT
-Qoi
+gXs
 aaf
 aaf
 aaf
@@ -83901,7 +84409,11 @@ bNJ
 bNJ
 bKx
 cjL
+<<<<<<< HEAD
 bNJ
+=======
+gbq
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 bNI
 bUA
 bVJ
@@ -84203,9 +84715,9 @@ ccw
 ccw
 ccw
 aaa
-Qod
+eRz
 aaT
-Qod
+eRz
 aaa
 aaa
 aaa
@@ -84453,11 +84965,11 @@ cqb
 cAo
 cGt
 cgx
-QoA
+jMY
 csd
 cHa
 csd
-QoH
+uhH
 ccw
 aaa
 aaT
@@ -84710,8 +85222,8 @@ cFJ
 cSH
 cGu
 cGH
-QoB
-QoB
+fsQ
+fsQ
 cGR
 csd
 csd
@@ -84971,7 +85483,7 @@ cGS
 cHb
 cHg
 cHn
-QoI
+oDF
 ccw
 aaf
 aaT
@@ -85222,7 +85734,7 @@ cEz
 cMD
 cFL
 cGf
-Qov
+kQq
 cMm
 ciZ
 cHc
@@ -85479,7 +85991,7 @@ cFe
 cMD
 cFM
 czE
-Qov
+kQq
 ccw
 cGT
 csd
@@ -85998,7 +86510,7 @@ cMm
 cGV
 csd
 cGV
-QoG
+noK
 csd
 ccw
 aaa
@@ -86507,7 +87019,7 @@ cFh
 cMD
 cFM
 czE
-Qov
+kQq
 ccw
 cGT
 csd
@@ -86764,7 +87276,7 @@ cEz
 cMD
 cFR
 cSJ
-Qov
+kQq
 cMm
 ciZ
 cHd
@@ -87021,13 +87533,13 @@ cFj
 cEf
 cFS
 cGg
-Qoz
+mBv
 cGI
 cGS
 cHe
 cHe
 cHr
-QoI
+oDF
 ccw
 aaf
 aaT
@@ -87280,8 +87792,8 @@ cFT
 cSK
 cGx
 cGK
-QoC
-QoC
+nzh
+nzh
 cGY
 csd
 csd
@@ -87537,11 +88049,11 @@ cqb
 cGh
 cGC
 cey
-QoD
+ijc
 csd
 cEk
 csd
-QoK
+udp
 ccw
 aaf
 aaT
@@ -88314,7 +88826,7 @@ aaf
 aaf
 aaf
 aaf
-Qoi
+gXs
 aaf
 aaf
 aaf
@@ -89598,7 +90110,7 @@ aaa
 aaa
 aaa
 aaa
-Qod
+eRz
 aaa
 aaa
 aaa
@@ -89855,7 +90367,7 @@ aae
 aaa
 aaa
 aaa
-Qod
+eRz
 aaa
 aaa
 aaa
@@ -90112,7 +90624,7 @@ aaa
 aaa
 aaa
 aaa
-Qof
+quT
 aaa
 aaa
 aaa
@@ -90369,7 +90881,7 @@ aaa
 aaa
 aaa
 aaa
-Qod
+eRz
 aaa
 aaa
 aaa
@@ -90626,7 +91138,7 @@ aaa
 aaa
 aaa
 aaa
-Qof
+quT
 aaa
 aaa
 aaa
@@ -90883,7 +91395,7 @@ aaa
 aaa
 aaa
 aaa
-Qoi
+gXs
 aaa
 aaa
 aaa
@@ -91140,7 +91652,7 @@ aaa
 aaa
 aaa
 aaa
-Qof
+quT
 aaa
 aaa
 aaa
@@ -91397,7 +91909,7 @@ aaa
 aaa
 aaa
 aaa
-Qod
+eRz
 aaa
 aaa
 aaa
@@ -91654,7 +92166,7 @@ aaa
 aaa
 aaa
 aaa
-Qol
+jAD
 aaa
 aaa
 aaa
@@ -91858,7 +92370,7 @@ bvh
 bzS
 bBc
 bCJ
-QoU
+gZG
 cCp
 bvd
 bKH
@@ -91911,7 +92423,7 @@ aaa
 aaa
 aaa
 aaa
-Qod
+eRz
 aaa
 aaa
 aaa
@@ -92168,7 +92680,7 @@ aaa
 aaa
 aaa
 aaa
-Qod
+eRz
 aaa
 aaa
 aaa
@@ -92425,7 +92937,7 @@ aaa
 aaa
 aaa
 aaa
-Qof
+quT
 aaa
 aaa
 aaa
@@ -92682,7 +93194,7 @@ aaa
 aaa
 aaa
 aaa
-Qod
+eRz
 aaa
 aaa
 aaa
@@ -92939,7 +93451,7 @@ aaa
 aaa
 aaa
 aaa
-Qof
+quT
 aaa
 aaa
 aaa
@@ -93196,7 +93708,7 @@ aaa
 aaa
 aaa
 aaa
-Qof
+quT
 aaa
 aaa
 aaa
@@ -93453,7 +93965,7 @@ aaa
 aaa
 aaa
 aaa
-Qol
+jAD
 aaa
 aaa
 aaa
@@ -94684,7 +95196,7 @@ bAu
 bvj
 bCN
 bEa
-QoY
+pHl
 bFA
 bIm
 bJD
@@ -95677,7 +96189,7 @@ alP
 aGL
 aHY
 aQj
-QoL
+iNn
 aMk
 aNK
 aOM
@@ -95935,7 +96447,7 @@ aGL
 avI
 aJK
 aKV
-QoT
+tMl
 aMl
 aMF
 aJI
@@ -96434,7 +96946,7 @@ aag
 alO
 arp
 alO
-anf
+awD
 anf
 anf
 awD
@@ -96696,12 +97208,12 @@ anf
 anf
 aEl
 anf
-alP
-alP
-alP
-alP
-alP
-alP
+cVb
+cVb
+cVb
+cVb
+cVb
+cVb
 aGQ
 aIk
 aIp
@@ -96713,7 +97225,7 @@ aJI
 aJI
 aSP
 aUh
-QoM
+aJI
 aJI
 aJI
 aJI
@@ -96953,12 +97465,12 @@ auC
 alP
 anf
 anf
-alP
-arA
-anf
-alP
-atw
-alP
+cVb
+jbf
+wrp
+fnC
+kPd
+xiw
 aGS
 aIm
 aIp
@@ -97210,13 +97722,13 @@ anf
 alP
 awE
 anf
-apE
-anf
-anf
-alP
-anf
-alP
-aCE
+cVb
+vCb
+wUY
+khb
+sxs
+tal
+aCI
 aIj
 aJB
 aKD
@@ -97467,12 +97979,12 @@ apC
 apC
 alP
 anf
-alP
-alP
-alP
-alP
-awD
-ayf
+cVb
+cVb
+cVb
+cVb
+cVb
+wBd
 aGC
 aIl
 aIq
@@ -98522,9 +99034,9 @@ bci
 beB
 bfS
 bfS
-QoV
-QoW
-QoX
+kQk
+ipA
+gbT
 cTO
 bmZ
 bon
@@ -98754,7 +99266,7 @@ aoP
 auF
 azr
 anf
-anf
+atw
 alP
 alP
 aFo
@@ -99772,7 +100284,7 @@ aaf
 aaf
 aaf
 apC
-anf
+arA
 anf
 asx
 anf
@@ -105239,7 +105751,12 @@ bOk
 bOB
 bPs
 bYo
+<<<<<<< HEAD
 cab
+=======
+bSc
+pNx
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 cbd
 cbX
 ccT
@@ -105486,6 +106003,7 @@ bEC
 bMv
 bNv
 bMv
+<<<<<<< HEAD
 bEC
 bPN
 bPK
@@ -105500,6 +106018,22 @@ bPN
 bPN
 bPN
 bQZ
+=======
+bSl
+wkN
+wkN
+wkN
+wkN
+wkN
+lAB
+lQG
+bPb
+bQG
+lAB
+wkN
+wkN
+bSl
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 bQZ
 bQZ
 bQZ
@@ -105743,6 +106277,7 @@ bLi
 bMz
 bNy
 bOH
+<<<<<<< HEAD
 bEs
 bQY
 bQX
@@ -105755,6 +106290,20 @@ bPL
 bQI
 bPN
 bWr
+=======
+wkN
+bQY
+vzp
+bTo
+bUp
+mNi
+mRe
+bXs
+bPL
+bQI
+bTo
+eaI
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 cbZ
 bQZ
 cmo
@@ -106000,6 +106549,7 @@ bFU
 bMy
 bNx
 bOG
+<<<<<<< HEAD
 bEs
 bQX
 bSk
@@ -106012,6 +106562,20 @@ bPF
 bWr
 bWr
 bWr
+=======
+wkN
+uoB
+bSk
+bXs
+bXs
+lMg
+qeQ
+qeQ
+bPF
+bQI
+bXs
+sSW
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 cbY
 bQZ
 cOe
@@ -106257,10 +106821,15 @@ bFU
 bMA
 bNz
 bOI
+<<<<<<< HEAD
 bEs
+=======
+wkN
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 bRa
 bQX
 bTp
+<<<<<<< HEAD
 bUp
 bVs
 bUp
@@ -106271,6 +106840,18 @@ bPN
 cbe
 cbY
 bQZ
+=======
+vCt
+bVs
+fKl
+bXt
+bPM
+bZh
+itG
+cbe
+wvX
+bSl
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 cOe
 ceS
 cae
@@ -106514,6 +107095,7 @@ bEC
 bEC
 bEC
 bEC
+<<<<<<< HEAD
 bEC
 bQZ
 bQZ
@@ -106528,11 +107110,31 @@ bQZ
 bQZ
 bQZ
 bQZ
+=======
+bSl
+dMZ
+bXs
+bXs
+bXs
+gwd
+ycu
+oHU
+uNu
+bXs
+bXs
+bXs
+bXs
+bSl
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 cOe
 ceR
 cOe
 cbv
+<<<<<<< HEAD
 ccq
+=======
+uVS
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 cQw
 cjD
 cjD
@@ -106773,6 +107375,7 @@ bNA
 cOe
 cOe
 bRb
+<<<<<<< HEAD
 cOx
 bPN
 bUq
@@ -106790,6 +107393,25 @@ cOx
 ckS
 cNW
 ccq
+=======
+flc
+vPE
+bUq
+bVt
+dfh
+jSO
+jgm
+oUh
+qpv
+jrE
+saK
+bSl
+cOx
+sLv
+ckS
+cNW
+jVl
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 cds
 cjD
 ckt
@@ -107027,9 +107649,26 @@ bKb
 cNX
 cNZ
 cNZ
+<<<<<<< HEAD
 cNZ
 cNZ
 cNZ
+=======
+jCq
+bSl
+bSl
+bSl
+bSl
+bSl
+bSl
+bSl
+bSl
+bSl
+bSl
+bSl
+bSl
+bSl
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 bSl
 bTq
 bTq
@@ -107284,9 +107923,15 @@ bKd
 cNY
 bMC
 cOb
+<<<<<<< HEAD
 cOb
 bPO
 cOb
+=======
+jHt
+bPO
+kob
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 bSm
 bTr
 bTr
@@ -107301,6 +107946,10 @@ bTr
 bTr
 bXu
 bTr
+<<<<<<< HEAD
+=======
+nGt
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 cbg
 bTr
 cct
@@ -107541,6 +108190,11 @@ bEs
 bEs
 bEs
 cNW
+<<<<<<< HEAD
+=======
+sOs
+cNW
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 cNW
 cOe
 cNW
@@ -107798,6 +108452,7 @@ bKf
 bLk
 bEs
 bNC
+<<<<<<< HEAD
 cOe
 cOe
 cNW
@@ -107807,6 +108462,17 @@ aaf
 cNW
 cOe
 cOe
+=======
+nRG
+cbf
+cbf
+cbf
+cbf
+cbf
+cbf
+cbf
+cbf
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 bYr
 cOe
 cad
@@ -108311,9 +108977,15 @@ bIW
 bKe
 bLm
 bEs
+<<<<<<< HEAD
 cNW
 cNW
 cNW
+=======
+rmX
+xIa
+vxh
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 cNW
 aaa
 aaa
@@ -108322,12 +108994,21 @@ aaa
 aaf
 cNW
 bYs
+<<<<<<< HEAD
 cOe
 cae
 cOe
 cOe
 cOe
 cOe
+=======
+nRG
+ciJ
+cbf
+cbf
+cbf
+cbf
+>>>>>>> cd7169d... Makes departemental lathes easier to access. (#35224)
 ceT
 cNW
 cOe
