@@ -252,6 +252,7 @@
 /obj/machinery/light/small,
 /turf/open/floor/mineral/titanium/purple,
 /area/ruin/powered/golem_ship)
+<<<<<<< HEAD
 "R" = (
 /obj/machinery/light/small,
 /turf/open/floor/mineral/titanium/purple,
@@ -264,6 +265,11 @@
 /area/ruin/powered/golem_ship)
 "T" = (
 /obj/machinery/light/small,
+=======
+"T" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/titanium,
+>>>>>>> a256acf... Lava map slights (#35201)
 /turf/open/floor/mineral/titanium/purple,
 /area/ruin/powered/golem_ship)
 "U" = (
@@ -346,12 +352,12 @@ a
 a
 b
 b
-b
+H
 b
 r
 l
 G
-b
+T
 b
 b
 a
@@ -625,9 +631,13 @@ a
 a
 "}
 (16,1,1) = {"
+<<<<<<< HEAD
 a
 a
 b
+=======
+T
+>>>>>>> a256acf... Lava map slights (#35201)
 e
 I
 b
@@ -642,6 +652,7 @@ B
 b
 V
 f
+<<<<<<< HEAD
 b
 a
 a
@@ -650,6 +661,12 @@ a
 a
 a
 b
+=======
+T
+"}
+(17,1,1) = {"
+T
+>>>>>>> a256acf... Lava map slights (#35201)
 f
 f
 b
@@ -664,9 +681,13 @@ C
 b
 f
 f
+<<<<<<< HEAD
 b
 a
 a
+=======
+T
+>>>>>>> a256acf... Lava map slights (#35201)
 "}
 (18,1,1) = {"
 a

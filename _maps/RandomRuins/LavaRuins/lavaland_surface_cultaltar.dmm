@@ -119,6 +119,7 @@
 "s" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/ruin/unpowered)
+<<<<<<< HEAD
 "t" = (
 /turf/open/floor/plasteel/cult{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
@@ -126,6 +127,8 @@
 /obj/effect/baseturf_helper/lava_land/surface,
 /turf/closed/wall/mineral/cult,
 /area/ruin/unpowered)
+=======
+>>>>>>> a256acf... Lava map slights (#35201)
 
 (1,1,1) = {"
 a
@@ -220,7 +223,7 @@ c
 b
 b
 l
-t
+d
 k
 b
 b
