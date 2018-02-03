@@ -256,10 +256,13 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 /obj/effect/landmark/observer_start
 	name = "Observer-Start"
 
+<<<<<<< HEAD
 // revenant spawn.
 /obj/effect/landmark/revenantspawn
 	name = "revnantspawn"
 
+=======
+>>>>>>> cc43ae9... Remove revenantspawn landmark from code (#35238)
 // triple ais.
 /obj/effect/landmark/tripai
 	name = "tripai"
