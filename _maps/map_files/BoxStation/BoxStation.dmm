@@ -37987,6 +37987,7 @@
 /turf/open/floor/plating,
 /area/engine/atmos)
 "bPb" = (
+/obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/research/glass{
 	name = "Firing Range";
 	req_access_txt = "47"
@@ -37994,8 +37995,19 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel,
 /area/science/misc_lab)
+=======
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/white,
+/area/science/circuit)
+>>>>>>> 42cae05... Moves the circ. lab firelock down a tile (#35217)
 "bPc" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8
