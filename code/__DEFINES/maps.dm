@@ -48,4 +48,33 @@ Last space-z level = empty
 #define ZLEVEL_SPACEMIN 3
 #define ZLEVEL_SPACEMAX 13
 
+<<<<<<< HEAD
 #define SPACERUIN_MAP_EDGE_PAD 15
+=======
+#define DECLARE_LEVEL(NAME, LINKAGE, TRAITS) list(DL_NAME = NAME, DL_LINKAGE = LINKAGE, DL_TRAITS = TRAITS)
+// corresponds to basemap.dm
+#define DEFAULT_MAP_TRAITS list(\
+    DECLARE_LEVEL("CentCom", SELFLOOPING, list(ZTRAIT_CENTCOM = TRUE)),\
+    DECLARE_LEVEL("Main Station", CROSSLINKED, list(ZTRAIT_STATION = TRUE)),\
+    DECLARE_LEVEL("Empty Area 1", CROSSLINKED, list(ZTRAIT_SPACE_RUINS = TRUE)),\
+    DECLARE_LEVEL("Empty Area 2", CROSSLINKED, list(ZTRAIT_SPACE_RUINS = TRUE)),\
+    DECLARE_LEVEL("Lavaland", UNAFFECTED, list(ZTRAIT_MINING = TRUE, ZTRAIT_LAVA_RUINS = TRUE, ZTRAIT_BOMBCAP_MULTIPLIER = 3)),\
+    DECLARE_LEVEL("Reebe", UNAFFECTED, list(ZTRAIT_REEBE = TRUE, ZTRAIT_BOMBCAP_MULTIPLIER = 0.5)),\
+)
+
+//Camera lock flags
+#define CAMERA_LOCK_STATION 1
+#define CAMERA_LOCK_MINING 2
+#define CAMERA_LOCK_CENTCOM 4
+#define CAMERA_LOCK_REEBE 8
+
+
+//Ruin Generation
+
+#define PLACEMENT_TRIES 100 //How many times we try to fit the ruin somewhere until giving up (really should just swap to some packing algo)
+
+#define PLACE_DEFAULT "random"
+#define PLACE_SAME_Z "same"
+#define PLACE_SPACE_RUIN "space"
+#define PLACE_LAVA_RUIN "lavaland"
+>>>>>>> c610376... Adds some customization to ruin loader (#35209)
