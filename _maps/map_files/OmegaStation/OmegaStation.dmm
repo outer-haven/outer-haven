@@ -3282,7 +3282,6 @@
 "aga" = (
 /obj/structure/table/wood,
 /obj/item/device/flashlight/lamp/green,
-/obj/item/card/id/captains_spare,
 /obj/item/toy/figure/captain,
 /turf/open/floor/carpet,
 /area/crew_quarters/heads/captain/private)
@@ -70287,10 +70286,15 @@ aZz
 baq
 bbl
 bbY
-bcP
+bbm
 bdM
+<<<<<<< HEAD
 bcQ
 baj
+=======
+bbm
+sKE
+>>>>>>> f5046f8... Moves the spare ID inside the captain's locker (#35219)
 bfv
 bfS
 bgB
@@ -70544,9 +70548,15 @@ aZA
 bar
 bbm
 bbZ
+<<<<<<< HEAD
 bcQ
 bcP
 bcP
+=======
+bbm
+bbm
+bbm
+>>>>>>> f5046f8... Moves the spare ID inside the captain's locker (#35219)
 baj
 bfu
 bfu
@@ -80830,7 +80840,7 @@ aZl
 bfp
 bfP
 bgm
-bhh
+bhg
 bgm
 bfP
 bjd
