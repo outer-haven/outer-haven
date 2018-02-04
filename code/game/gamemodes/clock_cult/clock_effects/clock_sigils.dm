@@ -331,13 +331,19 @@
 				break
 			if(!L.client || L.client.is_afk())
 				set waitfor = FALSE
+<<<<<<< HEAD:code/game/gamemodes/clock_cult/clock_effects/clock_sigils.dm
 				var/list/mob/dead/observer/candidates = pollCandidatesForMob("Do you want to play as a [L.name], an inactive clock cultist?", "[name]", null, "Clock Cultist", 50, L)
 				var/mob/dead/observer/theghost = null
 				if(candidates.len)
+=======
+				var/list/mob/dead/observer/candidates = pollCandidatesForMob("Do you want to play as a [L.name], an inactive clock cultist?", ROLE_SERVANT_OF_RATVAR, null, ROLE_SERVANT_OF_RATVAR, 50, L)
+				if(LAZYLEN(candidates))
+					var/client/C = pick(candidates)
+>>>>>>> ee18d6f... Fixes clockwork sigil candidate runtime, cleans up some jobban checks with defines (#34907):code/modules/antagonists/clockcult/clock_effects/clock_sigils.dm
 					to_chat(L, "<span class='userdanger'>Your physical form has been taken over by another soul due to your inactivity! Ahelp if you wish to regain your form!</span>")
-					message_admins("[key_name_admin(theghost)] has taken control of ([key_name_admin(L)]) to replace an inactive clock cultist.")
+					message_admins("[key_name_admin(C)] has taken control of ([key_name_admin(L)]) to replace an inactive clock cultist.")
 					L.ghostize(0)
-					L.key = theghost.key
+					L.key = C.key
 					var/obj/effect/temp_visual/ratvar/sigil/vitality/V = new /obj/effect/temp_visual/ratvar/sigil/vitality(get_turf(src))
 					animate(V, alpha = 0, transform = matrix()*2, time = 8)
 					playsound(L, 'sound/magic/staff_healing.ogg', 50, 1)
