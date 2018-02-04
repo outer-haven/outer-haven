@@ -2,7 +2,23 @@
 	name = "decal"
 	anchored = TRUE
 	resistance_flags = FIRE_PROOF | UNACIDABLE | ACID_PROOF
+	var/turf_loc_check = TRUE
 
+<<<<<<< HEAD
+=======
+/obj/effect/decal/Initialize()
+	. = ..()
+	if(turf_loc_check && (!isturf(loc) || NeverShouldHaveComeHere(loc)))
+		return INITIALIZE_HINT_QDEL
+
+/obj/effect/decal/blob_act(obj/structure/blob/B)
+	if(B && B.loc == loc)
+		qdel(src)
+
+/obj/effect/decal/proc/NeverShouldHaveComeHere(turf/T)
+	return isspaceturf(T) || isclosedturf(T) || islava(T) || istype(T, /turf/open/water) || ischasm(T)
+
+>>>>>>> df1a99e... [READY] Fixes de-initialization of cleanables-ash (#35191)
 /obj/effect/decal/ex_act(severity, target)
 	qdel(src)
 
