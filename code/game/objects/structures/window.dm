@@ -26,6 +26,11 @@
 	var/real_explosion_block	//ignore this, just use explosion_block
 	var/breaksound = "shatter"
 	var/hitsound = 'sound/effects/Glasshit.ogg'
+<<<<<<< HEAD
+=======
+	var/rad_insulation = RAD_VERY_LIGHT_INSULATION
+	var/spawn_cleanable_shards = TRUE
+>>>>>>> dc09b17... Adds tiny shards (#35070)
 
 /obj/structure/window/examine(mob/user)
 	..()
@@ -284,6 +289,8 @@
 	if(!disassembled)
 		playsound(src, breaksound, 70, 1)
 		if(!(flags_1 & NODECONSTRUCT_1))
+			if(spawn_cleanable_shards)
+				new /obj/effect/decal/cleanable/glass(get_turf(src))
 			for(var/i in debris)
 				var/obj/item/I = i
 				I.forceMove(drop_location())
@@ -458,9 +465,14 @@
 	max_integrity = 150
 	explosion_block = 1
 	glass_type = /obj/item/stack/sheet/plasmaglass
+<<<<<<< HEAD
 
 /obj/structure/window/plasma/ComponentInitialize()
 	AddComponent(/datum/component/rad_insulation, RAD_NO_INSULATION, TRUE, FALSE)
+=======
+	rad_insulation = RAD_NO_INSULATION
+	spawn_cleanable_shards = FALSE
+>>>>>>> dc09b17... Adds tiny shards (#35070)
 
 /obj/structure/window/plasma/spawner/east
 	dir = EAST
@@ -654,7 +666,7 @@
 		new /obj/effect/temp_visual/ratvar/window(get_turf(src))
 		amount_of_gears = 4
 	for(var/i in 1 to amount_of_gears)
-		debris += new/obj/item/clockwork/alloy_shards/medium/gear_bit()
+		debris += new /obj/item/clockwork/alloy_shards/medium/gear_bit()
 	change_construction_value(fulltile ? 2 : 1)
 
 /obj/structure/window/reinforced/clockwork/setDir(direct)
@@ -716,6 +728,7 @@
 	decon_speed = 10
 	CanAtmosPass = ATMOS_PASS_YES
 	resistance_flags = FLAMMABLE
+	spawn_cleanable_shards = FALSE
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
 	breaksound = 'sound/items/poster_ripped.ogg'
 	hitsound = 'sound/weapons/slashmiss.ogg'
