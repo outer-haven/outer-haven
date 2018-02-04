@@ -310,8 +310,8 @@
 	dir = 8;
 	locked = 0;
 	pixel_x = 24;
-	req_access = "0";
-	req_one_access = "0"
+	req_access = null;
+	req_one_access = null
 	},
 /obj/machinery/light{
 	dir = 4
@@ -1084,8 +1084,8 @@
 	dir = 4;
 	locked = 0;
 	pixel_x = -23;
-	req_access = "0";
-	req_one_access = "0"
+	req_access = null;
+	req_one_access = null
 	},
 /turf/open/floor/plasteel/floorgrime,
 /area/ruin/space/has_grav/ancientstation)
@@ -1151,8 +1151,8 @@
 	dir = 8;
 	locked = 0;
 	pixel_x = 24;
-	req_access = "0";
-	req_one_access = "0"
+	req_access = null;
+	req_one_access = null
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/floorgrime,
@@ -1291,8 +1291,8 @@
 	dir = 8;
 	locked = 0;
 	pixel_x = 24;
-	req_access = "0";
-	req_one_access = "0"
+	req_access = null;
+	req_one_access = null
 	},
 /obj/item/clothing/suit/space/nasavoid/old,
 /turf/open/floor/plasteel/yellow/side{
@@ -1357,8 +1357,8 @@
 	dir = 4;
 	locked = 0;
 	pixel_x = -23;
-	req_access = "0";
-	req_one_access = "0"
+	req_access = null;
+	req_one_access = null
 	},
 /turf/open/floor/plasteel/floorgrime,
 /area/ruin/space/has_grav/ancientstation/deltacorridor)
@@ -1401,8 +1401,8 @@
 	dir = 8;
 	locked = 0;
 	pixel_x = 24;
-	req_access = "0";
-	req_one_access = "0"
+	req_access = null;
+	req_one_access = null
 	},
 /mob/living/simple_animal/hostile/hivebot,
 /turf/open/floor/plasteel/floorgrime,
@@ -2817,8 +2817,8 @@
 	frequency = 1439;
 	locked = 0;
 	pixel_y = 23;
-	req_access = "0";
-	req_one_access = "0"
+	req_access = null;
+	req_one_access = null
 	},
 /obj/effect/decal/cleanable/egg_smudge,
 /turf/open/floor/plasteel/cafeteria,
@@ -3267,8 +3267,8 @@
 	dir = 8;
 	locked = 0;
 	pixel_x = 24;
-	req_access = "0";
-	req_one_access = "0"
+	req_access = null;
+	req_one_access = null
 	},
 /turf/open/floor/plasteel/orange/side{
 	tag = "icon-orange (EAST)";
@@ -3355,8 +3355,8 @@
 	dir = 4;
 	locked = 0;
 	pixel_x = -23;
-	req_access = "0";
-	req_one_access = "0"
+	req_access = null;
+	req_one_access = null
 	},
 /mob/living/simple_animal/hostile/hivebot,
 /turf/open/floor/plasteel/floorgrime,
@@ -3461,8 +3461,8 @@
 	dir = 8;
 	locked = 0;
 	pixel_x = 24;
-	req_access = "0";
-	req_one_access = "0"
+	req_access = null;
+	req_one_access = null
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/floorgrime,
@@ -3994,8 +3994,8 @@
 	frequency = 1439;
 	locked = 0;
 	pixel_y = 23;
-	req_access = "0";
-	req_one_access = "0"
+	req_access = null;
+	req_one_access = null
 	},
 /turf/open/floor/plasteel/white,
 /area/ruin/space/has_grav/ancientstation/proto)
@@ -4398,8 +4398,8 @@
 	dir = 8;
 	locked = 0;
 	pixel_x = 24;
-	req_access = "0";
-	req_one_access = "0"
+	req_access = null;
+	req_one_access = null
 	},
 /turf/open/floor/plasteel/airless/floorgrime,
 /area/ruin/space/has_grav/ancientstation/atmo)

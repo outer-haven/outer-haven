@@ -721,7 +721,7 @@
 	dir = 8;
 	icon_state = "alarm0";
 	pixel_x = 24;
-	req_access = 152
+	req_access = list(152)
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack{
