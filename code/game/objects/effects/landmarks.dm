@@ -172,6 +172,12 @@
 	name = "AI"
 	icon_state = "AI"
 	delete_after_roundstart = FALSE
+	var/primary_ai = TRUE
+
+/obj/effect/landmark/start/ai/secondary
+	icon = 'icons/effects/landmarks_static.dmi'
+	icon_state = "ai_spawn"
+	primary_ai = FALSE
 
 
 //Department Security spawns
@@ -260,10 +266,13 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 /obj/effect/landmark/revenantspawn
 	name = "revnantspawn"
 
+<<<<<<< HEAD
 // triple ais.
 /obj/effect/landmark/tripai
 	name = "tripai"
 
+=======
+>>>>>>> 34897d8... Removed tripAI landmark (#35256)
 // xenos.
 /obj/effect/landmark/xeno_spawn
 	name = "xeno_spawn"
