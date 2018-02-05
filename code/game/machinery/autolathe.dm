@@ -124,8 +124,13 @@
 	return ..()
 
 /obj/machinery/autolathe/proc/AfterMaterialInsert(type_inserted, id_inserted, amount_inserted)
+<<<<<<< HEAD
 	if(ispath(type_inserted, /obj/item/ore/bluespace_crystal))
 		use_power(max(500, amount_inserted / 10))
+=======
+	if(ispath(type_inserted, /obj/item/stack/ore/bluespace_crystal))
+		use_power(MINERAL_MATERIAL_AMOUNT / 10)
+>>>>>>> c4fd871... Return of ore stacking, various changes to lavaland bombs to facilitate reduced lag (#35291)
 	else
 		switch(id_inserted)
 			if (MAT_METAL)
