@@ -12,6 +12,15 @@ GLOBAL_LIST_EMPTY(antagonists)
 	var/job_rank
 	var/replace_banned = TRUE //Should replace jobbaned player with ghosts if granted.
 	var/list/objectives = list()
+<<<<<<< HEAD:code/datums/antagonists/antag_datum.dm
+=======
+	var/antag_memory = ""//These will be removed with antag datum
+	
+	//Antag panel properties
+	var/show_in_antagpanel = TRUE	//This will hide adding this antag type in antag panel, use only for internal subtypes that shouldn't be added directly but still show if possessed by mind
+	var/antagpanel_category = "Uncategorized"	//Antagpanel will display these together, REQUIRED
+	var/show_name_in_check_antagonists = FALSE //Will append antagonist name in admin listings - use for categories that share more than one antag type
+>>>>>>> 126a544... Slaughter demon, Morph, ERT / Deathsquad antag datums. (#35156):code/modules/antagonists/_common/antag_datum.dm
 
 /datum/antagonist/New(datum/mind/new_owner)
 	GLOB.antagonists += src
@@ -143,6 +152,12 @@ GLOBAL_LIST_EMPTY(antagonists)
 //This datum will autofill the name with special_role
 //Used as placeholder for minor antagonists, please create proper datums for these
 /datum/antagonist/auto_custom
+<<<<<<< HEAD:code/datums/antagonists/antag_datum.dm
+=======
+	show_in_antagpanel = FALSE
+	antagpanel_category = "Other"
+	show_name_in_check_antagonists = TRUE
+>>>>>>> 126a544... Slaughter demon, Morph, ERT / Deathsquad antag datums. (#35156):code/modules/antagonists/_common/antag_datum.dm
 
 /datum/antagonist/auto_custom/on_gain()
 	..()
@@ -157,4 +172,18 @@ GLOBAL_LIST_EMPTY(antagonists)
 	objectives = owner.objectives - already_registered_objectives
 
 //This one is created by admin tools for custom objectives
+<<<<<<< HEAD:code/datums/antagonists/antag_datum.dm
 /datum/antagonist/custom
+=======
+/datum/antagonist/custom
+	antagpanel_category = "Custom"
+	show_name_in_check_antagonists = TRUE //They're all different
+
+/datum/antagonist/custom/admin_add(datum/mind/new_owner,mob/admin)
+	var/custom_name = stripped_input(admin, "Custom antagonist name:", "Custom antag", "Antagonist")
+	if(custom_name)
+		name = custom_name
+	else
+		return
+	..()
+>>>>>>> 126a544... Slaughter demon, Morph, ERT / Deathsquad antag datums. (#35156):code/modules/antagonists/_common/antag_datum.dm
