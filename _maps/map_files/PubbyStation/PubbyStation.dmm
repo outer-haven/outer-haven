@@ -7668,8 +7668,13 @@
 /obj/item/bikehorn/golden,
 /obj/item/ammo_box/a357,
 /obj/item/tank/internals/plasma/full,
+<<<<<<< HEAD
 /obj/item/disk/fakenucleardisk,
 /obj/item/ore/diamond,
+=======
+/obj/item/disk/nuclear/fake,
+/obj/item/stack/ore/diamond,
+>>>>>>> c4fd871... Return of ore stacking, various changes to lavaland bombs to facilitate reduced lag (#35291)
 /obj/item/gun/energy/disabler,
 /turf/open/floor/plasteel/vault{
 	dir = 4
