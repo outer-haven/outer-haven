@@ -271,6 +271,7 @@
 
 // DEATH SQUADS
 /datum/admins/proc/makeDeathsquad()
+<<<<<<< HEAD
 	var/mission = input("Assign a mission to the deathsquad", "Assign Mission", "Leave no witnesses.")
 	var/list/mob/dead/observer/candidates = pollGhostCandidates("Do you wish to be considered for an elite Nanotrasen Strike Team?", "deathsquad", null)
 	var/squadSpawned = 0
@@ -343,6 +344,9 @@
 			return 0
 
 	return
+=======
+	return makeEmergencyresponseteam(ERT_DEATHSQUAD)
+>>>>>>> 126a544... Slaughter demon, Morph, ERT / Deathsquad antag datums. (#35156)
 
 /datum/admins/proc/makeOfficial()
 	var/mission = input("Assign a task for the official", "Assign Task", "Conduct a routine preformance review of [station_name()] and its Captain.")
@@ -388,38 +392,70 @@
 	return 0
 
 // CENTCOM RESPONSE TEAM
-/datum/admins/proc/makeEmergencyresponseteam()
-	var/alert = input("Which team should we send?", "Select Response Level") as null|anything in list("Green: CentCom Official", "Blue: Light ERT (No Armoury Access)", "Amber: Full ERT (Armoury Access)", "Red: Elite ERT (Armoury Access + Pulse Weapons)", "Delta: Deathsquad")
-	if(!alert)
-		return
+/datum/admins/proc/makeEmergencyresponseteam(alert_type)
+	var/alert
+	if(!alert_type)
+		alert = input("Which team should we send?", "Select Response Level") as null|anything in list("Green: CentCom Official", "Blue: Light ERT (No Armoury Access)", "Amber: Full ERT (Armoury Access)", "Red: Elite ERT (Armoury Access + Pulse Weapons)", "Delta: Deathsquad")
+		if(!alert)
+			return
+	else
+		alert = alert_type
+	
+	var/teamsize = 0
+	var/deathsquad = FALSE
+
 	switch(alert)
 		if("Delta: Deathsquad")
-			return makeDeathsquad()
+			alert = ERT_DEATHSQUAD
+			teamsize = 5
+			deathsquad = TRUE
 		if("Red: Elite ERT (Armoury Access + Pulse Weapons)")
-			alert = "Red"
+			alert = ERT_RED
 		if("Amber: Full ERT (Armoury Access)")
-			alert = "Amber"
+			alert = ERT_AMBER
 		if("Blue: Light ERT (No Armoury Access)")
-			alert = "Blue"
+			alert = ERT_BLUE
 		if("Green: CentCom Official")
 			return makeOfficial()
-	var/teamcheck = input("Maximum size of team? (7 max)", "Select Team Size",4) as null|num
-	if(isnull(teamcheck))
-		return
-	var/teamsize = min(7,teamcheck)
-	var/mission = input("Assign a mission to the Emergency Response Team", "Assign Mission", "Assist the station.") as null|text
+		else
+			return
+	
+	if(!teamsize)
+		var/teamcheck = input("Maximum size of team? (7 max)", "Select Team Size",4) as null|num
+		if(isnull(teamcheck))
+			return
+		teamsize = min(7,teamcheck)
+	
+	
+	var/default_mission = deathsquad ? "Leave no witnesses." : "Assist the station."
+	var/mission = input("Assign a mission to the Emergency Response Team", "Assign Mission", default_mission) as null|text
 	if(!mission)
 		return
-	var/list/mob/dead/observer/candidates = pollGhostCandidates("Do you wish to be considered for a Code [alert] Nanotrasen Emergency Response Team?", "deathsquad", null)
+	
+	var/prompt_name = deathsquad ? "an elite Nanotrasen Strike Team" : "a Code [alert] Nanotrasen Emergency Response Team"
+	var/list/mob/dead/observer/candidates = pollGhostCandidates("Do you wish to be considered for [prompt_name] ?", "deathsquad", null)
 	var/teamSpawned = 0
 
 	if(candidates.len > 0)
 		//Pick the (un)lucky players
 		var/numagents = min(teamsize,candidates.len) //How many officers to spawn
-		var/redalert //If the ert gets super weapons
-		if (alert == "Red")
-			numagents = min(teamsize,candidates.len)
-			redalert = 1
+
+		//Create team
+		var/datum/team/ert/ert_team = new
+		if(deathsquad)
+			ert_team.name = "Death Squad"
+		
+		//Asign team objective
+		var/datum/objective/missionobj = new
+		missionobj.team = ert_team
+		missionobj.explanation_text = mission
+		missionobj.completed = 1
+		ert_team.objectives += missionobj
+		ert_team.mission = missionobj
+
+		//We give these out in order, then back from the start if there's more than 3
+		var/list/role_order = list(ERT_SEC,ERT_MED,ERT_ENG)
+
 		var/list/spawnpoints = GLOB.emergencyresponseteamspawn
 		while(numagents && candidates.len)
 			if (numagents > spawnpoints.len)
@@ -431,35 +467,11 @@
 			if(!chosen_candidate.key)
 				continue
 
-			//Spawn and equip the officer
+			//Spawn the body
 			var/mob/living/carbon/human/ERTOperative = new(spawnloc)
-			var/list/lastname = GLOB.last_names
 			chosen_candidate.client.prefs.copy_to(ERTOperative)
-			var/ertname = pick(lastname)
-			switch(numagents)
-				if(1)
-					ERTOperative.real_name = "Commander [ertname]"
-					ERTOperative.equipOutfit(redalert ? /datum/outfit/ert/commander/alert : /datum/outfit/ert/commander)
-				if(2)
-					ERTOperative.real_name = "Security Officer [ertname]"
-					ERTOperative.equipOutfit(redalert ? /datum/outfit/ert/security/alert : /datum/outfit/ert/security)
-				if(3)
-					ERTOperative.real_name = "Medical Officer [ertname]"
-					ERTOperative.equipOutfit(redalert ? /datum/outfit/ert/medic/alert : /datum/outfit/ert/medic)
-				if(4)
-					ERTOperative.real_name = "Engineer [ertname]"
-					ERTOperative.equipOutfit(redalert ? /datum/outfit/ert/engineer/alert : /datum/outfit/ert/engineer)
-				if(5)
-					ERTOperative.real_name = "Security Officer [ertname]"
-					ERTOperative.equipOutfit(redalert ? /datum/outfit/ert/security/alert : /datum/outfit/ert/security)
-				if(6)
-					ERTOperative.real_name = "Medical Officer [ertname]"
-					ERTOperative.equipOutfit(redalert ? /datum/outfit/ert/medic/alert : /datum/outfit/ert/medic)
-				if(7)
-					ERTOperative.real_name = "Engineer [ertname]"
-					ERTOperative.equipOutfit(redalert ? /datum/outfit/ert/engineer/alert : /datum/outfit/ert/engineer)
-			ERTOperative.dna.update_dna_identity()
 			ERTOperative.key = chosen_candidate.key
+<<<<<<< HEAD
 			ERTOperative.mind.assigned_role = "ERT"
 
 			//Open the Armory doors
@@ -490,17 +502,36 @@
 			missiondesc += "<BR><B>Your Mission</B>: [mission]"
 			to_chat(ERTOperative, missiondesc)
 
+=======
+			
+>>>>>>> 126a544... Slaughter demon, Morph, ERT / Deathsquad antag datums. (#35156)
 			if(CONFIG_GET(flag/enforce_human_authority))
 				ERTOperative.set_species(/datum/species/human)
 
-			//Logging and cleanup
+			//Give antag datum
+			var/datum/antagonist/ert/ert_antag = new
+			ert_antag.high_alert = alert == ERT_RED
 			if(numagents == 1)
-				message_admins("A Code [alert] emergency response team has spawned with the mission: [mission]")
-			log_game("[key_name(ERTOperative)] has been selected as an Emergency Response Officer")
+				ert_antag.role = deathsquad ? DEATHSQUAD_LEADER : ERT_LEADER
+			else
+				ert_antag.role = deathsquad ? DEATHSQUAD : role_order[WRAP(numagents,1,role_order.len + 1)]
+			ERTOperative.mind.add_antag_datum(ert_antag,ert_team)
+			
+			ERTOperative.mind.assigned_role = ert_antag.name
+			
+			//Logging and cleanup
+			log_game("[key_name(ERTOperative)] has been selected as an [ert_antag.name]")
 			numagents--
 			teamSpawned++
 
 		if (teamSpawned)
+			message_admins("[prompt_name] has spawned with the mission: [mission]")
+			
+			//Open the Armory doors
+			if(alert != ERT_BLUE)
+				for(var/obj/machinery/door/poddoor/ert/door in GLOB.airlocks)
+					spawn(0)
+						door.open()
 			return 1
 		else
 			return 0
