@@ -183,38 +183,43 @@ Pipelines + Other Objects -> Pipe network
 		if(user.dropItemToGround(pipe))
 			pipe.setPipingLayer(piping_layer) //align it with us
 			return TRUE
-	if(istype(W, /obj/item/wrench))
-		if(can_unwrench(user))
-			var/turf/T = get_turf(src)
-			if (level==1 && isturf(T) && T.intact)
-				to_chat(user, "<span class='warning'>You must remove the plating first!</span>")
-				return TRUE
-			var/datum/gas_mixture/int_air = return_air()
-			var/datum/gas_mixture/env_air = loc.return_air()
-			add_fingerprint(user)
-
-			var/unsafe_wrenching = FALSE
-			var/internal_pressure = int_air.return_pressure()-env_air.return_pressure()
-
-			playsound(src, W.usesound, 50, 1)
-			to_chat(user, "<span class='notice'>You begin to unfasten \the [src]...</span>")
-			if (internal_pressure > 2*ONE_ATMOSPHERE)
-				to_chat(user, "<span class='warning'>As you begin unwrenching \the [src] a gush of air blows in your face... maybe you should reconsider?</span>")
-				unsafe_wrenching = TRUE //Oh dear oh dear
-
-			if (do_after(user, 20*W.toolspeed, target = src) && !QDELETED(src))
-				user.visible_message( \
-					"[user] unfastens \the [src].", \
-					"<span class='notice'>You unfasten \the [src].</span>", \
-					"<span class='italics'>You hear ratchet.</span>")
-				investigate_log("was <span class='warning'>REMOVED</span> by [key_name(usr)]", INVESTIGATE_ATMOS)
-
-				//You unwrenched a pipe full of pressure? Let's splat you into the wall, silly.
-				if(unsafe_wrenching)
-					unsafe_pressure_release(user, internal_pressure)
-				deconstruct(TRUE)
 	else
 		return ..()
+
+/obj/machinery/atmospherics/wrench_act(mob/living/user, obj/item/I)
+	if(!can_unwrench(user))
+		return TRUE
+
+	var/turf/T = get_turf(src)
+	if (level==1 && isturf(T) && T.intact)
+		to_chat(user, "<span class='warning'>You must remove the plating first!</span>")
+		return TRUE
+
+	var/datum/gas_mixture/int_air = return_air()
+	var/datum/gas_mixture/env_air = loc.return_air()
+	add_fingerprint(user)
+
+	var/unsafe_wrenching = FALSE
+	var/internal_pressure = int_air.return_pressure()-env_air.return_pressure()
+
+	to_chat(user, "<span class='notice'>You begin to unfasten \the [src]...</span>")
+
+	if (internal_pressure > 2*ONE_ATMOSPHERE)
+		to_chat(user, "<span class='warning'>As you begin unwrenching \the [src] a gush of air blows in your face... maybe you should reconsider?</span>")
+		unsafe_wrenching = TRUE //Oh dear oh dear
+
+	if(I.use_tool(src, user, 20, volume=50))
+		user.visible_message( \
+			"[user] unfastens \the [src].", \
+			"<span class='notice'>You unfasten \the [src].</span>", \
+			"<span class='italics'>You hear ratchet.</span>")
+		investigate_log("was <span class='warning'>REMOVED</span> by [key_name(usr)]", INVESTIGATE_ATMOS)
+
+		//You unwrenched a pipe full of pressure? Let's splat you into the wall, silly.
+		if(unsafe_wrenching)
+			unsafe_pressure_release(user, internal_pressure)
+		deconstruct(TRUE)
+	return TRUE
 
 /obj/machinery/atmospherics/proc/can_unwrench(mob/user)
 	return can_unwrench
@@ -322,6 +327,7 @@ Pipelines + Other Objects -> Pipe network
 				if(world.time - user.last_played_vent > VENT_SOUND_DELAY)
 					user.last_played_vent = world.time
 					playsound(src, 'sound/machines/ventcrawl.ogg', 50, 1, -3)
+<<<<<<< HEAD
 	else
 		if((direction & initialize_directions) || is_type_in_typecache(src, GLOB.ventcrawl_machinery) && can_crawl_through()) //if we move in a way the pipe can connect, but doesn't - or we're in a vent
 			user.forceMove(loc)
@@ -329,6 +335,14 @@ Pipelines + Other Objects -> Pipe network
 	user.canmove = 0
 	spawn(1)
 		user.canmove = 1
+=======
+	else if(is_type_in_typecache(src, GLOB.ventcrawl_machinery) && can_crawl_through()) //if we move in a way the pipe can connect, but doesn't - or we're in a vent
+		user.forceMove(loc)
+		user.visible_message("<span class='notice'>You hear something squeezing through the ducts...</span>","<span class='notice'>You climb out the ventilation system.")
+
+	user.canmove = FALSE
+	addtimer(VARSET_CALLBACK(user, canmove, TRUE), 1)
+>>>>>>> 100c4b6... Adds new helper: use_tool, shakes things up in tool code (#35095)
 
 
 /obj/machinery/atmospherics/AltClick(mob/living/L)

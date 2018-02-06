@@ -538,9 +538,14 @@ GLOBAL_DATUM(main_supermatter_engine, /obj/machinery/power/supermatter_shard)
 	if(!istype(W) || (W.flags_1 & ABSTRACT_1) || !istype(user))
 		return
 	if(istype(W, /obj/item/scalpel/supermatter))
+<<<<<<< HEAD
 		playsound(src, W.usesound, 100, 1)
 		to_chat(user, "<span class='notice'>You carefully begin to scrape \the [src] with \the [W]...</span>")
 		if(do_after(user, 60 * W.toolspeed, TRUE, src))
+=======
+		to_chat(user, "<span class='notice'>You carefully begin to scrape \the [src] with \the [W]...</span>")
+		if(W.use_tool(src, user, 60, volume=100))
+>>>>>>> 100c4b6... Adds new helper: use_tool, shakes things up in tool code (#35095)
 			to_chat(user, "<span class='notice'>You extract a sliver from \the [src]. \The [src] begins to react violently!</span>")
 			new /obj/item/nuke_core/supermatter_sliver(drop_location())
 			matter_power += 200

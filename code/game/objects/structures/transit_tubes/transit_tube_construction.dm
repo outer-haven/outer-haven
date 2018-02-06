@@ -30,6 +30,7 @@
 		else
 			build_type = initial(build_type)
 		icon_state = "[base_icon][flipped]"
+<<<<<<< HEAD
 	else
 		setDir(turn(dir, 180))
 
@@ -77,6 +78,18 @@
 			qdel(src)
 	else
 		return ..()
+=======
+
+/obj/structure/c_transit_tube/wrench_act(mob/living/user, obj/item/I)
+	to_chat(user, "<span class='notice'>You start attaching the [name]...</span>")
+	add_fingerprint(user)
+	if(I.use_tool(src, user, 40, volume=50))
+		to_chat(user, "<span class='notice'>You attach the [name].</span>")
+		var/obj/structure/transit_tube/R = new build_type(loc, dir)
+		transfer_fingerprints_to(R)
+		qdel(src)
+	return TRUE
+>>>>>>> 100c4b6... Adds new helper: use_tool, shakes things up in tool code (#35095)
 
 // transit tube station
 /obj/structure/c_transit_tube/station

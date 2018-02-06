@@ -92,9 +92,13 @@
 
 		if(3)
 			if(istype(W, /obj/item/weldingtool))
+<<<<<<< HEAD
 				var/obj/item/weldingtool/WT = W
 				if(WT.remove_fuel(0,user))
 					build_step++
+=======
+				if(W.use_tool(src, user, 0, volume=40))
+>>>>>>> 100c4b6... Adds new helper: use_tool, shakes things up in tool code (#35095)
 					name = "shielded frame assembly"
 					to_chat(user, "<span class='notice'>You weld the vest to [src].</span>")
 		if(4)
@@ -175,8 +179,12 @@
 			if(istype(W, /obj/item/screwdriver))
 				playsound(loc, W.usesound, 100, 1)
 				to_chat(user, "<span class='notice'>You start attaching the gun to the frame...</span>")
+<<<<<<< HEAD
 				if(do_after(user, 40*W.toolspeed, 0, src, 1))
 					build_step++
+=======
+				if(W.use_tool(src, user, 40))
+>>>>>>> 100c4b6... Adds new helper: use_tool, shakes things up in tool code (#35095)
 					name = "armed [name]"
 					to_chat(user, "<span class='notice'>Taser gun attached.</span>")
 
@@ -404,6 +412,7 @@
 
 /obj/item/secbot_assembly/attackby(obj/item/I, mob/user, params)
 	..()
+<<<<<<< HEAD
 	if(istype(I, /obj/item/weldingtool))
 		if(!build_step)
 			var/obj/item/weldingtool/WT = I
@@ -414,6 +423,54 @@
 		else if(build_step == 1)
 			var/obj/item/weldingtool/WT = I
 			if(WT.remove_fuel(0, user))
+=======
+	var/atom/Tsec = drop_location()
+	switch(build_step)
+		if(ASSEMBLY_FIRST_STEP)
+			if(istype(I, /obj/item/weldingtool))
+				if(I.use_tool(src, user, 0, volume=40))
+					add_overlay("hs_hole")
+					to_chat(user, "<span class='notice'>You weld a hole in [src]!</span>")
+					build_step++
+
+			else if(istype(I, /obj/item/screwdriver)) //deconstruct
+				new /obj/item/device/assembly/signaler(Tsec)
+				new /obj/item/clothing/head/helmet/sec(Tsec)
+				to_chat(user, "<span class='notice'>You disconnect the signaler from the helmet.</span>")
+				qdel(src)
+
+		if(ASSEMBLY_SECOND_STEP)
+			if(isprox(I))
+				if(!user.temporarilyRemoveItemFromInventory(I))
+					return
+				to_chat(user, "<span class='notice'>You add [I] to [src]!</span>")
+				add_overlay("hs_eye")
+				name = "helmet/signaler/prox sensor assembly"
+				qdel(I)
+				build_step++
+
+			else if(istype(I, /obj/item/weldingtool)) //deconstruct
+				if(I.use_tool(src, user, 0, volume=40))
+					cut_overlay("hs_hole")
+					to_chat(user, "<span class='notice'>You weld the hole in [src] shut!</span>")
+					build_step--
+
+		if(ASSEMBLY_THIRD_STEP)
+			if((istype(I, /obj/item/bodypart/l_arm/robot)) || (istype(I, /obj/item/bodypart/r_arm/robot)))
+				if(!user.temporarilyRemoveItemFromInventory(I))
+					return
+				to_chat(user, "<span class='notice'>You add [I] to [src]!</span>")
+				name = "helmet/signaler/prox sensor/robot arm assembly"
+				add_overlay("hs_arm")
+				robot_arm = I.type
+				qdel(I)
+				build_step++
+
+			else if(istype(I, /obj/item/screwdriver)) //deconstruct
+				cut_overlay("hs_eye")
+				new /obj/item/device/assembly/prox_sensor(Tsec)
+				to_chat(user, "<span class='notice'>You detach the proximity sensor from [src].</span>")
+>>>>>>> 100c4b6... Adds new helper: use_tool, shakes things up in tool code (#35095)
 				build_step--
 				cut_overlay("hs_hole")
 				to_chat(user, "<span class='notice'>You weld the hole in [src] shut!</span>")
