@@ -44,7 +44,14 @@
 		/obj/item/grenade/chem_grenade/glitter/blue		= 1,
 		/obj/item/grenade/chem_grenade/glitter/white		= 1,
 		/obj/item/toy/eightball									= 2,
+<<<<<<< HEAD
 		/obj/item/toy/windupToolbox								= 2)
+=======
+		/obj/item/toy/windupToolbox								= 2,
+		/obj/item/toy/clockwork_watch							= 2,
+		/obj/item/extendohand/acme								= 1,
+		/obj/item/hot_potato/harmless/toy						= 1)
+>>>>>>> a12f449... [READY]Explosive Hot Potatoes - Service department job restricted traitor item (#34741)
 
 	light_color = LIGHT_COLOR_GREEN
 
