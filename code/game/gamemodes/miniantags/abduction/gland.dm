@@ -224,10 +224,16 @@
 	mind_control_duration = 1800
 
 /obj/item/organ/heart/gland/egg/activate()
+<<<<<<< HEAD:code/game/gamemodes/miniantags/abduction/gland.dm
 	to_chat(owner, "<span class='boldannounce'>You lay an egg!</span>")
 	var/obj/item/reagent_containers/food/snacks/egg/egg = new(owner.loc)
 	egg.reagents.add_reagent("sacid",20)
 	egg.desc += " It smells bad."
+=======
+	owner.visible_message("<span class='alertalien'>[owner] [pick(EGG_LAYING_MESSAGES)]</span>")
+	var/turf/T = owner.drop_location()
+	new /obj/item/reagent_containers/food/snacks/egg/gland(T)
+>>>>>>> 5b0221f... Egg changes (#35268):code/modules/antagonists/abductor/equipment/gland.dm
 
 /obj/item/organ/heart/gland/bloody
 	cooldown_low = 200
