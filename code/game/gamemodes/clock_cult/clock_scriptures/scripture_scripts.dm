@@ -5,7 +5,7 @@
 
 //Replica Fabricator: Creates a replica fabricator, used to convert objects and repair clockwork structures.
 /datum/clockwork_scripture/create_object/replica_fabricator
-	descname = "Creates Brass and Converts Objects - Important!"
+	descname = "Creates Brass and Converts Objects"
 	name = "Replica Fabricator"
 	desc = "Forms a device that, when used on certain objects, replaces them with their Ratvarian equivalents. It requires power to function."
 	invocations = list("With this device...", "...his presence shall be made known.")
@@ -19,6 +19,7 @@
 	space_allowed = TRUE
 	primary_component = HIEROPHANT_ANSIBLE
 	sort_priority = 1
+	important = TRUE
 	quickbind = TRUE
 	quickbind_desc = "Creates a Replica Fabricator, which can convert various objects to Ratvarian variants."
 
@@ -97,10 +98,17 @@
 	quickbind_desc = "Creates a Judicial Visor, which can smite an area, applying Belligerent and briefly stunning."
 
 
+<<<<<<< HEAD:code/game/gamemodes/clock_cult/clock_scriptures/scripture_scripts.dm
 //Clockwork Arnaments: Grants the invoker the ability to call forth a Ratvarian spear and clockwork armor.
 /datum/clockwork_scripture/clockwork_arnaments
 	descname = "Summonable Armor and Weapons - Important!"
 	name = "Clockwork Arnaments"
+=======
+//Clockwork Armaments: Grants the invoker the ability to call forth a Ratvarian spear and clockwork armor.
+/datum/clockwork_scripture/clockwork_armaments
+	descname = "Summonable Armor and Weapons"
+	name = "Clockwork Armaments"
+>>>>>>> 54f5be6... brief CC power patch (#34880):code/modules/antagonists/clockcult/clock_scriptures/scripture_scripts.dm
 	desc = "Allows the invoker to summon clockwork armor and a Ratvarian spear at will. The spear's attacks will generate Vitality, used for healing."
 	invocations = list("Grant me arnaments...", "...from the forge of Armorer!")
 	channel_time = 20
@@ -110,6 +118,7 @@
 	tier = SCRIPTURE_SCRIPT
 	primary_component = VANGUARD_COGWHEEL
 	sort_priority = 5
+	important = TRUE
 	quickbind = TRUE
 	quickbind_desc = "Permanently binds clockwork armor and a Ratvarian spear to you."
 
