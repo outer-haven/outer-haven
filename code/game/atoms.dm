@@ -26,12 +26,19 @@
 
 	var/datum/proximity_monitor/proximity_monitor
 	var/buckle_message_cooldown = 0
+	var/fingerprintslast
 
 /atom/New(loc, ...)
 	//atom creation method that preloads variables at creation
 	if(GLOB.use_preloader && (src.type == GLOB._preloader.target_path))//in case the instanciated atom is creating other atoms in New()
 		GLOB._preloader.load(src)
 
+<<<<<<< HEAD
+=======
+	if(datum_flags & DF_USE_TAG)
+		GenerateTag()
+
+>>>>>>> fec2d66... Datum var cleanup (#34314)
 	var/do_initialize = SSatoms.initialized
 	if(do_initialize != INITIALIZATION_INSSATOMS)
 		args[1] = do_initialize == INITIALIZATION_INNEW_MAPLOAD
