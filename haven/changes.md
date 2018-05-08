@@ -22,6 +22,17 @@ This simply replaces the jumpsuits that normally spawn in hte mixed wardrobe to 
 imp.removed(target) in /code/game/objects/items/implants/implant_loyality.dm
 Triggers the removal effects of the mindslave implant
 
+
+### Miscreants and Crew Objectives
+code/_DEFINES/role_preferences.dm	|	code/controllers/configuration/entries/game_options.dm	|
+
+code/controllers/subsystem/ticker.dm	|	code\game\objects\items\devices\PDA\PDA_types.dm	|
+
+code\modules\mob\dead\new_player\new_player.dm	|	config\game_options.txt	|
+
+All of the above files have been heavily modified to accomodate crew objectives and miscreants.
+
 ###ID-fluff
 ID_fluff() in /code/game/objects/items/cards_ids.dm
 triggers the fluff addition of IDs in /haven/code/game/objects/items/cards_ids.dm
+
