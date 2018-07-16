@@ -1301,6 +1301,12 @@
 	name = "External Airlock";
 	req_access_txt = "13"
 	},
+<<<<<<< HEAD
+=======
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+>>>>>>> 2d5c3d5... Merge pull request #34781 from DaxDupont/please-make-waffles-for=i-am-belgian
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
@@ -15783,7 +15789,6 @@
 /turf/open/floor/plasteel/vault,
 /area/crew_quarters/kitchen)
 "aCY" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
 /obj/machinery/light{
 	dir = 1
 	},
@@ -15793,7 +15798,12 @@
 	name = "Kitchen RC";
 	pixel_y = 32
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/vault,
+=======
+/obj/structure/closet/secure_closet/freezer/kitchen,
+/turf/open/floor/plasteel/vault/side,
+>>>>>>> 2d5c3d5... Merge pull request #34781 from DaxDupont/please-make-waffles-for=i-am-belgian
 /area/crew_quarters/kitchen)
 "aCZ" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
@@ -30715,6 +30725,7 @@
 	heat_capacity = 1e+006
 	},
 /area/hallway/primary/central)
+<<<<<<< HEAD
 "bgh" = (
 /obj/effect/landmark/lightsout,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -30722,6 +30733,8 @@
 	},
 /turf/open/floor/plasteel/neutral/side,
 /area/hallway/primary/central)
+=======
+>>>>>>> 2d5c3d5... Merge pull request #34781 from DaxDupont/please-make-waffles-for=i-am-belgian
 "bgl" = (
 /obj/machinery/vending/cola,
 /obj/machinery/newscaster{
@@ -76460,7 +76473,7 @@ bed
 beI
 bff
 bfL
-bgh
+aYc
 bgU
 bhI
 blv
