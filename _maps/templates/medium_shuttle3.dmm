@@ -20,6 +20,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/airless,
+<<<<<<< HEAD
 /area/ruin/powered{
 	name = "Shuttle"
 	})
@@ -39,17 +40,18 @@
 /area/ruin/powered{
 	name = "Shuttle"
 	})
+=======
+/area/ruin/powered/shuttle/medium_3)
+>>>>>>> 0e2707d... Merge pull request #34581 from ShizCalev/stacked-turf-cleanup
 "g" = (
-/turf/closed/wall/mineral/plastitanium{
-	dir = 4;
-	icon_state = "diagonalWall3"
-	},
+/turf/closed/wall/mineral/plastitanium,
 /turf/closed/wall/mineral/titanium,
 /area/ruin/powered{
 	name = "Shuttle"
 	})
 "h" = (
 /turf/closed/wall/mineral/titanium,
+<<<<<<< HEAD
 /area/ruin/powered{
 	name = "Shuttle"
 	})
@@ -61,6 +63,9 @@
 /area/ruin/powered{
 	name = "Shuttle"
 	})
+=======
+/area/ruin/powered/shuttle/medium_3)
+>>>>>>> 0e2707d... Merge pull request #34581 from ShizCalev/stacked-turf-cleanup
 "j" = (
 /obj/machinery/door/airlock/external/glass,
 /turf/open/floor/plating,
@@ -118,6 +123,7 @@
 	dir = 4
 	},
 /turf/open/space,
+<<<<<<< HEAD
 /area/ruin/powered{
 	name = "Shuttle"
 	})
@@ -145,6 +151,13 @@
 /area/ruin/powered{
 	name = "Shuttle"
 	})
+=======
+/area/ruin/powered/shuttle/medium_3)
+"t" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/ruin/powered/shuttle/medium_3)
+>>>>>>> 0e2707d... Merge pull request #34581 from ShizCalev/stacked-turf-cleanup
 "v" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/darkyellow,
@@ -161,6 +174,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/darkyellow,
+<<<<<<< HEAD
 /area/ruin/powered{
 	name = "Shuttle"
 	})
@@ -171,6 +185,9 @@
 /area/ruin/powered{
 	name = "Shuttle"
 	})
+=======
+/area/ruin/powered/shuttle/medium_3)
+>>>>>>> 0e2707d... Merge pull request #34581 from ShizCalev/stacked-turf-cleanup
 "z" = (
 /obj/machinery/sleeper,
 /turf/open/floor/plasteel/darkblue,
@@ -179,6 +196,7 @@
 	})
 "A" = (
 /turf/open/floor/plasteel/dark,
+<<<<<<< HEAD
 /area/ruin/powered{
 	name = "Shuttle"
 	})
@@ -190,6 +208,9 @@
 /area/ruin/powered{
 	name = "Shuttle"
 	})
+=======
+/area/ruin/powered/shuttle/medium_3)
+>>>>>>> 0e2707d... Merge pull request #34581 from ShizCalev/stacked-turf-cleanup
 "C" = (
 /turf/open/floor/plasteel/darkblue,
 /area/ruin/powered{
@@ -274,18 +295,18 @@ a
 a
 a
 a
-e
-o
-c
-c
-y
-a
-a
-e
-c
 c
 o
-y
+c
+c
+c
+a
+a
+c
+c
+c
+o
+c
 a
 a
 a
@@ -297,7 +318,7 @@ a
 a
 a
 a
-e
+c
 c
 c
 c
@@ -310,7 +331,7 @@ c
 c
 c
 c
-y
+c
 a
 a
 a
@@ -320,22 +341,22 @@ a
 a
 a
 a
-e
-g
-h
-h
-s
-c
-g
-j
-j
-s
 c
 g
 h
 h
-s
-y
+g
+c
+g
+j
+j
+g
+c
+g
+h
+h
+g
+c
 a
 a
 a
@@ -343,7 +364,7 @@ a
 (6,1,1) = {"
 a
 a
-e
+c
 c
 h
 k
@@ -360,7 +381,7 @@ l
 k
 h
 c
-y
+c
 a
 a
 "}
@@ -393,7 +414,7 @@ a
 c
 c
 c
-i
+g
 G
 l
 l
@@ -406,7 +427,7 @@ l
 l
 l
 G
-u
+g
 c
 c
 c
@@ -439,7 +460,7 @@ F
 (10,1,1) = {"
 a
 a
-f
+c
 c
 g
 G
@@ -454,9 +475,9 @@ A
 G
 p
 G
-s
+g
 c
-B
+c
 a
 a
 "}
@@ -511,9 +532,9 @@ a
 (13,1,1) = {"
 a
 a
-e
 c
-i
+c
+g
 G
 p
 G
@@ -526,9 +547,9 @@ A
 G
 p
 G
-u
+g
 c
-y
+c
 a
 a
 "}
@@ -574,7 +595,7 @@ l
 l
 l
 G
-s
+g
 c
 c
 c
@@ -607,7 +628,7 @@ a
 (17,1,1) = {"
 a
 a
-f
+c
 c
 h
 k
@@ -624,7 +645,7 @@ l
 k
 h
 c
-B
+c
 a
 a
 "}
@@ -632,22 +653,22 @@ a
 a
 a
 a
-f
-i
-h
-h
-u
 c
-i
+g
+h
+h
+g
+c
+g
 j
 j
-u
+g
 c
-i
+g
 h
 h
-u
-B
+g
+c
 a
 a
 a
@@ -657,7 +678,7 @@ a
 a
 a
 a
-f
+c
 c
 c
 c
@@ -670,7 +691,7 @@ c
 c
 c
 c
-B
+c
 a
 a
 a
@@ -682,18 +703,18 @@ a
 a
 a
 a
-f
-q
-c
-c
-B
-a
-a
-f
-c
 c
 q
-B
+c
+c
+c
+a
+a
+c
+c
+c
+q
+c
 a
 a
 a

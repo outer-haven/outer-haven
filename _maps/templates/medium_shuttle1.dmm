@@ -23,6 +23,7 @@
 	})
 "d" = (
 /turf/closed/wall/mineral/plastitanium,
+<<<<<<< HEAD
 /area/ruin/powered{
 	name = "Shuttle"
 	})
@@ -43,6 +44,9 @@
 /area/ruin/powered{
 	name = "Shuttle"
 	})
+=======
+/area/ruin/powered/shuttle/medium_1)
+>>>>>>> 0e2707d... Merge pull request #34581 from ShizCalev/stacked-turf-cleanup
 "g" = (
 /turf/closed/wall/mineral/titanium,
 /area/ruin/powered{
@@ -141,6 +145,7 @@
 	dir = 8
 	},
 /turf/open/space,
+<<<<<<< HEAD
 /area/ruin/powered{
 	name = "Shuttle"
 	})
@@ -161,6 +166,9 @@
 /area/ruin/powered{
 	name = "Shuttle"
 	})
+=======
+/area/ruin/powered/shuttle/medium_1)
+>>>>>>> 0e2707d... Merge pull request #34581 from ShizCalev/stacked-turf-cleanup
 
 (1,1,1) = {"
 a
@@ -250,17 +258,17 @@ c
 (6,1,1) = {"
 d
 d
-f
-g
-k
-g
-g
-g
 g
 g
 k
 g
-x
+g
+g
+g
+g
+k
+g
+g
 d
 d
 "}
@@ -296,10 +304,10 @@ j
 j
 g
 d
-y
+d
 "}
 (9,1,1) = {"
-e
+d
 d
 g
 j
@@ -312,12 +320,12 @@ g
 j
 j
 g
-y
+d
 a
 "}
 (10,1,1) = {"
 a
-e
+d
 g
 g
 g
