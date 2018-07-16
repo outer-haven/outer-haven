@@ -225,13 +225,21 @@ Borg Shaker
 /obj/item/reagent_containers/borghypo/peace
 	name = "Peace Hypospray"
 
+<<<<<<< HEAD
 	reagent_ids = list("dizzysolution","tiresolution")
+=======
+	reagent_ids = list("dizzysolution","tiresolution","synthpax")
+>>>>>>> 8739e68... Merge pull request #34988 from XDTM/SayNoToNuclearNerfs
 	accepts_reagent_upgrades = FALSE
 
 /obj/item/reagent_containers/borghypo/peace/hacked
 	desc = "Everything's peaceful in death!"
 	icon_state = "borghypo_s"
+<<<<<<< HEAD
 	reagent_ids = list("dizzysolution","tiresolution","tirizene","sulfonal","sodium_thiopental","cyanide","neurotoxin2")
+=======
+	reagent_ids = list("dizzysolution","tiresolution","synthpax","tirizene","sulfonal","sodium_thiopental","cyanide","neurotoxin2")
+>>>>>>> 8739e68... Merge pull request #34988 from XDTM/SayNoToNuclearNerfs
 	accepts_reagent_upgrades = FALSE
 
 /obj/item/reagent_containers/borghypo/epi
