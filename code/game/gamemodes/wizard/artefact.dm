@@ -338,7 +338,7 @@
 	var/mob/living/carbon/last_user
 
 /obj/item/warpwhistle/proc/interrupted(mob/living/carbon/user)
-	if(!user || QDELETED(src))
+	if(!user || QDELETED(src) || user.notransform)
 		on_cooldown = FALSE
 		return TRUE
 	return FALSE
