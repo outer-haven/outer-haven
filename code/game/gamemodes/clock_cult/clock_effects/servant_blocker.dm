@@ -24,3 +24,6 @@
 
 /obj/effect/clockwork/servant_blocker/singularity_pull()
 	return
+
+/obj/effect/clockwork/servant_blocker/ex_act(severity, target)
+	return
