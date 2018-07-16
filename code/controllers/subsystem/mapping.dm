@@ -22,6 +22,13 @@ SUBSYSTEM_DEF(mapping)
 
 	var/loading_ruins = FALSE
 
+<<<<<<< HEAD
+=======
+	// Z-manager stuff
+	var/list/z_list
+	var/datum/space_level/transit
+
+>>>>>>> 35faafa... Refactor weather to use Z traits, assorted related cleanup (#34633)
 /datum/controller/subsystem/mapping/PreInit()
 	if(!config)
 #ifdef FORCE_MAP
@@ -39,9 +46,23 @@ SUBSYSTEM_DEF(mapping)
 	repopulate_sorted_areas()
 	process_teleport_locs()			//Sets up the wizard teleport locations
 	preloadTemplates()
+<<<<<<< HEAD
 	// Pick a random away mission.
 	createRandomZlevel()
 	// Generate mining.
+=======
+#ifndef LOWMEMORYMODE
+	// Create space levels
+	for(var/I in 1 to ZLEVEL_SPACE_RUIN_COUNT)
+		add_new_zlevel("Empty Area [2 + I]", CROSSLINKED, list(ZTRAIT_SPACE_RUINS = TRUE))
+	add_new_zlevel("Empty Area [3 + ZLEVEL_SPACE_RUIN_COUNT]", CROSSLINKED, list())  // no ruins
+	transit = add_new_zlevel("Transit", UNAFFECTED, list(ZTRAIT_TRANSIT = TRUE))
+
+	// Pick a random away mission.
+	createRandomZlevel()
+
+	// Generate mining ruins
+>>>>>>> 35faafa... Refactor weather to use Z traits, assorted related cleanup (#34633)
 	loading_ruins = TRUE
 	var/mining_type = config.minetype
 	if (mining_type == "lavaland")
