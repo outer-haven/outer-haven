@@ -1,7 +1,11 @@
+#define FAILED_DB_CONNECTION_CUTOFF 5
+#define DM_DEFAULT_CURSOR 0
+
 SUBSYSTEM_DEF(dbcore)
 	name = "Database"
 	flags = SS_NO_INIT|SS_NO_FIRE
 	init_order = INIT_ORDER_DBCORE
+<<<<<<< HEAD
 	var/const/FAILED_DB_CONNECTION_CUTOFF = 5
 
 	var/const/Default_Cursor = 0
@@ -18,6 +22,12 @@ SUBSYSTEM_DEF(dbcore)
 	var/const/IS_PRIMARY_KEY = 8
 	var/const/IS_UNSIGNED = 16
 // TODO: Investigate more recent type additions and see if I can handle them. - Nadrew
+=======
+
+	var/schema_mismatch = 0
+	var/db_minor = 0
+	var/db_major = 0
+>>>>>>> 1dc1bfc... Removes unused consts from dbcore (#34711)
 
 	var/_db_con// This variable contains a reference to the actual database connection.
 	var/failed_connections = 0
@@ -63,7 +73,7 @@ SUBSYSTEM_DEF(dbcore)
 	var/address = CONFIG_GET(string/address)
 	var/port = CONFIG_GET(number/port)
 
-	_dm_db_connect(_db_con, "dbi:mysql:[db]:[address]:[port]", user, pass, Default_Cursor, null)
+	_dm_db_connect(_db_con, "dbi:mysql:[db]:[address]:[port]", user, pass, DM_DEFAULT_CURSOR, null)
 	. = IsConnected()
 	if (!.)
 		log_sql("Connect() failed | [ErrorMsg()]")
@@ -86,7 +96,7 @@ SUBSYSTEM_DEF(dbcore)
 		return "Database disabled by configuration"
 	return _dm_db_error_msg(_db_con)
 
-/datum/controller/subsystem/dbcore/proc/NewQuery(sql_query, cursor_handler = Default_Cursor)
+/datum/controller/subsystem/dbcore/proc/NewQuery(sql_query, cursor_handler = DM_DEFAULT_CURSOR)
 	if(IsAdminAdvancedProcCall())
 		log_admin_private("ERROR: Advanced admin proc call led to sql query: [sql_query]. Query has been blocked")
 		message_admins("ERROR: Advanced admin proc call led to sql query. Query has been blocked")
