@@ -1779,7 +1779,6 @@
 /area/security/execution/transfer)
 "agw" = (
 /obj/structure/bed,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/dark,
 /area/security/execution/transfer)
 "agx" = (
@@ -3576,7 +3575,6 @@
 /area/maintenance/department/security/brig)
 "akx" = (
 /obj/structure/bodycontainer/crematorium,
-/obj/effect/landmark/revenantspawn,
 /obj/item/device/radio/intercom{
 	dir = 0;
 	name = "Station Intercom (General)";
@@ -3704,7 +3702,6 @@
 	c_tag = "Brig Evidence Room";
 	dir = 8
 	},
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/red/side{
 	dir = 4
 	},
@@ -4187,7 +4184,6 @@
 	dir = 1;
 	layer = 2.9
 	},
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/dark,
 /area/security/brig)
 "ama" = (
@@ -7188,7 +7184,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/circuit/green{
 	luminosity = 2
 	},
@@ -8379,7 +8374,6 @@
 	},
 /obj/item/soap/deluxe,
 /obj/item/bikehorn/rubberducky,
-/obj/effect/landmark/revenantspawn,
 /obj/structure/curtain,
 /turf/open/floor/plasteel/freezer,
 /area/crew_quarters/heads/captain)
@@ -12430,7 +12424,6 @@
 /area/maintenance/department/cargo)
 "aFk" = (
 /obj/structure/bodycontainer/morgue,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/dark,
 /area/security/detectives_office)
 "aFl" = (
@@ -17002,7 +16995,6 @@
 /area/maintenance/disposal)
 "aQp" = (
 /obj/structure/disposalpipe/segment,
-/obj/effect/landmark/revenantspawn,
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
@@ -25530,7 +25522,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 10
 	},
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plating{
 	broken = 1;
 	icon_state = "platingdmg1"
@@ -25649,7 +25640,6 @@
 /area/medical/medbay/zone3)
 "bld" = (
 /obj/structure/bodycontainer/morgue,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/dark,
 /area/medical/morgue)
 "ble" = (
@@ -26195,7 +26185,6 @@
 /area/medical/medbay/zone3)
 "bmp" = (
 /obj/structure/bodycontainer/morgue,
-/obj/effect/landmark/revenantspawn,
 /obj/machinery/light/small{
 	brightness = 3;
 	dir = 8
@@ -26506,7 +26495,6 @@
 /area/science/xenobiology)
 "bnk" = (
 /obj/effect/decal/cleanable/ash,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plating,
 /area/maintenance/department/cargo)
 "bnl" = (
@@ -26896,7 +26884,6 @@
 	},
 /area/science/xenobiology)
 "boi" = (
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/engine,
 /area/science/xenobiology)
 "boj" = (
@@ -33366,7 +33353,6 @@
 	},
 /area/science/mixing)
 "bBU" = (
-/obj/effect/landmark/revenantspawn,
 /mob/living/simple_animal/slime,
 /turf/open/floor/engine,
 /area/science/xenobiology)
@@ -35227,7 +35213,6 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/dark,
 /area/medical/exam_room)
 "bFX" = (
@@ -35236,7 +35221,6 @@
 /obj/effect/decal/cleanable/blood/drip,
 /obj/item/restraints/handcuffs,
 /obj/item/clothing/mask/muzzle,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/dark,
 /area/medical/exam_room)
 "bFY" = (
@@ -35529,7 +35513,6 @@
 "bGL" = (
 /obj/structure/closet/masks,
 /obj/item/reagent_containers/food/snacks/deadmouse,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plating,
 /area/maintenance/department/engine)
 "bGM" = (
@@ -37108,7 +37091,6 @@
 "bKv" = (
 /obj/item/bedsheet/medical,
 /obj/structure/bed,
-/obj/effect/landmark/revenantspawn,
 /obj/structure/mirror{
 	pixel_x = -28
 	},
@@ -37194,7 +37176,6 @@
 /area/medical/surgery)
 "bKF" = (
 /obj/structure/table/optable,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/white,
 /area/medical/surgery)
 "bKG" = (
@@ -37550,7 +37531,6 @@
 /turf/open/floor/engine,
 /area/maintenance/department/engine)
 "bLv" = (
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/engine,
 /area/maintenance/department/engine)
 "bLw" = (
@@ -37572,7 +37552,6 @@
 /obj/item/bedsheet/medical,
 /obj/structure/bed,
 /obj/effect/decal/cleanable/cobweb,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/freezer,
 /area/medical/virology)
 "bLA" = (
@@ -37582,7 +37561,6 @@
 "bLB" = (
 /obj/structure/bed,
 /obj/item/bedsheet/medical,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plasteel/freezer,
 /area/medical/virology)
 "bLC" = (
@@ -47130,7 +47108,6 @@
 	})
 "ckL" = (
 /obj/item/device/radio/beacon,
-/obj/effect/landmark/revenantspawn,
 /turf/open/floor/plating/airless,
 /area/mine/explored{
 	name = "Bomb Testing Asteroid"
