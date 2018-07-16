@@ -27,10 +27,13 @@
 	var/lastattackerckey = null
 	var/list/logging = list(INDIVIDUAL_ATTACK_LOG, INDIVIDUAL_SAY_LOG, INDIVIDUAL_EMOTE_LOG, INDIVIDUAL_OOC_LOG)
 	var/obj/machinery/machine = null
+<<<<<<< HEAD
 	var/other_mobs = null
 
 	var/atom/movable/pulling = null
 	var/grab_state = 0
+=======
+>>>>>>> 42d663c... Merge pull request #34769 from ShizCalev/var-cleanup
 
 	var/next_move = null
 	var/notransform = null	//Carbon
@@ -87,13 +90,9 @@
 
 	var/in_throw_mode = 0
 
-	var/music_lastplayed = "null"
-
 	var/job = null//Living
 
 	var/radiation = 0//Carbon
-
-	var/voice_name = "unidentifiable voice"
 
 	var/list/faction = list("neutral") //A list of factions that this mob is currently in, for hostile mob targetting, amongst other things
 	var/move_on_shuttle = 1 // Can move on the shuttle.
