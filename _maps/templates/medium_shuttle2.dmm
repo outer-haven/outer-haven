@@ -39,6 +39,7 @@
 	dir = 8
 	},
 /turf/open/space,
+<<<<<<< HEAD
 /area/ruin/powered{
 	name = "Shuttle"
 	})
@@ -52,6 +53,10 @@
 	name = "Shuttle"
 	})
 "h" = (
+=======
+/area/ruin/powered/shuttle/medium_2)
+"g" = (
+>>>>>>> 249bb6b... mapmerge2 on lots of maps (#35023)
 /turf/closed/wall/mineral/titanium,
 /area/ruin/powered{
 	name = "Shuttle"
@@ -251,10 +256,17 @@ c
 d
 d
 g
+<<<<<<< HEAD
 h
 l
 h
 z
+=======
+g
+l
+g
+g
+>>>>>>> 249bb6b... mapmerge2 on lots of maps (#35023)
 d
 d
 c
@@ -264,6 +276,7 @@ c
 d
 d
 g
+<<<<<<< HEAD
 h
 h
 r
@@ -272,13 +285,23 @@ r
 h
 h
 z
+=======
+g
+g
+r
+m
+r
+g
+g
+g
+>>>>>>> 249bb6b... mapmerge2 on lots of maps (#35023)
 d
 d
 "}
 (7,1,1) = {"
 d
 d
-h
+g
 m
 m
 m
@@ -286,74 +309,93 @@ m
 m
 m
 m
-h
+g
 d
 d
 "}
 (8,1,1) = {"
 d
 g
+<<<<<<< HEAD
 h
+=======
+g
+>>>>>>> 249bb6b... mapmerge2 on lots of maps (#35023)
 n
-h
+g
 B
 w
 B
-h
+g
 n
+<<<<<<< HEAD
 h
 z
+=======
+g
+g
+>>>>>>> 249bb6b... mapmerge2 on lots of maps (#35023)
 d
 "}
 (9,1,1) = {"
 d
-h
+g
 k
 k
-h
-h
+g
+g
 B
-h
-h
+g
+g
 k
 k
-h
+g
 d
 "}
 (10,1,1) = {"
+<<<<<<< HEAD
 e
 h
+=======
+d
+g
+>>>>>>> 249bb6b... mapmerge2 on lots of maps (#35023)
 k
 k
-h
-h
-h
-h
-h
+g
+g
+g
+g
+g
 k
 k
+<<<<<<< HEAD
 h
 A
+=======
+g
+d
+>>>>>>> 249bb6b... mapmerge2 on lots of maps (#35023)
 "}
 (11,1,1) = {"
 a
 i
-h
+g
 n
-h
-h
-h
-h
-h
+g
+g
+g
+g
+g
 n
-h
+g
 i
 a
 "}
 (12,1,1) = {"
 a
 a
-h
+g
 k
 k
 n
@@ -361,37 +403,37 @@ k
 n
 k
 k
-h
+g
 a
 a
 "}
 (13,1,1) = {"
 a
 a
-h
+g
 k
 k
-h
-h
-h
+g
+g
+g
 k
 k
-h
+g
 a
 a
 "}
 (14,1,1) = {"
 a
 a
-h
-h
+g
+g
 n
-h
-h
-h
+g
+g
+g
 n
-h
-h
+g
+g
 a
 a
 "}
@@ -401,9 +443,9 @@ a
 l
 k
 k
-h
-h
-h
+g
+g
+g
 k
 k
 l
@@ -414,13 +456,13 @@ a
 a
 a
 i
-h
+g
 n
-h
-h
-h
+g
+g
+g
 n
-h
+g
 i
 a
 a
@@ -429,13 +471,13 @@ a
 a
 a
 a
-h
+g
 k
 k
 k
 k
 k
-h
+g
 a
 a
 a
@@ -444,13 +486,13 @@ a
 a
 a
 a
-h
+g
 n
-h
-h
-h
+g
+g
+g
 n
-h
+g
 a
 a
 a
@@ -459,13 +501,13 @@ a
 a
 a
 a
-h
+g
 o
 s
 x
 k
 k
-h
+g
 a
 a
 a
@@ -474,13 +516,13 @@ a
 a
 a
 a
-h
+g
 o
 t
 x
 k
 k
-h
+g
 a
 a
 a
@@ -489,13 +531,13 @@ a
 a
 a
 a
-h
+g
 n
-h
-h
-h
+g
+g
+g
 n
-h
+g
 a
 a
 a
@@ -504,13 +546,13 @@ a
 a
 a
 a
-h
+g
 k
 k
 x
 k
 k
-h
+g
 a
 a
 a
@@ -519,13 +561,13 @@ a
 a
 a
 a
-h
+g
 k
 k
 x
 k
 k
-h
+g
 a
 a
 a
@@ -534,13 +576,13 @@ a
 a
 a
 a
-h
+g
 n
-h
-h
-h
+g
+g
+g
 n
-h
+g
 a
 a
 a
@@ -549,13 +591,13 @@ a
 a
 a
 a
-h
+g
 p
 p
 y
 p
 p
-h
+g
 a
 a
 a
@@ -564,13 +606,13 @@ a
 a
 a
 a
-h
+g
 p
 u
 u
 u
 p
-h
+g
 a
 a
 a
@@ -580,11 +622,11 @@ a
 a
 a
 i
-h
+g
 v
 v
 v
-h
+g
 i
 a
 a

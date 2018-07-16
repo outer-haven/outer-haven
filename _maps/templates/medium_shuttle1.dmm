@@ -23,6 +23,7 @@
 	})
 "d" = (
 /turf/closed/wall/mineral/plastitanium,
+<<<<<<< HEAD
 /area/ruin/powered{
 	name = "Shuttle"
 	})
@@ -44,6 +45,10 @@
 	name = "Shuttle"
 	})
 "g" = (
+=======
+/area/ruin/powered/shuttle/medium_1)
+"f" = (
+>>>>>>> 249bb6b... mapmerge2 on lots of maps (#35023)
 /turf/closed/wall/mineral/titanium,
 /area/ruin/powered{
 	name = "Shuttle"
@@ -170,7 +175,7 @@ a
 a
 i
 h
-g
+f
 h
 i
 a
@@ -185,11 +190,11 @@ a
 a
 a
 a
-g
+f
 n
 n
 n
-g
+f
 a
 a
 a
@@ -201,13 +206,13 @@ a
 a
 a
 i
-g
-g
+f
+f
 o
-g
+f
 o
-g
-g
+f
+f
 i
 a
 a
@@ -217,15 +222,15 @@ a
 b
 b
 b
-g
+f
 j
-g
+f
 n
 n
 n
-g
+f
 j
-g
+f
 w
 w
 w
@@ -234,7 +239,7 @@ w
 c
 c
 c
-g
+f
 j
 k
 n
@@ -242,7 +247,7 @@ t
 n
 k
 j
-g
+f
 c
 c
 c
@@ -251,40 +256,49 @@ c
 d
 d
 f
+<<<<<<< HEAD
 g
+=======
+f
+>>>>>>> 249bb6b... mapmerge2 on lots of maps (#35023)
 k
-g
-g
-g
-g
-g
+f
+f
+f
+f
+f
 k
+<<<<<<< HEAD
 g
 x
+=======
+f
+f
+>>>>>>> 249bb6b... mapmerge2 on lots of maps (#35023)
 d
 d
 "}
 (7,1,1) = {"
 d
 d
-g
+f
 j
 j
-g
+f
 j
 j
 j
-g
+f
 j
 j
-g
+f
 d
 d
 "}
 (8,1,1) = {"
 d
 d
-g
+f
 j
 j
 k
@@ -294,41 +308,54 @@ j
 k
 j
 j
-g
+f
 d
 y
 "}
 (9,1,1) = {"
 e
 d
-g
+f
 j
 j
-g
+f
 j
 j
 j
-g
+f
 j
 j
+<<<<<<< HEAD
 g
 y
+=======
+f
+d
+>>>>>>> 249bb6b... mapmerge2 on lots of maps (#35023)
 a
 "}
 (10,1,1) = {"
 a
+<<<<<<< HEAD
 e
 g
 g
 g
 g
+=======
+d
+f
+f
+f
+f
+>>>>>>> 249bb6b... mapmerge2 on lots of maps (#35023)
 k
-g
+f
 k
-g
-g
-g
-g
+f
+f
+f
+f
 a
 a
 "}
@@ -354,13 +381,13 @@ a
 a
 h
 j
-g
+f
 j
 j
 u
 j
 j
-g
+f
 j
 h
 a
@@ -370,15 +397,15 @@ a
 a
 a
 i
-g
-g
-g
+f
+f
+f
 k
-g
+f
 k
-g
-g
-g
+f
+f
+f
 i
 a
 a
@@ -388,13 +415,13 @@ a
 a
 a
 a
-g
+f
 l
 p
 u
 j
 j
-g
+f
 a
 a
 a
@@ -405,13 +432,13 @@ a
 a
 a
 a
-g
+f
 m
 p
 u
 j
 j
-g
+f
 a
 a
 a
@@ -422,13 +449,13 @@ a
 a
 a
 a
-g
-g
+f
+f
 k
-g
+f
 k
-g
-g
+f
+f
 a
 a
 a
@@ -439,13 +466,13 @@ a
 a
 a
 a
-g
+f
 j
 j
-g
+f
 j
 j
-g
+f
 a
 a
 a
@@ -456,13 +483,13 @@ a
 a
 a
 a
-g
+f
 j
 j
-g
+f
 j
 j
-g
+f
 a
 a
 a
@@ -474,11 +501,11 @@ a
 a
 a
 i
-g
+f
 k
-g
+f
 k
-g
+f
 i
 a
 a
@@ -491,11 +518,11 @@ a
 a
 a
 a
-g
+f
 q
 q
 q
-g
+f
 a
 a
 a
@@ -508,11 +535,11 @@ a
 a
 a
 a
-g
+f
 q
 v
 q
-g
+f
 a
 a
 a
@@ -525,11 +552,11 @@ a
 a
 a
 a
-g
+f
 r
 r
 r
-g
+f
 a
 a
 a

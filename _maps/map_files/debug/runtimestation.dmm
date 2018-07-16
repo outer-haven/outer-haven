@@ -20,10 +20,6 @@
 "af" = (
 /turf/open/floor/plating,
 /area/maintenance/department/bridge)
-"ag" = (
-/obj/structure/lattice,
-/turf/open/space,
-/area/space/nearstation)
 "ah" = (
 /turf/closed/wall/r_wall,
 /area/engine/atmos)
@@ -1268,6 +1264,63 @@
 	},
 /turf/open/floor/plasteel,
 /area/storage/primary)
+<<<<<<< HEAD
+=======
+"dS" = (
+/obj/machinery/atmospherics/components/unary/tank/air,
+/obj/machinery/camera/autoname,
+/turf/open/floor/plating,
+/area/engine/atmos)
+"dT" = (
+/obj/machinery/camera/autoname,
+/turf/open/floor/plasteel/dark,
+/area/engine/gravity_generator)
+"dU" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/camera/autoname,
+/turf/open/floor/plasteel/blue/side{
+	dir = 1
+	},
+/area/hallway/primary/central)
+"dW" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/camera/autoname,
+/turf/open/floor/plasteel,
+/area/construction)
+"dX" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/camera/autoname{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/construction)
+"dY" = (
+/obj/machinery/camera/autoname{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/storage/primary)
+"dZ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/camera/autoname{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/construction)
+"ea" = (
+/obj/structure/table,
+/obj/machinery/camera/autoname{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/storage/primary)
+>>>>>>> 249bb6b... mapmerge2 on lots of maps (#35023)
 
 (1,1,1) = {"
 aa
@@ -2427,7 +2480,11 @@ bI
 cf
 cq
 bu
+<<<<<<< HEAD
 cD
+=======
+dU
+>>>>>>> 249bb6b... mapmerge2 on lots of maps (#35023)
 bE
 bE
 cN
