@@ -45,7 +45,11 @@ GLOBAL_PROTECT(security_mode)
 
 /world/proc/SetupExternalRSC()
 #if (PRELOAD_RSC == 0)
+<<<<<<< HEAD
 	external_rsc_urls = world.file2list("config/external_rsc_urls.txt","\n")
+=======
+	GLOB.external_rsc_urls = world.file2list("[global.config.directory]/external_rsc_urls.txt","\n")
+>>>>>>> 7be3d32... Fix config_dir usage (#34469)
 	var/i=1
 	while(i<=external_rsc_urls.len)
 		if(external_rsc_urls[i])
