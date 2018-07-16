@@ -7,6 +7,7 @@
 	blood_volume = BLOOD_VOLUME_NORMAL
 
 /mob/living/simple_animal/pet/attackby(obj/item/O, mob/user, params)
+<<<<<<< HEAD
 	if(istype(O, /obj/item/clothing/neck/petcollar) && !pcollar)
 		var/pet_icon_states = icon_states("[icon]")
 		if("[icon_state]collar" in pet_icon_states)
@@ -21,6 +22,18 @@
 				name = real_name
 			qdel(P)
 			return
+=======
+	if(istype(O, /obj/item/clothing/neck/petcollar) && !pcollar && collar_type)
+		var/obj/item/clothing/neck/petcollar/P = O
+		pcollar = P.type
+		regenerate_icons()
+		to_chat(user, "<span class='notice'>You put the [P] around [src]'s neck.</span>")
+		if(P.tagname && !unique_pet)
+			real_name = "\proper [P.tagname]"
+			name = real_name
+		qdel(P)
+		return
+>>>>>>> 13a5745... Merge pull request #34358 from ShizCalev/nest-pet-collar
 
 	if(istype(O, /obj/item/newspaper))
 		if(!stat)
