@@ -1058,8 +1058,13 @@ GLOBAL_LIST_EMPTY(uplink_items) // Global list so we only initialize this once.
 
 /datum/uplink_item/device_tools/potion
 	name = "Syndicate Sentience Potion"
+<<<<<<< HEAD
 	item = /obj/item/slimepotion/sentience/nuclear
 	desc = "A potion recovered at great risk by undercover syndicate operatives and then subsequently modified with syndicate technology. Using it will make any animal sentient, and bound to serve you, as well as implanting an internal radio for communication."
+=======
+	item = /obj/item/slimepotion/slime/sentience/nuclear
+	desc = "A potion recovered at great risk by undercover syndicate operatives and then subsequently modified with syndicate technology. Using it will make any animal sentient, and bound to serve you, as well as implanting an internal radio for communication and an internal ID card for opening doors."
+>>>>>>> 3ecf74f... Xenobiology consoles can now scan slimes and apply potions (#34748)
 	cost = 4
 	include_modes = list(/datum/game_mode/nuclear)
 
@@ -1354,6 +1359,18 @@ GLOBAL_LIST_EMPTY(uplink_items) // Global list so we only initialize this once.
 	player_minimum = 25
 	exclude_modes = list(/datum/game_mode/nuclear)
 	cant_discount = TRUE
+<<<<<<< HEAD
+=======
+	var/starting_crate_value = 50
+
+/datum/uplink_item/badass/surplus/super
+	name = "Super Surplus Crate"
+	desc = "A dusty SUPER-SIZED from the back of the Syndicate warehouse. Rumored to contain a valuable assortment of items, \
+			but you never know. Contents are sorted to always be worth 125 TC."
+	cost = 40
+	player_minimum = 40
+	starting_crate_value = 125
+>>>>>>> 3ecf74f... Xenobiology consoles can now scan slimes and apply potions (#34748)
 
 /datum/uplink_item/badass/surplus/spawn_item(turf/loc, datum/component/uplink/U)
 	var/list/uplink_items = get_uplink_items(SSticker && SSticker.mode? SSticker.mode : null)
