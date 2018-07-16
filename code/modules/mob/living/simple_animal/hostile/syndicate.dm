@@ -75,7 +75,20 @@
 	name = "Syndicate Commando"
 	loot = list(/obj/effect/gibspawner/human)
 	speed = 1
+	var/obj/effect/light_emitter/red_energy_sword/sord
 
+<<<<<<< HEAD
+=======
+/mob/living/simple_animal/hostile/syndicate/melee/space/Initialize()
+	. = ..()
+	sord = new(src)
+	set_light(4)
+
+/mob/living/simple_animal/hostile/syndicate/melee/space/Destroy()
+	QDEL_NULL(sord)
+	return ..()
+
+>>>>>>> 4a57ee7... Merge pull request #34783 from Cyberboss/FixDumbness
 /mob/living/simple_animal/hostile/syndicate/melee/space/stormtrooper
 	icon_state = "syndicatemeleestormtrooper"
 	icon_living = "syndicatemeleestormtrooper"
