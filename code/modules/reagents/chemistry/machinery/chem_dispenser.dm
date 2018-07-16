@@ -176,6 +176,8 @@
 		if("eject")
 			if(beaker)
 				beaker.forceMove(drop_location())
+				if(Adjacent(usr) && !issilicon(usr))
+					usr.put_in_hands(beaker)
 				beaker = null
 				cut_overlays()
 				. = TRUE
