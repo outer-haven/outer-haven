@@ -6,7 +6,7 @@
 /obj/item/circular_saw,
 /obj/structure/lattice,
 /turf/template_noop,
-/area/template_noop)
+/area/space/nearstation)
 "ac" = (
 /turf/closed/wall/mineral/titanium,
 /area/awaymission/BMPship/Aft)
@@ -55,7 +55,7 @@
 "am" = (
 /obj/structure/lattice,
 /turf/template_noop,
-/area/template_noop)
+/area/space/nearstation)
 "an" = (
 /obj/structure/window/reinforced,
 /obj/effect/spawner/structure/window/hollow/reinforced/middle{
@@ -2330,6 +2330,13 @@
 "hE" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/awaymission/BMPship/Fore)
+"vh" = (
+/turf/template_noop,
+/area/space/nearstation)
+"EQ" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/awaymission/BMPship/Midship)
 
 (1,1,1) = {"
 aa
@@ -3719,7 +3726,7 @@ aa
 aa
 am
 aa
-am
+EQ
 aq
 aZ
 aq
@@ -3768,9 +3775,15 @@ aa
 aa
 am
 aa
+<<<<<<< HEAD
 aa
 am
 aZ
+=======
+vh
+EQ
+gt
+>>>>>>> 0a2345a... Shrinks template maps (#34935)
 at
 ba
 aq
@@ -3819,10 +3832,17 @@ aa
 aa
 aa
 am
+<<<<<<< HEAD
 am
 aJ
 aK
 ba
+=======
+EQ
+gL
+hg
+ha
+>>>>>>> 0a2345a... Shrinks template maps (#34935)
 at
 aq
 ch
