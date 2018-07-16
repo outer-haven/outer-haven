@@ -18,6 +18,24 @@ if [ "$BUILD_TOOLS" = false ]; then
 		grep '^var/' code/*.dm | echo
 		exit 1
 	fi;
+<<<<<<< HEAD
+=======
+	if grep -i 'centcomm' code/**/*.dm; then
+		echo "Misspelling(s) of CENTCOM detected in code, please remove the extra M(s)."
+		exit 1
+	fi;
+	if grep -i 'centcomm' _maps/**/*.dmm; then
+		echo "Misspelling(s) of CENTCOM detected in maps, please remove the extra M(s)."
+		exit 1
+	fi;
+
+	#config folder should not be mandatory
+	rm -rf config/*
+	
+	#disable all ruins
+	echo -e "LAVALAND_BUDGET 0\nSPACE_BUDGET 0" > config/config.txt
+
+>>>>>>> a13d517... Disable ruins for test run mode (#34653)
     source $HOME/BYOND-${BYOND_MAJOR}.${BYOND_MINOR}/byond/bin/byondsetup
 	if [ "$BUILD_TESTING" = true ]; then
 		tools/travis/dm.sh -DTRAVISBUILDING outerhaven.dme
