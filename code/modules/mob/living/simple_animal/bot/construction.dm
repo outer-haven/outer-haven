@@ -10,13 +10,51 @@
 	throwforce = 5
 	throw_speed = 2
 	throw_range = 5
+<<<<<<< HEAD
 	w_class = WEIGHT_CLASS_NORMAL
 	var/created_name = "Cleanbot"
 
 /obj/item/bucket_sensor/attackby(obj/item/W, mob/user as mob, params)
+=======
+	var/created_name
+	var/build_step = ASSEMBLY_FIRST_STEP
+	var/robot_arm = /obj/item/bodypart/r_arm/robot
+
+/obj/item/bot_assembly/attackby(obj/item/I, mob/user, params)
+	..()
+	if(istype(I, /obj/item/pen))
+		rename_bot()
+		return
+
+/obj/item/bot_assembly/proc/rename_bot()
+	var/t = stripped_input(usr, "Enter new robot name", name, created_name,MAX_NAME_LEN)
+	if(!t)
+		return
+	if(!in_range(src, usr) && loc != usr)
+		return
+	created_name = t
+
+/obj/item/bot_assembly/proc/can_finish_build(obj/item/I, mob/user)
+	if(istype(loc, /obj/item/storage/backpack))
+		to_chat(user, "<span class='warning'>You must take [src] out of [loc] first!</span>")
+		return FALSE
+	if(!I || !user || !user.temporarilyRemoveItemFromInventory(I))
+		return FALSE
+	return TRUE
+
+//Cleanbot assembly
+/obj/item/bot_assembly/cleanbot
+	desc = "It's a bucket with a sensor attached."
+	name = "incomplete cleanbot assembly"
+	icon_state = "bucket_proxy"
+	throwforce = 5
+	created_name = "Cleanbot"
+
+/obj/item/bot_assembly/cleanbot/attackby(obj/item/W, mob/user, params)
+>>>>>>> 62fecc8... Merge pull request #34733 from ShizCalev/box-fixes
 	..()
 	if(istype(W, /obj/item/bodypart/l_arm/robot) || istype(W, /obj/item/bodypart/r_arm/robot))
-		if(!user.temporarilyRemoveItemFromInventory(W))
+		if(!can_finish_build(W, user))
 			return
 		qdel(W)
 		var/turf/T = get_turf(loc)
@@ -182,7 +220,7 @@
 
 		if(9)
 			if(istype(W, /obj/item/stock_parts/cell))
-				if(!user.temporarilyRemoveItemFromInventory(W))
+				if(!can_finish_build(W, user))
 					return
 				build_step++
 				to_chat(user, "<span class='notice'>You complete the ED-209.</span>")
@@ -199,10 +237,27 @@
 	icon_state = "toolbox_tiles"
 	force = 3
 	throwforce = 10
+<<<<<<< HEAD
 	throw_speed = 2
 	throw_range = 5
 	w_class = WEIGHT_CLASS_NORMAL
 	var/created_name = "Floorbot"
+=======
+	created_name = "Floorbot"
+	var/toolbox = /obj/item/storage/toolbox/mechanical
+
+/obj/item/bot_assembly/floorbot/Initialize()
+	. = ..()
+	update_icon()
+
+/obj/item/bot_assembly/floorbot/update_icon()
+	..()
+	switch(build_step)
+		if(ASSEMBLY_FIRST_STEP)
+			desc = initial(desc)
+			name = initial(name)
+			icon_state = initial(icon_state)
+>>>>>>> 62fecc8... Merge pull request #34733 from ShizCalev/box-fixes
 
 /obj/item/toolbox_tiles_sensor
 	desc = "It's a toolbox with tiles sticking out the top and a sensor attached."
@@ -226,7 +281,12 @@
 	if(T.use(10))
 		if(user.s_active)
 			user.s_active.close(user)
+<<<<<<< HEAD
 		var/obj/item/toolbox_tiles/B = new /obj/item/toolbox_tiles
+=======
+		var/obj/item/bot_assembly/floorbot/B = new
+		B.toolbox = type
+>>>>>>> 62fecc8... Merge pull request #34733 from ShizCalev/box-fixes
 		user.put_in_hands(B)
 		to_chat(user, "<span class='notice'>You add the tiles into the empty toolbox. They protrude from the top.</span>")
 		qdel(src)
@@ -236,6 +296,7 @@
 
 /obj/item/toolbox_tiles/attackby(obj/item/W, mob/user, params)
 	..()
+<<<<<<< HEAD
 	if(isprox(W))
 		qdel(W)
 		var/obj/item/toolbox_tiles_sensor/B = new /obj/item/toolbox_tiles_sensor()
@@ -243,6 +304,29 @@
 		user.put_in_hands(B)
 		to_chat(user, "<span class='notice'>You add the sensor to the toolbox and tiles.</span>")
 		qdel(src)
+=======
+	switch(build_step)
+		if(ASSEMBLY_FIRST_STEP)
+			if(isprox(W))
+				if(!user.temporarilyRemoveItemFromInventory(W))
+					return
+				to_chat(user, "<span class='notice'>You add [W] to [src].</span>")
+				qdel(W)
+				build_step++
+				update_icon()
+
+		if(ASSEMBLY_SECOND_STEP)
+			if(istype(W, /obj/item/bodypart/l_arm/robot) || istype(W, /obj/item/bodypart/r_arm/robot))
+				if(!can_finish_build(W, user))
+					return
+				var/mob/living/simple_animal/bot/floorbot/A = new(drop_location())
+				A.name = created_name
+				A.robot_arm = W.type
+				A.toolbox = toolbox
+				to_chat(user, "<span class='notice'>You add [W] to [src]. Boop beep!</span>")
+				qdel(W)
+				qdel(src)
+>>>>>>> 62fecc8... Merge pull request #34733 from ShizCalev/box-fixes
 
 	else if(istype(W, /obj/item/pen))
 		var/t = stripped_input(user, "Enter new robot name", name, created_name,MAX_NAME_LEN)
@@ -316,6 +400,7 @@
 
 /obj/item/firstaid_arm_assembly/attackby(obj/item/W, mob/user, params)
 	..()
+<<<<<<< HEAD
 	if(istype(W, /obj/item/pen))
 		var/t = stripped_input(user, "Enter new robot name", name, created_name,MAX_NAME_LEN)
 		if(!t)
@@ -346,6 +431,32 @@
 					var/mob/living/simple_animal/bot/medbot/S = new /mob/living/simple_animal/bot/medbot(T, skin)
 					S.name = created_name
 					qdel(src)
+=======
+	switch(build_step)
+		if(ASSEMBLY_FIRST_STEP)
+			if(istype(W, /obj/item/device/healthanalyzer))
+				if(!user.temporarilyRemoveItemFromInventory(W))
+					return
+				healthanalyzer = W.type
+				to_chat(user, "<span class='notice'>You add [W] to [src].</span>")
+				qdel(W)
+				name = "first aid/robot arm/health analyzer assembly"
+				add_overlay("na_scanner")
+				build_step++
+
+		if(ASSEMBLY_SECOND_STEP)
+			if(isprox(W))
+				if(!can_finish_build(W, user))
+					return
+				qdel(W)
+				var/mob/living/simple_animal/bot/medbot/S = new(drop_location(), skin)
+				to_chat(user, "<span class='notice'>You complete the Medbot. Beep boop!</span>")
+				S.name = created_name
+				S.firstaid = firstaid
+				S.robot_arm = robot_arm
+				S.healthanalyzer = healthanalyzer
+				qdel(src)
+>>>>>>> 62fecc8... Merge pull request #34733 from ShizCalev/box-fixes
 
 
 //Honkbot Assembly
@@ -359,6 +470,7 @@
 
 /obj/item/honkbot_assembly/attackby(obj/item/I, mob/user, params)
 
+<<<<<<< HEAD
 	if(isprox(I) && (build_step == ASSEMBLY_FIRST_STEP))
 		if(!user.temporarilyRemoveItemFromInventory(I))
 			return
@@ -389,6 +501,20 @@
 		if(!in_range(src, usr) && loc != usr)
 			return
 		created_name = t
+=======
+		if(ASSEMBLY_SECOND_STEP)
+			if(istype(I, /obj/item/bikehorn))
+				if(!can_finish_build(I, user))
+					return
+				to_chat(user, "<span class='notice'>You add the [I] to [src]! Honk!</span>")
+				var/mob/living/simple_animal/bot/honkbot/S = new(drop_location())
+				S.name = created_name
+				S.spam_flag = TRUE // only long enough to hear the first ping.
+				addtimer(CALLBACK (S, .mob/living/simple_animal/bot/honkbot/proc/react_ping), 5)
+				S.bikehorn = I.type
+				qdel(I)
+				qdel(src)
+>>>>>>> 62fecc8... Merge pull request #34733 from ShizCalev/box-fixes
 
 	else return ..()
 
@@ -418,6 +544,7 @@
 				cut_overlay("hs_hole")
 				to_chat(user, "<span class='notice'>You weld the hole in [src] shut!</span>")
 
+<<<<<<< HEAD
 	else if(isprox(I) && (build_step == 1))
 		if(!user.temporarilyRemoveItemFromInventory(I))
 			return
@@ -446,6 +573,19 @@
 		S.baton_type = I.type
 		qdel(I)
 		qdel(src)
+=======
+		if(ASSEMBLY_FOURTH_STEP)
+			if(istype(I, /obj/item/melee/baton))
+				if(!can_finish_build(I, user))
+					return
+				to_chat(user, "<span class='notice'>You complete the Securitron! Beep boop.</span>")
+				var/mob/living/simple_animal/bot/secbot/S = new(Tsec)
+				S.name = created_name
+				S.baton_type = I.type
+				S.robot_arm = robot_arm
+				qdel(I)
+				qdel(src)
+>>>>>>> 62fecc8... Merge pull request #34733 from ShizCalev/box-fixes
 
 	else if(istype(I, /obj/item/pen))
 		var/t = stripped_input(user, "Enter new robot name", name, created_name,MAX_NAME_LEN)
