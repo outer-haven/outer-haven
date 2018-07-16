@@ -80427,6 +80427,9 @@
 "dhS" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/barricade/wooden,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/science/research/abandoned)
 "dhT" = (
@@ -81924,6 +81927,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel,
 /area/science/research/abandoned)
 "dli" = (
@@ -82451,6 +82457,12 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "2-8"
 	},
 /turf/open/floor/plasteel,
 /area/science/research/abandoned)
@@ -86975,6 +86987,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel,
 /area/science/research/abandoned)
 "dwb" = (
@@ -86982,6 +86997,9 @@
 /obj/item/paper_bin,
 /obj/item/pen,
 /obj/effect/turf_decal/bot,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel,
 /area/science/research/abandoned)
 "dwc" = (
@@ -86989,7 +87007,9 @@
 	icon_state = "1-2"
 	},
 /obj/effect/landmark/blobstart,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/neutral/side{
 	dir = 4
 	},
@@ -88544,11 +88564,17 @@
 	dir = 4
 	},
 /obj/effect/landmark/xeno_spawn,
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/neutral,
 /area/science/research/abandoned)
 "dzj" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/neutral,
 /area/science/research/abandoned)
@@ -88559,6 +88585,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel,
 /area/science/research/abandoned)
 "dzl" = (
@@ -88566,6 +88595,9 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/delivery,
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel,
 /area/science/research/abandoned)
 "dzm" = (
@@ -88583,6 +88615,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel,
 /area/science/research/abandoned)
 "dzn" = (
@@ -88592,6 +88627,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 5
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plating,
 /area/maintenance/port)
@@ -105097,6 +105135,412 @@
 /obj/effect/landmark/lightsout,
 /turf/open/floor/plasteel/grimy,
 /area/chapel/main)
+<<<<<<< HEAD
+=======
+"QNf" = (
+/obj/machinery/autolathe,
+/obj/machinery/door/window/southleft{
+	name = "Research Lab Desk";
+	req_access_txt = "7"
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "rndlab1";
+	name = "Research and Development Shutter"
+	},
+/turf/open/floor/plating,
+/area/science/lab)
+"QNg" = (
+/obj/effect/turf_decal/loading_area,
+/turf/open/floor/plasteel/whitepurple/corner,
+/area/science/research)
+"QNh" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/neutral/side,
+/area/maintenance/port)
+"QNi" = (
+/turf/closed/wall,
+/area/science/circuit)
+"QNj" = (
+/turf/closed/wall/r_wall,
+/area/science/circuit)
+"QNk" = (
+/turf/closed/wall/r_wall,
+/area/science/circuit)
+"QNl" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/r_wall,
+/area/science/circuit)
+"QNm" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/closed/wall/r_wall,
+/area/science/circuit)
+"QNn" = (
+/turf/closed/wall,
+/area/science/circuit)
+"QNo" = (
+/obj/structure/table/reinforced,
+/obj/machinery/camera{
+	c_tag = "Science - Experimentation Lab";
+	dir = 2;
+	name = "science camera";
+	network = list("SS13","RD")
+	},
+/obj/machinery/requests_console{
+	department = "Circuitry Lab";
+	name = "Circuitry Lab RC";
+	pixel_y = 32;
+	receive_ore_updates = 1
+	},
+/obj/item/device/integrated_circuit_printer/upgraded,
+/turf/open/floor/plasteel/white/side,
+/area/science/circuit)
+"QNp" = (
+/obj/structure/disposalpipe/trunk,
+/obj/machinery/disposal/bin,
+/obj/machinery/airalarm{
+	pixel_y = 23
+	},
+/turf/open/floor/plasteel/white/side,
+/area/science/circuit)
+"QNq" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"QNr" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/closed/wall/r_wall,
+/area/science/circuit)
+"QNs" = (
+/turf/closed/wall,
+/area/science/circuit)
+"QNt" = (
+/obj/structure/chair/office/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white/side{
+	dir = 9
+	},
+/area/science/circuit)
+"QNu" = (
+/turf/open/floor/plasteel/white/side{
+	dir = 5
+	},
+/area/science/circuit)
+"QNv" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white/side{
+	dir = 9
+	},
+/area/science/circuit)
+"QNw" = (
+/turf/open/floor/plasteel/white/side{
+	dir = 5
+	},
+/area/science/circuit)
+"QNx" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/white/side{
+	dir = 9
+	},
+/area/science/circuit)
+"QNy" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"QNz" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"QNA" = (
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/whitepurple/side,
+/area/science/misc_lab)
+"QNB" = (
+/turf/closed/wall,
+/area/science/circuit)
+"QNC" = (
+/obj/structure/table/reinforced,
+/obj/item/device/integrated_electronics/analyzer,
+/obj/item/device/integrated_electronics/debugger,
+/obj/item/device/integrated_electronics/wirer,
+/turf/open/floor/plasteel/white/side{
+	dir = 10
+	},
+/area/science/circuit)
+"QND" = (
+/turf/open/floor/plasteel/white/side{
+	dir = 10
+	},
+/area/science/circuit)
+"QNE" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/camera{
+	c_tag = "Science - Lab Access";
+	dir = 8;
+	name = "science camera";
+	network = list("SS13","RD")
+	},
+/obj/structure/sign/science{
+	pixel_x = 32
+	},
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"QNF" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/table/glass,
+/turf/open/floor/plasteel/whitepurple/side{
+	dir = 8
+	},
+/area/science/misc_lab)
+"QNG" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/item/twohanded/required/kirbyplants/random,
+/obj/machinery/camera{
+	c_tag = "MiniSat Service Bay";
+	dir = 8;
+	network = list("MiniSat");
+	start_active = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/whitepurple/side{
+	dir = 4
+	},
+/area/science/misc_lab)
+"QNH" = (
+/turf/closed/wall,
+/area/science/circuit)
+"QNI" = (
+/obj/structure/table/reinforced,
+/obj/item/device/integrated_electronics/analyzer,
+/obj/item/device/integrated_electronics/debugger,
+/obj/item/device/integrated_electronics/wirer,
+/turf/open/floor/plasteel/white/side{
+	dir = 9
+	},
+/area/science/circuit)
+"QNJ" = (
+/turf/open/floor/plasteel/white/side{
+	dir = 9
+	},
+/area/science/circuit)
+"QNK" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"QNL" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel,
+/area/science/circuit)
+"QNM" = (
+/obj/structure/sign/nanotrasen,
+/turf/closed/wall/r_wall,
+/area/science/circuit)
+"QNN" = (
+/turf/closed/wall,
+/area/science/circuit)
+"QNO" = (
+/turf/open/floor/plasteel/white/side{
+	dir = 6
+	},
+/area/science/circuit)
+"QNP" = (
+/turf/open/floor/plasteel/white/side{
+	dir = 10
+	},
+/area/science/misc_lab)
+"QNQ" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/effect/landmark/xeno_spawn,
+/turf/open/floor/plasteel/white/side{
+	dir = 6
+	},
+/area/science/circuit)
+"QNR" = (
+/turf/closed/wall,
+/area/science/circuit)
+"QNS" = (
+/obj/structure/table/reinforced,
+/obj/machinery/newscaster{
+	pixel_y = -32
+	},
+/obj/item/device/integrated_circuit_printer/upgraded,
+/turf/open/floor/plasteel/white/side{
+	dir = 1
+	},
+/area/science/circuit)
+"QNT" = (
+/obj/structure/target_stake,
+/turf/open/floor/plasteel/white/side{
+	dir = 1
+	},
+/area/science/circuit)
+"QNU" = (
+/obj/machinery/light,
+/obj/structure/table/reinforced,
+/obj/machinery/computer/libraryconsole/bookmanagement,
+/turf/open/floor/plasteel/white/side{
+	dir = 1
+	},
+/area/science/circuit)
+"QNV" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/light,
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/open/floor/plasteel/whitepurple/side,
+/area/science/misc_lab)
+"QNW" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plasteel/whitepurple/corner,
+/area/science/misc_lab)
+"QNX" = (
+/turf/closed/wall/r_wall,
+/area/science/misc_lab)
+"QNY" = (
+/turf/closed/wall,
+/area/science/circuit)
+"QNZ" = (
+/turf/closed/wall,
+/area/science/misc_lab)
+"QOa" = (
+/turf/closed/wall/r_wall,
+/area/science/misc_lab)
+"QOb" = (
+/obj/machinery/power/apc{
+	areastring = "/area/science/research/abandoned";
+	dir = 1;
+	name = "Abandoned Research Lab APC";
+	pixel_y = 24
+	},
+/obj/structure/cable/white{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating,
+/area/science/research/abandoned)
+"QOc" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 6
+	},
+/obj/structure/cable/white{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel,
+/area/science/research/abandoned)
+"QOd" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel,
+/area/science/research/abandoned)
+"QOe" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/science/research/abandoned)
+"QOf" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/science/research/abandoned)
+"QOg" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/neutral/side{
+	dir = 8
+	},
+/area/maintenance/port)
+"QOh" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/circuit/green,
+/area/science/research/abandoned)
+"QOi" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/science/research/abandoned)
+"QOj" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/open/floor/circuit/green,
+/area/science/research/abandoned)
+"QOk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable/white{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/neutral,
+/area/science/research/abandoned)
+"QOl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/neutral,
+/area/science/research/abandoned)
+"QOm" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 4
+	},
+/obj/structure/cable/white{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/maintenance/port)
+>>>>>>> f43c946... Minor map fixes
 
 (1,1,1) = {"
 aaa
@@ -129679,6 +130123,7 @@ cLs
 cJT
 caE
 caE
+<<<<<<< HEAD
 dhQ
 dhQ
 dhQ
@@ -129687,6 +130132,16 @@ dhQ
 dhQ
 dhQ
 dhQ
+=======
+QNi
+QNi
+QNi
+QNi
+QNi
+QNi
+QNi
+QNi
+>>>>>>> f43c946... Minor map fixes
 dhQ
 dhQ
 dhQ
@@ -129943,7 +130398,11 @@ dmr
 dog
 dpW
 drz
+<<<<<<< HEAD
 dhQ
+=======
+QNj
+>>>>>>> f43c946... Minor map fixes
 dul
 dvZ
 dxH
@@ -130193,6 +130652,7 @@ cRP
 ddP
 deW
 cKk
+<<<<<<< HEAD
 dhQ
 djo
 dlf
@@ -130201,6 +130661,16 @@ dms
 dpX
 dlg
 dtb
+=======
+QNj
+QNo
+QNt
+QNC
+QNI
+dpX
+QNS
+QNj
+>>>>>>> f43c946... Minor map fixes
 djs
 dlf
 dxI
@@ -130450,14 +130920,18 @@ cMY
 cMY
 cCM
 dgm
-dhR
+QNj
 djp
 dlg
 dmt
 doh
 dpY
 drA
+<<<<<<< HEAD
 dhQ
+=======
+QNj
+>>>>>>> f43c946... Minor map fixes
 dum
 dli
 dpZ
@@ -130714,11 +131188,19 @@ dmu
 doi
 doi
 drB
+<<<<<<< HEAD
 dtc
 dpZ
 dli
 dxJ
 dxJ
+=======
+QNj
+QOb
+QOc
+QOh
+QOj
+>>>>>>> f43c946... Minor map fixes
 dxJ
 dBV
 dlg
@@ -130964,6 +131446,7 @@ dcb
 cMY
 deX
 dgn
+<<<<<<< HEAD
 dhS
 djr
 dli
@@ -130972,8 +131455,18 @@ doj
 dpZ
 don
 dhQ
+=======
+QNj
+djr
+QNu
+dmv
+doj
+QNQ
+QNT
+QNj
+>>>>>>> f43c946... Minor map fixes
 dun
-dli
+QOd
 dxK
 dzg
 dAr
@@ -131221,18 +131714,28 @@ cNd
 cMY
 deX
 dgo
+<<<<<<< HEAD
 dhQ
 djs
 dli
+=======
+QNj
+QNp
+QNx
+>>>>>>> f43c946... Minor map fixes
 dmw
-dok
+QNx
 dqa
 drC
+<<<<<<< HEAD
 dhQ
+=======
+QNj
+>>>>>>> f43c946... Minor map fixes
 duo
 dmu
-dlg
-dzh
+QOi
+QOk
 dxM
 doi
 dun
@@ -131478,6 +131981,7 @@ cMY
 cMY
 deY
 cKl
+<<<<<<< HEAD
 dhQ
 djt
 dlh
@@ -131486,10 +131990,20 @@ dol
 dqb
 drD
 dtb
+=======
+QNj
+djt
+QNy
+QNy
+dol
+dqb
+drD
+QNj
+>>>>>>> f43c946... Minor map fixes
 dup
-dlg
+QOe
 dxL
-dzh
+QOl
 dAs
 dpY
 dDi
@@ -131735,14 +132249,23 @@ dcc
 cMY
 cOD
 cKj
+<<<<<<< HEAD
 dhQ
+=======
+QNj
+>>>>>>> f43c946... Minor map fixes
 dju
 dlj
 dmy
 dom
 dqc
+<<<<<<< HEAD
 drB
 dtb
+=======
+QNU
+QNj
+>>>>>>> f43c946... Minor map fixes
 duq
 dlh
 dxM
@@ -131992,6 +132515,7 @@ cRS
 cMY
 deZ
 dgo
+<<<<<<< HEAD
 dhQ
 djv
 dlk
@@ -132000,8 +132524,18 @@ don
 dqd
 drE
 dtb
+=======
+QNj
+djv
+dlj
+dlj
+QNK
+dqb
+drE
+QNj
+>>>>>>> f43c946... Minor map fixes
 dur
-dmu
+QOf
 dxN
 dzj
 don
@@ -132249,6 +132783,7 @@ dcd
 cMY
 deX
 dgo
+<<<<<<< HEAD
 dhQ
 dhQ
 dhQ
@@ -132257,6 +132792,16 @@ doo
 dqd
 drF
 dhQ
+=======
+QNj
+QNq
+QNz
+QNE
+doo
+dqd
+drF
+QNj
+>>>>>>> f43c946... Minor map fixes
 dus
 dwa
 dom
@@ -132506,6 +133051,7 @@ dce
 cMY
 dfa
 dgp
+<<<<<<< HEAD
 cIv
 djw
 dll
@@ -132514,6 +133060,16 @@ dhQ
 dqe
 dhQ
 dhQ
+=======
+QNm
+QNm
+dll
+QNj
+QNM
+dqe
+QNj
+QNj
+>>>>>>> f43c946... Minor map fixes
 dut
 dwb
 dxO
@@ -133029,9 +133585,9 @@ dqg
 cMN
 dtd
 duu
+QOg
 djw
-djw
-cOm
+QOm
 dAu
 caE
 aaa
@@ -133540,8 +134096,13 @@ djA
 djA
 dos
 dqi
+<<<<<<< HEAD
 djA
 djA
+=======
+QNX
+QNX
+>>>>>>> f43c946... Minor map fixes
 djA
 djA
 djA
