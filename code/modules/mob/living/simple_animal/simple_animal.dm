@@ -245,8 +245,13 @@
 /mob/living/simple_animal/gib()
 	if(butcher_results)
 		for(var/path in butcher_results)
+<<<<<<< HEAD
 			for(var/i = 1; i <= butcher_results[path];i++)
 				new path(src.loc)
+=======
+			for(var/i in 1 to butcher_results[path])
+				new path(Tsec)
+>>>>>>> fc65806... for var i in 1 to dildos
 	..()
 
 /mob/living/simple_animal/gib_animation()
