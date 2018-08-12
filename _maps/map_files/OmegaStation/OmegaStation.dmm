@@ -2681,13 +2681,22 @@
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "aeZ" = (
-/obj/machinery/door/airlock/shuttle{
-	name = "Supply Shuttle Airlock";
-	req_access_txt = "31"
+/obj/docking_port/stationary{
+	dir = 4;
+	dwidth = 9;
+	height = 7;
+	id = "supply_home";
+	name = "Cargo Bay";
+	width = 20
 	},
+<<<<<<< HEAD
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/supply)
+=======
+/turf/open/space/basic,
+/area/space)
+>>>>>>> 8e20aa3... Refactors shuttles to be loaded in, rather than be on the station maps (#33766)
 "afa" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -3587,22 +3596,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
-"agD" = (
-/obj/docking_port/mobile/supply{
-	dwidth = 5;
-	roundstart_move = "supply_away";
-	width = 12
-	},
-/obj/docking_port/stationary{
-	dir = 8;
-	dwidth = 5;
-	height = 7;
-	id = "supply_home";
-	name = "Cargo Bay";
-	width = 12
-	},
-/turf/closed/wall/mineral/titanium,
-/area/shuttle/supply)
 "agE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/ore/silver,
@@ -8532,16 +8525,16 @@
 /turf/open/floor/plasteel,
 /area/quartermaster/miningdock)
 "app" = (
-/obj/machinery/door/airlock/shuttle{
-	name = "Mining Shuttle Airlock";
-	req_access_txt = "0"
+/obj/docking_port/stationary{
+	dir = 4;
+	dwidth = 3;
+	height = 5;
+	id = "mining_home";
+	name = "mining shuttle bay";
+	roundstart_template = /datum/map_template/shuttle/mining/delta;
+	width = 7
 	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/white,
 /area/shuttle/mining)
 "apq" = (
@@ -8551,6 +8544,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/shuttle/mining)
+=======
+/turf/open/space/basic,
+/area/space)
+>>>>>>> 8e20aa3... Refactors shuttles to be loaded in, rather than be on the station maps (#33766)
 "apr" = (
 /turf/open/floor/plasteel/neutral,
 /area/shuttle/mining)
@@ -15879,16 +15876,6 @@
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
 "aDj" = (
-/obj/machinery/door/airlock/shuttle{
-	name = "Emergency Shuttle Airlock"
-	},
-/obj/docking_port/mobile/emergency{
-	dheight = 0;
-	dwidth = 5;
-	height = 11;
-	name = "Omega emergency shuttle";
-	width = 19
-	},
 /obj/docking_port/stationary{
 	dheight = 0;
 	dir = 4;
@@ -15899,14 +15886,8 @@
 	turf_type = /turf/open/space;
 	width = 30
 	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/turf/open/space/basic,
+/area/space)
 "aDk" = (
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
@@ -33862,23 +33843,17 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard)
 "btj" = (
-/obj/docking_port/mobile/arrivals{
-	dir = 2;
-	dwidth = 4;
-	height = 17;
-	name = "omega arrivals shuttle";
-	width = 9
-	},
 /obj/docking_port/stationary{
 	dir = 2;
 	dwidth = 4;
 	height = 17;
 	id = "arrivals_stationary";
 	name = "omega arrivals";
+	roundstart_template = /datum/map_template/shuttle/arrival/delta;
 	width = 9
 	},
-/turf/closed/wall/mineral/plastitanium,
-/area/shuttle/arrival)
+/turf/open/space/basic,
+/area/space)
 "btk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/external{
@@ -34172,18 +34147,6 @@
 /turf/open/floor/pod/dark,
 /area/shuttle/transport)
 "bwz" = (
-/obj/machinery/door/airlock/titanium,
-/obj/docking_port/mobile{
-	dir = 8;
-	dwidth = 2;
-	height = 13;
-	id = "ferry";
-	name = "ferry shuttle";
-	port_direction = 1;
-	preferred_direction = 4;
-	roundstart_move = "ferry_away";
-	width = 5
-	},
 /obj/docking_port/stationary{
 	dir = 8;
 	dwidth = 2;
@@ -34193,8 +34156,8 @@
 	turf_type = /turf/open/space;
 	width = 5
 	},
-/turf/open/floor/pod/light,
-/area/shuttle/transport)
+/turf/open/space/basic,
+/area/space)
 "bwB" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 8
@@ -70053,7 +70016,7 @@ aaa
 aaa
 aaa
 aaa
-bwb
+aaa
 aaa
 aaa
 aaa
@@ -70309,9 +70272,9 @@ aaa
 aaa
 aaa
 aaa
-bwb
-bwo
-bwb
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -70566,9 +70529,9 @@ aaa
 aaa
 aaa
 aaa
-bwc
-bwi
-bwB
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -70823,9 +70786,9 @@ aaa
 aaa
 aaa
 aaa
-bvS
-bwq
-bvS
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -71079,11 +71042,11 @@ aaa
 aaa
 aaa
 aaa
-bvS
-bvS
-bwr
-bvS
-bvS
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -71336,11 +71299,11 @@ aaa
 aaa
 aaa
 aaa
-bvT
-bwf
-bwi
-bwE
-bvT
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -71593,11 +71556,11 @@ aaa
 aaa
 aaa
 aaa
-bvS
-bwf
-bwi
-bwE
-bvS
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -71850,11 +71813,11 @@ aaa
 aaa
 aaa
 aaa
-bvS
-bwh
-bwi
-bwi
-bvS
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -72107,11 +72070,11 @@ aaa
 aaa
 aaa
 aaa
-bvW
-bwi
-bwv
-bwi
-bwQ
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -72364,11 +72327,11 @@ aaa
 aaa
 aaa
 aaa
-bvS
-bwi
-bwi
-bwI
-bvS
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -72621,11 +72584,11 @@ aaa
 aaa
 aaa
 aaa
-bvS
-bwf
-bwi
-bwE
-bvS
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -72878,11 +72841,11 @@ aaa
 aaa
 aaa
 aaa
-bvT
-bwf
-bwi
-bwE
-bvT
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -73135,11 +73098,11 @@ aaa
 aaa
 aaa
 aaa
-bvS
-bvT
+aaa
+aaa
 bwz
-bvT
-bvS
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -75440,19 +75403,19 @@ bgV
 aae
 aaa
 aaa
-bjO
-bjZ
-bka
-bkm
-bka
-bkb
-bkb
-bkb
-bkb
-bkG
-bkm
-bka
-bka
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -75696,20 +75659,20 @@ biv
 bgU
 aae
 aaa
-bjN
-bjO
-bka
-bkc
-bkn
-bkq
-bkv
-bkv
-bkv
-bkv
-bkH
-bkn
-bkM
-bka
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -75953,23 +75916,23 @@ bxY
 bgU
 aaa
 aaa
-bjN
-bjW
-bkb
-bkd
-bko
-bko
-bko
-bko
-bko
-bko
-bko
-bko
-bkN
-bka
-bka
-bkb
-bka
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -76210,23 +76173,23 @@ bix
 bgU
 aaa
 aaa
-bjN
-bjW
-bkb
-bke
-bko
-bko
-bkw
-bkw
-bkw
-bkw
-bkI
-bko
-bkO
-bkT
-bkY
-bld
-bkb
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -76468,22 +76431,22 @@ bgU
 aaa
 aaa
 btj
-bjO
-bjZ
-bkf
-bko
-bkr
-buA
-bkx
-bkD
-bkx
-bkF
-buB
-bkP
-bkU
-bkZ
-ble
-bkb
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -76724,23 +76687,23 @@ bix
 bgU
 aaa
 aaa
-bjN
-bjW
-bkb
-bkg
-bko
-bko
-bkv
-bkv
-bkv
-bkv
-bkJ
-bko
-bkQ
-bkV
-bla
-bld
-bkb
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -76981,23 +76944,23 @@ biw
 bgU
 aaa
 aaa
-bjN
-bjW
-bkb
-bkd
-bko
-bko
-bko
-bko
-bko
-bko
-bko
-bko
-byn
-bka
-bka
-bkb
-bka
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -77238,20 +77201,20 @@ biy
 bgU
 aae
 aaa
-bjN
-bjO
-bka
-bkc
-bkp
-bks
-bkw
-bkw
-bkw
-bkw
-bkK
-bkp
-bkR
-bka
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -77496,6 +77459,7 @@ bgT
 aae
 aaa
 aaa
+<<<<<<< HEAD
 bjO
 bjZ
 bka
@@ -77509,6 +77473,21 @@ bkG
 bkm
 bka
 bka
+=======
+>>>>>>> 8e20aa3... Refactors shuttles to be loaded in, rather than be on the station maps (#33766)
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -83336,17 +83315,17 @@ aaa
 aaa
 aaa
 aaa
-abQ
-abQ
-abQ
-aei
+aaa
+aaa
+aaa
+aaa
 aeZ
-abQ
-aeZ
-aht
-abQ
-abQ
-abQ
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 amC
@@ -83593,6 +83572,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 abQ
 acz
 adr
@@ -83605,6 +83585,20 @@ aig
 abQ
 abQ
 akQ
+=======
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+>>>>>>> 8e20aa3... Refactors shuttles to be loaded in, rather than be on the station maps (#33766)
 aaa
 amC
 amC
@@ -83850,6 +83844,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 abQ
 acA
 ads
@@ -83862,6 +83857,20 @@ aih
 aiP
 ajN
 akR
+=======
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+>>>>>>> 8e20aa3... Refactors shuttles to be loaded in, rather than be on the station maps (#33766)
 aaa
 aae
 amD
@@ -84107,6 +84116,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 abQ
 buy
 adt
@@ -84119,6 +84129,20 @@ aii
 aiP
 ajO
 akR
+=======
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+>>>>>>> 8e20aa3... Refactors shuttles to be loaded in, rather than be on the station maps (#33766)
 aaa
 aae
 ant
@@ -84364,6 +84388,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 abQ
 acB
 adt
@@ -84376,6 +84401,20 @@ aii
 aiQ
 ajO
 akR
+=======
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+>>>>>>> 8e20aa3... Refactors shuttles to be loaded in, rather than be on the station maps (#33766)
 aaa
 aaa
 amD
@@ -84621,6 +84660,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 abQ
 acC
 adu
@@ -84633,14 +84673,28 @@ aij
 abQ
 abQ
 akS
+=======
+>>>>>>> 8e20aa3... Refactors shuttles to be loaded in, rather than be on the station maps (#33766)
 aaa
-amE
-amE
-amF
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 app
-amF
-amE
-amE
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -84878,19 +84932,9 @@ aaa
 aaa
 aaa
 aaa
-abQ
-abQ
-abQ
-abQ
-abQ
-abQ
-agD
-abQ
-abQ
-abQ
-abQ
 aaa
 aaa
+<<<<<<< HEAD
 amE
 anu
 aon
@@ -84898,6 +84942,26 @@ apq
 aqw
 arn
 amE
+=======
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+>>>>>>> 8e20aa3... Refactors shuttles to be loaded in, rather than be on the station maps (#33766)
 aaa
 aaa
 aaa
@@ -85148,13 +85212,13 @@ aaa
 aaa
 aaa
 aaa
-amF
-anv
-aoo
-apr
-aqx
-aro
-asu
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -85405,13 +85469,13 @@ aaa
 aaa
 aaa
 aaa
-amE
-anw
-aop
-aps
-aqy
-arp
-amE
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -85662,13 +85726,13 @@ aaa
 aaa
 aaa
 aaa
-amE
-amE
-amF
-apt
-amF
-amE
-amE
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -86188,24 +86252,24 @@ aaa
 aaa
 aaa
 aaa
-axX
-axX
-axX
-aBj
-axZ
+aaa
+aaa
+aaa
+aaa
+aaa
 aDj
-axX
-axY
-axY
-axY
-axX
-aJe
-axZ
-aJe
-axX
-axX
-aLz
-aPD
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -86445,25 +86509,25 @@ aaa
 aaa
 aaa
 aaa
-axX
-azc
-aAa
-aAb
-axY
-aDk
-aEg
-aEm
-aEm
-aEm
-aEg
-aDk
-axY
-aDk
-aMD
-aNL
-axX
-aPD
-aQE
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -86702,25 +86766,25 @@ aaa
 aaa
 aaa
 aaa
-axY
-azd
-aAb
-aAb
-aCo
-aDl
-aEh
-aEh
-aEh
-aEh
-aEh
-aJf
-aKm
-aLw
-aME
-aNM
-axY
-aPE
-aQE
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -86959,6 +87023,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 axY
 azd
 aAb
@@ -86978,6 +87043,27 @@ aNN
 axY
 aPF
 aQE
+=======
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+>>>>>>> 8e20aa3... Refactors shuttles to be loaded in, rather than be on the station maps (#33766)
 aaa
 aaa
 aaa
@@ -87216,6 +87302,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 axX
 aze
 aAb
@@ -87235,6 +87322,27 @@ aNO
 axX
 aPF
 aQE
+=======
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+>>>>>>> 8e20aa3... Refactors shuttles to be loaded in, rather than be on the station maps (#33766)
 aaa
 aaa
 aaa
@@ -87473,25 +87581,25 @@ aaa
 aaa
 aaa
 aaa
-axZ
-axY
-aAc
-axY
-aCp
-bvO
-aEk
-aEj
-aGd
-aEl
-aEk
-bvR
-aKn
-aLz
-axY
-aLz
-aLz
-aPD
-aPD
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -87730,6 +87838,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 axX
 azf
 aAd
@@ -87749,6 +87858,27 @@ aNP
 axX
 aPF
 aQE
+=======
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+>>>>>>> 8e20aa3... Refactors shuttles to be loaded in, rather than be on the station maps (#33766)
 aaa
 aaa
 aaa
@@ -87987,6 +88117,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 axY
 azg
 aAe
@@ -88006,6 +88137,27 @@ aNQ
 axY
 aPF
 aQE
+=======
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+>>>>>>> 8e20aa3... Refactors shuttles to be loaded in, rather than be on the station maps (#33766)
 aaa
 aaa
 aaa
@@ -88244,6 +88396,7 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
 axY
 azh
 aAd
@@ -88263,6 +88416,27 @@ aNR
 axY
 aPF
 aQE
+=======
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+>>>>>>> 8e20aa3... Refactors shuttles to be loaded in, rather than be on the station maps (#33766)
 aaa
 aaa
 aaa
@@ -88501,25 +88675,25 @@ aaa
 aaa
 aaa
 aaa
-axY
-azi
-aAf
-aBn
-axX
-aDm
-aEi
-aEi
-aEi
-aEi
-aEi
-aJg
-axY
-aLC
-aMI
-aNS
-axX
-aPD
-aQE
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -88758,24 +88932,24 @@ aaa
 aaa
 aaa
 aaa
-axX
-axY
-axY
-axX
-axZ
-axX
-axY
-axY
-axY
-axY
-axY
-axX
-axZ
-axX
-axX
-axX
-aLz
-aPD
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
